@@ -15,7 +15,7 @@ node scripts/generate-daily-audio.mjs --prepare-only
 say -v Rishi -r 166 -o audio/daily-briefing.aiff -f audio/daily-briefing-script.md
 node scripts/generate-daily-audio.mjs --master-existing-aiff
 node scripts/export-ios-snapshot.mjs
-node scripts/publish-podcast-episode.mjs
+node scripts/publish-in-simple-terms-podcast.mjs
 node scripts/publish-feed.mjs
 node scripts/publish-public-feed.mjs
 ```
@@ -26,16 +26,16 @@ For a manually recorded Satish voice file, use:
 node scripts/use-my-voice-briefing.mjs prepare
 node scripts/use-my-voice-briefing.mjs import ~/Desktop/satish-briefing.m4a
 node scripts/export-ios-snapshot.mjs
-node scripts/publish-podcast-episode.mjs
+node scripts/publish-in-simple-terms-podcast.mjs
 node scripts/publish-feed.mjs
 node scripts/publish-public-feed.mjs
 ```
 
 Podcast packaging:
 
-`node scripts/publish-podcast-episode.mjs`
+`node scripts/publish-in-simple-terms-podcast.mjs`
 
-This creates immutable episode audio, In Simple Terms branded episode artwork, a Spotify upload folder, and an optional RSS feed under `podcast/`.
+This reads `05-Outputs/Daily/IN_SIMPLE_TERMS_5MIN.md`, creates immutable ElevenLabs episode audio, In Simple Terms branded episode artwork, a manual fallback upload folder, and the automated RSS feed under `podcast/`.
 
 The iOS app defaults to the public feed-only repository:
 
