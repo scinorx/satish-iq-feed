@@ -7,11 +7,11 @@
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "NLWeb and AI-readable websites",
-      "publishedAt": "2026-06-05T12:00:00Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-05-nlweb-and-ai-readable-websites.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-05-nlweb-and-ai-readable-websites.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-05-nlweb-and-ai-readable-websites"
+      "title": "Prompt-Injection Defense for AI Agents",
+      "publishedAt": "2026-06-06T12:00:00Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-06-prompt-injection-defense-for-ai-agents.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-06-prompt-injection-defense-for-ai-agents.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-06-prompt-injection-defense-for-ai-agents"
     }
   }
 }
