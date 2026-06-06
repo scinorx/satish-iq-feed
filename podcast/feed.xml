@@ -56,10 +56,10 @@ Sources:
 - https://opentelemetry.io/docs/specs/semconv/gen-ai/gen-ai-agent-spans/
 - https://opentelemetry.io/docs/concepts/semantic-conventions/
 - https://opentelemetry.io/blog/2025/ai-agent-observability/</itunes:summary>
-      <itunes:duration>00:09:26</itunes:duration>
+      <itunes:duration>00:12:12</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-06-opentelemetry-for-ai-agent-traces.jpg" />
-      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-06-opentelemetry-for-ai-agent-traces.mp3" length="9056383" type="audio/mpeg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-06-opentelemetry-for-ai-agent-traces.mp3" length="11705826" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-06-opentelemetry-for-ai-agent-traces</guid>
       <pubDate>Sat, 06 Jun 2026 12:00:00 GMT</pubDate>
     </item>
