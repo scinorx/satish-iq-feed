@@ -1,0 +1,26 @@
+[
+  {
+    "guid": "satish-iq-2026-06-05-nlweb-and-ai-readable-websites",
+    "title": "NLWeb and AI-readable websites",
+    "subtitle": "Retrieval and data in simple terms",
+    "description": "In Simple Terms daily tech briefing.\nToday's concrete rabbit hole is NLWeb: a protocol and reference implementation for turning websites into natural-language interfaces that both humans and AI agents can query.\n\n\nTop signals:\n- Microsoft introduced NLWeb on May 19, 2025 as an open project for natural-language interfaces on websites.\n- The current NLWeb spec is no longer just \"site chat\"; it defines query structure, async `await`, transport bindings, and output formats including `chatgpt_app`.\n- The NLWeb docs explicitly build on Schema.org, JSON-LD, and streaming patterns instead of inventing an isolated AI stack.\nFocus: protocols, runtimes, architecture, developer tools, AI infrastructure, retrieval, databases, observability, local AI, security, and tool systems.",
+    "publishedAt": "2026-06-05T12:00:00Z",
+    "sourceGeneratedAt": "2026-06-05",
+    "durationSeconds": 490,
+    "audioPath": "podcast/audio/2026-06-05-nlweb-and-ai-readable-websites.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-05-nlweb-and-ai-readable-websites.mp3",
+    "lengthBytes": 5885119,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "artworkPath": "podcast/artwork/episodes/2026-06-05-nlweb-and-ai-readable-websites.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-06-05-nlweb-and-ai-readable-websites.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-06-05-nlweb-and-ai-readable-websites.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-05-nlweb-and-ai-readable-websites.jpg",
+    "topicProfile": {
+      "id": "database",
+      "label": "Retrieval and data",
+      "accent": "#008B7A"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-06-05-nlweb-and-ai-readable-websites"
+  }
+]
