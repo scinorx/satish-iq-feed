@@ -24,7 +24,7 @@
   <text x="260" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
 
   <g transform="translate(2020 620)">
-    
+
     <g fill="none" stroke="#003F6B" stroke-linecap="round" stroke-linejoin="round">
       <rect x="0" y="0" width="650" height="500" rx="76" stroke-width="34"/>
       <path d="M0 132 H650" stroke-width="30"/>
