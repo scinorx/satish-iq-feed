@@ -15,7 +15,7 @@ node scripts/generate-daily-audio.mjs --prepare-only
 say -v Rishi -r 166 -o audio/daily-briefing.aiff -f audio/daily-briefing-script.md
 node scripts/generate-daily-audio.mjs --master-existing-aiff
 node scripts/export-ios-snapshot.mjs
-node scripts/publish-in-simple-terms-podcast.mjs
+zsh -lc 'source ~/.zshrc; node scripts/publish-in-simple-terms-podcast.mjs'
 node scripts/publish-feed.mjs
 node scripts/publish-public-feed.mjs
 ```
@@ -26,7 +26,7 @@ For a manually recorded Satish voice file, use:
 node scripts/use-my-voice-briefing.mjs prepare
 node scripts/use-my-voice-briefing.mjs import ~/Desktop/satish-briefing.m4a
 node scripts/export-ios-snapshot.mjs
-node scripts/publish-in-simple-terms-podcast.mjs
+zsh -lc 'source ~/.zshrc; node scripts/publish-in-simple-terms-podcast.mjs'
 node scripts/publish-feed.mjs
 node scripts/publish-public-feed.mjs
 ```
