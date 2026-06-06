@@ -23,7 +23,7 @@
   <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#003F6B" stroke-width="12" opacity="0.36"/>
   <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
   <g transform="translate(2090 575)">
-
+    
       <g fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path d="M300 0 L570 108 V306 C570 530 446 698 300 790 C154 698 30 530 30 306 V108 Z" stroke="#003F6B" stroke-width="42"/>
         <path d="M175 382 L268 474 L438 268" stroke="#E04343" stroke-width="54"/>

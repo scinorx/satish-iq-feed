@@ -1,17 +1,17 @@
 {
   "version": 1,
   "generatedAt": "2026-06-06",
-  "title": "Today's object: Prompt-injection defense for AI agents",
+  "title": "Today's object: OpenTelemetry for AI agent traces",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "Prompt-Injection Defense for AI Agents",
+      "title": "OpenTelemetry for AI Agent Traces",
       "publishedAt": "2026-06-06T12:00:00Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-06-prompt-injection-defense-for-ai-agents.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-06-prompt-injection-defense-for-ai-agents.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-06-prompt-injection-defense-for-ai-agents"
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-06-opentelemetry-for-ai-agent-traces.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-06-opentelemetry-for-ai-agent-traces.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-06-opentelemetry-for-ai-agent-traces"
     }
   }
 }
