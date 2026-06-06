@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-05",
-  "title": "Today's object: NLWeb and AI-readable websites",
+  "generatedAt": "2026-06-06",
+  "title": "Today's object: Prompt-injection defense for AI agents",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
-  "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3"
+  "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
+  "podcast": {
+    "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
+    "latestEpisode": {
+      "title": "NLWeb and AI-readable websites",
+      "publishedAt": "2026-06-05T12:00:00Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-05-nlweb-and-ai-readable-websites.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-05-nlweb-and-ai-readable-websites.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-05-nlweb-and-ai-readable-websites"
+    }
+  }
 }
