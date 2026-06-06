@@ -11,10 +11,31 @@ Files:
 Publish command:
 
 ```bash
+node scripts/generate-daily-audio.mjs --prepare-only
+say -v Rishi -r 166 -o audio/daily-briefing.aiff -f audio/daily-briefing-script.md
+node scripts/generate-daily-audio.mjs --master-existing-aiff
 node scripts/export-ios-snapshot.mjs
+node scripts/publish-podcast-episode.mjs
 node scripts/publish-feed.mjs
 node scripts/publish-public-feed.mjs
 ```
+
+For a manually recorded Satish voice file, use:
+
+```bash
+node scripts/use-my-voice-briefing.mjs prepare
+node scripts/use-my-voice-briefing.mjs import ~/Desktop/satish-briefing.m4a
+node scripts/export-ios-snapshot.mjs
+node scripts/publish-podcast-episode.mjs
+node scripts/publish-feed.mjs
+node scripts/publish-public-feed.mjs
+```
+
+Podcast packaging:
+
+`node scripts/publish-podcast-episode.mjs`
+
+This creates immutable episode audio, In Simple Terms branded episode artwork, a Spotify upload folder, and an optional RSS feed under `podcast/`.
 
 The iOS app defaults to the public feed-only repository:
 
