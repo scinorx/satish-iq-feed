@@ -24,6 +24,65 @@
     <lastBuildDate>Sat, 06 Jun 2026 12:00:00 GMT</lastBuildDate>
 
     <item>
+      <title>MCP Authorization for AI Agent Tools</title>
+      <description>This matters because AI agents are not only answering questions anymore. They are starting to use tools that can read data, search systems, create records, update files, or trigger workflows.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+- MCP Authorization specification version: 2025-11-25.
+- MCP servers act as OAuth resource servers when protected over HTTP.
+- MCP servers use OAuth 2.0 Protected Resource Metadata from RFC 9728.
+- Related OAuth standards include OAuth 2.1, RFC 8414 authorization server metadata, RFC 7591 dynamic client registration, RFC 8707 resource indicators, and PKCE.
+- Relevant implementation terms: `authorization_servers`, `resource_metadata`, `WWW-Authenticate`, `resource`, `insufficient_scope`, `readOnlyHint`, `destructiveHint`, `idempotentHint`, and `openWorldHint`.
+- Security checks to test: issuer validation, audience/resource binding, expiry, signature or introspection, scope, redirect URI validation, step-up retries, and token passthrough rejection.
+
+
+Sources:
+- https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization
+- https://modelcontextprotocol.io/docs/tutorials/security/authorization
+- https://modelcontextprotocol.io/specification/2025-11-25/server/tools
+- https://www.rfc-editor.org/rfc/rfc9728</description>
+      <itunes:subtitle>Observability in simple terms</itunes:subtitle>
+      <itunes:summary>This matters because AI agents are not only answering questions anymore. They are starting to use tools that can read data, search systems, create records, update files, or trigger workflows.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+- MCP Authorization specification version: 2025-11-25.
+- MCP servers act as OAuth resource servers when protected over HTTP.
+- MCP servers use OAuth 2.0 Protected Resource Metadata from RFC 9728.
+- Related OAuth standards include OAuth 2.1, RFC 8414 authorization server metadata, RFC 7591 dynamic client registration, RFC 8707 resource indicators, and PKCE.
+- Relevant implementation terms: `authorization_servers`, `resource_metadata`, `WWW-Authenticate`, `resource`, `insufficient_scope`, `readOnlyHint`, `destructiveHint`, `idempotentHint`, and `openWorldHint`.
+- Security checks to test: issuer validation, audience/resource binding, expiry, signature or introspection, scope, redirect URI validation, step-up retries, and token passthrough rejection.
+
+
+Sources:
+- https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization
+- https://modelcontextprotocol.io/docs/tutorials/security/authorization
+- https://modelcontextprotocol.io/specification/2025-11-25/server/tools
+- https://www.rfc-editor.org/rfc/rfc9728</itunes:summary>
+      <itunes:duration>00:05:36</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-06-mcp-authorization-for-ai-agent-tools.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-06-mcp-authorization-for-ai-agent-tools.mp3" length="5382104" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-06-mcp-authorization-for-ai-agent-tools</guid>
+      <pubDate>Sat, 06 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+
+    <item>
       <title>OpenTelemetry for AI Agent Traces</title>
       <description>This matters because AI agents are starting to behave less like simple chatbots, and more like small distributed systems.
 

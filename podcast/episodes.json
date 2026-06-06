@@ -1,5 +1,30 @@
 [
   {
+    "guid": "in-simple-terms-2026-06-06-mcp-authorization-for-ai-agent-tools",
+    "title": "MCP Authorization for AI Agent Tools",
+    "subtitle": "Observability in simple terms",
+    "description": "This matters because AI agents are not only answering questions anymore. They are starting to use tools that can read data, search systems, create records, update files, or trigger workflows.\n\nIn this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.\n\nIn Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.\n\nProduction note: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\n\nEngineer notes:\nExact technical references:\n- MCP Authorization specification version: 2025-11-25.\n- MCP servers act as OAuth resource servers when protected over HTTP.\n- MCP servers use OAuth 2.0 Protected Resource Metadata from RFC 9728.\n- Related OAuth standards include OAuth 2.1, RFC 8414 authorization server metadata, RFC 7591 dynamic client registration, RFC 8707 resource indicators, and PKCE.\n- Relevant implementation terms: `authorization_servers`, `resource_metadata`, `WWW-Authenticate`, `resource`, `insufficient_scope`, `readOnlyHint`, `destructiveHint`, `idempotentHint`, and `openWorldHint`.\n- Security checks to test: issuer validation, audience/resource binding, expiry, signature or introspection, scope, redirect URI validation, step-up retries, and token passthrough rejection.\n\n\nSources:\n- https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization\n- https://modelcontextprotocol.io/docs/tutorials/security/authorization\n- https://modelcontextprotocol.io/specification/2025-11-25/server/tools\n- https://www.rfc-editor.org/rfc/rfc9728",
+    "publishedAt": "2026-06-06T12:00:00Z",
+    "sourceGeneratedAt": "2026-06-06",
+    "durationSeconds": 336,
+    "audioPath": "podcast/audio/2026-06-06-mcp-authorization-for-ai-agent-tools.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-06-mcp-authorization-for-ai-agent-tools.mp3",
+    "lengthBytes": 5382104,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "artworkPath": "podcast/artwork/episodes/2026-06-06-mcp-authorization-for-ai-agent-tools.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-06-06-mcp-authorization-for-ai-agent-tools.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-06-06-mcp-authorization-for-ai-agent-tools.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-06-mcp-authorization-for-ai-agent-tools.jpg",
+    "topicProfile": {
+      "id": "observability",
+      "label": "Observability",
+      "accent": "#0077C8"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-06-06-mcp-authorization-for-ai-agent-tools"
+  },
+  {
     "guid": "in-simple-terms-2026-06-06-opentelemetry-for-ai-agent-traces",
     "title": "OpenTelemetry for AI Agent Traces",
     "subtitle": "Observability in simple terms",
