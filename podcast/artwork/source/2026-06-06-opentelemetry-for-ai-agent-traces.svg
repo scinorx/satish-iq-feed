@@ -11,7 +11,7 @@
     </filter>
     <style>
       .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #003F6B; }
-      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 245px; font-weight: 900; letter-spacing: 4px; fill: #003F6B; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 266px; font-weight: 900; letter-spacing: 3px; fill: #003F6B; }
       .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #003F6B; }
       .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #003F6B; }
     </style>
@@ -22,10 +22,11 @@
   <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#003F6B" stroke-width="12" opacity="0.36"/>
   <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
   <g filter="url(#shadow)">
-    <text x="245" y="1435" class="title">OPENTELEMETRY FOR</text>
-    <text x="245" y="1687" class="title">AI AGENT TRACES</text>
+    <text x="245" y="1262" class="title">OPENTELEMETRY</text>
+    <text x="245" y="1571" class="title">FOR AI AGENT</text>
+    <text x="245" y="1880" class="title">TRACES</text>
   </g>
-  <path d="M260 2075 H1080" stroke="#0077C8" stroke-width="24" stroke-linecap="round"/>
-  <text x="260" y="2210" class="date">2026-06-06</text>
+  <path d="M260 2135 H1080" stroke="#0077C8" stroke-width="24" stroke-linecap="round"/>
+  <text x="260" y="2270" class="date">2026-06-06</text>
   <text x="260" y="2575" class="small">OBSERVABILITY</text>
 </svg>
