@@ -25,7 +25,7 @@
     <text x="245" y="1435" class="title">MCP AUTHORIZATION</text>
     <text x="245" y="1673" class="title">FOR AI AGENT TOOLS</text>
   </g>
-  <path d="M260 2075 H1080" stroke="#0077C8" stroke-width="24" stroke-linecap="round"/>
+  <path d="M260 2075 H1080" stroke="#E04343" stroke-width="24" stroke-linecap="round"/>
   <text x="260" y="2210" class="date">2026-06-06</text>
-  <text x="260" y="2575" class="small">OBSERVABILITY</text>
+  <text x="260" y="2575" class="small">SECURITY MODEL</text>
 </svg>

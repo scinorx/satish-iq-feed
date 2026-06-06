@@ -49,7 +49,7 @@ Sources:
 - https://modelcontextprotocol.io/docs/tutorials/security/authorization
 - https://modelcontextprotocol.io/specification/2025-11-25/server/tools
 - https://www.rfc-editor.org/rfc/rfc9728</description>
-      <itunes:subtitle>Observability in simple terms</itunes:subtitle>
+      <itunes:subtitle>Security model in simple terms</itunes:subtitle>
       <itunes:summary>This matters because AI agents are not only answering questions anymore. They are starting to use tools that can read data, search systems, create records, update files, or trigger workflows.
 
 In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
