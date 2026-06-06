@@ -34,6 +34,15 @@ In Simple Terms with Satish: daily tech trends explained simply, with enough tec
 Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
 
 
+Engineer notes:
+OpenTelemetry GenAI semantic convention examples referenced in the episode:
+- `gen_ai.request.model`
+- `gen_ai.usage.input_tokens`
+- `gen_ai.usage.output_tokens`
+- `gen_ai.response.finish_reasons`
+- `gen_ai.tool.name`
+
+
 Sources:
 - https://opentelemetry.io/blog/2026/genai-observability/
 - https://opentelemetry.io/docs/specs/semconv/gen-ai/gen-ai-spans/
@@ -50,16 +59,25 @@ In Simple Terms with Satish: daily tech trends explained simply, with enough tec
 Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
 
 
+Engineer notes:
+OpenTelemetry GenAI semantic convention examples referenced in the episode:
+- `gen_ai.request.model`
+- `gen_ai.usage.input_tokens`
+- `gen_ai.usage.output_tokens`
+- `gen_ai.response.finish_reasons`
+- `gen_ai.tool.name`
+
+
 Sources:
 - https://opentelemetry.io/blog/2026/genai-observability/
 - https://opentelemetry.io/docs/specs/semconv/gen-ai/gen-ai-spans/
 - https://opentelemetry.io/docs/specs/semconv/gen-ai/gen-ai-agent-spans/
 - https://opentelemetry.io/docs/concepts/semantic-conventions/
 - https://opentelemetry.io/blog/2025/ai-agent-observability/</itunes:summary>
-      <itunes:duration>00:12:12</itunes:duration>
+      <itunes:duration>00:06:14</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-06-opentelemetry-for-ai-agent-traces.jpg" />
-      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-06-opentelemetry-for-ai-agent-traces.mp3" length="11705826" type="audio/mpeg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-06-opentelemetry-for-ai-agent-traces.mp3" length="5981039" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-06-opentelemetry-for-ai-agent-traces</guid>
       <pubDate>Sat, 06 Jun 2026 12:00:00 GMT</pubDate>
     </item>
