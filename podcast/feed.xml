@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>In Simple Terms with Satish</title>
+    <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
+    <atom:link href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>Copyright 2026 Satish Choudhary</copyright>
+    <description>In Simple Terms Daily Tech Briefing: technical rabbit holes explained simply for builders.</description>
+    <itunes:summary>In Simple Terms Daily Tech Briefing: technical rabbit holes explained simply for builders.</itunes:summary>
+    <itunes:author>Satish Choudhary</itunes:author>
+    <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork.jpg" />
+    <itunes:category text="Technology" />
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <image>
+      <url>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork.jpg</url>
+      <title>In Simple Terms with Satish</title>
+      <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
+    </image>
+    <lastBuildDate>Fri, 05 Jun 2026 12:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>NLWeb and AI-readable websites</title>
+      <description>In Simple Terms daily tech briefing.
+Today&apos;s concrete rabbit hole is NLWeb: a protocol and reference implementation for turning websites into natural-language interfaces that both humans and AI agents can query.
+
+
+Top signals:
+- Microsoft introduced NLWeb on May 19, 2025 as an open project for natural-language interfaces on websites.
+- The current NLWeb spec is no longer just &quot;site chat&quot;; it defines query structure, async `await`, transport bindings, and output formats including `chatgpt_app`.
+- The NLWeb docs explicitly build on Schema.org, JSON-LD, and streaming patterns instead of inventing an isolated AI stack.
+Focus: protocols, runtimes, architecture, developer tools, AI infrastructure, retrieval, databases, observability, local AI, security, and tool systems.</description>
+      <itunes:subtitle>Retrieval and data in simple terms</itunes:subtitle>
+      <itunes:summary>In Simple Terms daily tech briefing.
+Today&apos;s concrete rabbit hole is NLWeb: a protocol and reference implementation for turning websites into natural-language interfaces that both humans and AI agents can query.
+
+
+Top signals:
+- Microsoft introduced NLWeb on May 19, 2025 as an open project for natural-language interfaces on websites.
+- The current NLWeb spec is no longer just &quot;site chat&quot;; it defines query structure, async `await`, transport bindings, and output formats including `chatgpt_app`.
+- The NLWeb docs explicitly build on Schema.org, JSON-LD, and streaming patterns instead of inventing an isolated AI stack.
+Focus: protocols, runtimes, architecture, developer tools, AI infrastructure, retrieval, databases, observability, local AI, security, and tool systems.</itunes:summary>
+      <itunes:duration>00:08:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-05-nlweb-and-ai-readable-websites.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-05-nlweb-and-ai-readable-websites.mp3" length="5885119" type="audio/mpeg" />
+      <guid isPermaLink="false">satish-iq-2026-06-05-nlweb-and-ai-readable-websites</guid>
+      <pubDate>Fri, 05 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
