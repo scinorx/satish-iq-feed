@@ -25,7 +25,7 @@
 
     <item>
       <title>How Background AI Agents Get Permission</title>
-      <description>This matters because not every AI agent is a person sitting in front of a chat window.
+      <description>But there is no receptionist sitting at the front desk waiting to approve every door opening.
 
 In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
 
@@ -36,21 +36,22 @@ Production note: This episode uses authorized synthetic narration based on Satis
 
 Engineer notes:
 Exact technical references:
+
 - Official MCP extension: `io.modelcontextprotocol/oauth-client-credentials`.
 - The extension is intended for background services, CI/CD jobs, server-to-server integrations, and daemon processes.
-- Supported auth patterns include standard client credentials with `client_id` and `client_secret`, and JWT bearer assertions from RFC 7523.
+- Supported authentication patterns include standard client credentials with a client ID and client secret, and JWT bearer assertions from RFC 7523.
 - Remote MCP servers still act as protected resources and should validate issuer, audience or resource binding, expiry, and scope.
-- Related implementation surfaces include protected resource metadata, auth provider support in MCP SDKs, and extension capability negotiation during initialize.
+- Related implementation surfaces include protected resource metadata, authorization server discovery, token refresh, and extension capability negotiation during initialization.
 
 
 Sources:
 - https://modelcontextprotocol.io/extensions/auth/oauth-client-credentials
-- https://modelcontextprotocol.io/specification/draft/basic/authorization
+- https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization
 - https://modelcontextprotocol.io/extensions/auth/overview
-- https://py.sdk.modelcontextprotocol.io/authorization/
-- https://www.rfc-editor.org/rfc/rfc7523</description>
+- https://www.rfc-editor.org/rfc/rfc7523
+- https://arxiv.org/abs/2605.22333</description>
       <itunes:subtitle>Security model in simple terms</itunes:subtitle>
-      <itunes:summary>This matters because not every AI agent is a person sitting in front of a chat window.
+      <itunes:summary>But there is no receptionist sitting at the front desk waiting to approve every door opening.
 
 In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
 
@@ -61,19 +62,20 @@ Production note: This episode uses authorized synthetic narration based on Satis
 
 Engineer notes:
 Exact technical references:
+
 - Official MCP extension: `io.modelcontextprotocol/oauth-client-credentials`.
 - The extension is intended for background services, CI/CD jobs, server-to-server integrations, and daemon processes.
-- Supported auth patterns include standard client credentials with `client_id` and `client_secret`, and JWT bearer assertions from RFC 7523.
+- Supported authentication patterns include standard client credentials with a client ID and client secret, and JWT bearer assertions from RFC 7523.
 - Remote MCP servers still act as protected resources and should validate issuer, audience or resource binding, expiry, and scope.
-- Related implementation surfaces include protected resource metadata, auth provider support in MCP SDKs, and extension capability negotiation during initialize.
+- Related implementation surfaces include protected resource metadata, authorization server discovery, token refresh, and extension capability negotiation during initialization.
 
 
 Sources:
 - https://modelcontextprotocol.io/extensions/auth/oauth-client-credentials
-- https://modelcontextprotocol.io/specification/draft/basic/authorization
+- https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization
 - https://modelcontextprotocol.io/extensions/auth/overview
-- https://py.sdk.modelcontextprotocol.io/authorization/
-- https://www.rfc-editor.org/rfc/rfc7523</itunes:summary>
+- https://www.rfc-editor.org/rfc/rfc7523
+- https://arxiv.org/abs/2605.22333</itunes:summary>
       <itunes:duration>00:04:37</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-07-how-background-ai-agents-get-permission.jpg" />

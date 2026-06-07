@@ -5,8 +5,16 @@ This folder is the local staging copy of the static feed consumed by the iPhone 
 Files:
 
 - `feed.json`: manifest with latest generated date and download URLs.
+- `run-status.json`: latest automation-visible run marker and outcome summary.
 - `satishos-current.json`: latest Satish IQ snapshot.
 - `daily-briefing.mp3`: latest commute audio.
+
+Repo-side run instrumentation:
+
+- Start marker: `node scripts/daily-feed-run-status.mjs start --scheduled-for 2026-06-08T05:30:00-04:00 --stage kickoff`
+- Stage update: `node scripts/daily-feed-run-status.mjs stage --name podcast --status running`
+- Finish marker: `node scripts/daily-feed-run-status.mjs finish --status success --stage completed`
+- Freshness check for a backup watchdog: `node scripts/check-daily-feed-freshness.mjs`
 
 Publish command:
 
