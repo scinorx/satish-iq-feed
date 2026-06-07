@@ -1,18 +1,18 @@
 {
   "version": 1,
   "date": "2026-06-07",
-  "status": "running",
+  "status": "success",
   "scheduledFor": "2026-06-07T05:30:00-local",
   "startedAt": "2026-06-07T16:46:01.186Z",
-  "finishedAt": null,
-  "currentStage": "publish",
+  "finishedAt": "2026-06-07T17:21:41.344Z",
+  "currentStage": "completed",
   "topic": null,
   "podcastTopic": "How Background AI Agents Get Permission",
   "commit": null,
   "results": {
-    "publicFeedPublish": "blocked",
-    "privatePush": "blocked",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": "success",
+    "privatePush": "skipped",
+    "spotifyDraft": "success"
   },
   "outputs": {
     "snapshot": true,
