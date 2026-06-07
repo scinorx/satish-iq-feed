@@ -21,7 +21,66 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sat, 06 Jun 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 12:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How Background AI Agents Get Permission</title>
+      <description>This matters because not every AI agent is a person sitting in front of a chat window.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+- Official MCP extension: `io.modelcontextprotocol/oauth-client-credentials`.
+- The extension is intended for background services, CI/CD jobs, server-to-server integrations, and daemon processes.
+- Supported auth patterns include standard client credentials with `client_id` and `client_secret`, and JWT bearer assertions from RFC 7523.
+- Remote MCP servers still act as protected resources and should validate issuer, audience or resource binding, expiry, and scope.
+- Related implementation surfaces include protected resource metadata, auth provider support in MCP SDKs, and extension capability negotiation during initialize.
+
+
+Sources:
+- https://modelcontextprotocol.io/extensions/auth/oauth-client-credentials
+- https://modelcontextprotocol.io/specification/draft/basic/authorization
+- https://modelcontextprotocol.io/extensions/auth/overview
+- https://py.sdk.modelcontextprotocol.io/authorization/
+- https://www.rfc-editor.org/rfc/rfc7523</description>
+      <itunes:subtitle>Security model in simple terms</itunes:subtitle>
+      <itunes:summary>This matters because not every AI agent is a person sitting in front of a chat window.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+- Official MCP extension: `io.modelcontextprotocol/oauth-client-credentials`.
+- The extension is intended for background services, CI/CD jobs, server-to-server integrations, and daemon processes.
+- Supported auth patterns include standard client credentials with `client_id` and `client_secret`, and JWT bearer assertions from RFC 7523.
+- Remote MCP servers still act as protected resources and should validate issuer, audience or resource binding, expiry, and scope.
+- Related implementation surfaces include protected resource metadata, auth provider support in MCP SDKs, and extension capability negotiation during initialize.
+
+
+Sources:
+- https://modelcontextprotocol.io/extensions/auth/oauth-client-credentials
+- https://modelcontextprotocol.io/specification/draft/basic/authorization
+- https://modelcontextprotocol.io/extensions/auth/overview
+- https://py.sdk.modelcontextprotocol.io/authorization/
+- https://www.rfc-editor.org/rfc/rfc7523</itunes:summary>
+      <itunes:duration>00:04:37</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-07-how-background-ai-agents-get-permission.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-07-how-background-ai-agents-get-permission.mp3" length="4436262" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-07-how-background-ai-agents-get-permission</guid>
+      <pubDate>Sun, 07 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>MCP Authorization for AI Agent Tools</title>
