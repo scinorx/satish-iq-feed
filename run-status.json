@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "date": "2026-06-07",
-  "status": "success",
-  "scheduledFor": "2026-06-07T05:30:00-local",
-  "startedAt": "2026-06-07T16:46:01.186Z",
-  "finishedAt": "2026-06-07T17:21:41.344Z",
-  "currentStage": "completed",
+  "date": "2026-06-08",
+  "status": "running",
+  "scheduledFor": "2026-06-08T05:30:00-04:00",
+  "startedAt": "2026-06-08T09:32:45.373Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "How Background AI Agents Get Permission",
+  "podcastTopic": "How AI Tools Tell Agents Where Login Lives",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "skipped",
-    "spotifyDraft": "success"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How Background AI Agents Get Permission"
+    "latestPodcastEpisode": "How AI Tools Tell Agents Where Login Lives"
   }
 }

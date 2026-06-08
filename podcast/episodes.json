@@ -1,5 +1,30 @@
 [
   {
+    "guid": "in-simple-terms-2026-06-08-how-ai-tools-tell-agents-where-login-lives",
+    "title": "How AI Tools Tell Agents Where Login Lives",
+    "subtitle": "Security model in simple terms",
+    "description": "Before an AI client can log in to a protected tool, it has to know where the right login system is.\n\nIn this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.\n\nIn Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.\n\nProduction note: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\n\nEngineer notes:\nExact technical references:\n\n- Latest MCP authorization specification: `2025-11-25`.\n- RFC 9728 defines OAuth 2.0 protected resource metadata.\n- MCP servers use protected resource metadata for authorization server discovery.\n- Discovery can happen through a `WWW-Authenticate` challenge or a standard well-known metadata endpoint.\n- Client credentials for unattended services still depend on the same discovery layer before token acquisition.\n\n\nSources:\n- https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization\n- https://modelcontextprotocol.io/extensions/auth/oauth-client-credentials\n- https://www.rfc-editor.org/rfc/rfc9728\n- https://datatracker.ietf.org/doc/html/rfc7523\n- https://arxiv.org/abs/2605.22333",
+    "publishedAt": "2026-06-08T12:00:00Z",
+    "sourceGeneratedAt": "2026-06-08",
+    "durationSeconds": 246,
+    "audioPath": "podcast/audio/2026-06-08-how-ai-tools-tell-agents-where-login-lives.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-08-how-ai-tools-tell-agents-where-login-lives.mp3",
+    "lengthBytes": 3942235,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "artworkPath": "podcast/artwork/episodes/2026-06-08-how-ai-tools-tell-agents-where-login-lives.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-06-08-how-ai-tools-tell-agents-where-login-lives.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-06-08-how-ai-tools-tell-agents-where-login-lives.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-08-how-ai-tools-tell-agents-where-login-lives.jpg",
+    "topicProfile": {
+      "id": "security",
+      "label": "Security model",
+      "accent": "#E04343"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-06-08-how-ai-tools-tell-agents-where-login-lives"
+  },
+  {
     "guid": "in-simple-terms-2026-06-07-how-background-ai-agents-get-permission",
     "title": "How Background AI Agents Get Permission",
     "subtitle": "Security model in simple terms",

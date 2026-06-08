@@ -21,7 +21,68 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sun, 07 Jun 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 12:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How AI Tools Tell Agents Where Login Lives</title>
+      <description>Before an AI client can log in to a protected tool, it has to know where the right login system is.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Latest MCP authorization specification: `2025-11-25`.
+- RFC 9728 defines OAuth 2.0 protected resource metadata.
+- MCP servers use protected resource metadata for authorization server discovery.
+- Discovery can happen through a `WWW-Authenticate` challenge or a standard well-known metadata endpoint.
+- Client credentials for unattended services still depend on the same discovery layer before token acquisition.
+
+
+Sources:
+- https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization
+- https://modelcontextprotocol.io/extensions/auth/oauth-client-credentials
+- https://www.rfc-editor.org/rfc/rfc9728
+- https://datatracker.ietf.org/doc/html/rfc7523
+- https://arxiv.org/abs/2605.22333</description>
+      <itunes:subtitle>Security model in simple terms</itunes:subtitle>
+      <itunes:summary>Before an AI client can log in to a protected tool, it has to know where the right login system is.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Latest MCP authorization specification: `2025-11-25`.
+- RFC 9728 defines OAuth 2.0 protected resource metadata.
+- MCP servers use protected resource metadata for authorization server discovery.
+- Discovery can happen through a `WWW-Authenticate` challenge or a standard well-known metadata endpoint.
+- Client credentials for unattended services still depend on the same discovery layer before token acquisition.
+
+
+Sources:
+- https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization
+- https://modelcontextprotocol.io/extensions/auth/oauth-client-credentials
+- https://www.rfc-editor.org/rfc/rfc9728
+- https://datatracker.ietf.org/doc/html/rfc7523
+- https://arxiv.org/abs/2605.22333</itunes:summary>
+      <itunes:duration>00:04:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-08-how-ai-tools-tell-agents-where-login-lives.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-08-how-ai-tools-tell-agents-where-login-lives.mp3" length="3942235" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-08-how-ai-tools-tell-agents-where-login-lives</guid>
+      <pubDate>Mon, 08 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How Background AI Agents Get Permission</title>
