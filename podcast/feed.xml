@@ -80,10 +80,10 @@ Sources:
 - https://github.com/open-telemetry/semantic-conventions/releases
 - https://www.cncf.io/blog/2026/05/26/how-jaeger-is-evolving-to-trace-ai-agents-with-opentelemetry/
 - https://blog.n8n.io/trace-n8n-workflow-and-node-executions-with-opentelemetry/</itunes:summary>
-      <itunes:duration>00:03:39</itunes:duration>
+      <itunes:duration>00:03:21</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-09-opentelemetry-for-ai-agents.jpg" />
-      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-09-opentelemetry-for-ai-agents.mp3" length="3507139" type="audio/mpeg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-09-opentelemetry-for-ai-agents.mp3" length="3209970" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-09-opentelemetry-for-ai-agents</guid>
       <pubDate>Tue, 09 Jun 2026 12:00:00 GMT</pubDate>
     </item>
