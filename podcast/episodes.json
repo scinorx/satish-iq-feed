@@ -1,5 +1,30 @@
 [
   {
+    "guid": "in-simple-terms-2026-06-09-hybrid-rag-pipelines",
+    "title": "Hybrid RAG Pipelines",
+    "subtitle": "Retrieval and data in simple terms",
+    "description": "That is the pattern where an AI system looks up outside information before it answers.\n\nIn this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.\n\nIn Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.\n\nProduction note: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\n\nEngineer notes:\nExact technical references:\n\n- OpenAI file search uses both semantic and keyword search.\n- Azure AI Search hybrid search runs full-text and vector queries in parallel and merges them with Reciprocal Rank Fusion.\n- Azure query guidance recommends starting with balanced hybrid patterns instead of maxing out every retrieval parameter.\n- Pinecone documents reranking as a second-stage quality improvement after merged retrieval.\n- Cohere documents reranking as a semantic boost for keyword or vector retrieval systems.\n\n\nSources:\n- https://platform.openai.com/docs/guides/tools-file-search/\n- https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview\n- https://learn.microsoft.com/en-us/azure/search/hybrid-search-how-to-query\n- https://docs.pinecone.io/guides/search/hybrid-search\n- https://docs.pinecone.io/guides/search/rerank-results\n- https://docs.cohere.com/docs/reranking-quickstart",
+    "publishedAt": "2026-06-09T12:00:00Z",
+    "sourceGeneratedAt": "2026-06-09",
+    "durationSeconds": 228,
+    "audioPath": "podcast/audio/2026-06-09-hybrid-rag-pipelines.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-09-hybrid-rag-pipelines.mp3",
+    "lengthBytes": 3653007,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "artworkPath": "podcast/artwork/episodes/2026-06-09-hybrid-rag-pipelines.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-06-09-hybrid-rag-pipelines.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-06-09-hybrid-rag-pipelines.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-09-hybrid-rag-pipelines.jpg",
+    "topicProfile": {
+      "id": "database",
+      "label": "Retrieval and data",
+      "accent": "#008B7A"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-06-09-hybrid-rag-pipelines"
+  },
+  {
     "guid": "in-simple-terms-2026-06-09-opentelemetry-for-ai-agents",
     "title": "OpenTelemetry for AI Agents",
     "subtitle": "Observability in simple terms",

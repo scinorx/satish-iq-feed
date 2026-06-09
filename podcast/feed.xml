@@ -24,6 +24,69 @@
     <lastBuildDate>Tue, 09 Jun 2026 12:00:00 GMT</lastBuildDate>
 
     <item>
+      <title>Hybrid RAG Pipelines</title>
+      <description>That is the pattern where an AI system looks up outside information before it answers.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- OpenAI file search uses both semantic and keyword search.
+- Azure AI Search hybrid search runs full-text and vector queries in parallel and merges them with Reciprocal Rank Fusion.
+- Azure query guidance recommends starting with balanced hybrid patterns instead of maxing out every retrieval parameter.
+- Pinecone documents reranking as a second-stage quality improvement after merged retrieval.
+- Cohere documents reranking as a semantic boost for keyword or vector retrieval systems.
+
+
+Sources:
+- https://platform.openai.com/docs/guides/tools-file-search/
+- https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview
+- https://learn.microsoft.com/en-us/azure/search/hybrid-search-how-to-query
+- https://docs.pinecone.io/guides/search/hybrid-search
+- https://docs.pinecone.io/guides/search/rerank-results
+- https://docs.cohere.com/docs/reranking-quickstart</description>
+      <itunes:subtitle>Retrieval and data in simple terms</itunes:subtitle>
+      <itunes:summary>That is the pattern where an AI system looks up outside information before it answers.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- OpenAI file search uses both semantic and keyword search.
+- Azure AI Search hybrid search runs full-text and vector queries in parallel and merges them with Reciprocal Rank Fusion.
+- Azure query guidance recommends starting with balanced hybrid patterns instead of maxing out every retrieval parameter.
+- Pinecone documents reranking as a second-stage quality improvement after merged retrieval.
+- Cohere documents reranking as a semantic boost for keyword or vector retrieval systems.
+
+
+Sources:
+- https://platform.openai.com/docs/guides/tools-file-search/
+- https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview
+- https://learn.microsoft.com/en-us/azure/search/hybrid-search-how-to-query
+- https://docs.pinecone.io/guides/search/hybrid-search
+- https://docs.pinecone.io/guides/search/rerank-results
+- https://docs.cohere.com/docs/reranking-quickstart</itunes:summary>
+      <itunes:duration>00:03:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-09-hybrid-rag-pipelines.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-09-hybrid-rag-pipelines.mp3" length="3653007" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-09-hybrid-rag-pipelines</guid>
+      <pubDate>Tue, 09 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+
+    <item>
       <title>OpenTelemetry for AI Agents</title>
       <description>OpenTelemetry is the shared system many engineering teams use to trace what software is doing at runtime.
 

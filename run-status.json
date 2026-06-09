@@ -1,23 +1,23 @@
 {
   "version": 1,
   "date": "2026-06-09",
-  "status": "partial",
+  "status": "running",
   "scheduledFor": "2026-06-09T05:30:00-04:00",
-  "startedAt": "2026-06-09T09:30:54.139Z",
-  "finishedAt": "2026-06-09T09:45:01.349Z",
-  "currentStage": "completed",
-  "topic": "OpenTelemetry for AI agent traces",
-  "podcastTopic": "OpenTelemetry for AI Agents",
+  "startedAt": "2026-06-09T10:48:10.880Z",
+  "finishedAt": null,
+  "currentStage": "core-generation",
+  "topic": "Hybrid RAG pipelines",
+  "podcastTopic": "Hybrid RAG Pipelines",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "success",
-    "spotifyPrep": "success",
-    "spotifyDraft": "blocked"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "OpenTelemetry for AI Agents"
+    "latestPodcastEpisode": "Hybrid RAG Pipelines"
   }
 }
