@@ -26,7 +26,7 @@
     <text x="245" y="1571" class="title">FOR AI AGENT</text>
     <text x="245" y="1880" class="title">TRACES</text>
   </g>
-  <path d="M260 2135 H1080" stroke="#E04343" stroke-width="24" stroke-linecap="round"/>
+  <path d="M260 2135 H1080" stroke="#0077C8" stroke-width="24" stroke-linecap="round"/>
   <text x="260" y="2270" class="date">2026-06-09</text>
-  <text x="260" y="2575" class="small">SECURITY MODEL</text>
+  <text x="260" y="2575" class="small">OBSERVABILITY</text>
 </svg>

@@ -52,7 +52,7 @@ Sources:
 - https://github.com/open-telemetry/semantic-conventions/releases
 - https://www.cncf.io/blog/2026/05/26/how-jaeger-is-evolving-to-trace-ai-agents-with-opentelemetry/
 - https://blog.n8n.io/trace-n8n-workflow-and-node-executions-with-opentelemetry/</description>
-      <itunes:subtitle>Security model in simple terms</itunes:subtitle>
+      <itunes:subtitle>Observability in simple terms</itunes:subtitle>
       <itunes:summary>OpenTelemetry is the shared system many engineering teams use to trace what software is doing at runtime.
 
 In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
