@@ -8,19 +8,19 @@
   "runStatus": {
     "version": 1,
     "date": "2026-06-09",
-    "status": "running",
+    "status": "partial",
     "scheduledFor": "2026-06-09T05:30:00-04:00",
     "startedAt": "2026-06-09T10:48:10.880Z",
-    "finishedAt": null,
-    "currentStage": "core-generation",
+    "finishedAt": "2026-06-09T10:56:17.211Z",
+    "currentStage": "completed",
     "topic": "Hybrid RAG pipelines",
     "podcastTopic": "Hybrid RAG Pipelines",
     "commit": null,
     "results": {
-      "publicFeedPublish": null,
-      "privatePush": null,
-      "spotifyPrep": null,
-      "spotifyDraft": null
+      "publicFeedPublish": "success",
+      "privatePush": "success",
+      "spotifyPrep": "skipped",
+      "spotifyDraft": "skipped"
     },
     "outputs": {
       "snapshot": true,
