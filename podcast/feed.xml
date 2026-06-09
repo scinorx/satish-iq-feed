@@ -21,7 +21,72 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Mon, 08 Jun 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 12:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>OpenTelemetry for AI Agents</title>
+      <description>OpenTelemetry is the shared system many engineering teams use to trace what software is doing at runtime.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- CNCF announced OpenTelemetry graduation on May 21, 2026.
+- OpenTelemetry&apos;s current GenAI guidance includes agent spans, workflow spans, and execute-tool spans.
+- The semantic conventions for generative AI are still evolving, but they already define common structures for model, retrieval, agent, and tool operations.
+- Official guidance emphasizes careful handling of prompt content and tool payload capture because those can contain sensitive data.
+- Current ecosystem examples include Jaeger adapting toward AI-agent tracing and n8n adding native OpenTelemetry workflow traces.
+
+
+Sources:
+- https://www.cncf.io/announcements/2026/05/21/cloud-native-computing-foundation-announces-opentelemetrys-graduation-solidifying-status-as-the-de-facto-observability-standard/
+- https://opentelemetry.io/blog/2026/genai-observability/
+- https://opentelemetry.io/docs/specs/semconv/gen-ai/
+- https://opentelemetry.io/docs/specs/semconv/gen-ai/gen-ai-agent-spans/
+- https://github.com/open-telemetry/semantic-conventions/releases
+- https://www.cncf.io/blog/2026/05/26/how-jaeger-is-evolving-to-trace-ai-agents-with-opentelemetry/
+- https://blog.n8n.io/trace-n8n-workflow-and-node-executions-with-opentelemetry/</description>
+      <itunes:subtitle>Security model in simple terms</itunes:subtitle>
+      <itunes:summary>OpenTelemetry is the shared system many engineering teams use to trace what software is doing at runtime.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- CNCF announced OpenTelemetry graduation on May 21, 2026.
+- OpenTelemetry&apos;s current GenAI guidance includes agent spans, workflow spans, and execute-tool spans.
+- The semantic conventions for generative AI are still evolving, but they already define common structures for model, retrieval, agent, and tool operations.
+- Official guidance emphasizes careful handling of prompt content and tool payload capture because those can contain sensitive data.
+- Current ecosystem examples include Jaeger adapting toward AI-agent tracing and n8n adding native OpenTelemetry workflow traces.
+
+
+Sources:
+- https://www.cncf.io/announcements/2026/05/21/cloud-native-computing-foundation-announces-opentelemetrys-graduation-solidifying-status-as-the-de-facto-observability-standard/
+- https://opentelemetry.io/blog/2026/genai-observability/
+- https://opentelemetry.io/docs/specs/semconv/gen-ai/
+- https://opentelemetry.io/docs/specs/semconv/gen-ai/gen-ai-agent-spans/
+- https://github.com/open-telemetry/semantic-conventions/releases
+- https://www.cncf.io/blog/2026/05/26/how-jaeger-is-evolving-to-trace-ai-agents-with-opentelemetry/
+- https://blog.n8n.io/trace-n8n-workflow-and-node-executions-with-opentelemetry/</itunes:summary>
+      <itunes:duration>00:03:39</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-09-opentelemetry-for-ai-agents.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-09-opentelemetry-for-ai-agents.mp3" length="3507139" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-09-opentelemetry-for-ai-agents</guid>
+      <pubDate>Tue, 09 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How AI Tools Tell Agents Where Login Lives</title>

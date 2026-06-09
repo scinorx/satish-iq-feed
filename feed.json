@@ -1,40 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-08",
-  "title": "Today's object: OAuth protected resource metadata for remote MCP servers",
+  "generatedAt": "2026-06-09",
+  "title": "Today's object: OpenTelemetry for AI agent traces",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-06-08",
-    "status": "partial",
-    "scheduledFor": "2026-06-08T05:30:00-04:00",
-    "startedAt": "2026-06-08T09:32:45.373Z",
-    "finishedAt": "2026-06-08T09:44:34.170Z",
-    "currentStage": "completed",
-    "topic": "OAuth protected resource metadata for remote MCP servers",
-    "podcastTopic": "How AI Tools Tell Agents Where Login Lives",
+    "date": "2026-06-09",
+    "status": "running",
+    "scheduledFor": "2026-06-09T05:30:00-04:00",
+    "startedAt": "2026-06-09T09:30:54.139Z",
+    "finishedAt": null,
+    "currentStage": "core-generation",
+    "topic": null,
+    "podcastTopic": "OpenTelemetry for AI Agents",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "success",
-      "spotifyDraft": "blocked"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "How AI Tools Tell Agents Where Login Lives"
+      "latestPodcastEpisode": "OpenTelemetry for AI Agents"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "How AI Tools Tell Agents Where Login Lives",
-      "publishedAt": "2026-06-08T12:00:00Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-08-how-ai-tools-tell-agents-where-login-lives.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-08-how-ai-tools-tell-agents-where-login-lives.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-08-how-ai-tools-tell-agents-where-login-lives"
+      "title": "OpenTelemetry for AI Agents",
+      "publishedAt": "2026-06-09T12:00:00Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-09-opentelemetry-for-ai-agents.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-09-opentelemetry-for-ai-agents.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-09-opentelemetry-for-ai-agents"
     }
   }
 }

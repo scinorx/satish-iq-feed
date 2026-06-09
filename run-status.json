@@ -1,22 +1,23 @@
 {
   "version": 1,
-  "date": "2026-06-08",
-  "status": "partial",
-  "scheduledFor": "2026-06-08T05:30:00-04:00",
-  "startedAt": "2026-06-08T09:32:45.373Z",
-  "finishedAt": "2026-06-08T09:44:34.170Z",
-  "currentStage": "completed",
-  "topic": "OAuth protected resource metadata for remote MCP servers",
-  "podcastTopic": "How AI Tools Tell Agents Where Login Lives",
+  "date": "2026-06-09",
+  "status": "running",
+  "scheduledFor": "2026-06-09T05:30:00-04:00",
+  "startedAt": "2026-06-09T09:30:54.139Z",
+  "finishedAt": null,
+  "currentStage": "core-generation",
+  "topic": null,
+  "podcastTopic": "OpenTelemetry for AI Agents",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "success",
-    "spotifyDraft": "blocked"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How AI Tools Tell Agents Where Login Lives"
+    "latestPodcastEpisode": "OpenTelemetry for AI Agents"
   }
 }
