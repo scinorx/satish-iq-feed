@@ -1,19 +1,19 @@
 {
   "version": 1,
   "date": "2026-06-10",
-  "status": "running",
+  "status": "partial",
   "scheduledFor": "2026-06-10T05:30:00-04:00",
   "startedAt": "2026-06-10T09:31:35.172Z",
-  "finishedAt": null,
-  "currentStage": "core-generation",
-  "topic": null,
+  "finishedAt": "2026-06-10T09:40:54.590Z",
+  "currentStage": "completed",
+  "topic": "Semantic reranking",
   "podcastTopic": "Semantic Reranking",
   "commit": null,
   "results": {
-    "publicFeedPublish": null,
-    "privatePush": null,
-    "spotifyPrep": null,
-    "spotifyDraft": null
+    "publicFeedPublish": "success",
+    "privatePush": "success",
+    "spotifyPrep": "success",
+    "spotifyDraft": "blocked"
   },
   "outputs": {
     "snapshot": true,
