@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-09",
-  "title": "Today's object: Hybrid RAG pipelines",
+  "generatedAt": "2026-06-10",
+  "title": "Today's object: Semantic reranking",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-06-09",
-    "status": "partial",
-    "scheduledFor": "2026-06-09T05:30:00-04:00",
-    "startedAt": "2026-06-09T10:48:10.880Z",
-    "finishedAt": "2026-06-09T10:56:17.211Z",
-    "currentStage": "completed",
-    "topic": "Hybrid RAG pipelines",
-    "podcastTopic": "Hybrid RAG Pipelines",
+    "date": "2026-06-10",
+    "status": "running",
+    "scheduledFor": "2026-06-10T05:30:00-04:00",
+    "startedAt": "2026-06-10T09:31:35.172Z",
+    "finishedAt": null,
+    "currentStage": "core-generation",
+    "topic": null,
+    "podcastTopic": "Semantic Reranking",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "success",
-      "spotifyPrep": "skipped",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "Hybrid RAG Pipelines"
+      "latestPodcastEpisode": "Semantic Reranking"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "Hybrid RAG Pipelines",
-      "publishedAt": "2026-06-09T12:00:00Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-09-hybrid-rag-pipelines.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-09-hybrid-rag-pipelines.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-09-hybrid-rag-pipelines"
+      "title": "Semantic Reranking",
+      "publishedAt": "2026-06-10T12:00:00Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-10-semantic-reranking.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-10-semantic-reranking.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-10-semantic-reranking"
     }
   }
 }

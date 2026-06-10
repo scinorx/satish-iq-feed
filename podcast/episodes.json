@@ -1,5 +1,30 @@
 [
   {
+    "guid": "in-simple-terms-2026-06-10-semantic-reranking",
+    "title": "Semantic Reranking",
+    "subtitle": "Retrieval and data in simple terms",
+    "description": "Semantic reranking is the step where an AI system takes a shortlist of search results and reorders them based on which result best matches the meaning of your question.\n\nIn this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.\n\nIn Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.\n\nProduction note: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\n\nEngineer notes:\nExact technical references:\n\n- Azure AI Search semantic ranker reranks an initial BM25-ranked or RRF-ranked result set and is built into agentic retrieval.\n- Azure semantic ranking applies to a bounded result window rather than searching the full corpus again.\n- Pinecone exposes reranking as part of a two-stage retrieval process and also as a standalone operation.\n- Cohere documents reranking for semi-structured and tabular data in addition to plain text.\n- OpenSearch documents rerank as a search response processor using a cross-encoder model.\n\n\nSources:\n- https://learn.microsoft.com/en-us/azure/search/semantic-search-overview\n- https://docs.pinecone.io/guides/search/rerank-results\n- https://docs.cohere.com/docs/reranking-with-cohere\n- https://docs.opensearch.org/latest/search-plugins/search-pipelines/search-processors/",
+    "publishedAt": "2026-06-10T12:00:00Z",
+    "sourceGeneratedAt": "2026-06-10",
+    "durationSeconds": 189,
+    "audioPath": "podcast/audio/2026-06-10-semantic-reranking.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-10-semantic-reranking.mp3",
+    "lengthBytes": 3026904,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "artworkPath": "podcast/artwork/episodes/2026-06-10-semantic-reranking.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-06-10-semantic-reranking.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-06-10-semantic-reranking.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-10-semantic-reranking.jpg",
+    "topicProfile": {
+      "id": "database",
+      "label": "Retrieval and data",
+      "accent": "#008B7A"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-06-10-semantic-reranking"
+  },
+  {
     "guid": "in-simple-terms-2026-06-09-hybrid-rag-pipelines",
     "title": "Hybrid RAG Pipelines",
     "subtitle": "Retrieval and data in simple terms",

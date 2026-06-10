@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-06-09",
-  "status": "partial",
-  "scheduledFor": "2026-06-09T05:30:00-04:00",
-  "startedAt": "2026-06-09T10:48:10.880Z",
-  "finishedAt": "2026-06-09T10:56:17.211Z",
-  "currentStage": "completed",
-  "topic": "Hybrid RAG pipelines",
-  "podcastTopic": "Hybrid RAG Pipelines",
+  "date": "2026-06-10",
+  "status": "running",
+  "scheduledFor": "2026-06-10T05:30:00-04:00",
+  "startedAt": "2026-06-10T09:31:35.172Z",
+  "finishedAt": null,
+  "currentStage": "core-generation",
+  "topic": null,
+  "podcastTopic": "Semantic Reranking",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "success",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "Hybrid RAG Pipelines"
+    "latestPodcastEpisode": "Semantic Reranking"
   }
 }
