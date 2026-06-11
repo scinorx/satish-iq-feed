@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE77A"/>
+      <stop offset="58%" stop-color="#F7C600"/>
+      <stop offset="100%" stop-color="#EFB000"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#6D4E00" flood-opacity="0.15"/>
+    </filter>
+    <style>
+      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #003F6B; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 272px; font-weight: 900; letter-spacing: 3px; fill: #003F6B; }
+      .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #003F6B; }
+      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #003F6B; }
+    </style>
+  </defs>
+  <rect width="3000" height="3000" fill="url(#paper)"/>
+  <circle cx="2450" cy="560" r="530" fill="#FFF6CF" opacity="0.25"/>
+  <circle cx="360" cy="2500" r="560" fill="#FFF6CF" opacity="0.12"/>
+  <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#003F6B" stroke-width="12" opacity="0.36"/>
+  <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
+  <g filter="url(#shadow)">
+    <text x="245" y="1416" class="title">WORKFLOW STATE</text>
+    <text x="245" y="1732" class="title">MACHINES</text>
+  </g>
+  <path d="M260 2135 H1080" stroke="#006DCE" stroke-width="24" stroke-linecap="round"/>
+  <text x="260" y="2270" class="date">2026-06-11</text>
+  <text x="260" y="2575" class="small">AI INFRASTRUCTURE</text>
+</svg>
