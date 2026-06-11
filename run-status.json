@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "date": "2026-06-10",
-  "status": "running",
+  "date": "2026-06-11",
+  "status": "partial",
   "scheduledFor": "2026-06-11T05:30:00-04:00",
   "startedAt": "2026-06-11T09:30:48.189Z",
-  "finishedAt": null,
-  "currentStage": "publish",
-  "topic": null,
+  "finishedAt": "2026-06-11T09:40:38.392Z",
+  "currentStage": "completed",
+  "topic": "Workflow state machines for agent retries and rollback",
   "podcastTopic": "Workflow State Machines",
   "commit": null,
   "results": {
-    "publicFeedPublish": null,
-    "privatePush": null,
-    "spotifyPrep": null,
-    "spotifyDraft": null
+    "publicFeedPublish": "success",
+    "privatePush": "success",
+    "spotifyPrep": "success",
+    "spotifyDraft": "blocked"
   },
   "outputs": {
     "snapshot": true,
