@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-11",
-  "title": "Today's object: Workflow state machines for agent retries and rollback",
+  "generatedAt": "2026-06-12",
+  "title": "Today's object: WebAssembly sandboxing for AI tools",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-06-11",
-    "status": "partial",
-    "scheduledFor": "2026-06-11T05:30:00-04:00",
-    "startedAt": "2026-06-11T09:30:48.189Z",
-    "finishedAt": "2026-06-11T09:40:38.392Z",
-    "currentStage": "completed",
-    "topic": "Workflow state machines for agent retries and rollback",
-    "podcastTopic": "Workflow State Machines",
+    "date": "2026-06-12",
+    "status": "running",
+    "scheduledFor": "2026-06-12T05:30:00-04:00",
+    "startedAt": "2026-06-12T09:53:18.341Z",
+    "finishedAt": null,
+    "currentStage": "core-generation",
+    "topic": "WebAssembly sandboxing for AI tools",
+    "podcastTopic": "WebAssembly sandboxing for AI tools",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "success",
-      "spotifyPrep": "success",
-      "spotifyDraft": "blocked"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "Workflow State Machines"
+      "latestPodcastEpisode": "WebAssembly Sandboxing For AI Tools"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "Workflow State Machines",
-      "publishedAt": "2026-06-11T12:00:00Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-11-workflow-state-machines.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-11-workflow-state-machines.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-11-workflow-state-machines"
+      "title": "WebAssembly Sandboxing For AI Tools",
+      "publishedAt": "2026-06-12T12:00:00Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-12-webassembly-sandboxing-for-ai-tools.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-12-webassembly-sandboxing-for-ai-tools.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-12-webassembly-sandboxing-for-ai-tools"
     }
   }
 }

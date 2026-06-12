@@ -21,7 +21,68 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Thu, 11 Jun 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 12:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>WebAssembly Sandboxing For AI Tools</title>
+      <description>WebAssembly sandboxing is a way to run code inside a controlled environment where the code only gets the specific access that the host system decides to give it.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Wasmtime says one of WebAssembly&apos;s main goals is to execute untrusted code safely inside a sandbox.
+- Wasmtime says outside-world interaction happens only through explicit imports and exports.
+- Wasmtime documents WASI filesystem access as capability-based.
+- WASI.dev describes WASI as a secure standard interface for Wasm software across many environments.
+- The Component Model docs describe components as interoperable building blocks and note that WASI 0.2.0 is the current stable release.
+- Cloudflare Workers describes sandboxing as secure isolation plus API design, with isolates and stricter process-level controls where needed.
+
+
+Sources:
+- https://docs.wasmtime.dev/security.html
+- https://wasi.dev/
+- https://component-model.bytecodealliance.org/
+- https://developers.cloudflare.com/workers/reference/security-model/</description>
+      <itunes:subtitle>AI infrastructure in simple terms</itunes:subtitle>
+      <itunes:summary>WebAssembly sandboxing is a way to run code inside a controlled environment where the code only gets the specific access that the host system decides to give it.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Wasmtime says one of WebAssembly&apos;s main goals is to execute untrusted code safely inside a sandbox.
+- Wasmtime says outside-world interaction happens only through explicit imports and exports.
+- Wasmtime documents WASI filesystem access as capability-based.
+- WASI.dev describes WASI as a secure standard interface for Wasm software across many environments.
+- The Component Model docs describe components as interoperable building blocks and note that WASI 0.2.0 is the current stable release.
+- Cloudflare Workers describes sandboxing as secure isolation plus API design, with isolates and stricter process-level controls where needed.
+
+
+Sources:
+- https://docs.wasmtime.dev/security.html
+- https://wasi.dev/
+- https://component-model.bytecodealliance.org/
+- https://developers.cloudflare.com/workers/reference/security-model/</itunes:summary>
+      <itunes:duration>00:03:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-12-webassembly-sandboxing-for-ai-tools.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-12-webassembly-sandboxing-for-ai-tools.mp3" length="3519678" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-12-webassembly-sandboxing-for-ai-tools</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>Workflow State Machines</title>

@@ -1,5 +1,30 @@
 [
   {
+    "guid": "in-simple-terms-2026-06-12-webassembly-sandboxing-for-ai-tools",
+    "title": "WebAssembly Sandboxing For AI Tools",
+    "subtitle": "AI infrastructure in simple terms",
+    "description": "WebAssembly sandboxing is a way to run code inside a controlled environment where the code only gets the specific access that the host system decides to give it.\n\nIn this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.\n\nIn Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.\n\nProduction note: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\n\nEngineer notes:\nExact technical references:\n\n- Wasmtime says one of WebAssembly's main goals is to execute untrusted code safely inside a sandbox.\n- Wasmtime says outside-world interaction happens only through explicit imports and exports.\n- Wasmtime documents WASI filesystem access as capability-based.\n- WASI.dev describes WASI as a secure standard interface for Wasm software across many environments.\n- The Component Model docs describe components as interoperable building blocks and note that WASI 0.2.0 is the current stable release.\n- Cloudflare Workers describes sandboxing as secure isolation plus API design, with isolates and stricter process-level controls where needed.\n\n\nSources:\n- https://docs.wasmtime.dev/security.html\n- https://wasi.dev/\n- https://component-model.bytecodealliance.org/\n- https://developers.cloudflare.com/workers/reference/security-model/",
+    "publishedAt": "2026-06-12T12:00:00Z",
+    "sourceGeneratedAt": "2026-06-12",
+    "durationSeconds": 220,
+    "audioPath": "podcast/audio/2026-06-12-webassembly-sandboxing-for-ai-tools.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-12-webassembly-sandboxing-for-ai-tools.mp3",
+    "lengthBytes": 3519678,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "artworkPath": "podcast/artwork/episodes/2026-06-12-webassembly-sandboxing-for-ai-tools.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-06-12-webassembly-sandboxing-for-ai-tools.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-06-12-webassembly-sandboxing-for-ai-tools.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-12-webassembly-sandboxing-for-ai-tools.jpg",
+    "topicProfile": {
+      "id": "ai",
+      "label": "AI infrastructure",
+      "accent": "#006DCE"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-06-12-webassembly-sandboxing-for-ai-tools"
+  },
+  {
     "guid": "in-simple-terms-2026-06-11-workflow-state-machines",
     "title": "Workflow State Machines",
     "subtitle": "AI infrastructure in simple terms",
