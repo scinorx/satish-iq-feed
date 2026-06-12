@@ -1,19 +1,19 @@
 {
   "version": 1,
   "date": "2026-06-12",
-  "status": "running",
+  "status": "partial",
   "scheduledFor": "2026-06-12T05:30:00-04:00",
   "startedAt": "2026-06-12T09:53:18.341Z",
-  "finishedAt": null,
-  "currentStage": "core-generation",
+  "finishedAt": "2026-06-12T10:05:52.231Z",
+  "currentStage": "completed",
   "topic": "WebAssembly sandboxing for AI tools",
   "podcastTopic": "WebAssembly sandboxing for AI tools",
-  "commit": null,
+  "commit": "d61667d",
   "results": {
-    "publicFeedPublish": null,
-    "privatePush": null,
-    "spotifyPrep": null,
-    "spotifyDraft": null
+    "publicFeedPublish": "success",
+    "privatePush": "success",
+    "spotifyPrep": "success",
+    "spotifyDraft": "blocked"
   },
   "outputs": {
     "snapshot": true,
