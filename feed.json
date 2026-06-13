@@ -8,19 +8,19 @@
   "runStatus": {
     "version": 1,
     "date": "2026-06-13",
-    "status": "running",
+    "status": "partial",
     "scheduledFor": "2026-06-13T05:30:00-04:00",
     "startedAt": "2026-06-13T12:13:27.875Z",
-    "finishedAt": null,
-    "currentStage": "core-generation",
-    "topic": null,
-    "podcastTopic": "Vector Database Index Design",
-    "commit": null,
+    "finishedAt": "2026-06-13T12:28:51.055Z",
+    "currentStage": "completed",
+    "topic": "Vector database index design",
+    "podcastTopic": "Vector database index design",
+    "commit": "1635b4e",
     "results": {
-      "publicFeedPublish": null,
-      "privatePush": null,
-      "spotifyPrep": null,
-      "spotifyDraft": null
+      "publicFeedPublish": "success",
+      "privatePush": "success",
+      "spotifyPrep": "success",
+      "spotifyDraft": "blocked"
     },
     "outputs": {
       "snapshot": true,
