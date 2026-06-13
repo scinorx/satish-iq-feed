@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-06-12",
-  "status": "partial",
-  "scheduledFor": "2026-06-12T05:30:00-04:00",
-  "startedAt": "2026-06-12T09:53:18.341Z",
-  "finishedAt": "2026-06-12T10:05:52.231Z",
-  "currentStage": "completed",
-  "topic": "WebAssembly sandboxing for AI tools",
-  "podcastTopic": "WebAssembly sandboxing for AI tools",
-  "commit": "d61667d",
+  "date": "2026-06-13",
+  "status": "running",
+  "scheduledFor": "2026-06-13T05:30:00-04:00",
+  "startedAt": "2026-06-13T12:13:27.875Z",
+  "finishedAt": null,
+  "currentStage": "core-generation",
+  "topic": null,
+  "podcastTopic": "Vector Database Index Design",
+  "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "success",
-    "spotifyPrep": "success",
-    "spotifyDraft": "blocked"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "WebAssembly Sandboxing For AI Tools"
+    "latestPodcastEpisode": "Vector Database Index Design"
   }
 }

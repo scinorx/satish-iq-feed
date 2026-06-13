@@ -1,5 +1,86 @@
 [
   {
+    "guid": "in-simple-terms-2026-06-13-vector-database-index-design",
+    "title": "Vector Database Index Design",
+    "subtitle": "Retrieval and data in simple terms",
+    "description": "Vector database index design is the way a retrieval system organizes stored vectors so it can find similar results fast enough, cheaply enough, and accurately enough for the real workload.\n\nIn this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.\n\nIn Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.\n\nProduction note: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\n\nEngineer notes:\nExact technical references:\n\n- pgvector supports exact and approximate nearest-neighbor search in Postgres.\n- pgvector says IVFFlat divides vectors into lists and searches a subset of nearby lists.\n- pgvector says IVFFlat builds faster and uses less memory than HNSW, but has lower query performance in the speed-recall tradeoff.\n- Pinecone documents one index as a place that can combine dense vectors, sparse vectors, full-text search, and metadata filtering.\n- Pinecone says one index per use case is the typical pattern.\n- Milvus documents FLAT, IVF_FLAT, IVF_SQ8, IVF_PQ, HNSW, DISKANN, and sparse inverted indexes.\n- Milvus recommends indexing both vector fields and scalar fields that are frequently accessed.\n\n\nSources:\n- https://github.com/pgvector/pgvector\n- https://docs.pinecone.io/guides/index-data/indexing-overview\n- https://milvus.io/docs/index-vector-fields.md",
+    "publishedAt": "2026-06-13T12:00:00Z",
+    "sourceGeneratedAt": "2026-06-13",
+    "durationSeconds": 194,
+    "audioPath": "podcast/audio/2026-06-13-vector-database-index-design.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-13-vector-database-index-design.mp3",
+    "lengthBytes": 3107570,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday we are talking about vector database index design.\n\nLet us start with the technology first.\n\nVector database index design is the way a retrieval system organizes stored vectors so it can find similar results fast enough, cheaply enough, and accurately enough for the real workload.\n\nNow let us use an everyday example.\n\nImagine a giant warehouse full of boxes.\n\nIf someone asks for one item, the slow but reliable option is to check every box in the building.\n\nA faster option is to group the boxes into aisles and search the aisles most likely to contain the item.\n\nAn even smarter option is to create shortcut routes between related parts of the warehouse so the search can jump quickly toward the right area.\n\nThat is the basic idea here.\n\nNow back to the actual technical concept.\n\nWhen an AI system uses embeddings, it turns text, images, or other inputs into vectors.\n\nBut storing those vectors is only the beginning.\n\nThe system still needs a way to search them.\n\nOne option is exact search.\n\nThat means comparing the query against the full vector space.\n\nThat gives a strong quality baseline, but it gets more expensive as the collection grows.\n\nAnother option is approximate search.\n\nThat means using an index structure that narrows the search to likely parts of the space instead of checking everything.\n\nThat is where index design matters.\n\nDifferent index types make different tradeoffs.\n\nSome are better for fast build times.\n\nSome use less memory.\n\nSome are better when you want strong recall at low latency.\n\nAnd some are better when the dataset gets large enough that disk layout and filtering start to matter.\n\nThere is another important layer here.\n\nReal retrieval is often not only vector similarity.\n\nSometimes the exact keyword matters.\n\nSometimes metadata matters.\n\nSometimes the system needs semantic similarity, keyword evidence, and filtering together.\n\nSo modern retrieval is often a multi-signal search problem, not just one vector lookup.\n\nThat is why index design matters so much.\n\nA great embedding model can still look weak if the index structure is a bad fit for the workload.\n\nA system can be very fast and still miss the right answer.\n\nA demo can look clean until someone adds real filters like customer, product, date, or document type.\n\nNow here is the catch.\n\nMany teams optimize vector search by watching latency first.\n\nBut low latency alone does not tell you whether the system found the right records.\n\nSo a serious system has to measure recall, not only speed.\n\nIt also has to think about what kind of queries it serves.\n\nAre the queries mostly natural-language meaning?\n\nDo exact identifiers or error codes matter?\n\nDo metadata filters narrow the search space heavily?\n\nThose details affect which index design actually makes sense.\n\nThe takeaway is simple.\n\nEmbeddings describe the meaning.\n\nBut index design decides whether the system can find that meaning fast enough, cheaply enough, and accurately enough for the real workload.\n\nThat is why vector search is not only a model topic.\n\nIt is also a serving-architecture topic.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday we are talking about vector database index design.\n\nLet us start with the technology first.\n\nVector database index design is the way a retrieval system organizes stored vectors so it can find similar results fast enough, cheaply enough, and accurately enough for the real workload.\n\nNow let us use an everyday example.\n\nImagine a giant warehouse full of boxes.\n\nIf someone asks for one item, the slow but reliable option is to check every box in the building.\n\nA faster option is to group the boxes into aisles and search the aisles most likely to contain the item.\n\nAn even smarter option is to create shortcut routes between related parts of the warehouse so the search can jump quickly toward the right area.\n\nThat is the basic idea here.\n\nNow back to the actual technical concept.\n\nWhen an AI system uses embeddings, it turns text, images, or other inputs into vectors.\n\nBut storing those vectors is only the beginning.\n\nThe system still needs a way to search them.\n\nOne option is exact search.\n\nThat means comparing the query against the full vector space.\n\nThat gives a strong quality baseline, but it gets more expensive as the collection grows.\n\nAnother option is approximate search.\n\nThat means using an index structure that narrows the search to likely parts of the space instead of checking everything.\n\nThat is where index design matters.\n\nDifferent index types make different tradeoffs.\n\nSome are better for fast build times.\n\nSome use less memory.\n\nSome are better when you want strong recall at low latency.\n\nAnd some are better when the dataset gets large enough that disk layout and filtering start to matter.\n\nThere is another important layer here.\n\nReal retrieval is often not only vector similarity.\n\nSometimes the exact keyword matters.\n\nSometimes metadata matters.\n\nSometimes the system needs semantic similarity, keyword evidence, and filtering together.\n\nSo modern retrieval is often a multi-signal search problem, not just one vector lookup.\n\nThat is why index design matters so much.\n\nA great embedding model can still look weak if the index structure is a bad fit for the workload.\n\nA system can be very fast and still miss the right answer.\n\nA demo can look clean until someone adds real filters like customer, product, date, or document type.\n\nNow here is the catch.\n\nMany teams optimize vector search by watching latency first.\n\nBut low latency alone does not tell you whether the system found the right records.\n\nSo a serious system has to measure recall, not only speed.\n\nIt also has to think about what kind of queries it serves.\n\nAre the queries mostly natural-language meaning?\n\nDo exact identifiers or error codes matter?\n\nDo metadata filters narrow the search space heavily?\n\nThose details affect which index design actually makes sense.\n\nThe takeaway is simple.\n\nEmbeddings describe the meaning.\n\nBut index design decides whether the system can find that meaning fast enough, cheaply enough, and accurately enough for the real workload.\n\nThat is why vector search is not only a model topic.\n\nIt is also a serving-architecture topic.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish. I will see you in the next episode.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What is the core idea behind Vector Database Index Design?",
+          "options": [
+            "Vector database index design is the way a retrieval system organizes stored vectors so it can find similar results fast enough, cheaply enough, and accurately enough for the...",
+            "It is mainly a visual design update.",
+            "It is only a product marketing phrase."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Vector database index design is the way a retrieval system organizes stored vectors so it can find similar results fast enough, cheaply enough, and accurately enough for the..."
+        },
+        {
+          "prompt": "Why does Vector Database Index Design matter?",
+          "options": [
+            "Sometimes the system needs semantic similarity, keyword evidence, and filtering together.",
+            "Because every new tool should be adopted immediately.",
+            "Because the term is popular even without a practical problem."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Sometimes the system needs semantic similarity, keyword evidence, and filtering together."
+        },
+        {
+          "prompt": "Which plain-English example helped explain the topic?",
+          "options": [
+            "Imagine a giant warehouse full of boxes. If someone asks for one item, the slow but reliable option is to check every box in the building.",
+            "A random social media feed choosing posts.",
+            "A color palette changing an app theme."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Imagine a giant warehouse full of boxes. If someone asks for one item, the slow but reliable option is to check every box in the building."
+        },
+        {
+          "prompt": "Which term is most connected to this lesson?",
+          "options": [
+            "Vector",
+            "Leaderboard",
+            "App icon"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Key terms for this lesson include Vector, Database, Index, Design, Retrieval, and."
+        },
+        {
+          "prompt": "What is the practical takeaway?",
+          "options": [
+            "Embeddings describe the meaning. But index design decides whether the system can find that meaning fast enough, cheaply enough, and accurately enough for the real workload.",
+            "Learn the label first and worry about the system later.",
+            "Assume the newest model or tool always fixes the problem."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Embeddings describe the meaning. But index design decides whether the system can find that meaning fast enough, cheaply enough, and accurately enough for the real workload."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-06-13-vector-database-index-design.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-06-13-vector-database-index-design.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-06-13-vector-database-index-design.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-13-vector-database-index-design.jpg",
+    "topicProfile": {
+      "id": "database",
+      "label": "Retrieval and data",
+      "accent": "#008B7A"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-06-13-vector-database-index-design"
+  },
+  {
     "guid": "in-simple-terms-2026-06-12-webassembly-sandboxing-for-ai-tools",
     "title": "WebAssembly Sandboxing For AI Tools",
     "subtitle": "AI infrastructure in simple terms",

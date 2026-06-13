@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-12",
-  "title": "Today's object: WebAssembly sandboxing for AI tools",
+  "generatedAt": "2026-06-13",
+  "title": "Today's object: vector database index design",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-06-12",
-    "status": "partial",
-    "scheduledFor": "2026-06-12T05:30:00-04:00",
-    "startedAt": "2026-06-12T09:53:18.341Z",
-    "finishedAt": "2026-06-12T10:05:52.231Z",
-    "currentStage": "completed",
-    "topic": "WebAssembly sandboxing for AI tools",
-    "podcastTopic": "WebAssembly sandboxing for AI tools",
-    "commit": "d61667d",
+    "date": "2026-06-13",
+    "status": "running",
+    "scheduledFor": "2026-06-13T05:30:00-04:00",
+    "startedAt": "2026-06-13T12:13:27.875Z",
+    "finishedAt": null,
+    "currentStage": "core-generation",
+    "topic": null,
+    "podcastTopic": "Vector Database Index Design",
+    "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "success",
-      "spotifyPrep": "success",
-      "spotifyDraft": "blocked"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "WebAssembly Sandboxing For AI Tools"
+      "latestPodcastEpisode": "Vector Database Index Design"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "WebAssembly Sandboxing For AI Tools",
-      "publishedAt": "2026-06-12T12:00:00Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-12-webassembly-sandboxing-for-ai-tools.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-12-webassembly-sandboxing-for-ai-tools.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-12-webassembly-sandboxing-for-ai-tools"
+      "title": "Vector Database Index Design",
+      "publishedAt": "2026-06-13T12:00:00Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-13-vector-database-index-design.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-13-vector-database-index-design.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-13-vector-database-index-design"
     }
   }
 }

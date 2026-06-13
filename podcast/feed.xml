@@ -21,7 +21,68 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Fri, 12 Jun 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 12:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Vector Database Index Design</title>
+      <description>Vector database index design is the way a retrieval system organizes stored vectors so it can find similar results fast enough, cheaply enough, and accurately enough for the real workload.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- pgvector supports exact and approximate nearest-neighbor search in Postgres.
+- pgvector says IVFFlat divides vectors into lists and searches a subset of nearby lists.
+- pgvector says IVFFlat builds faster and uses less memory than HNSW, but has lower query performance in the speed-recall tradeoff.
+- Pinecone documents one index as a place that can combine dense vectors, sparse vectors, full-text search, and metadata filtering.
+- Pinecone says one index per use case is the typical pattern.
+- Milvus documents FLAT, IVF_FLAT, IVF_SQ8, IVF_PQ, HNSW, DISKANN, and sparse inverted indexes.
+- Milvus recommends indexing both vector fields and scalar fields that are frequently accessed.
+
+
+Sources:
+- https://github.com/pgvector/pgvector
+- https://docs.pinecone.io/guides/index-data/indexing-overview
+- https://milvus.io/docs/index-vector-fields.md</description>
+      <itunes:subtitle>Retrieval and data in simple terms</itunes:subtitle>
+      <itunes:summary>Vector database index design is the way a retrieval system organizes stored vectors so it can find similar results fast enough, cheaply enough, and accurately enough for the real workload.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- pgvector supports exact and approximate nearest-neighbor search in Postgres.
+- pgvector says IVFFlat divides vectors into lists and searches a subset of nearby lists.
+- pgvector says IVFFlat builds faster and uses less memory than HNSW, but has lower query performance in the speed-recall tradeoff.
+- Pinecone documents one index as a place that can combine dense vectors, sparse vectors, full-text search, and metadata filtering.
+- Pinecone says one index per use case is the typical pattern.
+- Milvus documents FLAT, IVF_FLAT, IVF_SQ8, IVF_PQ, HNSW, DISKANN, and sparse inverted indexes.
+- Milvus recommends indexing both vector fields and scalar fields that are frequently accessed.
+
+
+Sources:
+- https://github.com/pgvector/pgvector
+- https://docs.pinecone.io/guides/index-data/indexing-overview
+- https://milvus.io/docs/index-vector-fields.md</itunes:summary>
+      <itunes:duration>00:03:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-13-vector-database-index-design.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-13-vector-database-index-design.mp3" length="3107570" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-13-vector-database-index-design</guid>
+      <pubDate>Sat, 13 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>WebAssembly Sandboxing For AI Tools</title>
