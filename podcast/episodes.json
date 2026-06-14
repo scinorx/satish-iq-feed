@@ -1,5 +1,86 @@
 [
   {
+    "guid": "in-simple-terms-2026-06-14-json-schema-structured-outputs",
+    "title": "JSON Schema Structured Outputs",
+    "subtitle": "AI infrastructure in simple terms",
+    "description": "Structured outputs are the pattern where an AI model returns data that is shaped to match a schema your software defines in advance.\n\nIn this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.\n\nIn Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.\n\nProduction note: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\n\nEngineer notes:\nExact technical references:\n\n- OpenAI says Structured Outputs ensures responses adhere to a supplied JSON Schema.\n- OpenAI says Structured Outputs, unlike JSON mode, guarantees schema adherence.\n- Gemini says structured outputs use a provided JSON Schema for predictable, type-safe results.\n- Gemini positions structured outputs for extraction, classification, and agentic workflows.\n- JSON Schema says object `properties` are not required by default.\n- JSON Schema uses `required` to declare mandatory fields.\n- JSON Schema documents object-boundary controls like `additionalProperties` and `unevaluatedProperties`.\n\n\nSources:\n- https://developers.openai.com/api/docs/guides/structured-outputs\n- https://ai.google.dev/gemini-api/docs/structured-output\n- https://json-schema.org/understanding-json-schema/reference/object",
+    "publishedAt": "2026-06-14T12:00:00Z",
+    "sourceGeneratedAt": "2026-06-14",
+    "durationSeconds": 161,
+    "audioPath": "podcast/audio/2026-06-14-json-schema-structured-outputs.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-14-json-schema-structured-outputs.mp3",
+    "lengthBytes": 2584285,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday we are talking about JSON schema structured outputs.\n\nLet us start with the technology first.\n\nStructured outputs are the pattern where an AI model returns data that is shaped to match a schema your software defines in advance.\n\nNow let us use an everyday example.\n\nImagine you run a workshop and people need to request replacement parts.\n\nIf you just say, please write down what you need, most people will give you something useful.\n\nBut some will forget the part number.\n\nSome will write the quantity as words instead of numbers.\n\nSome will add extra notes in the wrong place.\n\nA proper request form fixes that.\n\nIt tells everyone which boxes exist, which ones are required, what kind of value belongs in each box, and whether extra boxes are allowed at all.\n\nThat is the basic idea here.\n\nNow back to the actual technical concept.\n\nFor a while, many AI applications asked models to return JSON and treated that as good enough.\n\nThat helped, but valid JSON alone does not mean the response matches what the application needs.\n\nThe object can still be missing a required field.\n\nIt can still use the wrong type.\n\nIt can still invent an extra field that the rest of the system does not understand.\n\nThat is why schema-based output matters.\n\nThe schema defines the contract.\n\nIt can say which fields are required.\n\nIt can say which values are allowed.\n\nIt can define nested objects and lists.\n\nAnd it can decide whether unknown fields should be rejected.\n\nThis matters because AI systems are no longer producing text only for humans to read.\n\nThey are also producing data for interfaces, workflows, and tools.\n\nIf that data shape is unreliable, the rest of the system becomes messy.\n\nThere is another important layer here.\n\nStructured output does not mean the answer is true.\n\nIt only means the answer fits the expected shape.\n\nSo a perfectly valid object can still contain the wrong product code, the wrong date, or the wrong classification.\n\nThat is the catch.\n\nStructure helps the software trust the format.\n\nIt does not remove the need to check the meaning.\n\nThere is also a design tradeoff.\n\nIf the schema is too loose, the model has too many legal ways to answer.\n\nIf the schema is too large, the output becomes harder to reason about.\n\nIf the schema is too strict in the wrong way, it can make extension or reuse harder.\n\nSo builders need to design the smallest useful contract for the specific step.\n\nThat is the real takeaway.\n\nAs AI systems become more connected to apps and tools, the important shift is not only asking for cleaner JSON.\n\nIt is defining a better contract between the model and the rest of the software.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday we are talking about JSON schema structured outputs.\n\nLet us start with the technology first.\n\nStructured outputs are the pattern where an AI model returns data that is shaped to match a schema your software defines in advance.\n\nNow let us use an everyday example.\n\nImagine you run a workshop and people need to request replacement parts.\n\nIf you just say, please write down what you need, most people will give you something useful.\n\nBut some will forget the part number.\n\nSome will write the quantity as words instead of numbers.\n\nSome will add extra notes in the wrong place.\n\nA proper request form fixes that.\n\nIt tells everyone which boxes exist, which ones are required, what kind of value belongs in each box, and whether extra boxes are allowed at all.\n\nThat is the basic idea here.\n\nNow back to the actual technical concept.\n\nFor a while, many AI applications asked models to return JSON and treated that as good enough.\n\nThat helped, but valid JSON alone does not mean the response matches what the application needs.\n\nThe object can still be missing a required field.\n\nIt can still use the wrong type.\n\nIt can still invent an extra field that the rest of the system does not understand.\n\nThat is why schema-based output matters.\n\nThe schema defines the contract.\n\nIt can say which fields are required.\n\nIt can say which values are allowed.\n\nIt can define nested objects and lists.\n\nAnd it can decide whether unknown fields should be rejected.\n\nThis matters because AI systems are no longer producing text only for humans to read.\n\nThey are also producing data for interfaces, workflows, and tools.\n\nIf that data shape is unreliable, the rest of the system becomes messy.\n\nThere is another important layer here.\n\nStructured output does not mean the answer is true.\n\nIt only means the answer fits the expected shape.\n\nSo a perfectly valid object can still contain the wrong product code, the wrong date, or the wrong classification.\n\nThat is the catch.\n\nStructure helps the software trust the format.\n\nIt does not remove the need to check the meaning.\n\nThere is also a design tradeoff.\n\nIf the schema is too loose, the model has too many legal ways to answer.\n\nIf the schema is too large, the output becomes harder to reason about.\n\nIf the schema is too strict in the wrong way, it can make extension or reuse harder.\n\nSo builders need to design the smallest useful contract for the specific step.\n\nThat is the real takeaway.\n\nAs AI systems become more connected to apps and tools, the important shift is not only asking for cleaner JSON.\n\nIt is defining a better contract between the model and the rest of the software.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish. I will see you in the next episode.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What is the core idea behind JSON Schema Structured Outputs?",
+          "options": [
+            "Structured outputs are the pattern where an AI model returns data that is shaped to match a schema your software defines in advance.",
+            "It is mainly a visual design update.",
+            "It is only a product marketing phrase."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Structured outputs are the pattern where an AI model returns data that is shaped to match a schema your software defines in advance."
+        },
+        {
+          "prompt": "Why does JSON Schema Structured Outputs matter?",
+          "options": [
+            "Imagine you run a workshop and people need to request replacement parts.",
+            "Because every new tool should be adopted immediately.",
+            "Because the term is popular even without a practical problem."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Imagine you run a workshop and people need to request replacement parts."
+        },
+        {
+          "prompt": "Which plain-English example helped explain the topic?",
+          "options": [
+            "Imagine you run a workshop and people need to request replacement parts. If you just say, please write down what you need, most people will give you something useful.",
+            "A random social media feed choosing posts.",
+            "A color palette changing an app theme."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Imagine you run a workshop and people need to request replacement parts. If you just say, please write down what you need, most people will give you something useful."
+        },
+        {
+          "prompt": "Which term is most connected to this lesson?",
+          "options": [
+            "JSON",
+            "Leaderboard",
+            "App icon"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Key terms for this lesson include JSON, Schema, Structured, Outputs, infrastructure, properties."
+        },
+        {
+          "prompt": "What is the practical takeaway?",
+          "options": [
+            "That is the real takeaway. As AI systems become more connected to apps and tools, the important shift is not only asking for cleaner JSON.",
+            "Learn the label first and worry about the system later.",
+            "Assume the newest model or tool always fixes the problem."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "That is the real takeaway. As AI systems become more connected to apps and tools, the important shift is not only asking for cleaner JSON."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-06-14-json-schema-structured-outputs.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-06-14-json-schema-structured-outputs.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-06-14-json-schema-structured-outputs.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-14-json-schema-structured-outputs.jpg",
+    "topicProfile": {
+      "id": "ai",
+      "label": "AI infrastructure",
+      "accent": "#006DCE"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-06-14-json-schema-structured-outputs"
+  },
+  {
     "guid": "in-simple-terms-2026-06-13-vector-database-index-design",
     "title": "Vector Database Index Design",
     "subtitle": "Retrieval and data in simple terms",

@@ -21,7 +21,68 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sat, 13 Jun 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 12:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>JSON Schema Structured Outputs</title>
+      <description>Structured outputs are the pattern where an AI model returns data that is shaped to match a schema your software defines in advance.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- OpenAI says Structured Outputs ensures responses adhere to a supplied JSON Schema.
+- OpenAI says Structured Outputs, unlike JSON mode, guarantees schema adherence.
+- Gemini says structured outputs use a provided JSON Schema for predictable, type-safe results.
+- Gemini positions structured outputs for extraction, classification, and agentic workflows.
+- JSON Schema says object `properties` are not required by default.
+- JSON Schema uses `required` to declare mandatory fields.
+- JSON Schema documents object-boundary controls like `additionalProperties` and `unevaluatedProperties`.
+
+
+Sources:
+- https://developers.openai.com/api/docs/guides/structured-outputs
+- https://ai.google.dev/gemini-api/docs/structured-output
+- https://json-schema.org/understanding-json-schema/reference/object</description>
+      <itunes:subtitle>AI infrastructure in simple terms</itunes:subtitle>
+      <itunes:summary>Structured outputs are the pattern where an AI model returns data that is shaped to match a schema your software defines in advance.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- OpenAI says Structured Outputs ensures responses adhere to a supplied JSON Schema.
+- OpenAI says Structured Outputs, unlike JSON mode, guarantees schema adherence.
+- Gemini says structured outputs use a provided JSON Schema for predictable, type-safe results.
+- Gemini positions structured outputs for extraction, classification, and agentic workflows.
+- JSON Schema says object `properties` are not required by default.
+- JSON Schema uses `required` to declare mandatory fields.
+- JSON Schema documents object-boundary controls like `additionalProperties` and `unevaluatedProperties`.
+
+
+Sources:
+- https://developers.openai.com/api/docs/guides/structured-outputs
+- https://ai.google.dev/gemini-api/docs/structured-output
+- https://json-schema.org/understanding-json-schema/reference/object</itunes:summary>
+      <itunes:duration>00:02:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-14-json-schema-structured-outputs.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-14-json-schema-structured-outputs.mp3" length="2584285" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-14-json-schema-structured-outputs</guid>
+      <pubDate>Sun, 14 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>Vector Database Index Design</title>
