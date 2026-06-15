@@ -8,19 +8,19 @@
   "runStatus": {
     "version": 1,
     "date": "2026-06-15",
-    "status": "running",
+    "status": "partial",
     "scheduledFor": "2026-06-15T05:30:00-04:00",
     "startedAt": "2026-06-15T11:08:42.173Z",
-    "finishedAt": null,
-    "currentStage": "publish",
-    "topic": null,
-    "podcastTopic": "JSON Schema Structured Outputs",
+    "finishedAt": "2026-06-15T11:23:52.961Z",
+    "currentStage": "completed",
+    "topic": "Browsers as compute runtimes",
+    "podcastTopic": "Why Browsers Are Becoming Real Compute Runtimes",
     "commit": null,
     "results": {
-      "publicFeedPublish": null,
-      "privatePush": null,
-      "spotifyPrep": null,
-      "spotifyDraft": null
+      "publicFeedPublish": "success",
+      "privatePush": "success",
+      "spotifyPrep": "skipped",
+      "spotifyDraft": "skipped"
     },
     "outputs": {
       "snapshot": true,
