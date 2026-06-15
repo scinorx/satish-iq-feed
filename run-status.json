@@ -4,11 +4,11 @@
   "status": "partial",
   "scheduledFor": "2026-06-15T05:30:00-04:00",
   "startedAt": "2026-06-15T11:08:42.173Z",
-  "finishedAt": "2026-06-15T11:23:52.961Z",
+  "finishedAt": "2026-06-15T14:27:21.890Z",
   "currentStage": "completed",
   "topic": "Browsers as compute runtimes",
   "podcastTopic": "Why Browsers Are Becoming Real Compute Runtimes",
-  "commit": null,
+  "commit": "d628e21",
   "results": {
     "publicFeedPublish": "success",
     "privatePush": "success",
