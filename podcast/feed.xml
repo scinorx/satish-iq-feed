@@ -21,7 +21,68 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sun, 14 Jun 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 12:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Why Browsers Are Becoming Real Compute Runtimes</title>
+      <description>It showed the interface, handled clicks, and talked to a server that did most of the real work.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- MDN says Web Workers let web content run scripts in background threads without interfering with the user interface, and workers can make network requests.
+- Chrome positions WebGPU as the modern graphics and compute capability for the web.
+- MDN says OPFS is private to the origin, optimized for performance, and offers in-place write access.
+- Chrome&apos;s SQLite Wasm article shows OPFS-backed persistence and worker-based execution.
+- Cloudflare Workers shows the wider market treating web-style runtimes as serious compute surfaces with stateful storage and workflows.
+
+
+Sources:
+- https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+- https://developer.chrome.com/docs/web-platform/webgpu
+- https://developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system
+- https://developer.chrome.com/blog/sqlite-wasm-in-the-browser-backed-by-the-origin-private-file-system/
+- https://developers.cloudflare.com/workers/</description>
+      <itunes:subtitle>Runtime and tools in simple terms</itunes:subtitle>
+      <itunes:summary>It showed the interface, handled clicks, and talked to a server that did most of the real work.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- MDN says Web Workers let web content run scripts in background threads without interfering with the user interface, and workers can make network requests.
+- Chrome positions WebGPU as the modern graphics and compute capability for the web.
+- MDN says OPFS is private to the origin, optimized for performance, and offers in-place write access.
+- Chrome&apos;s SQLite Wasm article shows OPFS-backed persistence and worker-based execution.
+- Cloudflare Workers shows the wider market treating web-style runtimes as serious compute surfaces with stateful storage and workflows.
+
+
+Sources:
+- https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+- https://developer.chrome.com/docs/web-platform/webgpu
+- https://developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system
+- https://developer.chrome.com/blog/sqlite-wasm-in-the-browser-backed-by-the-origin-private-file-system/
+- https://developers.cloudflare.com/workers/</itunes:summary>
+      <itunes:duration>00:03:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-15-why-browsers-are-becoming-real-compute-runtimes.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-15-why-browsers-are-becoming-real-compute-runtimes.mp3" length="3649245" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-15-why-browsers-are-becoming-real-compute-runtimes</guid>
+      <pubDate>Mon, 15 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>JSON Schema Structured Outputs</title>
