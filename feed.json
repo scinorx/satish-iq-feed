@@ -8,19 +8,19 @@
   "runStatus": {
     "version": 1,
     "date": "2026-06-16",
-    "status": "running",
+    "status": "partial",
     "scheduledFor": "2026-06-16T05:30:00-04:00",
     "startedAt": "2026-06-16T12:46:59.924Z",
-    "finishedAt": null,
-    "currentStage": "publish",
+    "finishedAt": "2026-06-16T13:13:55.835Z",
+    "currentStage": "completed",
     "topic": "Passkeys and WebAuthn authentication",
     "podcastTopic": "Why Passkeys Are Replacing Passwords",
-    "commit": null,
+    "commit": "0b087ae",
     "results": {
-      "publicFeedPublish": null,
-      "privatePush": null,
-      "spotifyPrep": null,
-      "spotifyDraft": null
+      "publicFeedPublish": "success",
+      "privatePush": "success",
+      "spotifyPrep": "skipped",
+      "spotifyDraft": "skipped"
     },
     "outputs": {
       "snapshot": true,
