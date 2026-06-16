@@ -21,7 +21,72 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Mon, 15 Jun 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 12:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Why Passkeys Are Replacing Passwords</title>
+      <description>Today we are talking about passkeys, and why they are replacing password-centric login.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- FIDO defines passkeys as cryptographic credentials tied to a user&apos;s account and approved through the device unlock process.
+- MDN says Web Authentication protects against phishing because signatures change with the website origin.
+- MDN says a stolen public key cannot authenticate without the private key.
+- W3C WebAuthn Level 3 describes passkeys as client-side discoverable public key credentials.
+- Google describes passkeys as standardized passwordless sign-in across devices, browsers, and operating systems.
+- FIDO Credential Exchange defines a secure-by-default format for transferring credentials, including passkeys, between credential managers.
+
+
+Sources:
+- https://fidoalliance.org/passkeys/
+- https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API
+- https://www.w3.org/TR/webauthn-3/
+- https://developers.google.com/identity/passkeys
+- https://web.dev/articles/passkey-registration
+- https://fidoalliance.org/fido-alliance-credential-exchange-specifications-overview/</description>
+      <itunes:subtitle>Security model in simple terms</itunes:subtitle>
+      <itunes:summary>Today we are talking about passkeys, and why they are replacing password-centric login.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- FIDO defines passkeys as cryptographic credentials tied to a user&apos;s account and approved through the device unlock process.
+- MDN says Web Authentication protects against phishing because signatures change with the website origin.
+- MDN says a stolen public key cannot authenticate without the private key.
+- W3C WebAuthn Level 3 describes passkeys as client-side discoverable public key credentials.
+- Google describes passkeys as standardized passwordless sign-in across devices, browsers, and operating systems.
+- FIDO Credential Exchange defines a secure-by-default format for transferring credentials, including passkeys, between credential managers.
+
+
+Sources:
+- https://fidoalliance.org/passkeys/
+- https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API
+- https://www.w3.org/TR/webauthn-3/
+- https://developers.google.com/identity/passkeys
+- https://web.dev/articles/passkey-registration
+- https://fidoalliance.org/fido-alliance-credential-exchange-specifications-overview/</itunes:summary>
+      <itunes:duration>00:04:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-16-why-passkeys-are-replacing-passwords.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-16-why-passkeys-are-replacing-passwords.mp3" length="4025408" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-16-why-passkeys-are-replacing-passwords</guid>
+      <pubDate>Tue, 16 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>Why Browsers Are Becoming Real Compute Runtimes</title>

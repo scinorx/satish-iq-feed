@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-06-15",
-  "status": "partial",
-  "scheduledFor": "2026-06-15T05:30:00-04:00",
-  "startedAt": "2026-06-15T11:08:42.173Z",
-  "finishedAt": "2026-06-15T14:27:21.890Z",
-  "currentStage": "completed",
-  "topic": "Browsers as compute runtimes",
-  "podcastTopic": "Why Browsers Are Becoming Real Compute Runtimes",
-  "commit": "d628e21",
+  "date": "2026-06-16",
+  "status": "running",
+  "scheduledFor": "2026-06-16T05:30:00-04:00",
+  "startedAt": "2026-06-16T12:46:59.924Z",
+  "finishedAt": null,
+  "currentStage": "publish",
+  "topic": "Passkeys and WebAuthn authentication",
+  "podcastTopic": "Why Passkeys Are Replacing Passwords",
+  "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "success",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "Why Browsers Are Becoming Real Compute Runtimes"
+    "latestPodcastEpisode": "Why Passkeys Are Replacing Passwords"
   }
 }

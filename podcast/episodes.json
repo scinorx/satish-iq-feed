@@ -1,5 +1,86 @@
 [
   {
+    "guid": "in-simple-terms-2026-06-16-why-passkeys-are-replacing-passwords",
+    "title": "Why Passkeys Are Replacing Passwords",
+    "subtitle": "Security model in simple terms",
+    "description": "Today we are talking about passkeys, and why they are replacing password-centric login.\n\nIn this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.\n\nIn Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.\n\nProduction note: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\n\nEngineer notes:\nExact technical references:\n\n- FIDO defines passkeys as cryptographic credentials tied to a user's account and approved through the device unlock process.\n- MDN says Web Authentication protects against phishing because signatures change with the website origin.\n- MDN says a stolen public key cannot authenticate without the private key.\n- W3C WebAuthn Level 3 describes passkeys as client-side discoverable public key credentials.\n- Google describes passkeys as standardized passwordless sign-in across devices, browsers, and operating systems.\n- FIDO Credential Exchange defines a secure-by-default format for transferring credentials, including passkeys, between credential managers.\n\n\nSources:\n- https://fidoalliance.org/passkeys/\n- https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API\n- https://www.w3.org/TR/webauthn-3/\n- https://developers.google.com/identity/passkeys\n- https://web.dev/articles/passkey-registration\n- https://fidoalliance.org/fido-alliance-credential-exchange-specifications-overview/",
+    "publishedAt": "2026-06-16T12:00:00Z",
+    "sourceGeneratedAt": "2026-06-16",
+    "durationSeconds": 252,
+    "audioPath": "podcast/audio/2026-06-16-why-passkeys-are-replacing-passwords.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-16-why-passkeys-are-replacing-passwords.mp3",
+    "lengthBytes": 4025408,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday we are talking about passkeys, and why they are replacing password-centric login.\n\nLet us start with the technology first.\n\nA passkey is a passwordless login credential based on public-key cryptography.\n\nInstead of typing a password into a website, you approve the sign-in on your device.\n\nThat approval might use face unlock, fingerprint unlock, a device PIN, or another local method.\n\nBut the important part is not the face scan or fingerprint.\n\nThe important part is that a private key stays protected by your device or credential manager, while the website stores only a matching public key.\n\nNow let us understand this with a simple everyday example.\n\nImagine an office building that uses a spoken password at the front desk.\n\nEvery employee has to remember the secret phrase.\n\nThe guard checks whether the phrase matches the list.\n\nThat works until someone overhears the phrase, tricks an employee into saying it, or steals the list.\n\nNow imagine the office replaces the spoken password with a smart badge.\n\nThe building sends the badge a fresh challenge.\n\nThe badge proves it is the right badge without revealing its private secret.\n\nThe employee may unlock the badge with a fingerprint or PIN, but the building does not receive that fingerprint or PIN as the password.\n\nThat is the key idea behind passkeys.\n\nThe user experience becomes simpler, but the technical model becomes stronger.\n\nNow back to the actual technical concept.\n\nWith password login, the user carries a reusable secret to the website.\n\nThat is why phishing works so well.\n\nA fake page can ask for the password, and the user may type it in.\n\nIf attackers steal the password database or trick the user, they can try that same secret somewhere else.\n\nPasskeys change the flow.\n\nWhen you create a passkey, your authenticator creates a key pair.\n\nThe public key is registered with the website.\n\nThe private key stays protected locally.\n\nLater, when you log in, the website sends a fresh challenge.\n\nYour device signs that challenge after local verification.\n\nThe website checks the signature with the public key it already has.\n\nSo the website is not asking, did this person type the right secret?\n\nIt is asking, did the right private key sign this fresh challenge for this real site?\n\nThat is a very different security shape.\n\nIt also explains why passkeys are considered phishing resistant.\n\nThe browser and operating system help bind the credential to the site or app that created it.\n\nSo if you land on a fake login page, the passkey should not produce a valid sign-in for the real website.\n\nThis also reduces the damage from a server breach.\n\nIf attackers steal public keys, those public keys do not let them sign in.\n\nThey would still need the private keys, which are not stored on that server.\n\nFor engineers, the lesson is that login is becoming less like a form submission and more like a protocol ceremony.\n\nThere is a relying-party server.\n\nThere is a browser or app.\n\nThere is an authenticator or credential manager.\n\nThere is local user verification.\n\nAnd there is a signed challenge that proves possession of the private key.\n\nThe catch is that passkeys do not magically solve the whole account-security problem.\n\nThe main login flow becomes stronger, but attackers will move toward the weaker edges.\n\nThey may target account recovery.\n\nThey may target support workflows.\n\nThey may steal active sessions.\n\nThey may look for fallback passwords or email reset links.\n\nAnd users still need a practical way to recover from lost devices or move credentials between providers.\n\nThat is why portability work matters.\n\nIf passkeys become easy to use but impossible to move, users may feel trapped.\n\nIf recovery is too loose, the recovery path becomes the real password.\n\nSo the takeaway is not simply, use passkeys and stop thinking.\n\nThe takeaway is this:\n\nPasskeys remove the reusable shared secret from normal login.\n\nThat is a major improvement.\n\nBut strong authentication still needs careful recovery, session security, and fallback design.\n\nIn simple terms, the password asks you to carry the secret.\n\nThe passkey lets your device prove the secret without handing it over.\n\nThat is why this shift matters.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday we are talking about passkeys, and why they are replacing password-centric login.\n\nLet us start with the technology first.\n\nA passkey is a passwordless login credential based on public-key cryptography.\n\nInstead of typing a password into a website, you approve the sign-in on your device.\n\nThat approval might use face unlock, fingerprint unlock, a device PIN, or another local method.\n\nBut the important part is not the face scan or fingerprint.\n\nThe important part is that a private key stays protected by your device or credential manager, while the website stores only a matching public key.\n\nNow let us understand this with a simple everyday example.\n\nImagine an office building that uses a spoken password at the front desk.\n\nEvery employee has to remember the secret phrase.\n\nThe guard checks whether the phrase matches the list.\n\nThat works until someone overhears the phrase, tricks an employee into saying it, or steals the list.\n\nNow imagine the office replaces the spoken password with a smart badge.\n\nThe building sends the badge a fresh challenge.\n\nThe badge proves it is the right badge without revealing its private secret.\n\nThe employee may unlock the badge with a fingerprint or PIN, but the building does not receive that fingerprint or PIN as the password.\n\nThat is the key idea behind passkeys.\n\nThe user experience becomes simpler, but the technical model becomes stronger.\n\nNow back to the actual technical concept.\n\nWith password login, the user carries a reusable secret to the website.\n\nThat is why phishing works so well.\n\nA fake page can ask for the password, and the user may type it in.\n\nIf attackers steal the password database or trick the user, they can try that same secret somewhere else.\n\nPasskeys change the flow.\n\nWhen you create a passkey, your authenticator creates a key pair.\n\nThe public key is registered with the website.\n\nThe private key stays protected locally.\n\nLater, when you log in, the website sends a fresh challenge.\n\nYour device signs that challenge after local verification.\n\nThe website checks the signature with the public key it already has.\n\nSo the website is not asking, did this person type the right secret?\n\nIt is asking, did the right private key sign this fresh challenge for this real site?\n\nThat is a very different security shape.\n\nIt also explains why passkeys are considered phishing resistant.\n\nThe browser and operating system help bind the credential to the site or app that created it.\n\nSo if you land on a fake login page, the passkey should not produce a valid sign-in for the real website.\n\nThis also reduces the damage from a server breach.\n\nIf attackers steal public keys, those public keys do not let them sign in.\n\nThey would still need the private keys, which are not stored on that server.\n\nFor engineers, the lesson is that login is becoming less like a form submission and more like a protocol ceremony.\n\nThere is a relying-party server.\n\nThere is a browser or app.\n\nThere is an authenticator or credential manager.\n\nThere is local user verification.\n\nAnd there is a signed challenge that proves possession of the private key.\n\nThe catch is that passkeys do not magically solve the whole account-security problem.\n\nThe main login flow becomes stronger, but attackers will move toward the weaker edges.\n\nThey may target account recovery.\n\nThey may target support workflows.\n\nThey may steal active sessions.\n\nThey may look for fallback passwords or email reset links.\n\nAnd users still need a practical way to recover from lost devices or move credentials between providers.\n\nThat is why portability work matters.\n\nIf passkeys become easy to use but impossible to move, users may feel trapped.\n\nIf recovery is too loose, the recovery path becomes the real password.\n\nSo the takeaway is not simply, use passkeys and stop thinking.\n\nThe takeaway is this:\n\nPasskeys remove the reusable shared secret from normal login.\n\nThat is a major improvement.\n\nBut strong authentication still needs careful recovery, session security, and fallback design.\n\nIn simple terms, the password asks you to carry the secret.\n\nThe passkey lets your device prove the secret without handing it over.\n\nThat is why this shift matters.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish. I will see you in the next episode.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What is the core idea behind Why Passkeys Are Replacing Passwords?",
+          "options": [
+            "It also explains why passkeys are considered phishing resistant.",
+            "It is mainly a visual design update.",
+            "It is only a product marketing phrase."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "It also explains why passkeys are considered phishing resistant."
+        },
+        {
+          "prompt": "Why does Why Passkeys Are Replacing Passwords matter?",
+          "options": [
+            "The important part is that a private key stays protected by your device or credential manager, while the website stores only a matching public key.",
+            "Because every new tool should be adopted immediately.",
+            "Because the term is popular even without a practical problem."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The important part is that a private key stays protected by your device or credential manager, while the website stores only a matching public key."
+        },
+        {
+          "prompt": "Which plain-English example helped explain the topic?",
+          "options": [
+            "Imagine an office building that uses a spoken password at the front desk. Every employee has to remember the secret phrase.",
+            "A random social media feed choosing posts.",
+            "A color palette changing an app theme."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Imagine an office building that uses a spoken password at the front desk. Every employee has to remember the secret phrase."
+        },
+        {
+          "prompt": "Which term is most connected to this lesson?",
+          "options": [
+            "Why",
+            "Leaderboard",
+            "App icon"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Key terms for this lesson include Why, Passkeys, Are, Replacing, Passwords, Security."
+        },
+        {
+          "prompt": "What is the practical takeaway?",
+          "options": [
+            "So the takeaway is not simply, use passkeys and stop thinking. The takeaway is this: Passkeys remove the reusable shared secret from normal login. That is a major improvement.",
+            "Learn the label first and worry about the system later.",
+            "Assume the newest model or tool always fixes the problem."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "So the takeaway is not simply, use passkeys and stop thinking. The takeaway is this: Passkeys remove the reusable shared secret from normal login. That is a major improvement."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-06-16-why-passkeys-are-replacing-passwords.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-06-16-why-passkeys-are-replacing-passwords.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-06-16-why-passkeys-are-replacing-passwords.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-16-why-passkeys-are-replacing-passwords.jpg",
+    "topicProfile": {
+      "id": "security",
+      "label": "Security model",
+      "accent": "#E04343"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-06-16-why-passkeys-are-replacing-passwords"
+  },
+  {
     "guid": "in-simple-terms-2026-06-15-why-browsers-are-becoming-real-compute-runtimes",
     "title": "Why Browsers Are Becoming Real Compute Runtimes",
     "subtitle": "Runtime and tools in simple terms",
