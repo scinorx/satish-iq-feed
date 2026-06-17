@@ -8,18 +8,18 @@
   "runStatus": {
     "version": 1,
     "date": "2026-06-17",
-    "status": "running",
+    "status": "partial",
     "scheduledFor": "2026-06-17T05:30:00-04:00",
     "startedAt": "2026-06-17T09:40:05.507Z",
-    "finishedAt": null,
-    "currentStage": "publish",
+    "finishedAt": "2026-06-17T09:50:54.694Z",
+    "currentStage": "completed",
     "topic": null,
     "podcastTopic": "Why Local-First Architecture Is Back",
-    "commit": "4191a027c411c7b006d84ee254c5428b1a1c660f",
+    "commit": "0cbd294d9ab2e8905377ec415c5088da26109e0f",
     "results": {
       "publicFeedPublish": "success",
       "privatePush": "success",
-      "spotifyPrep": "success",
+      "spotifyPrep": "skipped",
       "spotifyDraft": "skipped"
     },
     "outputs": {
