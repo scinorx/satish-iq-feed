@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-16",
-  "title": "Today's object: passkeys and WebAuthn authentication",
+  "generatedAt": "2026-06-17",
+  "title": "Today's object: local-first architecture and sync engines",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-06-16",
-    "status": "partial",
-    "scheduledFor": "2026-06-16T05:30:00-04:00",
-    "startedAt": "2026-06-16T12:46:59.924Z",
-    "finishedAt": "2026-06-16T13:13:55.835Z",
-    "currentStage": "completed",
-    "topic": "Passkeys and WebAuthn authentication",
-    "podcastTopic": "Why Passkeys Are Replacing Passwords",
-    "commit": "0b087ae",
+    "date": "2026-06-17",
+    "status": "running",
+    "scheduledFor": "2026-06-17T05:30:00-04:00",
+    "startedAt": "2026-06-17T09:40:05.507Z",
+    "finishedAt": null,
+    "currentStage": "publish",
+    "topic": null,
+    "podcastTopic": "Why Local-First Architecture Is Back",
+    "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "success",
-      "spotifyPrep": "skipped",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "Why Passkeys Are Replacing Passwords"
+      "latestPodcastEpisode": "Why Local-First Architecture Is Back"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "Why Passkeys Are Replacing Passwords",
-      "publishedAt": "2026-06-16T12:00:00Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-16-why-passkeys-are-replacing-passwords.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-16-why-passkeys-are-replacing-passwords.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-16-why-passkeys-are-replacing-passwords"
+      "title": "Why Local-First Architecture Is Back",
+      "publishedAt": "2026-06-17T12:00:00Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-17-why-local-first-architecture-is-back.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-17-why-local-first-architecture-is-back.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-17-why-local-first-architecture-is-back"
     }
   }
 }
