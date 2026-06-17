@@ -37,11 +37,11 @@ Production note: This episode uses authorized synthetic narration based on Satis
 Engineer notes:
 Exact technical references:
 
-- SQLite says it is likely used more than all other database engines combined and appears across phones, desktops, browsers, and many applications.
+- SQLite says it is likely used more than all other database engines combined and appears across phones, desktops, browsers, and many applications; its page was last updated on April 21, 2026.
 - SQLite documents ACID transactions that remain atomic and durable through crashes or power failure.
-- MDN describes the origin private file system as private to a page origin, optimized for performance, and usable from web workers.
+- MDN describes the origin private file system as widely available, private to a page origin, optimized for performance, and usable from web workers.
 - Zero describes reads and writes hitting a local normalized client datastore first, then syncing with the server in the background.
-- Electric Sync describes a Postgres read-path sync engine that syncs subsets of data into local apps using shapes.
+- Electric Sync describes a Postgres read-path sync engine that syncs subsets of data into local apps using shapes, and its shape guide says production apps should request shapes through a backend API for authorization and security.
 - Automerge describes local copies that can update offline, sync later, and automatically merge concurrent changes.
 
 
@@ -66,11 +66,11 @@ Production note: This episode uses authorized synthetic narration based on Satis
 Engineer notes:
 Exact technical references:
 
-- SQLite says it is likely used more than all other database engines combined and appears across phones, desktops, browsers, and many applications.
+- SQLite says it is likely used more than all other database engines combined and appears across phones, desktops, browsers, and many applications; its page was last updated on April 21, 2026.
 - SQLite documents ACID transactions that remain atomic and durable through crashes or power failure.
-- MDN describes the origin private file system as private to a page origin, optimized for performance, and usable from web workers.
+- MDN describes the origin private file system as widely available, private to a page origin, optimized for performance, and usable from web workers.
 - Zero describes reads and writes hitting a local normalized client datastore first, then syncing with the server in the background.
-- Electric Sync describes a Postgres read-path sync engine that syncs subsets of data into local apps using shapes.
+- Electric Sync describes a Postgres read-path sync engine that syncs subsets of data into local apps using shapes, and its shape guide says production apps should request shapes through a backend API for authorization and security.
 - Automerge describes local copies that can update offline, sync later, and automatically merge concurrent changes.
 
 
