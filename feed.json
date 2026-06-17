@@ -11,15 +11,15 @@
     "status": "partial",
     "scheduledFor": "2026-06-17T05:30:00-04:00",
     "startedAt": "2026-06-17T09:40:05.507Z",
-    "finishedAt": "2026-06-17T09:50:54.694Z",
+    "finishedAt": "2026-06-17T10:33:08.014Z",
     "currentStage": "completed",
-    "topic": null,
+    "topic": "Local-first architecture and sync engines",
     "podcastTopic": "Why Local-First Architecture Is Back",
     "commit": "0cbd294d9ab2e8905377ec415c5088da26109e0f",
     "results": {
       "publicFeedPublish": "success",
       "privatePush": "success",
-      "spotifyPrep": "skipped",
+      "spotifyPrep": "success",
       "spotifyDraft": "skipped"
     },
     "outputs": {
