@@ -21,7 +21,72 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Wed, 17 Jun 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 12:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Why Space Is Becoming Infrastructure</title>
+      <description>Today we are talking about space infrastructure, and why SpaceX is only one visible signal of a much bigger technology shift.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- SpaceX describes Starship as a fully reusable transportation system for crew and cargo to Earth orbit, the Moon, Mars, and beyond.
+- NASA&apos;s Human Landing System program connects lunar landing systems to Artemis missions that move astronauts between lunar orbit and the surface.
+- NASA&apos;s Moon-to-Mars Architecture frames exploration as a campaign architecture across missions, science, logistics, and future Mars preparation.
+- FAA&apos;s Starship/Super Heavy Boca Chica page shows that launch cadence depends on safety, environmental review, mishap investigation, licensing, and site operations.
+- NASA LunaNet describes interoperable lunar communication, navigation, timing, detection, and information services.
+- Recent reporting on the SpaceX Falcon 9 / AST SpaceMobile BlueBird launch is used as a signal for direct-to-device satellite connectivity, not as a financial claim.
+
+
+Sources:
+- https://www.spacex.com/vehicles/starship/
+- https://www.nasa.gov/humans-in-space/human-landing-system/
+- https://www.nasa.gov/moontomarsarchitecture/
+- https://www.faa.gov/space/stakeholder_engagement/spacex_starship
+- https://www.nasa.gov/directorates/heo/scan/engineering/lunanet_interoperability/
+- https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-bluebird-8-to-10-direct-to-cell-launch</description>
+      <itunes:subtitle>Observability in simple terms</itunes:subtitle>
+      <itunes:summary>Today we are talking about space infrastructure, and why SpaceX is only one visible signal of a much bigger technology shift.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- SpaceX describes Starship as a fully reusable transportation system for crew and cargo to Earth orbit, the Moon, Mars, and beyond.
+- NASA&apos;s Human Landing System program connects lunar landing systems to Artemis missions that move astronauts between lunar orbit and the surface.
+- NASA&apos;s Moon-to-Mars Architecture frames exploration as a campaign architecture across missions, science, logistics, and future Mars preparation.
+- FAA&apos;s Starship/Super Heavy Boca Chica page shows that launch cadence depends on safety, environmental review, mishap investigation, licensing, and site operations.
+- NASA LunaNet describes interoperable lunar communication, navigation, timing, detection, and information services.
+- Recent reporting on the SpaceX Falcon 9 / AST SpaceMobile BlueBird launch is used as a signal for direct-to-device satellite connectivity, not as a financial claim.
+
+
+Sources:
+- https://www.spacex.com/vehicles/starship/
+- https://www.nasa.gov/humans-in-space/human-landing-system/
+- https://www.nasa.gov/moontomarsarchitecture/
+- https://www.faa.gov/space/stakeholder_engagement/spacex_starship
+- https://www.nasa.gov/directorates/heo/scan/engineering/lunanet_interoperability/
+- https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-bluebird-8-to-10-direct-to-cell-launch</itunes:summary>
+      <itunes:duration>00:04:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-18-why-space-is-becoming-infrastructure.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-18-why-space-is-becoming-infrastructure.mp3" length="4745970" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-18-why-space-is-becoming-infrastructure</guid>
+      <pubDate>Thu, 18 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>Why Local-First Architecture Is Back</title>
