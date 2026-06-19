@@ -21,7 +21,80 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Thu, 18 Jun 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 12:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>The Hidden Software Stack Behind Modern Robots</title>
+      <description>A modern robot is not just a metal body with an AI brain. It is a real-time software system that has to sense the world, understand what is happening, decide what should happen next, and move safely.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Figure&apos;s Helix 02 announcement frames humanoid autonomy as a hierarchy across semantic reasoning, visuomotor control, and learned whole-body control.
+- Figure 03 highlights platform ingredients such as camera redesign, tactile sensing, data offload, inductive charging, and manufacturing traceability.
+- Google DeepMind&apos;s Gemini Robotics work frames robot models as vision-language-action systems.
+- Google DeepMind&apos;s on-device robotics work is a useful signal for local low-latency inference on robots.
+- NVIDIA&apos;s Isaac and Jetson material shows the robotics infrastructure side: simulation, synthetic data, robot learning, accelerated robot middleware, and edge compute.
+- ROS 2 Kilted Kaiju is a middleware signal because robots still need action introspection, replay, transport choices, and quality-of-service behavior.
+- A June 2026 arXiv paper argues that middleware is becoming a harness layer for Physical AI because learned models affect control, compute, and communication together.
+
+
+Sources:
+- https://www.figure.ai/news/helix-02
+- https://www.figure.ai/news/introducing-figure-03
+- https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/
+- https://deepmind.google/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/
+- https://developer.nvidia.com/isaac/sim
+- https://developer.nvidia.com/isaac/ros
+- https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/
+- https://github.com/ros2/ros2_documentation/blob/rolling/source/Releases/Release-Kilted-Kaiju.rst
+- https://arxiv.org/abs/2606.09416</description>
+      <itunes:subtitle>Observability in simple terms</itunes:subtitle>
+      <itunes:summary>A modern robot is not just a metal body with an AI brain. It is a real-time software system that has to sense the world, understand what is happening, decide what should happen next, and move safely.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Figure&apos;s Helix 02 announcement frames humanoid autonomy as a hierarchy across semantic reasoning, visuomotor control, and learned whole-body control.
+- Figure 03 highlights platform ingredients such as camera redesign, tactile sensing, data offload, inductive charging, and manufacturing traceability.
+- Google DeepMind&apos;s Gemini Robotics work frames robot models as vision-language-action systems.
+- Google DeepMind&apos;s on-device robotics work is a useful signal for local low-latency inference on robots.
+- NVIDIA&apos;s Isaac and Jetson material shows the robotics infrastructure side: simulation, synthetic data, robot learning, accelerated robot middleware, and edge compute.
+- ROS 2 Kilted Kaiju is a middleware signal because robots still need action introspection, replay, transport choices, and quality-of-service behavior.
+- A June 2026 arXiv paper argues that middleware is becoming a harness layer for Physical AI because learned models affect control, compute, and communication together.
+
+
+Sources:
+- https://www.figure.ai/news/helix-02
+- https://www.figure.ai/news/introducing-figure-03
+- https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/
+- https://deepmind.google/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/
+- https://developer.nvidia.com/isaac/sim
+- https://developer.nvidia.com/isaac/ros
+- https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/
+- https://github.com/ros2/ros2_documentation/blob/rolling/source/Releases/Release-Kilted-Kaiju.rst
+- https://arxiv.org/abs/2606.09416</itunes:summary>
+      <itunes:duration>00:04:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-19-the-hidden-software-stack-behind-modern-robots.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-19-the-hidden-software-stack-behind-modern-robots.mp3" length="4379838" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-19-the-hidden-software-stack-behind-modern-robots</guid>
+      <pubDate>Fri, 19 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>Why Space Is Becoming Infrastructure</title>

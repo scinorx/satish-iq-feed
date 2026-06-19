@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-06-18",
-  "status": "partial",
-  "scheduledFor": "2026-06-18T05:30:00-04:00",
-  "startedAt": "2026-06-18T10:58:44.555Z",
-  "finishedAt": "2026-06-18T11:40:37.047Z",
-  "currentStage": "completed",
-  "topic": "Space infrastructure and reusable launch systems",
-  "podcastTopic": "Why Space Is Becoming Infrastructure",
-  "commit": "5bb019de35f48cde2e26c8be65bbfa428c468045",
+  "date": "2026-06-19",
+  "status": "success",
+  "scheduledFor": "2026-06-19T05:30:00-04:00",
+  "startedAt": "2026-06-19T10:47:09.628Z",
+  "finishedAt": null,
+  "currentStage": "core-generation",
+  "topic": null,
+  "podcastTopic": "The Hidden Software Stack Behind Modern Robots",
+  "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "success",
-    "spotifyPrep": "success",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "Why Space Is Becoming Infrastructure"
+    "latestPodcastEpisode": "The Hidden Software Stack Behind Modern Robots"
   }
 }
