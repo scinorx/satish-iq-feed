@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-19",
-  "title": "Today's object: the software stack behind modern robots",
+  "generatedAt": "2026-06-20",
+  "title": "Today's object: FIFA smart ball and VAR decision systems",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-06-19",
-    "status": "success",
-    "scheduledFor": "2026-06-19T05:30:00-04:00",
-    "startedAt": "2026-06-19T10:47:09.628Z",
-    "finishedAt": "2026-06-19T12:21:26.256Z",
-    "currentStage": "completed",
-    "topic": "The Software Stack Behind Modern Robots",
-    "podcastTopic": "The Hidden Software Stack Behind Modern Robots",
+    "date": "2026-06-20",
+    "status": "running",
+    "scheduledFor": "2026-06-20T05:30:00-04:00",
+    "startedAt": "2026-06-20T12:32:17.972Z",
+    "finishedAt": null,
+    "currentStage": "publish",
+    "topic": "FIFA smart ball and VAR systems",
+    "podcastTopic": "How FIFA's Smart Ball and VAR Actually Work",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "success",
-      "spotifyPrep": "success",
-      "spotifyDraft": "success"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "The Hidden Software Stack Behind Modern Robots"
+      "latestPodcastEpisode": "How FIFA's Smart Ball and VAR Actually Work"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "The Hidden Software Stack Behind Modern Robots",
-      "publishedAt": "2026-06-19T12:00:00Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-19-the-hidden-software-stack-behind-modern-robots.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-19-the-hidden-software-stack-behind-modern-robots.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-19-the-hidden-software-stack-behind-modern-robots"
+      "title": "How FIFA's Smart Ball and VAR Actually Work",
+      "publishedAt": "2026-06-20T12:00:00Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-20-how-fifa-s-smart-ball-and-var-actually-work.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-20-how-fifa-s-smart-ball-and-var-actually-work.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-20-how-fifa-s-smart-ball-and-var-actually-work"
     }
   }
 }

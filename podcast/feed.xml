@@ -21,7 +21,68 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Fri, 19 Jun 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 12:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How FIFA&apos;s Smart Ball and VAR Actually Work</title>
+      <description>Today we are talking about FIFA&apos;s smart ball and VAR, and how technology helps referees make close decisions at the World Cup.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- VAR stands for Video Assistant Referee and is governed by the IFAB VAR protocol.
+- The IFAB protocol says VAR is used for clear and obvious errors or serious missed incidents in defined categories, and the referee keeps final authority.
+- Connected-ball systems use an inertial motion sensor to help identify ball movement events such as kick or touch timing.
+- Semi-automated offside systems combine player tracking, ball-event timing, software-generated lines or models, and video official confirmation.
+- Current World Cup coverage has also highlighted the trust layer: missing or delayed visual explanations can create doubt even when the underlying VAR check was performed.
+
+
+Sources:
+- https://www.theifab.com/laws/latest/video-assistant-referee-var-protocol/
+- https://www.timesunion.com/sports/article/2026-fifa-world-cup-var-soccer-usmnt-tim-ream-22307534.php
+- https://www.fourfourtwo.com/competition/fifa-statement-confirms-cause-of-distrustful-var-error-in-switzerland-vs-qatar
+- https://timesofindia.indiatimes.com/technology/tech-news/fifa-world-cup-2026-how-tech-inside-official-match-ball-trionda-makes-it-special/articleshow/131720260.cms
+- https://www.digitalcameraworld.com/cameras/action-cameras/fifas-new-referee-cameras-might-be-the-coolest-camera-tech-at-the-2026-world-cup</description>
+      <itunes:subtitle>Observability in simple terms</itunes:subtitle>
+      <itunes:summary>Today we are talking about FIFA&apos;s smart ball and VAR, and how technology helps referees make close decisions at the World Cup.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- VAR stands for Video Assistant Referee and is governed by the IFAB VAR protocol.
+- The IFAB protocol says VAR is used for clear and obvious errors or serious missed incidents in defined categories, and the referee keeps final authority.
+- Connected-ball systems use an inertial motion sensor to help identify ball movement events such as kick or touch timing.
+- Semi-automated offside systems combine player tracking, ball-event timing, software-generated lines or models, and video official confirmation.
+- Current World Cup coverage has also highlighted the trust layer: missing or delayed visual explanations can create doubt even when the underlying VAR check was performed.
+
+
+Sources:
+- https://www.theifab.com/laws/latest/video-assistant-referee-var-protocol/
+- https://www.timesunion.com/sports/article/2026-fifa-world-cup-var-soccer-usmnt-tim-ream-22307534.php
+- https://www.fourfourtwo.com/competition/fifa-statement-confirms-cause-of-distrustful-var-error-in-switzerland-vs-qatar
+- https://timesofindia.indiatimes.com/technology/tech-news/fifa-world-cup-2026-how-tech-inside-official-match-ball-trionda-makes-it-special/articleshow/131720260.cms
+- https://www.digitalcameraworld.com/cameras/action-cameras/fifas-new-referee-cameras-might-be-the-coolest-camera-tech-at-the-2026-world-cup</itunes:summary>
+      <itunes:duration>00:04:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-20-how-fifa-s-smart-ball-and-var-actually-work.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-20-how-fifa-s-smart-ball-and-var-actually-work.mp3" length="4185487" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-20-how-fifa-s-smart-ball-and-var-actually-work</guid>
+      <pubDate>Sat, 20 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>The Hidden Software Stack Behind Modern Robots</title>

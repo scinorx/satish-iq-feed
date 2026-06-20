@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-06-19",
-  "status": "success",
-  "scheduledFor": "2026-06-19T05:30:00-04:00",
-  "startedAt": "2026-06-19T10:47:09.628Z",
-  "finishedAt": "2026-06-19T12:21:26.256Z",
-  "currentStage": "completed",
-  "topic": "The Software Stack Behind Modern Robots",
-  "podcastTopic": "The Hidden Software Stack Behind Modern Robots",
+  "date": "2026-06-20",
+  "status": "running",
+  "scheduledFor": "2026-06-20T05:30:00-04:00",
+  "startedAt": "2026-06-20T12:32:17.972Z",
+  "finishedAt": null,
+  "currentStage": "publish",
+  "topic": "FIFA smart ball and VAR systems",
+  "podcastTopic": "How FIFA's Smart Ball and VAR Actually Work",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "success",
-    "spotifyPrep": "success",
-    "spotifyDraft": "success"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "The Hidden Software Stack Behind Modern Robots"
+    "latestPodcastEpisode": "How FIFA's Smart Ball and VAR Actually Work"
   }
 }
