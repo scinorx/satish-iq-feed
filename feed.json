@@ -8,10 +8,10 @@
   "runStatus": {
     "version": 1,
     "date": "2026-06-20",
-    "status": "partial",
+    "status": "success",
     "scheduledFor": "2026-06-20T05:30:00-04:00",
     "startedAt": "2026-06-20T12:32:17.972Z",
-    "finishedAt": "2026-06-20T12:52:16.708Z",
+    "finishedAt": "2026-06-20T13:13:33.022Z",
     "currentStage": "completed",
     "topic": "FIFA smart ball and VAR systems",
     "podcastTopic": "How FIFA's Smart Ball and VAR Actually Work",
@@ -20,7 +20,7 @@
       "publicFeedPublish": "success",
       "privatePush": "success",
       "spotifyPrep": "success",
-      "spotifyDraft": "blocked"
+      "spotifyDraft": "success"
     },
     "outputs": {
       "snapshot": true,
