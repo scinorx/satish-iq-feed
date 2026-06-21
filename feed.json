@@ -8,19 +8,19 @@
   "runStatus": {
     "version": 1,
     "date": "2026-06-21",
-    "status": "running",
+    "status": "success",
     "scheduledFor": "2026-06-21T05:30:00-04:00",
     "startedAt": "2026-06-21T11:45:16.863Z",
-    "finishedAt": null,
-    "currentStage": "manual-prebuilt-release",
+    "finishedAt": "2026-06-21T11:46:11.647Z",
+    "currentStage": "completed",
     "topic": "The Real Cost Of Asking AI One Question",
     "podcastTopic": "The Real Cost Of Asking AI One Question",
     "commit": null,
     "results": {
-      "publicFeedPublish": null,
-      "privatePush": null,
-      "spotifyPrep": null,
-      "spotifyDraft": null
+      "publicFeedPublish": "success",
+      "privatePush": "skipped",
+      "spotifyPrep": "skipped",
+      "spotifyDraft": "skipped"
     },
     "outputs": {
       "snapshot": true,
