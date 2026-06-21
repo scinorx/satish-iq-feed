@@ -2,6 +2,7 @@
 <rss version="2.0"
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:podcast="https://podcastindex.org/namespace/1.0"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>In Simple Terms with Satish</title>
@@ -21,7 +22,86 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sat, 20 Jun 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>The Real Cost Of Asking AI One Question</title>
+      <description>Today we are talking about large language model inference, and the real cost of asking AI one question.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references and terms:
+
+- Inference is the model-serving path used when a trained model answers a request.
+- Input, cached input, and output tokens can be priced differently by API providers.
+- Prefill is the prompt-processing phase before answer generation begins.
+- Decode is the token-by-token generation phase.
+- KV cache means key-value cache, the stored attention state used during generation.
+- Prompt caching works best when stable repeated prompt content appears as an exact prefix.
+- Batching, request scheduling, paged attention, quantization, and model routing are practical inference-cost levers.
+- Per-question energy, water, and carbon figures are workload-specific and should not be treated as universal constants.
+
+
+Sources:
+- https://openai.com/api/pricing/
+- https://developers.openai.com/api/docs/pricing
+- https://developers.openai.com/api/docs/guides/prompt-caching
+- https://www.iea.org/reports/energy-and-ai/executive-summary
+- https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai
+- https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai
+- https://docs.nvidia.com/tensorrt-llm/index.html
+- https://nvidia.github.io/TensorRT-LLM/</description>
+      <itunes:subtitle>AI infrastructure in simple terms</itunes:subtitle>
+      <itunes:summary>Today we are talking about large language model inference, and the real cost of asking AI one question.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references and terms:
+
+- Inference is the model-serving path used when a trained model answers a request.
+- Input, cached input, and output tokens can be priced differently by API providers.
+- Prefill is the prompt-processing phase before answer generation begins.
+- Decode is the token-by-token generation phase.
+- KV cache means key-value cache, the stored attention state used during generation.
+- Prompt caching works best when stable repeated prompt content appears as an exact prefix.
+- Batching, request scheduling, paged attention, quantization, and model routing are practical inference-cost levers.
+- Per-question energy, water, and carbon figures are workload-specific and should not be treated as universal constants.
+
+
+Sources:
+- https://openai.com/api/pricing/
+- https://developers.openai.com/api/docs/pricing
+- https://developers.openai.com/api/docs/guides/prompt-caching
+- https://www.iea.org/reports/energy-and-ai/executive-summary
+- https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai
+- https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai
+- https://docs.nvidia.com/tensorrt-llm/index.html
+- https://nvidia.github.io/TensorRT-LLM/</itunes:summary>
+      <itunes:duration>00:04:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>17</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-21-the-real-cost-of-asking-ai-one-question.txt" type="text/plain" language="en" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-21-the-real-cost-of-asking-ai-one-question.srt" type="application/x-subrip" language="en" rel="captions" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-21-the-real-cost-of-asking-ai-one-question.vtt" type="text/vtt" language="en" rel="captions" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-21-the-real-cost-of-asking-ai-one-question.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-21-the-real-cost-of-asking-ai-one-question.mp3" length="4107328" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-21-the-real-cost-of-asking-ai-one-question</guid>
+      <pubDate>Sun, 21 Jun 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How FIFA&apos;s Smart Ball and VAR Actually Work</title>
@@ -78,6 +158,8 @@ Sources:
 - https://www.digitalcameraworld.com/cameras/action-cameras/fifas-new-referee-cameras-might-be-the-coolest-camera-tech-at-the-2026-world-cup</itunes:summary>
       <itunes:duration>00:04:22</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-20-how-fifa-s-smart-ball-and-var-actually-work.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-20-how-fifa-s-smart-ball-and-var-actually-work.mp3" length="4185487" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-20-how-fifa-s-smart-ball-and-var-actually-work</guid>
@@ -151,6 +233,8 @@ Sources:
 - https://arxiv.org/abs/2606.09416</itunes:summary>
       <itunes:duration>00:04:34</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-19-the-hidden-software-stack-behind-modern-robots.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-19-the-hidden-software-stack-behind-modern-robots.mp3" length="4379838" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-19-the-hidden-software-stack-behind-modern-robots</guid>
@@ -216,6 +300,8 @@ Sources:
 - https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-bluebird-8-to-10-direct-to-cell-launch</itunes:summary>
       <itunes:duration>00:04:57</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-18-why-space-is-becoming-infrastructure.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-18-why-space-is-becoming-infrastructure.mp3" length="4745970" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-18-why-space-is-becoming-infrastructure</guid>
@@ -283,6 +369,8 @@ Sources:
 - https://automerge.org/docs/hello/</itunes:summary>
       <itunes:duration>00:03:45</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-17-why-local-first-architecture-is-back.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-17-why-local-first-architecture-is-back.mp3" length="3601598" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-17-why-local-first-architecture-is-back</guid>
@@ -348,6 +436,8 @@ Sources:
 - https://fidoalliance.org/fido-alliance-credential-exchange-specifications-overview/</itunes:summary>
       <itunes:duration>00:04:12</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-16-why-passkeys-are-replacing-passwords.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-16-why-passkeys-are-replacing-passwords.mp3" length="4025408" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-16-why-passkeys-are-replacing-passwords</guid>
@@ -409,6 +499,8 @@ Sources:
 - https://developers.cloudflare.com/workers/</itunes:summary>
       <itunes:duration>00:03:48</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-15-why-browsers-are-becoming-real-compute-runtimes.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-15-why-browsers-are-becoming-real-compute-runtimes.mp3" length="3649245" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-15-why-browsers-are-becoming-real-compute-runtimes</guid>
@@ -470,6 +562,8 @@ Sources:
 - https://json-schema.org/understanding-json-schema/reference/object</itunes:summary>
       <itunes:duration>00:02:41</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-14-json-schema-structured-outputs.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-14-json-schema-structured-outputs.mp3" length="2584285" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-14-json-schema-structured-outputs</guid>
@@ -531,6 +625,8 @@ Sources:
 - https://milvus.io/docs/index-vector-fields.md</itunes:summary>
       <itunes:duration>00:03:14</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-13-vector-database-index-design.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-13-vector-database-index-design.mp3" length="3107570" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-13-vector-database-index-design</guid>
@@ -592,6 +688,8 @@ Sources:
 - https://developers.cloudflare.com/workers/reference/security-model/</itunes:summary>
       <itunes:duration>00:03:40</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-12-webassembly-sandboxing-for-ai-tools.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-12-webassembly-sandboxing-for-ai-tools.mp3" length="3519678" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-12-webassembly-sandboxing-for-ai-tools</guid>
@@ -657,6 +755,8 @@ Sources:
 - https://docs.aws.amazon.com/step-functions/latest/dg/concepts-error-handling.html</itunes:summary>
       <itunes:duration>00:03:28</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-11-workflow-state-machines.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-11-workflow-state-machines.mp3" length="3329088" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-11-workflow-state-machines</guid>
@@ -716,6 +816,8 @@ Sources:
 - https://docs.opensearch.org/latest/search-plugins/search-pipelines/search-processors/</itunes:summary>
       <itunes:duration>00:02:53</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-10-semantic-reranking.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-10-semantic-reranking.mp3" length="2773621" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-10-semantic-reranking</guid>
@@ -779,6 +881,8 @@ Sources:
 - https://docs.cohere.com/docs/reranking-quickstart</itunes:summary>
       <itunes:duration>00:03:48</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-09-hybrid-rag-pipelines.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-09-hybrid-rag-pipelines.mp3" length="3653007" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-09-hybrid-rag-pipelines</guid>
@@ -840,6 +944,8 @@ Sources:
 - https://arxiv.org/abs/2605.22333</itunes:summary>
       <itunes:duration>00:04:06</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-08-how-ai-tools-tell-agents-where-login-lives.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-08-how-ai-tools-tell-agents-where-login-lives.mp3" length="3942235" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-08-how-ai-tools-tell-agents-where-login-lives</guid>
@@ -901,6 +1007,8 @@ Sources:
 - https://arxiv.org/abs/2605.22333</itunes:summary>
       <itunes:duration>00:04:37</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-07-how-background-ai-agents-get-permission.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-07-how-background-ai-agents-get-permission.mp3" length="4436262" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-07-how-background-ai-agents-get-permission</guid>
@@ -960,6 +1068,8 @@ Sources:
 - https://www.rfc-editor.org/rfc/rfc9728</itunes:summary>
       <itunes:duration>00:05:36</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-06-mcp-authorization-for-ai-agent-tools.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-06-mcp-authorization-for-ai-agent-tools.mp3" length="5382104" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-06-mcp-authorization-for-ai-agent-tools</guid>
@@ -1019,6 +1129,8 @@ Sources:
 - https://opentelemetry.io/blog/2025/ai-agent-observability/</itunes:summary>
       <itunes:duration>00:06:14</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-06-opentelemetry-for-ai-agent-traces.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-06-opentelemetry-for-ai-agent-traces.mp3" length="5981039" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-06-opentelemetry-for-ai-agent-traces</guid>
@@ -1060,6 +1172,8 @@ Sources:
 - https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-runtime-protection-overview</itunes:summary>
       <itunes:duration>00:05:07</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-06-prompt-injection-defense-for-ai-agents.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-06-prompt-injection-defense-for-ai-agents.mp3" length="4907302" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-06-prompt-injection-defense-for-ai-agents</guid>
@@ -1089,6 +1203,8 @@ Top signals:
 Focus: protocols, runtimes, architecture, developer tools, AI infrastructure, retrieval, databases, observability, local AI, security, and tool systems.</itunes:summary>
       <itunes:duration>00:08:10</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-05-nlweb-and-ai-readable-websites.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-05-nlweb-and-ai-readable-websites.mp3" length="5885119" type="audio/mpeg" />
       <guid isPermaLink="false">satish-iq-2026-06-05-nlweb-and-ai-readable-websites</guid>

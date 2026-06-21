@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-20",
-  "title": "Today's object: FIFA smart ball and VAR decision systems",
+  "generatedAt": "2026-06-21",
+  "title": "Today's object: the real cost of one AI question",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-06-20",
-    "status": "success",
-    "scheduledFor": "2026-06-20T05:30:00-04:00",
-    "startedAt": "2026-06-20T12:32:17.972Z",
-    "finishedAt": "2026-06-20T13:13:33.022Z",
-    "currentStage": "completed",
-    "topic": "FIFA smart ball and VAR systems",
-    "podcastTopic": "How FIFA's Smart Ball and VAR Actually Work",
+    "date": "2026-06-21",
+    "status": "running",
+    "scheduledFor": "2026-06-21T05:30:00-04:00",
+    "startedAt": "2026-06-21T11:45:16.863Z",
+    "finishedAt": null,
+    "currentStage": "manual-prebuilt-release",
+    "topic": "The Real Cost Of Asking AI One Question",
+    "podcastTopic": "The Real Cost Of Asking AI One Question",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "success",
-      "spotifyPrep": "success",
-      "spotifyDraft": "success"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "How FIFA's Smart Ball and VAR Actually Work"
+      "latestPodcastEpisode": "The Real Cost Of Asking AI One Question"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "How FIFA's Smart Ball and VAR Actually Work",
-      "publishedAt": "2026-06-20T12:00:00Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-20-how-fifa-s-smart-ball-and-var-actually-work.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-20-how-fifa-s-smart-ball-and-var-actually-work.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-20-how-fifa-s-smart-ball-and-var-actually-work"
+      "title": "The Real Cost Of Asking AI One Question",
+      "publishedAt": "2026-06-21T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-21-the-real-cost-of-asking-ai-one-question.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-21-the-real-cost-of-asking-ai-one-question.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-21-the-real-cost-of-asking-ai-one-question"
     }
   }
 }
