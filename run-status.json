@@ -4,14 +4,14 @@
   "status": "success",
   "scheduledFor": "2026-06-21T05:30:00-04:00",
   "startedAt": "2026-06-21T11:45:16.863Z",
-  "finishedAt": "2026-06-21T11:46:11.647Z",
+  "finishedAt": "2026-06-21T11:49:51.181Z",
   "currentStage": "completed",
   "topic": "The Real Cost Of Asking AI One Question",
   "podcastTopic": "The Real Cost Of Asking AI One Question",
   "commit": null,
   "results": {
     "publicFeedPublish": "success",
-    "privatePush": "skipped",
+    "privatePush": "success",
     "spotifyPrep": "skipped",
     "spotifyDraft": "skipped"
   },
