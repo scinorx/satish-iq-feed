@@ -1,32 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
   <defs>
-    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFE77A"/>
-      <stop offset="58%" stop-color="#F7C600"/>
-      <stop offset="100%" stop-color="#EFB000"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070721"/>
+      <stop offset="48%" stop-color="#25155A"/>
+      <stop offset="100%" stop-color="#061D3B"/>
     </linearGradient>
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#6D4E00" flood-opacity="0.15"/>
+    <radialGradient id="leftGlow" cx="26%" cy="34%" r="58%">
+      <stop offset="0%" stop-color="#7AA7FF" stop-opacity="0.34"/>
+      <stop offset="58%" stop-color="#38F2FF" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#070721" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rightGlow" cx="76%" cy="40%" r="48%">
+      <stop offset="0%" stop-color="#38F2FF" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#38F2FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7AA7FF"/>
+      <stop offset="55%" stop-color="#38F2FF"/>
+      <stop offset="100%" stop-color="#D9FF6A"/>
+    </linearGradient>
+    <filter id="deepShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="24" stdDeviation="20" flood-color="#000000" flood-opacity="0.40"/>
     </filter>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="dotGrid" width="96" height="96" patternUnits="userSpaceOnUse">
+      <circle cx="7" cy="7" r="3" fill="#BFEFFF" opacity="0.12"/>
+    </pattern>
     <style>
-      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #003F6B; }
-      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 266px; font-weight: 900; letter-spacing: 3px; fill: #003F6B; }
-      .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #003F6B; }
-      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #003F6B; }
+      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 8px; fill: #E8FBFF; }
+      .eyebrow { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 52px; font-weight: 900; letter-spacing: 7px; fill: #38F2FF; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 222px; font-weight: 950; letter-spacing: -1px; fill: #F6FCFF; }
+      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 48px; font-weight: 900; letter-spacing: 4px; fill: #BDEEFF; }
+      .label { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 42px; font-weight: 900; letter-spacing: 4px; fill: #E8FBFF; }
+      .micro { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 34px; font-weight: 800; letter-spacing: 3px; fill: #B8D9E8; }
     </style>
   </defs>
-  <rect width="3000" height="3000" fill="url(#paper)"/>
-  <circle cx="2450" cy="560" r="530" fill="#FFF6CF" opacity="0.25"/>
-  <circle cx="360" cy="2500" r="560" fill="#FFF6CF" opacity="0.12"/>
-  <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#003F6B" stroke-width="12" opacity="0.36"/>
-  <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
-  <g filter="url(#shadow)">
-    <text x="245" y="1262" class="title">WHY SPACE IS</text>
-    <text x="245" y="1571" class="title">BECOMING</text>
-    <text x="245" y="1880" class="title">INFRASTRUCTURE</text>
+
+  <rect width="3000" height="3000" fill="url(#bg)"/>
+  <rect width="3000" height="3000" fill="url(#dotGrid)" opacity="0.48"/>
+  <circle cx="820" cy="980" r="1050" fill="url(#leftGlow)"/>
+  <circle cx="2350" cy="1060" r="860" fill="url(#rightGlow)"/>
+  <path d="M180 460 C650 350 980 520 1320 700 C1705 904 2030 760 2570 515" fill="none" stroke="#7AA7FF" stroke-width="7" opacity="0.22"/>
+  <path d="M260 2430 C780 2180 1240 2310 1700 2440 C2080 2548 2360 2505 2750 2310" fill="none" stroke="#38F2FF" stroke-width="7" opacity="0.18"/>
+
+  <rect x="120" y="120" width="2760" height="2760" rx="110" fill="none" stroke="#AEEFFF" stroke-width="10" opacity="0.34"/>
+  <rect x="165" y="165" width="2670" height="2670" rx="86" fill="none" stroke="#7AA7FF" stroke-width="3" opacity="0.24"/>
+
+  <text x="245" y="345" class="brand">IN SIMPLE TERMS WITH SATISH</text>
+  <text x="245" y="540" class="eyebrow">DAILY TECH BRIEF</text>
+
+  <g filter="url(#deepShadow)">
+    <text x="245" y="990" class="title">WHY SPACE IS</text>
+    <text x="245" y="1252" class="title">BECOMING</text>
+    <text x="245" y="1514" class="title">INFRASTRUCTURE</text>
   </g>
-  <path d="M260 2135 H1080" stroke="#0077C8" stroke-width="24" stroke-linecap="round"/>
-  <text x="260" y="2270" class="date">2026-06-18</text>
-  <text x="260" y="2575" class="small">OBSERVABILITY</text>
+
+  <g filter="url(#softGlow)" opacity="0.96">
+    <g>
+      <path d="M2215 770 C2450 955 2535 1235 2390 1510 L2195 1880 L2075 1455 C1995 1240 2035 960 2215 770 Z" fill="#081E34" stroke="#38F2FF" stroke-width="18"/>
+      <path d="M2075 1455 L1870 1585 M2390 1510 L2605 1640 M2180 1880 L2115 2070 M2260 1880 L2365 2070" fill="none" stroke="#7AA7FF" stroke-width="16" stroke-linecap="round"/>
+      <circle cx="2265" cy="1125" r="84" fill="#7AA7FF" opacity="0.34"/>
+      <path d="M1770 2120 C2060 1960 2470 1960 2780 2120" fill="none" stroke="#D9FF6A" stroke-width="14" opacity="0.78"/>
+      <circle cx="2710" cy="880" r="90" fill="none" stroke="#D9FF6A" stroke-width="12"/>
+      <path d="M2635 880 H2785 M2710 805 V955" fill="none" stroke="#D9FF6A" stroke-width="8" opacity="0.75"/>
+      <path d="M1840 1130 C2050 910 2310 810 2670 820" fill="none" stroke="#7AA7FF" stroke-width="9" opacity="0.45"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="245" y="1960" width="1205" height="104" rx="52" fill="#102A44" stroke="#7AA7FF" stroke-width="5" opacity="0.92"/>
+    <text x="310" y="2028" class="label">LAUNCH + SATELLITES + NETWORKS</text>
+    <path d="M260 2145 H1075" stroke="url(#rule)" stroke-width="22" stroke-linecap="round"/>
+    <text x="260" y="2290" class="small">2026-06-18</text>
+    <text x="260" y="2580" class="small">SPACE SYSTEMS</text>
+  </g>
 </svg>

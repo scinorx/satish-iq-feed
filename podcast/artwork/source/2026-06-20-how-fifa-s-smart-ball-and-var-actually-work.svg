@@ -1,33 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
   <defs>
-    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFE77A"/>
-      <stop offset="58%" stop-color="#F7C600"/>
-      <stop offset="100%" stop-color="#EFB000"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#03261E"/>
+      <stop offset="48%" stop-color="#075B47"/>
+      <stop offset="100%" stop-color="#003A4D"/>
     </linearGradient>
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#6D4E00" flood-opacity="0.15"/>
+    <radialGradient id="leftGlow" cx="26%" cy="34%" r="58%">
+      <stop offset="0%" stop-color="#38F2FF" stop-opacity="0.34"/>
+      <stop offset="58%" stop-color="#B6FF4D" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#03261E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rightGlow" cx="76%" cy="40%" r="48%">
+      <stop offset="0%" stop-color="#B6FF4D" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#B6FF4D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38F2FF"/>
+      <stop offset="55%" stop-color="#B6FF4D"/>
+      <stop offset="100%" stop-color="#FFD166"/>
+    </linearGradient>
+    <filter id="deepShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="24" stdDeviation="20" flood-color="#000000" flood-opacity="0.40"/>
     </filter>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="dotGrid" width="96" height="96" patternUnits="userSpaceOnUse">
+      <circle cx="7" cy="7" r="3" fill="#BFEFFF" opacity="0.12"/>
+    </pattern>
     <style>
-      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #003F6B; }
-      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 197px; font-weight: 900; letter-spacing: 2px; fill: #003F6B; }
-      .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #003F6B; }
-      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #003F6B; }
+      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 8px; fill: #E8FBFF; }
+      .eyebrow { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 52px; font-weight: 900; letter-spacing: 7px; fill: #B6FF4D; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 218px; font-weight: 950; letter-spacing: -1px; fill: #F6FCFF; }
+      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 48px; font-weight: 900; letter-spacing: 4px; fill: #BDEEFF; }
+      .label { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 42px; font-weight: 900; letter-spacing: 4px; fill: #E8FBFF; }
+      .micro { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 34px; font-weight: 800; letter-spacing: 3px; fill: #B8D9E8; }
     </style>
   </defs>
-  <rect width="3000" height="3000" fill="url(#paper)"/>
-  <circle cx="2450" cy="560" r="530" fill="#FFF6CF" opacity="0.25"/>
-  <circle cx="360" cy="2500" r="560" fill="#FFF6CF" opacity="0.12"/>
-  <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#003F6B" stroke-width="12" opacity="0.36"/>
-  <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
-  <g filter="url(#shadow)">
-    <text x="245" y="1193" class="title">HOW FIFA&apos;S</text>
-    <text x="245" y="1422" class="title">SMART BALL +</text>
-    <text x="245" y="1651" class="title">VAR ACTUALLY</text>
-    <text x="245" y="1880" class="title">WORK</text>
+
+  <rect width="3000" height="3000" fill="url(#bg)"/>
+  <rect width="3000" height="3000" fill="url(#dotGrid)" opacity="0.48"/>
+  <circle cx="820" cy="980" r="1050" fill="url(#leftGlow)"/>
+  <circle cx="2350" cy="1060" r="860" fill="url(#rightGlow)"/>
+  <path d="M180 460 C650 350 980 520 1320 700 C1705 904 2030 760 2570 515" fill="none" stroke="#38F2FF" stroke-width="7" opacity="0.22"/>
+  <path d="M260 2430 C780 2180 1240 2310 1700 2440 C2080 2548 2360 2505 2750 2310" fill="none" stroke="#B6FF4D" stroke-width="7" opacity="0.18"/>
+
+  <rect x="120" y="120" width="2760" height="2760" rx="110" fill="none" stroke="#AEEFFF" stroke-width="10" opacity="0.34"/>
+  <rect x="165" y="165" width="2670" height="2670" rx="86" fill="none" stroke="#38F2FF" stroke-width="3" opacity="0.24"/>
+
+  <text x="245" y="345" class="brand">IN SIMPLE TERMS WITH SATISH</text>
+  <text x="245" y="540" class="eyebrow">DAILY TECH BRIEF</text>
+
+  <g filter="url(#deepShadow)">
+    <text x="245" y="905" class="title">HOW FIFA&apos;S</text>
+    <text x="245" y="1162" class="title">SMART BALL +</text>
+    <text x="245" y="1419" class="title">VAR ACTUALLY</text>
+    <text x="245" y="1676" class="title">WORK</text>
   </g>
-  <path d="M260 2135 H1080" stroke="#0077C8" stroke-width="24" stroke-linecap="round"/>
-  <text x="260" y="2270" class="date">2026-06-20</text>
-  <text x="260" y="2575" class="small">OBSERVABILITY</text>
+
+  <g filter="url(#softGlow)" opacity="0.96">
+    <g>
+      <rect x="1980" y="765" width="570" height="380" rx="72" fill="#081E34" stroke="#38F2FF" stroke-width="12"/>
+      <path d="M2060 950 H2470 M2265 795 V1120 M2060 840 H2470 M2060 1060 H2470" fill="none" stroke="#B6FF4D" stroke-width="8" opacity="0.60"/>
+      <circle cx="2265" cy="950" r="120" fill="none" stroke="#F6FCFF" stroke-width="10" opacity="0.70"/>
+      <circle cx="2265" cy="950" r="34" fill="#FFD166" opacity="0.90"/>
+      <rect x="2105" y="1305" width="495" height="300" rx="56" fill="#081E34" stroke="#BDEEFF" stroke-width="10"/>
+      <text x="2198" y="1488" class="title" style="font-size:138px;fill:#B6FF4D;letter-spacing:4px;">VAR</text>
+      <path d="M1925 1790 H2695 M1925 1925 H2695 M2085 1700 V2035 M2540 1700 V2035" fill="none" stroke="#38F2FF" stroke-width="10" opacity="0.36"/>
+      <path d="M2550 1135 C2660 1225 2660 1320 2600 1390" fill="none" stroke="#FFD166" stroke-width="12" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="245" y="1960" width="1069" height="104" rx="52" fill="#102A44" stroke="#38F2FF" stroke-width="5" opacity="0.92"/>
+    <text x="310" y="2028" class="label">BALL SENSORS + VAR + TRUST</text>
+    <path d="M260 2145 H1075" stroke="url(#rule)" stroke-width="22" stroke-linecap="round"/>
+    <text x="260" y="2290" class="small">2026-06-20</text>
+    <text x="260" y="2580" class="small">SPORTS TECH</text>
+  </g>
 </svg>

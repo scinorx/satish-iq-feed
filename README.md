@@ -7,7 +7,7 @@ Files:
 - `feed.json`: manifest with latest generated date and download URLs.
 - `run-status.json`: latest automation-visible run marker and outcome summary.
 - `satishos-current.json`: latest Satish IQ snapshot.
-- `daily-briefing.mp3`: latest commute audio.
+- `daily-briefing.mp3`: latest app/feed audio, synced from the newest ElevenLabs podcast episode.
 
 Repo-side run instrumentation:
 
@@ -19,11 +19,10 @@ Repo-side run instrumentation:
 Publish command:
 
 ```bash
-node scripts/generate-daily-audio.mjs --prepare-only
-say -v Rishi -r 166 -o audio/daily-briefing.aiff -f audio/daily-briefing-script.md
-node scripts/generate-daily-audio.mjs --master-existing-aiff
-node scripts/export-ios-snapshot.mjs
 zsh -lc 'source ~/.zshrc; node scripts/publish-in-simple-terms-podcast.mjs'
+cp "$(node -e 'const e=require("./podcast/episodes.json")[0]; process.stdout.write(e.audioPath)')" audio/daily-briefing.mp3
+cp audio/daily-briefing.mp3 ios/SatishOSOfflineReader/SatishOSOfflineReader/Resources/daily-briefing.mp3
+node scripts/export-ios-snapshot.mjs
 node scripts/publish-feed.mjs
 node scripts/publish-public-feed.mjs
 ```
@@ -44,6 +43,8 @@ Podcast packaging:
 `node scripts/publish-in-simple-terms-podcast.mjs`
 
 This reads `05-Outputs/Daily/IN_SIMPLE_TERMS_5MIN.md`, creates immutable ElevenLabs episode audio, In Simple Terms branded episode artwork, a manual fallback upload folder, and the automated RSS feed under `podcast/`.
+
+Scheduled runs use that ElevenLabs episode MP3 as the single audio source. The orchestrator copies the newest `podcast/episodes.json[0].audioPath` into `audio/daily-briefing.mp3` and the iOS `Resources/daily-briefing.mp3` slot before publishing the app feed.
 
 The iOS app defaults to the public feed-only repository:
 
