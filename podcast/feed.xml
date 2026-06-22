@@ -22,7 +22,76 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sun, 21 Jun 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>The Hidden Tech Behind Smart Glasses</title>
+      <description>Smart glasses are not just normal glasses with a camera attached. They are tiny wearable computers that try to understand the world from your point of view. They may include cameras, microphones, open-ear speakers, touch controls, motion sensors, low-power chips, a phone connection, cloud AI, and sometimes a small display.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Smart-glasses systems usually split work across glasses, phone, and cloud services.
+- Dedicated AR chips matter because glasses have strict power, heat, and size constraints.
+- Audio-first glasses avoid many optical-display problems but cannot show rich overlays.
+- Display glasses add brightness, optics, battery, thermal, weight, and social-design challenges.
+- The key system design question is local versus remote processing: latency-sensitive, private, or always-on work should stay as close to the device as practical, while larger AI tasks may need a phone or cloud service.
+- Privacy design must account for bystanders, not only the wearer.
+
+
+Sources:
+- https://about.fb.com/news/2023/09/new-ray-ban-meta-smart-glasses/
+- https://www.qualcomm.com/news/releases/2023/09/qualcomm-launches-its-next-generation-xr-and-ar-platforms--enabl
+- https://blog.google/products-and-platforms/platforms/android/android-xr/
+- https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-ai-update-december-2024/
+- https://www.spectacles.com/</description>
+      <itunes:subtitle>Smart devices in simple terms</itunes:subtitle>
+      <itunes:summary>Smart glasses are not just normal glasses with a camera attached. They are tiny wearable computers that try to understand the world from your point of view. They may include cameras, microphones, open-ear speakers, touch controls, motion sensors, low-power chips, a phone connection, cloud AI, and sometimes a small display.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Smart-glasses systems usually split work across glasses, phone, and cloud services.
+- Dedicated AR chips matter because glasses have strict power, heat, and size constraints.
+- Audio-first glasses avoid many optical-display problems but cannot show rich overlays.
+- Display glasses add brightness, optics, battery, thermal, weight, and social-design challenges.
+- The key system design question is local versus remote processing: latency-sensitive, private, or always-on work should stay as close to the device as practical, while larger AI tasks may need a phone or cloud service.
+- Privacy design must account for bystanders, not only the wearer.
+
+
+Sources:
+- https://about.fb.com/news/2023/09/new-ray-ban-meta-smart-glasses/
+- https://www.qualcomm.com/news/releases/2023/09/qualcomm-launches-its-next-generation-xr-and-ar-platforms--enabl
+- https://blog.google/products-and-platforms/platforms/android/android-xr/
+- https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-ai-update-december-2024/
+- https://www.spectacles.com/</itunes:summary>
+      <itunes:duration>00:04:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>18</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-22-the-hidden-tech-behind-smart-glasses.txt" type="text/plain" language="en" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-22-the-hidden-tech-behind-smart-glasses.srt" type="application/x-subrip" language="en" rel="captions" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-22-the-hidden-tech-behind-smart-glasses.vtt" type="text/vtt" language="en" rel="captions" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-22-the-hidden-tech-behind-smart-glasses.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-22-the-hidden-tech-behind-smart-glasses.mp3" length="3947250" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-22-the-hidden-tech-behind-smart-glasses</guid>
+      <pubDate>Mon, 22 Jun 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>The Real Cost Of Asking AI One Question</title>
@@ -159,7 +228,7 @@ Sources:
       <itunes:duration>00:04:22</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-20-how-fifa-s-smart-ball-and-var-actually-work.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-20-how-fifa-s-smart-ball-and-var-actually-work.mp3" length="4185487" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-20-how-fifa-s-smart-ball-and-var-actually-work</guid>
@@ -234,7 +303,7 @@ Sources:
       <itunes:duration>00:04:34</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-19-the-hidden-software-stack-behind-modern-robots.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-19-the-hidden-software-stack-behind-modern-robots.mp3" length="4379838" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-19-the-hidden-software-stack-behind-modern-robots</guid>
@@ -301,7 +370,7 @@ Sources:
       <itunes:duration>00:04:57</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-18-why-space-is-becoming-infrastructure.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-18-why-space-is-becoming-infrastructure.mp3" length="4745970" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-18-why-space-is-becoming-infrastructure</guid>
@@ -370,7 +439,7 @@ Sources:
       <itunes:duration>00:03:45</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-17-why-local-first-architecture-is-back.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-17-why-local-first-architecture-is-back.mp3" length="3601598" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-17-why-local-first-architecture-is-back</guid>
@@ -437,7 +506,7 @@ Sources:
       <itunes:duration>00:04:12</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-16-why-passkeys-are-replacing-passwords.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-16-why-passkeys-are-replacing-passwords.mp3" length="4025408" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-16-why-passkeys-are-replacing-passwords</guid>
@@ -500,7 +569,7 @@ Sources:
       <itunes:duration>00:03:48</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-15-why-browsers-are-becoming-real-compute-runtimes.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-15-why-browsers-are-becoming-real-compute-runtimes.mp3" length="3649245" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-15-why-browsers-are-becoming-real-compute-runtimes</guid>
@@ -563,7 +632,7 @@ Sources:
       <itunes:duration>00:02:41</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-14-json-schema-structured-outputs.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-14-json-schema-structured-outputs.mp3" length="2584285" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-14-json-schema-structured-outputs</guid>
@@ -626,7 +695,7 @@ Sources:
       <itunes:duration>00:03:14</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-13-vector-database-index-design.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-13-vector-database-index-design.mp3" length="3107570" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-13-vector-database-index-design</guid>
@@ -689,7 +758,7 @@ Sources:
       <itunes:duration>00:03:40</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-12-webassembly-sandboxing-for-ai-tools.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-12-webassembly-sandboxing-for-ai-tools.mp3" length="3519678" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-12-webassembly-sandboxing-for-ai-tools</guid>
@@ -756,7 +825,7 @@ Sources:
       <itunes:duration>00:03:28</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-11-workflow-state-machines.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-11-workflow-state-machines.mp3" length="3329088" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-11-workflow-state-machines</guid>
@@ -817,7 +886,7 @@ Sources:
       <itunes:duration>00:02:53</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-10-semantic-reranking.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-10-semantic-reranking.mp3" length="2773621" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-10-semantic-reranking</guid>
@@ -882,7 +951,7 @@ Sources:
       <itunes:duration>00:03:48</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-09-hybrid-rag-pipelines.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-09-hybrid-rag-pipelines.mp3" length="3653007" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-09-hybrid-rag-pipelines</guid>
@@ -945,7 +1014,7 @@ Sources:
       <itunes:duration>00:04:06</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-08-how-ai-tools-tell-agents-where-login-lives.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-08-how-ai-tools-tell-agents-where-login-lives.mp3" length="3942235" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-08-how-ai-tools-tell-agents-where-login-lives</guid>
@@ -1008,7 +1077,7 @@ Sources:
       <itunes:duration>00:04:37</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-07-how-background-ai-agents-get-permission.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-07-how-background-ai-agents-get-permission.mp3" length="4436262" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-07-how-background-ai-agents-get-permission</guid>
@@ -1069,7 +1138,7 @@ Sources:
       <itunes:duration>00:05:36</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-06-mcp-authorization-for-ai-agent-tools.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-06-mcp-authorization-for-ai-agent-tools.mp3" length="5382104" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-06-mcp-authorization-for-ai-agent-tools</guid>
@@ -1130,7 +1199,7 @@ Sources:
       <itunes:duration>00:06:14</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-06-opentelemetry-for-ai-agent-traces.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-06-opentelemetry-for-ai-agent-traces.mp3" length="5981039" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-06-opentelemetry-for-ai-agent-traces</guid>
@@ -1173,7 +1242,7 @@ Sources:
       <itunes:duration>00:05:07</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-06-prompt-injection-defense-for-ai-agents.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-06-prompt-injection-defense-for-ai-agents.mp3" length="4907302" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-06-06-prompt-injection-defense-for-ai-agents</guid>
@@ -1204,7 +1273,7 @@ Focus: protocols, runtimes, architecture, developer tools, AI infrastructure, re
       <itunes:duration>00:08:10</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-
+      
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-05-nlweb-and-ai-readable-websites.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-05-nlweb-and-ai-readable-websites.mp3" length="5885119" type="audio/mpeg" />
       <guid isPermaLink="false">satish-iq-2026-06-05-nlweb-and-ai-readable-websites</guid>

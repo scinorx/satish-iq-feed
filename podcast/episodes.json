@@ -1,5 +1,114 @@
 [
   {
+    "guid": "in-simple-terms-2026-06-22-the-hidden-tech-behind-smart-glasses",
+    "title": "The Hidden Tech Behind Smart Glasses",
+    "subtitle": "Smart devices in simple terms",
+    "description": "Smart glasses are not just normal glasses with a camera attached. They are tiny wearable computers that try to understand the world from your point of view. They may include cameras, microphones, open-ear speakers, touch controls, motion sensors, low-power chips, a phone connection, cloud AI, and sometimes a small display.\n\nIn this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.\n\nIn Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.\n\nProduction note: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\n\nEngineer notes:\nExact technical references:\n\n- Smart-glasses systems usually split work across glasses, phone, and cloud services.\n- Dedicated AR chips matter because glasses have strict power, heat, and size constraints.\n- Audio-first glasses avoid many optical-display problems but cannot show rich overlays.\n- Display glasses add brightness, optics, battery, thermal, weight, and social-design challenges.\n- The key system design question is local versus remote processing: latency-sensitive, private, or always-on work should stay as close to the device as practical, while larger AI tasks may need a phone or cloud service.\n- Privacy design must account for bystanders, not only the wearer.\n\n\nSources:\n- https://about.fb.com/news/2023/09/new-ray-ban-meta-smart-glasses/\n- https://www.qualcomm.com/news/releases/2023/09/qualcomm-launches-its-next-generation-xr-and-ar-platforms--enabl\n- https://blog.google/products-and-platforms/platforms/android/android-xr/\n- https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-ai-update-december-2024/\n- https://www.spectacles.com/",
+    "publishedAt": "2026-06-22T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-06-22",
+    "seasonNumber": 5,
+    "episodeNumber": 18,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-06-22T05:30:00-04:00",
+    "durationSeconds": 247,
+    "audioPath": "podcast/audio/2026-06-22-the-hidden-tech-behind-smart-glasses.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-22-the-hidden-tech-behind-smart-glasses.mp3",
+    "lengthBytes": 3947250,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday we are talking about the hidden technology behind smart glasses.\n\nLet us start with the technology first.\n\nSmart glasses are not just normal glasses with a camera attached. They are tiny wearable computers that try to understand the world from your point of view. They may include cameras, microphones, open-ear speakers, touch controls, motion sensors, low-power chips, a phone connection, cloud AI, and sometimes a small display.\n\nHere is a simple everyday example.\n\nImagine you are walking through a train station in another country. You look at a sign, ask your glasses what it says, and hear a translation in your ear. A minute later, a message arrives, and the glasses summarize it without making you pull out your phone. Then they quietly tell you which platform to walk toward.\n\nThat feels like magic. Underneath, it is a distributed system.\n\nFirst, the glasses have to sense the world. The camera captures what you are looking at. Microphones listen for your voice and filter background noise. Motion sensors help the device understand head movement. A button, touchpad, voice command, gesture, or phone app gives you control.\n\nSecond, the glasses need local compute. Some work must happen quickly on the device: wake-word detection, audio cleanup, camera processing, video encoding, display timing, and battery management. If every tiny task waits for the cloud, the experience feels slow and fragile.\n\nThird, the system decides what should happen on the glasses, what should happen on your phone, and what should go to the cloud. The glasses are small, so they cannot run everything. The phone may handle accounts, settings, network access, and media sync. The cloud may handle larger AI models, search, maps, translation, or visual reasoning.\n\nThat split is the real architecture.\n\nWhen people say smart glasses have AI, it does not mean one model is magically living inside the frame and doing everything. Usually, it means the glasses capture context, a local chip handles fast work, the phone coordinates the request, and a larger service may help with the answer.\n\nThen comes output.\n\nSome glasses are audio-first. They answer through small open-ear speakers, so you can still hear the real world. Other glasses add a display, so directions, captions, messages, or overlays can appear in your line of sight. Displays are powerful, but they add hard problems: brightness, optics, heat, battery drain, weight, and social awkwardness.\n\nThat is why smart glasses are harder than they look.\n\nA phone can be a rectangle with a big battery. A headset can be bulky. Glasses must be light, balanced, safe near your skin, comfortable on your nose, and normal enough to wear around other people.\n\nThe catch is privacy.\n\nA phone camera is visible because you hold it up. Smart glasses point outward all the time. Even if the wearer is using them responsibly, people nearby may wonder whether they are being recorded. So capture lights, sounds, permissions, local processing, data controls, and clear stop states are not side features. They are part of the interface.\n\nFor engineers, the lesson is useful.\n\nSmart glasses are edge computing with a social contract. Edge computing means the device does some work close to the user instead of sending everything away. Social contract means the product has to respect the people around the user, not only the user wearing it.\n\nThe best smart-glasses experiences will probably be short and contextual: translate this, summarize that, remember this, tell me the next turn, answer based on what I am looking at. The weak experiences will try to shrink a full phone app into a tiny face display.\n\nThe clear takeaway is this:\n\nSmart glasses are not just eyewear with electronics. They are an attempt to put a context-aware computer on your face.\n\nIn simple terms, the hidden tech is the balance: sensors to understand the world, local chips for fast tasks, phones and cloud systems for heavier AI, careful output design, and privacy rules that make the device acceptable in public.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday we are talking about the hidden technology behind smart glasses.\n\nLet us start with the technology first.\n\nSmart glasses are not just normal glasses with a camera attached. They are tiny wearable computers that try to understand the world from your point of view. They may include cameras, microphones, open-ear speakers, touch controls, motion sensors, low-power chips, a phone connection, cloud AI, and sometimes a small display.\n\nHere is a simple everyday example.\n\nImagine you are walking through a train station in another country. You look at a sign, ask your glasses what it says, and hear a translation in your ear. A minute later, a message arrives, and the glasses summarize it without making you pull out your phone. Then they quietly tell you which platform to walk toward.\n\nThat feels like magic. Underneath, it is a distributed system.\n\nFirst, the glasses have to sense the world. The camera captures what you are looking at. Microphones listen for your voice and filter background noise. Motion sensors help the device understand head movement. A button, touchpad, voice command, gesture, or phone app gives you control.\n\nSecond, the glasses need local compute. Some work must happen quickly on the device: wake-word detection, audio cleanup, camera processing, video encoding, display timing, and battery management. If every tiny task waits for the cloud, the experience feels slow and fragile.\n\nThird, the system decides what should happen on the glasses, what should happen on your phone, and what should go to the cloud. The glasses are small, so they cannot run everything. The phone may handle accounts, settings, network access, and media sync. The cloud may handle larger AI models, search, maps, translation, or visual reasoning.\n\nThat split is the real architecture.\n\nWhen people say smart glasses have AI, it does not mean one model is magically living inside the frame and doing everything. Usually, it means the glasses capture context, a local chip handles fast work, the phone coordinates the request, and a larger service may help with the answer.\n\nThen comes output.\n\nSome glasses are audio-first. They answer through small open-ear speakers, so you can still hear the real world. Other glasses add a display, so directions, captions, messages, or overlays can appear in your line of sight. Displays are powerful, but they add hard problems: brightness, optics, heat, battery drain, weight, and social awkwardness.\n\nThat is why smart glasses are harder than they look.\n\nA phone can be a rectangle with a big battery. A headset can be bulky. Glasses must be light, balanced, safe near your skin, comfortable on your nose, and normal enough to wear around other people.\n\nThe catch is privacy.\n\nA phone camera is visible because you hold it up. Smart glasses point outward all the time. Even if the wearer is using them responsibly, people nearby may wonder whether they are being recorded. So capture lights, sounds, permissions, local processing, data controls, and clear stop states are not side features. They are part of the interface.\n\nFor engineers, the lesson is useful.\n\nSmart glasses are edge computing with a social contract. Edge computing means the device does some work close to the user instead of sending everything away. Social contract means the product has to respect the people around the user, not only the user wearing it.\n\nThe best smart-glasses experiences will probably be short and contextual: translate this, summarize that, remember this, tell me the next turn, answer based on what I am looking at. The weak experiences will try to shrink a full phone app into a tiny face display.\n\nThe clear takeaway is this:\n\nSmart glasses are not just eyewear with electronics. They are an attempt to put a context-aware computer on your face.\n\nIn simple terms, the hidden tech is the balance: sensors to understand the world, local chips for fast tasks, phones and cloud systems for heavier AI, careful output design, and privacy rules that make the device acceptable in public.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-06-22-the-hidden-tech-behind-smart-glasses.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-22-the-hidden-tech-behind-smart-glasses.txt",
+        "type": "text/plain",
+        "language": "en"
+      },
+      {
+        "path": "podcast/transcripts/2026-06-22-the-hidden-tech-behind-smart-glasses.srt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-22-the-hidden-tech-behind-smart-glasses.srt",
+        "type": "application/x-subrip",
+        "language": "en",
+        "rel": "captions"
+      },
+      {
+        "path": "podcast/transcripts/2026-06-22-the-hidden-tech-behind-smart-glasses.vtt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-22-the-hidden-tech-behind-smart-glasses.vtt",
+        "type": "text/vtt",
+        "language": "en",
+        "rel": "captions"
+      }
+    ],
+    "satishTake": "The clear takeaway is this: Smart glasses are not just eyewear with electronics. They are an attempt to put a context-aware computer on your face.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What is the core idea behind The Hidden Tech Behind Smart Glasses?",
+          "options": [
+            "Smart glasses are not just normal glasses with a camera attached.",
+            "It is mainly a visual design update.",
+            "It is only a product marketing phrase."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Smart glasses are not just normal glasses with a camera attached."
+        },
+        {
+          "prompt": "Why does The Hidden Tech Behind Smart Glasses matter?",
+          "options": [
+            "You look at a sign, ask your glasses what it says, and hear a translation in your ear.",
+            "Because every new tool should be adopted immediately.",
+            "Because the term is popular even without a practical problem."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "You look at a sign, ask your glasses what it says, and hear a translation in your ear."
+        },
+        {
+          "prompt": "Which plain-English example helped explain the topic?",
+          "options": [
+            "Imagine you are walking through a train station in another country. You look at a sign, ask your glasses what it says, and hear a translation in your ear.",
+            "A random social media feed choosing posts.",
+            "A color palette changing an app theme."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Imagine you are walking through a train station in another country. You look at a sign, ask your glasses what it says, and hear a translation in your ear."
+        },
+        {
+          "prompt": "Which term is most connected to this lesson?",
+          "options": [
+            "The",
+            "Leaderboard",
+            "App icon"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Key terms for this lesson include The, Hidden, Tech, Smart, Glasses, devices."
+        },
+        {
+          "prompt": "What is the practical takeaway?",
+          "options": [
+            "The clear takeaway is this: Smart glasses are not just eyewear with electronics. They are an attempt to put a context-aware computer on your face.",
+            "Learn the label first and worry about the system later.",
+            "Assume the newest model or tool always fixes the problem."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The clear takeaway is this: Smart glasses are not just eyewear with electronics. They are an attempt to put a context-aware computer on your face."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-06-22-the-hidden-tech-behind-smart-glasses.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-06-22-the-hidden-tech-behind-smart-glasses.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-06-22-the-hidden-tech-behind-smart-glasses.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-22-the-hidden-tech-behind-smart-glasses.jpg",
+    "topicProfile": {
+      "id": "smart-glasses",
+      "label": "Smart devices",
+      "accent": "#00A889"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-06-22-the-hidden-tech-behind-smart-glasses"
+  },
+  {
     "guid": "in-simple-terms-2026-06-21-the-real-cost-of-asking-ai-one-question",
     "title": "The Real Cost Of Asking AI One Question",
     "subtitle": "AI infrastructure in simple terms",

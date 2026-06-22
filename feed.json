@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-21",
-  "title": "Today's object: the real cost of one AI question",
+  "generatedAt": "2026-06-22",
+  "title": "Today's object: smart glasses as face-worn AI computers",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-06-21",
-    "status": "success",
-    "scheduledFor": "2026-06-21T05:30:00-04:00",
-    "startedAt": "2026-06-21T11:45:16.863Z",
-    "finishedAt": "2026-06-21T11:49:51.181Z",
-    "currentStage": "completed",
-    "topic": "The Real Cost Of Asking AI One Question",
-    "podcastTopic": "The Real Cost Of Asking AI One Question",
+    "date": "2026-06-22",
+    "status": "running",
+    "scheduledFor": "2026-06-22T05:30:00-04:00",
+    "startedAt": "2026-06-22T10:21:34.626Z",
+    "finishedAt": null,
+    "currentStage": "publish",
+    "topic": "The Hidden Tech Behind Smart Glasses",
+    "podcastTopic": "The Hidden Tech Behind Smart Glasses",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "success",
-      "spotifyPrep": "skipped",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "The Real Cost Of Asking AI One Question"
+      "latestPodcastEpisode": "The Hidden Tech Behind Smart Glasses"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "The Real Cost Of Asking AI One Question",
-      "publishedAt": "2026-06-21T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-21-the-real-cost-of-asking-ai-one-question.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-21-the-real-cost-of-asking-ai-one-question.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-21-the-real-cost-of-asking-ai-one-question"
+      "title": "The Hidden Tech Behind Smart Glasses",
+      "publishedAt": "2026-06-22T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-22-the-hidden-tech-behind-smart-glasses.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-22-the-hidden-tech-behind-smart-glasses.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-22-the-hidden-tech-behind-smart-glasses"
     }
   }
 }
