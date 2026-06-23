@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-06-22",
-  "status": "success",
-  "scheduledFor": "2026-06-22T05:30:00-04:00",
-  "startedAt": "2026-06-22T10:21:34.626Z",
-  "finishedAt": "2026-06-22T10:22:43.364Z",
-  "currentStage": "completed",
-  "topic": "The Hidden Tech Behind Smart Glasses",
-  "podcastTopic": "The Hidden Tech Behind Smart Glasses",
+  "date": "2026-06-23",
+  "status": "running",
+  "scheduledFor": "2026-06-23T05:30:00-04:00",
+  "startedAt": "2026-06-23T09:25:06.387Z",
+  "finishedAt": null,
+  "currentStage": "publish",
+  "topic": null,
+  "podcastTopic": "Vibe Coding: Why Everyone Is Talking To Their Code Editor",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "success",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "The Hidden Tech Behind Smart Glasses"
+    "latestPodcastEpisode": "Vibe Coding: Why Everyone Is Talking To Their Code Editor"
   }
 }

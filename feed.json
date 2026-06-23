@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-22",
-  "title": "Today's object: smart glasses as face-worn AI computers",
+  "generatedAt": "2026-06-23",
+  "title": "Today's object: vibe coding and conversational AI coding agents",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-06-22",
-    "status": "success",
-    "scheduledFor": "2026-06-22T05:30:00-04:00",
-    "startedAt": "2026-06-22T10:21:34.626Z",
-    "finishedAt": "2026-06-22T10:22:43.364Z",
-    "currentStage": "completed",
-    "topic": "The Hidden Tech Behind Smart Glasses",
-    "podcastTopic": "The Hidden Tech Behind Smart Glasses",
+    "date": "2026-06-23",
+    "status": "running",
+    "scheduledFor": "2026-06-23T05:30:00-04:00",
+    "startedAt": "2026-06-23T09:25:06.387Z",
+    "finishedAt": null,
+    "currentStage": "publish",
+    "topic": null,
+    "podcastTopic": "Vibe Coding: Why Everyone Is Talking To Their Code Editor",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "success",
-      "spotifyPrep": "skipped",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "The Hidden Tech Behind Smart Glasses"
+      "latestPodcastEpisode": "Vibe Coding: Why Everyone Is Talking To Their Code Editor"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "The Hidden Tech Behind Smart Glasses",
-      "publishedAt": "2026-06-22T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-22-the-hidden-tech-behind-smart-glasses.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-22-the-hidden-tech-behind-smart-glasses.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-22-the-hidden-tech-behind-smart-glasses"
+      "title": "Vibe Coding: Why Everyone Is Talking To Their Code Editor",
+      "publishedAt": "2026-06-23T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-23-vibe-coding-why-everyone-is-talking-to-their-code-editor.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-23-vibe-coding-why-everyone-is-talking-to-their-code-editor.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-23-vibe-coding-why-everyone-is-talking-to-their-code-editor"
     }
   }
 }

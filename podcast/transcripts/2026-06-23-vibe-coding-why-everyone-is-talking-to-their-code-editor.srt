@@ -1,0 +1,315 @@
+1
+00:00:00,000 --> 00:00:03,160
+Hello and welcome to In Simple Terms with Satish.
+
+2
+00:00:03,160 --> 00:00:05,400
+Today we are talking about Vibe Coding.
+
+3
+00:00:05,400 --> 00:00:10,920
+The idea that you can build software by talking to an AI coding tool instead of typing every
+
+4
+00:00:10,920 --> 00:00:12,200
+line yourself.
+
+5
+00:00:12,200 --> 00:00:14,240
+Let us start with the technology first.
+
+6
+00:00:14,240 --> 00:00:16,720
+Vibe Coding is a new developer loop.
+
+7
+00:00:16,720 --> 00:00:19,260
+You describe what you want in normal language.
+
+8
+00:00:19,260 --> 00:00:22,340
+The coding assistant reads some project context.
+
+9
+00:00:22,340 --> 00:00:24,480
+It suggests or edits code.
+
+10
+00:00:24,480 --> 00:00:26,660
+It may run tests or commands.
+
+11
+00:00:26,660 --> 00:00:29,680
+Then you inspect the result and ask for changes.
+
+12
+00:00:29,680 --> 00:00:34,760
+So the code editor starts feeling less like a blank page and more like a conversation.
+
+13
+00:00:34,760 --> 00:00:38,000
+Let us understand this with a simple everyday example.
+
+14
+00:00:38,000 --> 00:00:39,960
+Imagine you are setting up a room for studying.
+
+15
+00:00:39,960 --> 00:00:45,720
+In the old way, you move every chair, plug in every cable, choose every lamp and organize
+
+16
+00:00:45,720 --> 00:00:47,320
+every book yourself.
+
+17
+00:00:47,320 --> 00:00:49,840
+Now imagine you have a very fast assistant.
+
+18
+00:00:49,840 --> 00:00:52,440
+You say, make this room better for studying.
+
+19
+00:00:52,440 --> 00:00:57,800
+The assistant moves the desk, adds a lamp, clears the table and organizes the books.
+
+20
+00:00:57,800 --> 00:01:00,960
+That sounds powerful, but you still have to check the result.
+
+21
+00:01:00,960 --> 00:01:03,160
+Maybe the assistant blocked the power outlet.
+
+22
+00:01:03,160 --> 00:01:04,920
+Maybe the lamp creates glare.
+
+23
+00:01:04,920 --> 00:01:08,200
+Maybe an important notebook was thrown into the wrong shelf.
+
+24
+00:01:08,200 --> 00:01:12,000
+The assistant saved effort, but you still own the judgment.
+
+25
+00:01:12,000 --> 00:01:13,640
+Vibe Coding works the same way.
+
+26
+00:01:13,640 --> 00:01:18,480
+The AI can create the first draft of code quickly, but the engineer still has to check
+
+27
+00:01:18,480 --> 00:01:22,780
+whether the code is correct, secure, understandable and maintainable.
+
+28
+00:01:22,780 --> 00:01:25,560
+Now return to the actual technical concept.
+
+29
+00:01:25,560 --> 00:01:28,860
+Human AI coding tools are moving beyond autocomplete.
+
+30
+00:01:28,860 --> 00:01:34,360
+They can read files, understand error logs, edit multiple parts of a project, run tests
+
+31
+00:01:34,360 --> 00:01:36,640
+and return a diff for review.
+
+32
+00:01:36,640 --> 00:01:41,880
+Some tools can even work in the background, on a branch or in a sandbox while the developer
+
+33
+00:01:41,880 --> 00:01:43,660
+reviews the result later.
+
+34
+00:01:43,660 --> 00:01:46,200
+Under the hood, the loop has several layers.
+
+35
+00:01:46,200 --> 00:01:47,560
+First, Intent.
+
+36
+00:01:47,560 --> 00:01:49,360
+The human explains the goal.
+
+37
+00:01:49,360 --> 00:01:50,680
+Second, Context.
+
+38
+00:01:50,680 --> 00:01:56,200
+The tool needs relevant files, tests, framework rules, logs and constraints.
+
+39
+00:01:56,200 --> 00:01:57,640
+Third, Generation.
+
+40
+00:01:57,640 --> 00:02:00,520
+The model predicts a possible code change.
+
+41
+00:02:00,520 --> 00:02:02,020
+Fourth, Execution.
+
+42
+00:02:02,020 --> 00:02:05,520
+The tool may run tests, type checks or build commands.
+
+43
+00:02:05,520 --> 00:02:06,760
+Fifth, Review.
+
+44
+00:02:06,760 --> 00:02:10,000
+The human reads the diff and decides what survives.
+
+45
+00:02:10,000 --> 00:02:11,960
+That last step is the catch.
+
+46
+00:02:11,960 --> 00:02:16,160
+Code generation is becoming cheaper, but verification is not free.
+
+47
+00:02:16,160 --> 00:02:21,240
+AI generated code can look confident and still call the wrong function, miss an edge
+
+48
+00:02:21,240 --> 00:02:25,280
+case, weaken security or make the system harder to maintain.
+
+49
+00:02:25,280 --> 00:02:28,640
+This is why wipe coding does not mean engineers disappear.
+
+50
+00:02:28,640 --> 00:02:31,600
+It means the engineer's job moves up a level.
+
+51
+00:02:31,600 --> 00:02:34,180
+Instead of only asking, can I write this function?
+
+52
+00:02:34,180 --> 00:02:37,660
+The better questions are, did the tool understand the requirement?
+
+53
+00:02:37,660 --> 00:02:39,280
+Did it touch the right files?
+
+54
+00:02:39,280 --> 00:02:41,400
+Did the tests prove the behavior?
+
+55
+00:02:41,400 --> 00:02:43,840
+Can another developer maintain this later?
+
+56
+00:02:43,840 --> 00:02:45,400
+For students, this is important.
+
+57
+00:02:45,640 --> 00:02:49,440
+AI can help you build faster, but do not skip the basics.
+
+58
+00:02:49,440 --> 00:02:50,880
+Learn how the code works.
+
+59
+00:02:50,880 --> 00:02:52,640
+Read the error messages.
+
+60
+00:02:52,640 --> 00:02:53,780
+Understand the data flow.
+
+61
+00:02:53,780 --> 00:02:55,280
+Write small tests.
+
+62
+00:02:55,280 --> 00:02:56,280
+Review the diff.
+
+63
+00:02:56,280 --> 00:02:59,280
+For professional engineers, the lesson is even sharper.
+
+64
+00:02:59,280 --> 00:03:04,160
+Treat AI output like a very fast junior developer's pull request.
+
+65
+00:03:04,160 --> 00:03:07,640
+Useful, sometimes impressive, but still needing review.
+
+66
+00:03:07,640 --> 00:03:09,840
+The real skill is not just prompting.
+
+67
+00:03:09,840 --> 00:03:14,480
+It is giving clear constraints, supplying the right context, checking the result and
+
+68
+00:03:14,480 --> 00:03:18,520
+knowing when to stop asking the AI and read the code yourself.
+
+69
+00:03:18,520 --> 00:03:22,440
+That is why the best prompts are not only creative, they are specific.
+
+70
+00:03:22,440 --> 00:03:26,800
+They say what should change, what should not change and how the result will be checked.
+
+71
+00:03:26,800 --> 00:03:28,720
+The clear takeaway is this.
+
+72
+00:03:28,720 --> 00:03:34,560
+Wipe coding makes programming feel more conversational, but software still has to survive reality.
+
+73
+00:03:34,560 --> 00:03:40,580
+It must run, pass tests, handle edge cases, protect users and make sense to the next person
+
+74
+00:03:40,580 --> 00:03:41,580
+who reads it.
+
+75
+00:03:41,580 --> 00:03:45,580
+In simple terms, AI can help write the first draft of code.
+
+76
+00:03:45,580 --> 00:03:49,420
+Engineering is what proves the draft deserves to live in the codebase.
+
+77
+00:03:49,420 --> 00:03:53,980
+If this helped you understand the topic in simple terms, follow or subscribe to In Simple
+
+78
+00:03:53,980 --> 00:03:55,180
+Terms with Satish.
+
+79
+00:03:55,180 --> 00:03:56,900
+I will see you in the next episode.
