@@ -8,19 +8,19 @@
   "runStatus": {
     "version": 1,
     "date": "2026-06-24",
-    "status": "running",
+    "status": "partial",
     "scheduledFor": "2026-06-24T05:30:00-04:00",
     "startedAt": "2026-06-24T09:25:06.304Z",
-    "finishedAt": null,
-    "currentStage": "publish",
+    "finishedAt": "2026-06-24T09:31:18.695Z",
+    "currentStage": "completed",
     "topic": null,
     "podcastTopic": "Robotaxis Are Learning That Cities Are Hard",
-    "commit": null,
+    "commit": "79c53cb18e45afcab262d53383c1081a2d3ced13",
     "results": {
-      "publicFeedPublish": null,
-      "privatePush": null,
-      "spotifyPrep": null,
-      "spotifyDraft": null
+      "publicFeedPublish": "success",
+      "privatePush": "success",
+      "spotifyPrep": "success",
+      "spotifyDraft": "skipped"
     },
     "outputs": {
       "snapshot": true,
