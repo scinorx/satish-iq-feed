@@ -1,5 +1,114 @@
 [
   {
+    "guid": "in-simple-terms-2026-06-24-robotaxis-are-learning-that-cities-are-hard",
+    "title": "Robotaxis Are Learning That Cities Are Hard",
+    "subtitle": "Mobility systems in simple terms",
+    "description": "A robotaxi is a car running an automated driving system inside a defined service area. The passenger is not expected to steer, brake, or watch the road, but the vehicle is still solving a live robotics problem every second.\n\nIn this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.\n\nIn Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.\n\nProduction note: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\n\nEngineer notes:\n- Technical object: robotaxis and city-scale autonomous driving.\n- Topic family: Futuristic But Credible Systems.\n- Architecture pattern: The practical pattern is operational design domain thinking: define where the system can operate, what it must detect, how it falls back, how incidents are reviewed, and when the domain is expanded.\n- Main limitation: The hard part is the long tail: rain, glare, emergency vehicles, temporary signs, blocked lanes, roadwork, school zones, unusual intersections, and human drivers who do not behave like textbook examples. A robotaxi is not promising to drive everywhere under every condition. It is promising to work inside an operational design domain, and expanding that domain city by city is the real engineering challenge.\n- Research checked on 2026-06-20 for a future scheduled prebuild. Do not treat this as same-day 2026-06-24 news.\n\n\nSources:\n- https://waymo.com/waymo-driver/\n- https://waymo.com/safety/\n- https://waymo.com/safety/impact/\n- https://www.nhtsa.gov/vehicle-safety/automated-vehicles-safety\n- https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting",
+    "publishedAt": "2026-06-24T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-06-24",
+    "seasonNumber": 5,
+    "episodeNumber": 20,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-06-24T05:30:00-04:00",
+    "durationSeconds": 261,
+    "audioPath": "podcast/audio/2026-06-24-robotaxis-are-learning-that-cities-are-hard.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-24-robotaxis-are-learning-that-cities-are-hard.mp3",
+    "lengthBytes": 4178799,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday we are talking about Robotaxis Are Learning That Cities Are Hard.\n\nLet us start with the technology first.\n\nA robotaxi is a car running an automated driving system inside a defined service area. The passenger is not expected to steer, brake, or watch the road, but the vehicle is still solving a live robotics problem every second.\n\nAt first, it can sound like one clever feature. But the real story is a system of sensors, models, rules, feedback loops, and tradeoffs that has to work in the real world, not only in a demo.\n\nLet us understand this with a simple everyday example.\n\nImagine walking through a crowded market while carrying a tray of tea. In an empty hallway, walking straight is easy. In the market, people stop suddenly, a child runs across, one stall blocks the path, and a delivery rider comes from the wrong direction. You do not follow one fixed rule. You look around, predict what people may do, slow down, wait, and sometimes choose a completely different path. City driving is that same problem, only faster, heavier, and less forgiving.\n\nNow return to the actual technical concept.\n\nUnder the hood, the stack has several parts. First, sensing, where cameras, radar, lidar, GPS, inertial sensors, and vehicle data observe the road. Second, localization and mapping, where the vehicle understands lanes, curbs, signals, pickup zones, and its precise position. Third, perception, where raw sensor data becomes objects such as pedestrians, cyclists, buses, cones, signs, and road edges. Fourth, prediction, where the system estimates what each nearby object may do next. Fifth, planning and control, where the car chooses a safe path, speed, lane position, and steering action. Sixth, fleet operations, where charging, cleaning, maintenance, incident review, remote support, and software updates keep the service alive.\n\nThat list matters because modern technology is rarely one model or one app screen. It is usually a chain. Data has to be captured, interpreted, checked, acted on, and corrected when reality disagrees.\n\nFor engineers, the useful idea is this: The practical pattern is operational design domain thinking: define where the system can operate, what it must detect, how it falls back, how incidents are reviewed, and when the domain is expanded.\n\nThe hard part is the long tail: rain, glare, emergency vehicles, temporary signs, blocked lanes, roadwork, school zones, unusual intersections, and human drivers who do not behave like textbook examples. A robotaxi is not promising to drive everywhere under every condition. It is promising to work inside an operational design domain, and expanding that domain city by city is the real engineering challenge.\n\nThis is why the topic matters for students and builders. The visible product may look simple, but the engineering work is in the hidden boundary conditions. What happens when the input is noisy? What happens when the user behaves unexpectedly? What happens when the system is confident but wrong? What gets logged, reviewed, updated, and rolled back?\n\nA good way to learn the topic is to sketch the pipeline. Draw the input signals on the left, the decision or prediction layer in the middle, the user-facing action on the right, and the failure modes underneath. That one diagram will teach more than memorizing the buzzword.\n\nThe clear takeaway is this:\n\nRobotaxis are not just cars with AI. They are city-scale robotics systems where sensors, maps, prediction, planning, safety governance, and operations all have to work together.\n\nIn simple terms, the magic is not the label. The magic is the system design underneath, and the discipline to know where the system works, where it fails, and how humans stay in the loop.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish. I will see you in the next episode.\n\nA useful way to test your understanding is to ask what the system knows directly and what it only guesses. The gap between measurement and inference is where many failures hide.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday we are talking about Robotaxis Are Learning That Cities Are Hard.\n\nLet us start with the technology first.\n\nA robotaxi is a car running an automated driving system inside a defined service area. The passenger is not expected to steer, brake, or watch the road, but the vehicle is still solving a live robotics problem every second.\n\nAt first, it can sound like one clever feature. But the real story is a system of sensors, models, rules, feedback loops, and tradeoffs that has to work in the real world, not only in a demo.\n\nLet us understand this with a simple everyday example.\n\nImagine walking through a crowded market while carrying a tray of tea. In an empty hallway, walking straight is easy. In the market, people stop suddenly, a child runs across, one stall blocks the path, and a delivery rider comes from the wrong direction. You do not follow one fixed rule. You look around, predict what people may do, slow down, wait, and sometimes choose a completely different path. City driving is that same problem, only faster, heavier, and less forgiving.\n\nNow return to the actual technical concept.\n\nUnder the hood, the stack has several parts. First, sensing, where cameras, radar, lidar, GPS, inertial sensors, and vehicle data observe the road. Second, localization and mapping, where the vehicle understands lanes, curbs, signals, pickup zones, and its precise position. Third, perception, where raw sensor data becomes objects such as pedestrians, cyclists, buses, cones, signs, and road edges. Fourth, prediction, where the system estimates what each nearby object may do next. Fifth, planning and control, where the car chooses a safe path, speed, lane position, and steering action. Sixth, fleet operations, where charging, cleaning, maintenance, incident review, remote support, and software updates keep the service alive.\n\nThat list matters because modern technology is rarely one model or one app screen. It is usually a chain. Data has to be captured, interpreted, checked, acted on, and corrected when reality disagrees.\n\nFor engineers, the useful idea is this: The practical pattern is operational design domain thinking: define where the system can operate, what it must detect, how it falls back, how incidents are reviewed, and when the domain is expanded.\n\nThe hard part is the long tail: rain, glare, emergency vehicles, temporary signs, blocked lanes, roadwork, school zones, unusual intersections, and human drivers who do not behave like textbook examples. A robotaxi is not promising to drive everywhere under every condition. It is promising to work inside an operational design domain, and expanding that domain city by city is the real engineering challenge.\n\nThis is why the topic matters for students and builders. The visible product may look simple, but the engineering work is in the hidden boundary conditions. What happens when the input is noisy? What happens when the user behaves unexpectedly? What happens when the system is confident but wrong? What gets logged, reviewed, updated, and rolled back?\n\nA good way to learn the topic is to sketch the pipeline. Draw the input signals on the left, the decision or prediction layer in the middle, the user-facing action on the right, and the failure modes underneath. That one diagram will teach more than memorizing the buzzword.\n\nThe clear takeaway is this:\n\nRobotaxis are not just cars with AI. They are city-scale robotics systems where sensors, maps, prediction, planning, safety governance, and operations all have to work together.\n\nIn simple terms, the magic is not the label. The magic is the system design underneath, and the discipline to know where the system works, where it fails, and how humans stay in the loop.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish. I will see you in the next episode.\n\nA useful way to test your understanding is to ask what the system knows directly and what it only guesses. The gap between measurement and inference is where many failures hide.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-06-24-robotaxis-are-learning-that-cities-are-hard.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-24-robotaxis-are-learning-that-cities-are-hard.txt",
+        "type": "text/plain",
+        "language": "en"
+      },
+      {
+        "path": "podcast/transcripts/2026-06-24-robotaxis-are-learning-that-cities-are-hard.srt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-24-robotaxis-are-learning-that-cities-are-hard.srt",
+        "type": "application/x-subrip",
+        "language": "en",
+        "rel": "captions"
+      },
+      {
+        "path": "podcast/transcripts/2026-06-24-robotaxis-are-learning-that-cities-are-hard.vtt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-24-robotaxis-are-learning-that-cities-are-hard.vtt",
+        "type": "text/vtt",
+        "language": "en",
+        "rel": "captions"
+      }
+    ],
+    "satishTake": "The clear takeaway is this: Robotaxis are not just cars with AI. They are city-scale robotics systems where sensors, maps, prediction, planning, safety governance, and operations all have to work together. In simple terms, the magic is not the label.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What is the core idea behind Robotaxis Are Learning That Cities Are Hard?",
+          "options": [
+            "The hard part is the long tail: rain, glare, emergency vehicles, temporary signs, blocked lanes, roadwork, school zones, unusual intersections, and human drivers who do not...",
+            "It is mainly a visual design update.",
+            "It is only a product marketing phrase."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The hard part is the long tail: rain, glare, emergency vehicles, temporary signs, blocked lanes, roadwork, school zones, unusual intersections, and human drivers who do not..."
+        },
+        {
+          "prompt": "Why does Robotaxis Are Learning That Cities Are Hard matter?",
+          "options": [
+            "The passenger is not expected to steer, brake, or watch the road, but the vehicle is still solving a live robotics problem every second.",
+            "Because every new tool should be adopted immediately.",
+            "Because the term is popular even without a practical problem."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The passenger is not expected to steer, brake, or watch the road, but the vehicle is still solving a live robotics problem every second."
+        },
+        {
+          "prompt": "Which plain-English example helped explain the topic?",
+          "options": [
+            "Imagine walking through a crowded market while carrying a tray of tea. In an empty hallway, walking straight is easy.",
+            "A random social media feed choosing posts.",
+            "A color palette changing an app theme."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Imagine walking through a crowded market while carrying a tray of tea. In an empty hallway, walking straight is easy."
+        },
+        {
+          "prompt": "Which term is most connected to this lesson?",
+          "options": [
+            "Robotaxis",
+            "Leaderboard",
+            "App icon"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Key terms for this lesson include Robotaxis, Are, Learning, Cities, Hard, Mobility."
+        },
+        {
+          "prompt": "What is the practical takeaway?",
+          "options": [
+            "The clear takeaway is this: Robotaxis are not just cars with AI. They are city-scale robotics systems where sensors, maps, prediction, planning, safety governance, and...",
+            "Learn the label first and worry about the system later.",
+            "Assume the newest model or tool always fixes the problem."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The clear takeaway is this: Robotaxis are not just cars with AI. They are city-scale robotics systems where sensors, maps, prediction, planning, safety governance, and..."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-06-24-robotaxis-are-learning-that-cities-are-hard.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-06-24-robotaxis-are-learning-that-cities-are-hard.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-06-24-robotaxis-are-learning-that-cities-are-hard.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-24-robotaxis-are-learning-that-cities-are-hard.jpg",
+    "topicProfile": {
+      "id": "mobility",
+      "label": "Mobility systems",
+      "accent": "#FF7A1A"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-06-24-robotaxis-are-learning-that-cities-are-hard"
+  },
+  {
     "guid": "in-simple-terms-2026-06-23-vibe-coding-why-everyone-is-talking-to-their-code-editor",
     "title": "Vibe Coding: Why Everyone Is Talking To Their Code Editor",
     "subtitle": "AI infrastructure in simple terms",
