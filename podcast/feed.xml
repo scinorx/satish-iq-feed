@@ -22,7 +22,70 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Wed, 24 Jun 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>The Fake World Where Real AI Learns</title>
+      <description>A fake training world is a simulated environment where AI systems can practice situations that are rare, dangerous, expensive, private, or simply too slow to collect in the real world.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+- Technical object: simulation and synthetic training environments.
+- Topic family: AI Architecture.
+- Architecture pattern: The practical pattern is not simulation instead of reality. It is simulation plus real-world validation: use fake worlds to create coverage, then use real telemetry to find where the fake world was wrong.
+- Main limitation: The catch is the reality gap. A simulator can be beautiful and still miss friction, lighting, hardware noise, human weirdness, or unexpected physics. If the fake world is too clean, the AI becomes good at the game, not the real task.
+- Research checked on 2026-06-20 for a future scheduled prebuild. Do not treat this as same-day 2026-06-25 news.
+
+
+Sources:
+- https://developer.nvidia.com/isaac/sim
+- https://waymo.com/research/simulation-city/
+- https://microsoft.github.io/AirSim/
+- https://deepmind.google/discover/blog/sima-generalist-ai-agent-for-3d-virtual-environments/
+- https://arxiv.org/abs/2606.03551</description>
+      <itunes:subtitle>Simulation systems in simple terms</itunes:subtitle>
+      <itunes:summary>A fake training world is a simulated environment where AI systems can practice situations that are rare, dangerous, expensive, private, or simply too slow to collect in the real world.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+- Technical object: simulation and synthetic training environments.
+- Topic family: AI Architecture.
+- Architecture pattern: The practical pattern is not simulation instead of reality. It is simulation plus real-world validation: use fake worlds to create coverage, then use real telemetry to find where the fake world was wrong.
+- Main limitation: The catch is the reality gap. A simulator can be beautiful and still miss friction, lighting, hardware noise, human weirdness, or unexpected physics. If the fake world is too clean, the AI becomes good at the game, not the real task.
+- Research checked on 2026-06-20 for a future scheduled prebuild. Do not treat this as same-day 2026-06-25 news.
+
+
+Sources:
+- https://developer.nvidia.com/isaac/sim
+- https://waymo.com/research/simulation-city/
+- https://microsoft.github.io/AirSim/
+- https://deepmind.google/discover/blog/sima-generalist-ai-agent-for-3d-virtual-environments/
+- https://arxiv.org/abs/2606.03551</itunes:summary>
+      <itunes:duration>00:04:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>21</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-25-the-fake-world-where-real-ai-learns.txt" type="text/plain" language="en" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-25-the-fake-world-where-real-ai-learns.srt" type="application/x-subrip" language="en" rel="captions" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-25-the-fake-world-where-real-ai-learns.vtt" type="text/vtt" language="en" rel="captions" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-25-the-fake-world-where-real-ai-learns.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-25-the-fake-world-where-real-ai-learns.mp3" length="3879541" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-25-the-fake-world-where-real-ai-learns</guid>
+      <pubDate>Thu, 25 Jun 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>Robotaxis Are Learning That Cities Are Hard</title>

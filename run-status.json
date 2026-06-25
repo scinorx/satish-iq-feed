@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-06-24",
-  "status": "partial",
-  "scheduledFor": "2026-06-24T05:30:00-04:00",
-  "startedAt": "2026-06-24T09:25:06.304Z",
-  "finishedAt": "2026-06-24T09:31:18.695Z",
-  "currentStage": "completed",
+  "date": "2026-06-25",
+  "status": "running",
+  "scheduledFor": "2026-06-25T05:30:00-04:00",
+  "startedAt": "2026-06-25T09:25:06.528Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "Robotaxis Are Learning That Cities Are Hard",
-  "commit": "79c53cb18e45afcab262d53383c1081a2d3ced13",
+  "podcastTopic": "The Fake World Where Real AI Learns",
+  "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "success",
-    "spotifyPrep": "success",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "Robotaxis Are Learning That Cities Are Hard"
+    "latestPodcastEpisode": "The Fake World Where Real AI Learns"
   }
 }
