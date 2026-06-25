@@ -1,19 +1,19 @@
 {
   "version": 1,
   "date": "2026-06-25",
-  "status": "running",
+  "status": "partial",
   "scheduledFor": "2026-06-25T05:30:00-04:00",
   "startedAt": "2026-06-25T09:25:06.528Z",
-  "finishedAt": null,
-  "currentStage": "publish",
+  "finishedAt": "2026-06-25T09:31:23.284Z",
+  "currentStage": "completed",
   "topic": null,
   "podcastTopic": "The Fake World Where Real AI Learns",
-  "commit": null,
+  "commit": "ba870bff5b46519158d93572b1b17ade782a9dc5",
   "results": {
-    "publicFeedPublish": null,
-    "privatePush": null,
-    "spotifyPrep": null,
-    "spotifyDraft": null
+    "publicFeedPublish": "success",
+    "privatePush": "success",
+    "spotifyPrep": "success",
+    "spotifyDraft": "skipped"
   },
   "outputs": {
     "snapshot": true,
