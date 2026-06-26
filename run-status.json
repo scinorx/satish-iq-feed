@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-06-25",
-  "status": "partial",
-  "scheduledFor": "2026-06-25T05:30:00-04:00",
-  "startedAt": "2026-06-25T09:25:06.528Z",
-  "finishedAt": "2026-06-25T09:31:23.284Z",
-  "currentStage": "completed",
+  "date": "2026-06-26",
+  "status": "running",
+  "scheduledFor": "2026-06-26T05:30:00-04:00",
+  "startedAt": "2026-06-26T09:25:05.623Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "The Fake World Where Real AI Learns",
-  "commit": "ba870bff5b46519158d93572b1b17ade782a9dc5",
+  "podcastTopic": "How Online Games Keep Everyone In Sync",
+  "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "success",
-    "spotifyPrep": "success",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "The Fake World Where Real AI Learns"
+    "latestPodcastEpisode": "How Online Games Keep Everyone In Sync"
   }
 }

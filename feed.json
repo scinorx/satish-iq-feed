@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-25",
-  "title": "Today's object: simulation and synthetic training environments",
+  "generatedAt": "2026-06-26",
+  "title": "Today's object: multiplayer game networking and netcode",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-06-25",
-    "status": "partial",
-    "scheduledFor": "2026-06-25T05:30:00-04:00",
-    "startedAt": "2026-06-25T09:25:06.528Z",
-    "finishedAt": "2026-06-25T09:31:23.284Z",
-    "currentStage": "completed",
+    "date": "2026-06-26",
+    "status": "running",
+    "scheduledFor": "2026-06-26T05:30:00-04:00",
+    "startedAt": "2026-06-26T09:25:05.623Z",
+    "finishedAt": null,
+    "currentStage": "publish",
     "topic": null,
-    "podcastTopic": "The Fake World Where Real AI Learns",
-    "commit": "ba870bff5b46519158d93572b1b17ade782a9dc5",
+    "podcastTopic": "How Online Games Keep Everyone In Sync",
+    "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "success",
-      "spotifyPrep": "success",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "The Fake World Where Real AI Learns"
+      "latestPodcastEpisode": "How Online Games Keep Everyone In Sync"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "The Fake World Where Real AI Learns",
-      "publishedAt": "2026-06-25T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-25-the-fake-world-where-real-ai-learns.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-25-the-fake-world-where-real-ai-learns.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-25-the-fake-world-where-real-ai-learns"
+      "title": "How Online Games Keep Everyone In Sync",
+      "publishedAt": "2026-06-26T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-26-how-online-games-keep-everyone-in-sync.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-26-how-online-games-keep-everyone-in-sync.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-26-how-online-games-keep-everyone-in-sync"
     }
   }
 }

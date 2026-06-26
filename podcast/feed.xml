@@ -22,7 +22,70 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Thu, 25 Jun 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How Online Games Keep Everyone In Sync</title>
+      <description>Online games keep many players feeling like they are in the same world, even though every controller input, shot, jump, and movement update is traveling across imperfect networks.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+- Technical object: multiplayer game networking and netcode.
+- Topic family: Data And System Design.
+- Architecture pattern: The practical pattern is authoritative state with local illusion: make the player feel instant, but let the server remain the referee.
+- Main limitation: The catch is that every trick has a tradeoff. More prediction feels fast but can create corrections. More server authority improves fairness but can feel delayed. Higher tick rates give more precision but cost more bandwidth and compute.
+- Research checked on 2026-06-20 for a future scheduled prebuild. Do not treat this as same-day 2026-06-26 news.
+
+
+Sources:
+- https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking
+- https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@latest
+- https://dev.epicgames.com/documentation/en-us/unreal-engine/networking-and-multiplayer-in-unreal-engine
+- https://www.gabrielgambetta.com/client-server-game-architecture.html
+- https://www.gabrielgambetta.com/client-side-prediction-server-reconciliation.html</description>
+      <itunes:subtitle>Real-time systems in simple terms</itunes:subtitle>
+      <itunes:summary>Online games keep many players feeling like they are in the same world, even though every controller input, shot, jump, and movement update is traveling across imperfect networks.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+- Technical object: multiplayer game networking and netcode.
+- Topic family: Data And System Design.
+- Architecture pattern: The practical pattern is authoritative state with local illusion: make the player feel instant, but let the server remain the referee.
+- Main limitation: The catch is that every trick has a tradeoff. More prediction feels fast but can create corrections. More server authority improves fairness but can feel delayed. Higher tick rates give more precision but cost more bandwidth and compute.
+- Research checked on 2026-06-20 for a future scheduled prebuild. Do not treat this as same-day 2026-06-26 news.
+
+
+Sources:
+- https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking
+- https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@latest
+- https://dev.epicgames.com/documentation/en-us/unreal-engine/networking-and-multiplayer-in-unreal-engine
+- https://www.gabrielgambetta.com/client-server-game-architecture.html
+- https://www.gabrielgambetta.com/client-side-prediction-server-reconciliation.html</itunes:summary>
+      <itunes:duration>00:04:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>22</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-26-how-online-games-keep-everyone-in-sync.txt" type="text/plain" language="en" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-26-how-online-games-keep-everyone-in-sync.srt" type="application/x-subrip" language="en" rel="captions" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-26-how-online-games-keep-everyone-in-sync.vtt" type="text/vtt" language="en" rel="captions" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-26-how-online-games-keep-everyone-in-sync.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-26-how-online-games-keep-everyone-in-sync.mp3" length="3875779" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-26-how-online-games-keep-everyone-in-sync</guid>
+      <pubDate>Fri, 26 Jun 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>The Fake World Where Real AI Learns</title>
