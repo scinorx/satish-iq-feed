@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-06-26",
-  "status": "partial",
-  "scheduledFor": "2026-06-26T05:30:00-04:00",
-  "startedAt": "2026-06-26T09:25:05.623Z",
-  "finishedAt": "2026-06-26T09:32:21.727Z",
-  "currentStage": "completed",
+  "date": "2026-06-27",
+  "status": "running",
+  "scheduledFor": "2026-06-27T05:30:00-04:00",
+  "startedAt": "2026-06-27T09:25:06.165Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "How Online Games Keep Everyone In Sync",
-  "commit": "eb9ab971e5b025e0df097bfb4adecceb15aa5dde",
+  "podcastTopic": "The Software Behind Ola, Uber, Lyft, And Rapido Matching",
+  "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "success",
-    "spotifyPrep": "success",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How Online Games Keep Everyone In Sync"
+    "latestPodcastEpisode": "The Software Behind Ola, Uber, Lyft, And Rapido Matching"
   }
 }
