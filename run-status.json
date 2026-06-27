@@ -1,19 +1,19 @@
 {
   "version": 1,
   "date": "2026-06-27",
-  "status": "running",
+  "status": "partial",
   "scheduledFor": "2026-06-27T05:30:00-04:00",
   "startedAt": "2026-06-27T09:25:06.165Z",
-  "finishedAt": null,
-  "currentStage": "publish",
+  "finishedAt": "2026-06-27T09:31:02.735Z",
+  "currentStage": "completed",
   "topic": null,
   "podcastTopic": "The Software Behind Ola, Uber, Lyft, And Rapido Matching",
-  "commit": null,
+  "commit": "248d7cad5a88deb96a4ae30554c6e0b3e555991a",
   "results": {
-    "publicFeedPublish": null,
-    "privatePush": null,
-    "spotifyPrep": null,
-    "spotifyDraft": null
+    "publicFeedPublish": "success",
+    "privatePush": "success",
+    "spotifyPrep": "success",
+    "spotifyDraft": "skipped"
   },
   "outputs": {
     "snapshot": true,
