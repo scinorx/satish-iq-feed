@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-06-27",
-  "status": "partial",
-  "scheduledFor": "2026-06-27T05:30:00-04:00",
-  "startedAt": "2026-06-27T09:25:06.165Z",
-  "finishedAt": "2026-06-27T09:31:02.735Z",
-  "currentStage": "completed",
+  "date": "2026-06-28",
+  "status": "running",
+  "scheduledFor": "2026-06-28T05:30:00-04:00",
+  "startedAt": "2026-06-28T09:25:06.279Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "The Software Behind Ola, Uber, Lyft, And Rapido Matching",
-  "commit": "248d7cad5a88deb96a4ae30554c6e0b3e555991a",
+  "podcastTopic": "Biometrics: The Tech That Knows It Is Really You",
+  "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "success",
-    "spotifyPrep": "success",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "The Software Behind Ola, Uber, Lyft, And Rapido Matching"
+    "latestPodcastEpisode": "Biometrics: The Tech That Knows It Is Really You"
   }
 }

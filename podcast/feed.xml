@@ -22,7 +22,70 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sat, 27 Jun 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Biometrics: The Tech That Knows It Is Really You</title>
+      <description>Biometric authentication uses a signal from your body, such as a face, fingerprint, iris, or voice, to decide whether the person using a device is really you.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+- Technical object: biometric authentication and liveness checks.
+- Topic family: Security And Trust.
+- Architecture pattern: The practical pattern is local, protected matching with liveness checks and narrow permissions. The system should prove identity without spreading reusable biometric data everywhere.
+- Main limitation: The catch is that biometrics are convenient but not secret in the same way passwords are secret. You can change a password after a breach. You cannot easily change your face or finger. That is why storage, device security, liveness, and fallback policy matter.
+- Research checked on 2026-06-20 for a future scheduled prebuild. Do not treat this as same-day 2026-06-28 news.
+
+
+Sources:
+- https://support.apple.com/en-us/102381
+- https://support.apple.com/en-us/102400
+- https://developer.android.com/identity/sign-in/biometric-auth
+- https://fidoalliance.org/passkeys/
+- https://pages.nist.gov/800-63-4/sp800-63b.html</description>
+      <itunes:subtitle>Biometrics in simple terms</itunes:subtitle>
+      <itunes:summary>Biometric authentication uses a signal from your body, such as a face, fingerprint, iris, or voice, to decide whether the person using a device is really you.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+- Technical object: biometric authentication and liveness checks.
+- Topic family: Security And Trust.
+- Architecture pattern: The practical pattern is local, protected matching with liveness checks and narrow permissions. The system should prove identity without spreading reusable biometric data everywhere.
+- Main limitation: The catch is that biometrics are convenient but not secret in the same way passwords are secret. You can change a password after a breach. You cannot easily change your face or finger. That is why storage, device security, liveness, and fallback policy matter.
+- Research checked on 2026-06-20 for a future scheduled prebuild. Do not treat this as same-day 2026-06-28 news.
+
+
+Sources:
+- https://support.apple.com/en-us/102381
+- https://support.apple.com/en-us/102400
+- https://developer.android.com/identity/sign-in/biometric-auth
+- https://fidoalliance.org/passkeys/
+- https://pages.nist.gov/800-63-4/sp800-63b.html</itunes:summary>
+      <itunes:duration>00:04:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>24</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-28-biometrics-the-tech-that-knows-it-is-really-you.txt" type="text/plain" language="en" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-28-biometrics-the-tech-that-knows-it-is-really-you.srt" type="application/x-subrip" language="en" rel="captions" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-28-biometrics-the-tech-that-knows-it-is-really-you.vtt" type="text/vtt" language="en" rel="captions" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-28-biometrics-the-tech-that-knows-it-is-really-you.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-28-biometrics-the-tech-that-knows-it-is-really-you.mp3" length="4104821" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-28-biometrics-the-tech-that-knows-it-is-really-you</guid>
+      <pubDate>Sun, 28 Jun 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>The Software Behind Ola, Uber, Lyft, And Rapido Matching</title>

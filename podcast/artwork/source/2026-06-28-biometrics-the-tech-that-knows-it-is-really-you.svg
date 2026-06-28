@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0F0"/>
+      <stop offset="58%" stop-color="#FFB4B4"/>
+      <stop offset="100%" stop-color="#E04343"/>
+    </linearGradient>
+    <radialGradient id="topicGlow" cx="50%" cy="50%" r="62%">
+      <stop offset="0%" stop-color="#E04343" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#003F6B" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#6D4E00" flood-opacity="0.15"/>
+    </filter>
+    <style>
+      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #4A1010; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 197px; font-weight: 900; letter-spacing: 2px; fill: #4A1010; }
+      .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #4A1010; }
+      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #4A1010; }
+    </style>
+  </defs>
+  <rect width="3000" height="3000" fill="url(#paper)"/>
+  <circle cx="2450" cy="560" r="530" fill="#FFFFFF" opacity="0.22"/>
+  <circle cx="360" cy="2500" r="560" fill="#FFFFFF" opacity="0.13"/>
+  <circle cx="2250" cy="1540" r="770" fill="url(#topicGlow)" opacity="0.9"/>
+  <g>
+  <path d="M2260 820 C2485 820 2635 970 2635 1190" fill="none" stroke="#E04343" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M2050 950 C2135 865 2250 825 2375 860 C2555 910 2650 1070 2620 1275" fill="none" stroke="#003F6B" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <path d="M1965 1135 C2055 990 2205 930 2360 980 C2505 1025 2575 1160 2540 1335" fill="none" stroke="#003F6B" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <path d="M2105 1260 C2145 1160 2250 1110 2350 1145 C2445 1178 2490 1265 2465 1375" fill="none" stroke="#E04343" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M2260 1315 C2215 1510 2125 1660 1985 1795 M2395 1390 C2340 1645 2220 1830 2035 1985 M2515 1510 C2460 1740 2345 1935 2170 2110" fill="none" stroke="#003F6B" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+</g>
+  <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#4A1010" stroke-width="12" opacity="0.36"/>
+  <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
+  <g filter="url(#shadow)">
+    <text x="245" y="1193" class="title">BIOMETRICS: THE</text>
+    <text x="245" y="1422" class="title">TECH THAT KNOWS</text>
+    <text x="245" y="1651" class="title">IT IS REALLY</text>
+    <text x="245" y="1880" class="title">YOU</text>
+  </g>
+  <path d="M260 2135 H1080" stroke="#E04343" stroke-width="24" stroke-linecap="round"/>
+  <text x="260" y="2270" class="date">2026-06-28</text>
+  <text x="260" y="2575" class="small">BIOMETRICS</text>
+</svg>
