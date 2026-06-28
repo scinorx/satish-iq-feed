@@ -8,19 +8,19 @@
   "runStatus": {
     "version": 1,
     "date": "2026-06-28",
-    "status": "running",
+    "status": "partial",
     "scheduledFor": "2026-06-28T05:30:00-04:00",
     "startedAt": "2026-06-28T09:25:06.279Z",
-    "finishedAt": null,
-    "currentStage": "publish",
+    "finishedAt": "2026-06-28T09:31:04.839Z",
+    "currentStage": "completed",
     "topic": null,
     "podcastTopic": "Biometrics: The Tech That Knows It Is Really You",
-    "commit": null,
+    "commit": "4c415f81087aacd7ec8a7e557679e333c32d06d2",
     "results": {
-      "publicFeedPublish": null,
-      "privatePush": null,
-      "spotifyPrep": null,
-      "spotifyDraft": null
+      "publicFeedPublish": "success",
+      "privatePush": "success",
+      "spotifyPrep": "success",
+      "spotifyDraft": "skipped"
     },
     "outputs": {
       "snapshot": true,
