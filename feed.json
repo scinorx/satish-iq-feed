@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-28",
-  "title": "Today's object: biometric authentication and liveness checks",
+  "generatedAt": "2026-06-29",
+  "title": "Today's object: wearable sleep tracking and sensor fusion",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-06-28",
-    "status": "partial",
-    "scheduledFor": "2026-06-28T05:30:00-04:00",
-    "startedAt": "2026-06-28T09:25:06.279Z",
-    "finishedAt": "2026-06-28T09:31:04.839Z",
-    "currentStage": "completed",
+    "date": "2026-06-29",
+    "status": "running",
+    "scheduledFor": "2026-06-29T05:30:00-04:00",
+    "startedAt": "2026-06-29T09:25:05.851Z",
+    "finishedAt": null,
+    "currentStage": "publish",
     "topic": null,
-    "podcastTopic": "Biometrics: The Tech That Knows It Is Really You",
-    "commit": "4c415f81087aacd7ec8a7e557679e333c32d06d2",
+    "podcastTopic": "How Smartwatches Know You Are Sleeping",
+    "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "success",
-      "spotifyPrep": "success",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "Biometrics: The Tech That Knows It Is Really You"
+      "latestPodcastEpisode": "How Smartwatches Know You Are Sleeping"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "Biometrics: The Tech That Knows It Is Really You",
-      "publishedAt": "2026-06-28T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-28-biometrics-the-tech-that-knows-it-is-really-you.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-28-biometrics-the-tech-that-knows-it-is-really-you.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-28-biometrics-the-tech-that-knows-it-is-really-you"
+      "title": "How Smartwatches Know You Are Sleeping",
+      "publishedAt": "2026-06-29T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-29-how-smartwatches-know-you-are-sleeping.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-29-how-smartwatches-know-you-are-sleeping.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-29-how-smartwatches-know-you-are-sleeping"
     }
   }
 }

@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-06-28",
-  "status": "partial",
-  "scheduledFor": "2026-06-28T05:30:00-04:00",
-  "startedAt": "2026-06-28T09:25:06.279Z",
-  "finishedAt": "2026-06-28T09:31:04.839Z",
-  "currentStage": "completed",
+  "date": "2026-06-29",
+  "status": "running",
+  "scheduledFor": "2026-06-29T05:30:00-04:00",
+  "startedAt": "2026-06-29T09:25:05.851Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "Biometrics: The Tech That Knows It Is Really You",
-  "commit": "4c415f81087aacd7ec8a7e557679e333c32d06d2",
+  "podcastTopic": "How Smartwatches Know You Are Sleeping",
+  "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "success",
-    "spotifyPrep": "success",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "Biometrics: The Tech That Knows It Is Really You"
+    "latestPodcastEpisode": "How Smartwatches Know You Are Sleeping"
   }
 }

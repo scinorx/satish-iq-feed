@@ -22,7 +22,70 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sun, 28 Jun 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How Smartwatches Know You Are Sleeping</title>
+      <description>A smartwatch does not directly read sleep from the brain. It estimates sleep by combining signals such as motion, heart rate, heart-rate variability, oxygen trends, skin temperature, breathing patterns, time, and learned patterns.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+- Technical object: wearable sleep tracking and sensor fusion.
+- Topic family: Futuristic But Credible Systems.
+- Architecture pattern: The practical pattern is sensor fusion with confidence: combine weak signals, compare them to a baseline, explain uncertainty, and avoid pretending the model saw more than it did.
+- Main limitation: The catch is uncertainty. A watch can confuse quiet reading with sleep, miss short wakeups, or estimate stages differently from a medical sleep lab. The value is trend awareness, not perfect brain-state measurement.
+- Research checked on 2026-06-20 for a future scheduled prebuild. Do not treat this as same-day 2026-06-29 news.
+
+
+Sources:
+- https://support.apple.com/en-us/guide/watch/apd830528336/watchos
+- https://support.google.com/fitbit/answer/14236814
+- https://ouraring.com/blog/sleep-stages/
+- https://www.nhlbi.nih.gov/health/sleep-studies
+- https://www.sleepfoundation.org/sleep-trackers</description>
+      <itunes:subtitle>Wearable sensors in simple terms</itunes:subtitle>
+      <itunes:summary>A smartwatch does not directly read sleep from the brain. It estimates sleep by combining signals such as motion, heart rate, heart-rate variability, oxygen trends, skin temperature, breathing patterns, time, and learned patterns.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+- Technical object: wearable sleep tracking and sensor fusion.
+- Topic family: Futuristic But Credible Systems.
+- Architecture pattern: The practical pattern is sensor fusion with confidence: combine weak signals, compare them to a baseline, explain uncertainty, and avoid pretending the model saw more than it did.
+- Main limitation: The catch is uncertainty. A watch can confuse quiet reading with sleep, miss short wakeups, or estimate stages differently from a medical sleep lab. The value is trend awareness, not perfect brain-state measurement.
+- Research checked on 2026-06-20 for a future scheduled prebuild. Do not treat this as same-day 2026-06-29 news.
+
+
+Sources:
+- https://support.apple.com/en-us/guide/watch/apd830528336/watchos
+- https://support.google.com/fitbit/answer/14236814
+- https://ouraring.com/blog/sleep-stages/
+- https://www.nhlbi.nih.gov/health/sleep-studies
+- https://www.sleepfoundation.org/sleep-trackers</itunes:summary>
+      <itunes:duration>00:04:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>25</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-29-how-smartwatches-know-you-are-sleeping.txt" type="text/plain" language="en" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-29-how-smartwatches-know-you-are-sleeping.srt" type="application/x-subrip" language="en" rel="captions" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-29-how-smartwatches-know-you-are-sleeping.vtt" type="text/vtt" language="en" rel="captions" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-29-how-smartwatches-know-you-are-sleeping.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-29-how-smartwatches-know-you-are-sleeping.mp3" length="4039619" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-06-29-how-smartwatches-know-you-are-sleeping</guid>
+      <pubDate>Mon, 29 Jun 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>Biometrics: The Tech That Knows It Is Really You</title>
