@@ -1,19 +1,19 @@
 {
   "version": 1,
   "date": "2026-06-29",
-  "status": "running",
+  "status": "partial",
   "scheduledFor": "2026-06-29T05:30:00-04:00",
   "startedAt": "2026-06-29T09:25:05.851Z",
-  "finishedAt": null,
-  "currentStage": "publish",
+  "finishedAt": "2026-06-29T09:31:08.932Z",
+  "currentStage": "completed",
   "topic": null,
   "podcastTopic": "How Smartwatches Know You Are Sleeping",
-  "commit": null,
+  "commit": "abd9aa671f06f1fd1330ef3cbdf6619645bb660e",
   "results": {
-    "publicFeedPublish": null,
-    "privatePush": null,
-    "spotifyPrep": null,
-    "spotifyDraft": null
+    "publicFeedPublish": "success",
+    "privatePush": "success",
+    "spotifyPrep": "success",
+    "spotifyDraft": "skipped"
   },
   "outputs": {
     "snapshot": true,
