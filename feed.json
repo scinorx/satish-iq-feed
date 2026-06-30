@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-29",
-  "title": "Today's object: wearable sleep tracking and sensor fusion",
+  "generatedAt": "2026-06-30",
+  "title": "Today's object: active noise cancellation in headphones",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-06-29",
-    "status": "partial",
-    "scheduledFor": "2026-06-29T05:30:00-04:00",
-    "startedAt": "2026-06-29T09:25:05.851Z",
-    "finishedAt": "2026-06-29T09:31:08.932Z",
-    "currentStage": "completed",
+    "date": "2026-06-30",
+    "status": "running",
+    "scheduledFor": "2026-06-30T05:30:00-04:00",
+    "startedAt": "2026-06-30T09:40:05.549Z",
+    "finishedAt": null,
+    "currentStage": "publish",
     "topic": null,
-    "podcastTopic": "How Smartwatches Know You Are Sleeping",
-    "commit": "abd9aa671f06f1fd1330ef3cbdf6619645bb660e",
+    "podcastTopic": "How Noise-Cancelling Headphones Remove Sound",
+    "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "success",
-      "spotifyPrep": "success",
+      "publicFeedPublish": "blocked",
+      "privatePush": "blocked",
+      "spotifyPrep": "skipped",
       "spotifyDraft": "skipped"
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "How Smartwatches Know You Are Sleeping"
+      "latestPodcastEpisode": "How Noise-Cancelling Headphones Remove Sound"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "How Smartwatches Know You Are Sleeping",
-      "publishedAt": "2026-06-29T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-29-how-smartwatches-know-you-are-sleeping.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-29-how-smartwatches-know-you-are-sleeping.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-29-how-smartwatches-know-you-are-sleeping"
+      "title": "How Noise-Cancelling Headphones Remove Sound",
+      "publishedAt": "2026-06-30T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-30-how-noise-cancelling-headphones-remove-sound.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-30-how-noise-cancelling-headphones-remove-sound.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-30-how-noise-cancelling-headphones-remove-sound"
     }
   }
 }

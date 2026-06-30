@@ -1,5 +1,114 @@
 [
   {
+    "guid": "in-simple-terms-2026-06-30-how-noise-cancelling-headphones-remove-sound",
+    "title": "How Noise-Cancelling Headphones Remove Sound",
+    "subtitle": "Audio systems in simple terms",
+    "description": "Active noise cancellation uses microphones and signal processing to measure unwanted sound and play a carefully timed opposite sound wave that reduces what reaches your ear.\n\nIn this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.\n\nIn Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.\n\nProduction note: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\n\nEngineer notes:\n- Technical object: active noise cancellation in headphones.\n- Topic family: Runtimes And Compute.\n- Architecture pattern: The practical pattern is real-time control: measure a signal, predict what will happen next, generate a counter-signal, and keep adjusting based on feedback.\n- Main limitation: The catch is timing and physics. Active cancellation works best for steady low-frequency sounds such as engine hum. Sudden sharp sounds, voices, high frequencies, wind, and poor ear seal are harder because the headphone has very little time and space to create the right opposite wave.\n- Research checked on 2026-06-20 for a future scheduled prebuild. Do not treat this as same-day 2026-06-30 news.\n\n\nSources:\n- https://www.bose.com/stories/how-noise-cancelling-headphones-work\n- https://www.sony.com/electronics/support/articles/00203389\n- https://www.apple.com/airpods-pro/\n- https://en.wikipedia.org/wiki/Active_noise_control\n- https://en.wikipedia.org/wiki/Noise-cancelling_headphones",
+    "publishedAt": "2026-06-30T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-06-30",
+    "seasonNumber": 5,
+    "episodeNumber": 26,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-06-30T05:30:00-04:00",
+    "durationSeconds": 249,
+    "audioPath": "podcast/audio/2026-06-30-how-noise-cancelling-headphones-remove-sound.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-30-how-noise-cancelling-headphones-remove-sound.mp3",
+    "lengthBytes": 3986956,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday we are talking about How Noise-Cancelling Headphones Remove Sound.\n\nLet us start with the technology first.\n\nActive noise cancellation uses microphones and signal processing to measure unwanted sound and play a carefully timed opposite sound wave that reduces what reaches your ear.\n\nAt first, it can sound like one clever feature. But the real story is a system of sensors, models, rules, feedback loops, and tradeoffs that has to work in the real world, not only in a demo.\n\nLet us understand this with a simple everyday example.\n\nPicture two ripples moving across a pond. If one ripple rises exactly where another ripple falls, the water can flatten out. Sound is also a wave. Noise-cancelling headphones try to create an opposite wave quickly enough that some of the outside noise is reduced before your ear experiences it.\n\nNow return to the actual technical concept.\n\nUnder the hood, the stack has several parts. First, microphones, where outside and sometimes inside microphones listen to noise around the ear. Second, signal processing, where a chip estimates what part of that noise will reach the listener. Third, anti-noise generation, where the headphone creates an inverted waveform. Fourth, speaker playback, where music and anti-noise are mixed without ruining the audio. Fifth, feedback correction, where internal microphones help adjust for fit, leaks, and movement. Sixth, adaptive control, where the system changes behavior for airplanes, streets, offices, wind, or speech.\n\nThat list matters because modern technology is rarely one model or one app screen. It is usually a chain. Data has to be captured, interpreted, checked, acted on, and corrected when reality disagrees.\n\nFor engineers, the useful idea is this: The practical pattern is real-time control: measure a signal, predict what will happen next, generate a counter-signal, and keep adjusting based on feedback.\n\nThe catch is timing and physics. Active cancellation works best for steady low-frequency sounds such as engine hum. Sudden sharp sounds, voices, high frequencies, wind, and poor ear seal are harder because the headphone has very little time and space to create the right opposite wave.\n\nThis is why the topic matters for students and builders. The visible product may look simple, but the engineering work is in the hidden boundary conditions. What happens when the input is noisy? What happens when the user behaves unexpectedly? What happens when the system is confident but wrong? What gets logged, reviewed, updated, and rolled back?\n\nA good way to learn the topic is to sketch the pipeline. Draw the input signals on the left, the decision or prediction layer in the middle, the user-facing action on the right, and the failure modes underneath. That one diagram will teach more than memorizing the buzzword.\n\nThe clear takeaway is this:\n\nNoise cancellation is not silence magic. It is fast wave math running on tiny hardware next to your ear.\n\nIn simple terms, the magic is not the label. The magic is the system design underneath, and the discipline to know where the system works, where it fails, and how humans stay in the loop.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish. I will see you in the next episode.\n\nA useful way to test your understanding is to ask what the system knows directly and what it only guesses. The gap between measurement and inference is where many failures hide.\n\nAnother useful question is who owns the decision when something goes wrong: the model, the sensor, the operator, the policy, or the product design behind active noise cancellation in headphones.\n\nThat is why good engineering explanations should include the happy path and the messy path. The messy path is usually where the real architecture becomes visible.\n\nFor students, this is the habit to build early: do not only ask what the technology does. Ask what evidence it uses, what assumptions it makes, and what happens when those assumptions break.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday we are talking about How Noise-Cancelling Headphones Remove Sound.\n\nLet us start with the technology first.\n\nActive noise cancellation uses microphones and signal processing to measure unwanted sound and play a carefully timed opposite sound wave that reduces what reaches your ear.\n\nAt first, it can sound like one clever feature. But the real story is a system of sensors, models, rules, feedback loops, and tradeoffs that has to work in the real world, not only in a demo.\n\nLet us understand this with a simple everyday example.\n\nPicture two ripples moving across a pond. If one ripple rises exactly where another ripple falls, the water can flatten out. Sound is also a wave. Noise-cancelling headphones try to create an opposite wave quickly enough that some of the outside noise is reduced before your ear experiences it.\n\nNow return to the actual technical concept.\n\nUnder the hood, the stack has several parts. First, microphones, where outside and sometimes inside microphones listen to noise around the ear. Second, signal processing, where a chip estimates what part of that noise will reach the listener. Third, anti-noise generation, where the headphone creates an inverted waveform. Fourth, speaker playback, where music and anti-noise are mixed without ruining the audio. Fifth, feedback correction, where internal microphones help adjust for fit, leaks, and movement. Sixth, adaptive control, where the system changes behavior for airplanes, streets, offices, wind, or speech.\n\nThat list matters because modern technology is rarely one model or one app screen. It is usually a chain. Data has to be captured, interpreted, checked, acted on, and corrected when reality disagrees.\n\nFor engineers, the useful idea is this: The practical pattern is real-time control: measure a signal, predict what will happen next, generate a counter-signal, and keep adjusting based on feedback.\n\nThe catch is timing and physics. Active cancellation works best for steady low-frequency sounds such as engine hum. Sudden sharp sounds, voices, high frequencies, wind, and poor ear seal are harder because the headphone has very little time and space to create the right opposite wave.\n\nThis is why the topic matters for students and builders. The visible product may look simple, but the engineering work is in the hidden boundary conditions. What happens when the input is noisy? What happens when the user behaves unexpectedly? What happens when the system is confident but wrong? What gets logged, reviewed, updated, and rolled back?\n\nA good way to learn the topic is to sketch the pipeline. Draw the input signals on the left, the decision or prediction layer in the middle, the user-facing action on the right, and the failure modes underneath. That one diagram will teach more than memorizing the buzzword.\n\nThe clear takeaway is this:\n\nNoise cancellation is not silence magic. It is fast wave math running on tiny hardware next to your ear.\n\nIn simple terms, the magic is not the label. The magic is the system design underneath, and the discipline to know where the system works, where it fails, and how humans stay in the loop.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish. I will see you in the next episode.\n\nA useful way to test your understanding is to ask what the system knows directly and what it only guesses. The gap between measurement and inference is where many failures hide.\n\nAnother useful question is who owns the decision when something goes wrong: the model, the sensor, the operator, the policy, or the product design behind active noise cancellation in headphones.\n\nThat is why good engineering explanations should include the happy path and the messy path. The messy path is usually where the real architecture becomes visible.\n\nFor students, this is the habit to build early: do not only ask what the technology does. Ask what evidence it uses, what assumptions it makes, and what happens when those assumptions break.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-06-30-how-noise-cancelling-headphones-remove-sound.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-30-how-noise-cancelling-headphones-remove-sound.txt",
+        "type": "text/plain",
+        "language": "en"
+      },
+      {
+        "path": "podcast/transcripts/2026-06-30-how-noise-cancelling-headphones-remove-sound.srt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-30-how-noise-cancelling-headphones-remove-sound.srt",
+        "type": "application/x-subrip",
+        "language": "en",
+        "rel": "captions"
+      },
+      {
+        "path": "podcast/transcripts/2026-06-30-how-noise-cancelling-headphones-remove-sound.vtt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-06-30-how-noise-cancelling-headphones-remove-sound.vtt",
+        "type": "text/vtt",
+        "language": "en",
+        "rel": "captions"
+      }
+    ],
+    "satishTake": "The clear takeaway is this: Noise cancellation is not silence magic. It is fast wave math running on tiny hardware next to your ear. In simple terms, the magic is not the label.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What is the core idea behind How Noise-Cancelling Headphones Remove Sound?",
+          "options": [
+            "Noise-cancelling headphones try to create an opposite wave quickly enough that some of the outside noise is reduced before your ear experiences it.",
+            "It is mainly a visual design update.",
+            "It is only a product marketing phrase."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Noise-cancelling headphones try to create an opposite wave quickly enough that some of the outside noise is reduced before your ear experiences it."
+        },
+        {
+          "prompt": "Why does How Noise-Cancelling Headphones Remove Sound matter?",
+          "options": [
+            "That list matters because modern technology is rarely one model or one app screen.",
+            "Because every new tool should be adopted immediately.",
+            "Because the term is popular even without a practical problem."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "That list matters because modern technology is rarely one model or one app screen."
+        },
+        {
+          "prompt": "Which plain-English example helped explain the topic?",
+          "options": [
+            "Active noise cancellation uses microphones and signal processing to measure unwanted sound and play a carefully timed opposite sound wave that reduces what reaches your ear.",
+            "A random social media feed choosing posts.",
+            "A color palette changing an app theme."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Active noise cancellation uses microphones and signal processing to measure unwanted sound and play a carefully timed opposite sound wave that reduces what reaches your ear."
+        },
+        {
+          "prompt": "Which term is most connected to this lesson?",
+          "options": [
+            "How",
+            "Leaderboard",
+            "App icon"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Key terms for this lesson include How, Noise-Cancelling, Headphones, Remove, Sound, Audio."
+        },
+        {
+          "prompt": "What is the practical takeaway?",
+          "options": [
+            "The clear takeaway is this: Noise cancellation is not silence magic. It is fast wave math running on tiny hardware next to your ear. In simple terms, the magic is not the label.",
+            "Learn the label first and worry about the system later.",
+            "Assume the newest model or tool always fixes the problem."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The clear takeaway is this: Noise cancellation is not silence magic. It is fast wave math running on tiny hardware next to your ear. In simple terms, the magic is not the label."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-06-30-how-noise-cancelling-headphones-remove-sound.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-06-30-how-noise-cancelling-headphones-remove-sound.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-06-30-how-noise-cancelling-headphones-remove-sound.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-30-how-noise-cancelling-headphones-remove-sound.jpg",
+    "topicProfile": {
+      "id": "audio",
+      "label": "Audio systems",
+      "accent": "#0077C8"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-06-30-how-noise-cancelling-headphones-remove-sound"
+  },
+  {
     "guid": "in-simple-terms-2026-06-29-how-smartwatches-know-you-are-sleeping",
     "title": "How Smartwatches Know You Are Sleeping",
     "subtitle": "Wearable sensors in simple terms",
