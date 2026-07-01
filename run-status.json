@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-06-30",
-  "status": "partial",
-  "scheduledFor": "2026-06-30T05:30:00-04:00",
-  "startedAt": "2026-06-30T09:40:05.549Z",
-  "finishedAt": "2026-06-30T10:58:25.305Z",
-  "currentStage": "completed",
+  "date": "2026-07-01",
+  "status": "running",
+  "scheduledFor": "2026-07-01T05:30:00-04:00",
+  "startedAt": "2026-07-01T09:40:00.990Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "How Noise-Cancelling Headphones Remove Sound",
+  "podcastTopic": "How Blinkit-Style 10-Minute Delivery Works",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "skipped",
+    "publicFeedPublish": "blocked",
+    "privatePush": "blocked",
     "spotifyPrep": "skipped",
     "spotifyDraft": "skipped"
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How Noise-Cancelling Headphones Remove Sound"
+    "latestPodcastEpisode": "How Blinkit-Style 10-Minute Delivery Works"
   }
 }

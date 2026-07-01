@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF7D6"/>
+      <stop offset="58%" stop-color="#FFD84D"/>
+      <stop offset="100%" stop-color="#FF8A00"/>
+    </linearGradient>
+    <radialGradient id="topicGlow" cx="50%" cy="50%" r="62%">
+      <stop offset="0%" stop-color="#FF8A00" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#4A2A00" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#6D4E00" flood-opacity="0.15"/>
+    </filter>
+    <style>
+      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #4A2A00; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 197px; font-weight: 900; letter-spacing: 2px; fill: #4A2A00; }
+      .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #4A2A00; }
+      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #4A2A00; }
+    </style>
+  </defs>
+  <rect width="3000" height="3000" fill="url(#paper)"/>
+  <circle cx="2450" cy="560" r="530" fill="#FFFFFF" opacity="0.22"/>
+  <circle cx="360" cy="2500" r="560" fill="#FFFFFF" opacity="0.13"/>
+  <circle cx="2250" cy="1540" r="770" fill="url(#topicGlow)" opacity="0.9"/>
+  <g>
+  <path d="M1790 1850 C1950 1660 2075 1660 2220 1815 S2510 1985 2720 1720" fill="none" stroke="#D45B00" stroke-width="34" stroke-linecap="round" opacity="0.38"/>
+  <rect x="1825" y="1100" width="360" height="280" rx="38" fill="#FFFFFF" opacity="0.38" stroke="#4A2A00" stroke-width="14"/>
+  <path d="M1825 1185 H2185 M1935 1100 V1380" stroke="#4A2A00" stroke-width="12" opacity="0.32"/>
+  <rect x="2305" y="1390" width="300" height="235" rx="32" fill="#FFFFFF" opacity="0.32" stroke="#4A2A00" stroke-width="14"/>
+  <path d="M2305 1465 H2605 M2400 1390 V1625" stroke="#4A2A00" stroke-width="12" opacity="0.28"/>
+  <circle cx="1820" cy="1850" r="64" fill="#D45B00" opacity="0.42"/>
+  <circle cx="2220" cy="1815" r="64" fill="#D45B00" opacity="0.42"/>
+  <circle cx="2720" cy="1720" r="64" fill="#D45B00" opacity="0.42"/>
+  <path d="M2470 930 C2590 930 2685 1025 2685 1145 C2685 1325 2470 1510 2470 1510 C2470 1510 2255 1325 2255 1145 C2255 1025 2350 930 2470 930 Z" fill="#D45B00" opacity="0.34"/>
+  <circle cx="2470" cy="1145" r="72" fill="#FFFFFF" opacity="0.55"/>
+</g>
+  <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#4A2A00" stroke-width="12" opacity="0.36"/>
+  <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
+  <g filter="url(#shadow)">
+    <text x="245" y="1193" class="title">HOW</text>
+    <text x="245" y="1422" class="title">BLINKIT-STYLE</text>
+    <text x="245" y="1651" class="title">10-MINUTE</text>
+    <text x="245" y="1880" class="title">DELIVERY WORKS</text>
+  </g>
+  <path d="M260 2135 H1080" stroke="#D45B00" stroke-width="24" stroke-linecap="round"/>
+  <text x="260" y="2270" class="date">2026-07-01</text>
+  <text x="260" y="2575" class="small">QUICK COMMERCE</text>
+</svg>

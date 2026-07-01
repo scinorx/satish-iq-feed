@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30",
-  "title": "Today's object: active noise cancellation in headphones",
+  "generatedAt": "2026-07-01",
+  "title": "Today's object: Quick commerce systems in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-06-30",
-    "status": "partial",
-    "scheduledFor": "2026-06-30T05:30:00-04:00",
-    "startedAt": "2026-06-30T09:40:05.549Z",
-    "finishedAt": "2026-06-30T10:58:25.305Z",
-    "currentStage": "completed",
+    "date": "2026-07-01",
+    "status": "running",
+    "scheduledFor": "2026-07-01T05:30:00-04:00",
+    "startedAt": "2026-07-01T09:40:00.990Z",
+    "finishedAt": null,
+    "currentStage": "publish",
     "topic": null,
-    "podcastTopic": "How Noise-Cancelling Headphones Remove Sound",
+    "podcastTopic": "How Blinkit-Style 10-Minute Delivery Works",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "skipped",
+      "publicFeedPublish": "blocked",
+      "privatePush": "blocked",
       "spotifyPrep": "skipped",
       "spotifyDraft": "skipped"
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "How Noise-Cancelling Headphones Remove Sound"
+      "latestPodcastEpisode": "How Blinkit-Style 10-Minute Delivery Works"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "How Noise-Cancelling Headphones Remove Sound",
-      "publishedAt": "2026-06-30T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-06-30-how-noise-cancelling-headphones-remove-sound.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-06-30-how-noise-cancelling-headphones-remove-sound.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-06-30-how-noise-cancelling-headphones-remove-sound"
+      "title": "How Blinkit-Style 10-Minute Delivery Works",
+      "publishedAt": "2026-07-01T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-01-how-blinkit-style-10-minute-delivery-works.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-01-how-blinkit-style-10-minute-delivery-works.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-01-how-blinkit-style-10-minute-delivery-works"
     }
   }
 }

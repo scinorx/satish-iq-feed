@@ -22,7 +22,74 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Tue, 30 Jun 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How Blinkit-Style 10-Minute Delivery Works</title>
+      <description>Today we are talking about Blinkit-style quick-commerce fulfillment systems, the technology behind 10-minute grocery delivery.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: Blinkit-style quick-commerce fulfillment systems.
+- Main architecture pattern: demand forecasting -&gt; local inventory placement -&gt; inventory truth -&gt; admission control -&gt; stock reservation -&gt; picker and courier scheduling -&gt; event-stream feedback -&gt; failure learning.
+- Useful mental model: 10-minute delivery is a local real-time control system for nearby inventory and last-mile movement.
+- Engineering analogy: dark stores act like physical edge caches; stale inventory is real-world cache invalidation; the promise engine is admission control; assignment is scheduling; live tracking is observability.
+- Rough timing anchor: an illustrative 10-minute promise may spend about 1 minute on payment, confirmation, and assignment, 2-3 minutes on picking and packing, 1 minute on handoff, and 4-6 minutes on travel.
+- Main limitation: the model works best in dense areas with nearby stock, limited catalog breadth, enough delivery capacity, and careful promise control.
+
+
+Sources:
+- https://arxiv.org/abs/2206.02127
+- https://arxiv.org/abs/2109.05995
+- https://www.wired.com/2015/11/doordash-wants-to-own-the-last-mile
+- https://www.theverge.com/news/637149/instacart-store-view-shoppers-second-store-check</description>
+      <itunes:subtitle>Quick commerce systems in simple terms</itunes:subtitle>
+      <itunes:summary>Today we are talking about Blinkit-style quick-commerce fulfillment systems, the technology behind 10-minute grocery delivery.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: Blinkit-style quick-commerce fulfillment systems.
+- Main architecture pattern: demand forecasting -&gt; local inventory placement -&gt; inventory truth -&gt; admission control -&gt; stock reservation -&gt; picker and courier scheduling -&gt; event-stream feedback -&gt; failure learning.
+- Useful mental model: 10-minute delivery is a local real-time control system for nearby inventory and last-mile movement.
+- Engineering analogy: dark stores act like physical edge caches; stale inventory is real-world cache invalidation; the promise engine is admission control; assignment is scheduling; live tracking is observability.
+- Rough timing anchor: an illustrative 10-minute promise may spend about 1 minute on payment, confirmation, and assignment, 2-3 minutes on picking and packing, 1 minute on handoff, and 4-6 minutes on travel.
+- Main limitation: the model works best in dense areas with nearby stock, limited catalog breadth, enough delivery capacity, and careful promise control.
+
+
+Sources:
+- https://arxiv.org/abs/2206.02127
+- https://arxiv.org/abs/2109.05995
+- https://www.wired.com/2015/11/doordash-wants-to-own-the-last-mile
+- https://www.theverge.com/news/637149/instacart-store-view-shoppers-second-store-check</itunes:summary>
+      <itunes:duration>00:04:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>27</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-01-how-blinkit-style-10-minute-delivery-works.txt" type="text/plain" language="en" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-01-how-blinkit-style-10-minute-delivery-works.srt" type="application/x-subrip" language="en" rel="captions" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-01-how-blinkit-style-10-minute-delivery-works.vtt" type="text/vtt" language="en" rel="captions" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-01-how-blinkit-style-10-minute-delivery-works.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-01-how-blinkit-style-10-minute-delivery-works.mp3" length="4338878" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-01-how-blinkit-style-10-minute-delivery-works</guid>
+      <pubDate>Wed, 01 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How Noise-Cancelling Headphones Remove Sound</title>
