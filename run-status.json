@@ -1,17 +1,17 @@
 {
   "version": 1,
   "date": "2026-07-01",
-  "status": "running",
+  "status": "partial",
   "scheduledFor": "2026-07-01T05:30:00-04:00",
   "startedAt": "2026-07-01T09:40:00.990Z",
-  "finishedAt": null,
-  "currentStage": "publish",
+  "finishedAt": "2026-07-01T10:28:55.443Z",
+  "currentStage": "completed",
   "topic": null,
   "podcastTopic": "How Blinkit-Style 10-Minute Delivery Works",
   "commit": null,
   "results": {
-    "publicFeedPublish": "blocked",
-    "privatePush": "blocked",
+    "publicFeedPublish": "success",
+    "privatePush": "skipped",
     "spotifyPrep": "skipped",
     "spotifyDraft": "skipped"
   },
