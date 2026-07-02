@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-07-01",
-  "status": "partial",
-  "scheduledFor": "2026-07-01T05:30:00-04:00",
-  "startedAt": "2026-07-01T09:40:00.990Z",
-  "finishedAt": "2026-07-01T10:28:55.443Z",
-  "currentStage": "completed",
+  "date": "2026-07-02",
+  "status": "running",
+  "scheduledFor": "2026-07-02T05:30:00-04:00",
+  "startedAt": "2026-07-02T09:25:05.582Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "How Blinkit-Style 10-Minute Delivery Works",
+  "podcastTopic": "How The Internet Travels Under The Ocean",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "skipped",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How Blinkit-Style 10-Minute Delivery Works"
+    "latestPodcastEpisode": "How The Internet Travels Under The Ocean"
   }
 }

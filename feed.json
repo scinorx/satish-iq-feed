@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01",
-  "title": "Today's object: Quick commerce systems in simple terms",
+  "generatedAt": "2026-07-02",
+  "title": "Today's object: AI infrastructure in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-07-01",
-    "status": "partial",
-    "scheduledFor": "2026-07-01T05:30:00-04:00",
-    "startedAt": "2026-07-01T09:40:00.990Z",
-    "finishedAt": "2026-07-01T10:28:55.443Z",
-    "currentStage": "completed",
+    "date": "2026-07-02",
+    "status": "running",
+    "scheduledFor": "2026-07-02T05:30:00-04:00",
+    "startedAt": "2026-07-02T09:25:05.582Z",
+    "finishedAt": null,
+    "currentStage": "publish",
     "topic": null,
-    "podcastTopic": "How Blinkit-Style 10-Minute Delivery Works",
+    "podcastTopic": "How The Internet Travels Under The Ocean",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "skipped",
-      "spotifyPrep": "skipped",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "How Blinkit-Style 10-Minute Delivery Works"
+      "latestPodcastEpisode": "How The Internet Travels Under The Ocean"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "How Blinkit-Style 10-Minute Delivery Works",
-      "publishedAt": "2026-07-01T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-01-how-blinkit-style-10-minute-delivery-works.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-01-how-blinkit-style-10-minute-delivery-works.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-01-how-blinkit-style-10-minute-delivery-works"
+      "title": "How The Internet Travels Under The Ocean",
+      "publishedAt": "2026-07-02T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-02-how-the-internet-travels-under-the-ocean.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-02-how-the-internet-travels-under-the-ocean.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-02-how-the-internet-travels-under-the-ocean"
     }
   }
 }
