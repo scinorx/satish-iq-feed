@@ -8,19 +8,19 @@
   "runStatus": {
     "version": 1,
     "date": "2026-07-02",
-    "status": "running",
+    "status": "partial",
     "scheduledFor": "2026-07-02T05:30:00-04:00",
     "startedAt": "2026-07-02T09:25:05.582Z",
-    "finishedAt": null,
-    "currentStage": "publish",
+    "finishedAt": "2026-07-02T09:33:39.930Z",
+    "currentStage": "completed",
     "topic": null,
     "podcastTopic": "How The Internet Travels Under The Ocean",
-    "commit": null,
+    "commit": "893f85ea71384a66b2b21e8e2812131b712001d8",
     "results": {
-      "publicFeedPublish": null,
-      "privatePush": null,
-      "spotifyPrep": null,
-      "spotifyDraft": null
+      "publicFeedPublish": "success",
+      "privatePush": "success",
+      "spotifyPrep": "success",
+      "spotifyDraft": "skipped"
     },
     "outputs": {
       "snapshot": true,
