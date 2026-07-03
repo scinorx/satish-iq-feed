@@ -22,7 +22,72 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Thu, 02 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How Tap-to-Pay Works Without Sharing Your Card Number</title>
+      <description>The more interesting idea is this: the system tries not to send the most valuable secret.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: phone-wallet tap-to-pay tokenization.
+- Main architecture pattern: user authentication -&gt; NFC exchange -&gt; device-specific token -&gt; transaction-specific cryptogram or dynamic security code -&gt; merchant/acquirer routing -&gt; card network -&gt; issuer authorization -&gt; terminal response.
+- Useful mental model: the phone is not simply handing over the master card number; it is presenting a scoped payment identity plus fresh proof.
+- Engineering analogy: payment tokens are like limited hotel key cards, not master keys.
+- Rough timing anchor: a good terminal experience often feels like 1-2 seconds, even though it includes local authentication, NFC exchange, network routing, fraud checks, issuer authorization, and response delivery.
+- Main limitation: tokenization reduces exposed payment-data risk, but it does not remove social engineering, account compromise, dishonest merchants, phone-unlock risk, regional differences, or all fraud checks.
+
+
+Sources:
+- https://support.apple.com/en-us/101554
+- https://www.emvco.com/emv-technologies/payment-tokenisation/
+- https://support.google.com/wallet/answer/12059519</description>
+      <itunes:subtitle>Security model in simple terms</itunes:subtitle>
+      <itunes:summary>The more interesting idea is this: the system tries not to send the most valuable secret.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: phone-wallet tap-to-pay tokenization.
+- Main architecture pattern: user authentication -&gt; NFC exchange -&gt; device-specific token -&gt; transaction-specific cryptogram or dynamic security code -&gt; merchant/acquirer routing -&gt; card network -&gt; issuer authorization -&gt; terminal response.
+- Useful mental model: the phone is not simply handing over the master card number; it is presenting a scoped payment identity plus fresh proof.
+- Engineering analogy: payment tokens are like limited hotel key cards, not master keys.
+- Rough timing anchor: a good terminal experience often feels like 1-2 seconds, even though it includes local authentication, NFC exchange, network routing, fraud checks, issuer authorization, and response delivery.
+- Main limitation: tokenization reduces exposed payment-data risk, but it does not remove social engineering, account compromise, dishonest merchants, phone-unlock risk, regional differences, or all fraud checks.
+
+
+Sources:
+- https://support.apple.com/en-us/101554
+- https://www.emvco.com/emv-technologies/payment-tokenisation/
+- https://support.google.com/wallet/answer/12059519</itunes:summary>
+      <itunes:duration>00:04:39</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>29</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-03-how-tap-to-pay-works-without-sharing-your-card-number.txt" type="text/plain" language="en" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-03-how-tap-to-pay-works-without-sharing-your-card-number.srt" type="application/x-subrip" language="en" rel="captions" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-03-how-tap-to-pay-works-without-sharing-your-card-number.vtt" type="text/vtt" language="en" rel="captions" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-03-how-tap-to-pay-works-without-sharing-your-card-number.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-03-how-tap-to-pay-works-without-sharing-your-card-number.mp3" length="4460504" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-03-how-tap-to-pay-works-without-sharing-your-card-number</guid>
+      <pubDate>Fri, 03 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How The Internet Travels Under The Ocean</title>
