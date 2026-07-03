@@ -1,19 +1,19 @@
 {
   "version": 1,
   "date": "2026-07-03",
-  "status": "running",
+  "status": "partial",
   "scheduledFor": "2026-07-03T05:30:00-04:00",
   "startedAt": "2026-07-03T09:25:01.995Z",
-  "finishedAt": null,
-  "currentStage": "publish",
+  "finishedAt": "2026-07-03T10:34:12.854Z",
+  "currentStage": "completed",
   "topic": null,
   "podcastTopic": "How Tap-to-Pay Works Without Sharing Your Card Number",
-  "commit": null,
+  "commit": "6e16c6c08b5aeb41a5d96ed75f9571aaac3627d0",
   "results": {
-    "publicFeedPublish": null,
-    "privatePush": null,
-    "spotifyPrep": null,
-    "spotifyDraft": null
+    "publicFeedPublish": "success",
+    "privatePush": "success",
+    "spotifyPrep": "success",
+    "spotifyDraft": "skipped"
   },
   "outputs": {
     "snapshot": true,
