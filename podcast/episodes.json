@@ -1,5 +1,114 @@
 [
   {
+    "guid": "in-simple-terms-2026-07-04-how-touchscreens-know-where-you-touched",
+    "title": "How Touchscreens Know Where You Touched",
+    "subtitle": "Interface systems in simple terms",
+    "description": "One missed tap, one ghost touch, or one delayed swipe can make an expensive phone feel broken.\n\nIn this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.\n\nIn Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.\n\nProduction note: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\n\nEngineer notes:\nExact technical references:\n\n- Core technical object: projected capacitive touchscreen sensing.\n- Main architecture pattern: conductive grid -> capacitance measurement -> scan controller -> coordinate estimation -> filtering and palm rejection -> gesture recognition -> OS input event -> app response.\n- Useful mental model: a touchscreen is an invisible electrical grid plus a real-time signal-processing pipeline.\n- Rough timing anchor: at 120 Hz, samples are about 8.3 milliseconds apart; at 240 Hz, samples are about 4.2 milliseconds apart. Actual device rates vary by hardware, power mode, stylus mode, and operating-system pipeline.\n- App-layer mapping: platforms expose interpreted touch or pointer events rather than raw capacitance maps. Android `MotionEvent` exposes coordinates, pointer count, touch size, pressure, tool type, and historical points; W3C Pointer Events similarly define hardware-agnostic pointer input with coalesced and predicted events.\n- Main limitation: capacitive touch can be affected by gloves, water, electrical noise, screen protectors, palm contact, latency smoothing, and device-specific sensitivity tradeoffs.\n\n\nSources:\n- https://arxiv.org/abs/1612.08227\n- https://developer.android.com/reference/android/view/MotionEvent\n- https://www.w3.org/TR/pointerevents3/\n- https://developer.apple.com/documentation/uikit/handling-touches-in-your-view",
+    "publishedAt": "2026-07-04T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-07-04",
+    "seasonNumber": 5,
+    "episodeNumber": 30,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-07-04T05:30:00-04:00",
+    "durationSeconds": 284,
+    "audioPath": "podcast/audio/2026-07-04-how-touchscreens-know-where-you-touched.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-04-how-touchscreens-know-where-you-touched.mp3",
+    "lengthBytes": 4544932,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday we are talking about how touchscreens know where you touched.\n\nYou tap an icon, and the phone opens the right app.\n\nYou type fast, and every letter lands where your finger expected it to land.\n\nYou play a game, drag a map, sign a delivery screen, or pinch a photo.\n\nWhen it works, it feels obvious.\n\nWhen it fails, it is instantly annoying.\n\nOne missed tap, one ghost touch, or one delayed swipe can make an expensive phone feel broken.\n\nBut the screen is not a tiny camera watching your finger.\n\nMost modern phone touchscreens work more like an invisible electrical grid.\n\nUnder the glass, transparent conductive lines form rows and columns, almost like a spreadsheet. Where those lines cross, the device can measure tiny electrical behavior.\n\nYour body conducts enough electricity to affect a capacitive sensor.\n\nSo when your finger comes close to the glass, it slightly changes the local electric field. The touchscreen controller scans the grid and asks: where did the capacitance change?\n\nThat change tells the system that something finger-like is near this screen area.\n\nThe first engineering idea is sensing.\n\nThe screen does not receive a clean message saying, \"Satish touched the Notes app.\" It receives many tiny measurements from a grid.\n\nThe second idea is coordinate estimation.\n\nYour finger is larger than one pixel, so the controller estimates a center point from the signal pattern. That becomes an X and Y coordinate.\n\nThis is why touch feels precise even though your finger is physically chunky compared to a small icon.\n\nThe third idea is sampling.\n\nThe phone does not check touch once. It checks repeatedly. If a touch system samples at 120 times per second, it has about 8 milliseconds between samples. At 240 times per second, it has about 4 milliseconds.\n\nDifferent devices and modes vary, but the pattern is the same: fast repeated measurements become smooth motion.\n\nThat is how a swipe becomes a stream of points, not one event.\n\nThis is why gaming phones mention touch sampling rate, stylus devices care about latency, and bad chargers can make screens behave strangely. Responsiveness is partly a timing problem.\n\nThe fourth idea is filtering.\n\nReal touch data is noisy.\n\nYour hand shakes. The screen may be wet. A charger may introduce electrical noise. A screen protector may change the signal. Your palm may brush the edge while you type.\n\nSo the system has to clean the signal.\n\nIt filters noise, rejects accidental touches, tracks multiple fingers, and decides whether a contact is a tap, drag, pinch, long press, scroll, or palm.\n\nMulti-touch makes this more interesting.\n\nWith two or more fingers, it has to keep identities separate: this finger moved left, this finger moved right, these two are pinching, and that large contact near the edge is probably a palm.\n\nAfter the touchscreen controller estimates the contacts, the operating system turns them into input events. Apps do not usually receive raw capacitance maps. They receive higher-level information: a pointer went down here, moved there, and lifted here.\n\nThat separation matters.\n\nThe hardware senses a physical change. The operating system interprets it. The app responds.\n\nThe catch is that touchscreens are not perfect.\n\nGloves may fail because they do not change the electric field enough. Water can create false touches. Very fast gestures can be predicted or smoothed. Palm rejection can sometimes ignore a real touch or accept a bad one. And different screens make different tradeoffs between sensitivity, battery use, latency, stylus support, and noise rejection.\n\nThe useful engineering lesson is this:\n\nA touchscreen is not only detecting your finger.\n\nIt is estimating your intent.\n\nIt is a real-time sensing pipeline.\n\nIt turns weak electrical signals into coordinates, turns coordinates into gestures, and turns gestures into intent before your brain notices the delay.\n\nIn simple terms, your phone knows where you touched because it is constantly scanning an invisible grid, detecting tiny electrical changes, filtering noise, and converting the result into events the app can understand.\n\nThe next time you type fast, scroll smoothly, or pinch a photo, remember: the impressive part is not just the glass.\n\nIt is the signal processing underneath every tap.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday we are talking about how touchscreens know where you touched.\n\nYou tap an icon, and the phone opens the right app.\n\nYou type fast, and every letter lands where your finger expected it to land.\n\nYou play a game, drag a map, sign a delivery screen, or pinch a photo.\n\nWhen it works, it feels obvious.\n\nWhen it fails, it is instantly annoying.\n\nOne missed tap, one ghost touch, or one delayed swipe can make an expensive phone feel broken.\n\nBut the screen is not a tiny camera watching your finger.\n\nMost modern phone touchscreens work more like an invisible electrical grid.\n\nUnder the glass, transparent conductive lines form rows and columns, almost like a spreadsheet. Where those lines cross, the device can measure tiny electrical behavior.\n\nYour body conducts enough electricity to affect a capacitive sensor.\n\nSo when your finger comes close to the glass, it slightly changes the local electric field. The touchscreen controller scans the grid and asks: where did the capacitance change?\n\nThat change tells the system that something finger-like is near this screen area.\n\nThe first engineering idea is sensing.\n\nThe screen does not receive a clean message saying, \"Satish touched the Notes app.\" It receives many tiny measurements from a grid.\n\nThe second idea is coordinate estimation.\n\nYour finger is larger than one pixel, so the controller estimates a center point from the signal pattern. That becomes an X and Y coordinate.\n\nThis is why touch feels precise even though your finger is physically chunky compared to a small icon.\n\nThe third idea is sampling.\n\nThe phone does not check touch once. It checks repeatedly. If a touch system samples at 120 times per second, it has about 8 milliseconds between samples. At 240 times per second, it has about 4 milliseconds.\n\nDifferent devices and modes vary, but the pattern is the same: fast repeated measurements become smooth motion.\n\nThat is how a swipe becomes a stream of points, not one event.\n\nThis is why gaming phones mention touch sampling rate, stylus devices care about latency, and bad chargers can make screens behave strangely. Responsiveness is partly a timing problem.\n\nThe fourth idea is filtering.\n\nReal touch data is noisy.\n\nYour hand shakes. The screen may be wet. A charger may introduce electrical noise. A screen protector may change the signal. Your palm may brush the edge while you type.\n\nSo the system has to clean the signal.\n\nIt filters noise, rejects accidental touches, tracks multiple fingers, and decides whether a contact is a tap, drag, pinch, long press, scroll, or palm.\n\nMulti-touch makes this more interesting.\n\nWith two or more fingers, it has to keep identities separate: this finger moved left, this finger moved right, these two are pinching, and that large contact near the edge is probably a palm.\n\nAfter the touchscreen controller estimates the contacts, the operating system turns them into input events. Apps do not usually receive raw capacitance maps. They receive higher-level information: a pointer went down here, moved there, and lifted here.\n\nThat separation matters.\n\nThe hardware senses a physical change. The operating system interprets it. The app responds.\n\nThe catch is that touchscreens are not perfect.\n\nGloves may fail because they do not change the electric field enough. Water can create false touches. Very fast gestures can be predicted or smoothed. Palm rejection can sometimes ignore a real touch or accept a bad one. And different screens make different tradeoffs between sensitivity, battery use, latency, stylus support, and noise rejection.\n\nThe useful engineering lesson is this:\n\nA touchscreen is not only detecting your finger.\n\nIt is estimating your intent.\n\nIt is a real-time sensing pipeline.\n\nIt turns weak electrical signals into coordinates, turns coordinates into gestures, and turns gestures into intent before your brain notices the delay.\n\nIn simple terms, your phone knows where you touched because it is constantly scanning an invisible grid, detecting tiny electrical changes, filtering noise, and converting the result into events the app can understand.\n\nThe next time you type fast, scroll smoothly, or pinch a photo, remember: the impressive part is not just the glass.\n\nIt is the signal processing underneath every tap.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-07-04-how-touchscreens-know-where-you-touched.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-04-how-touchscreens-know-where-you-touched.txt",
+        "type": "text/plain",
+        "language": "en"
+      },
+      {
+        "path": "podcast/transcripts/2026-07-04-how-touchscreens-know-where-you-touched.srt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-04-how-touchscreens-know-where-you-touched.srt",
+        "type": "application/x-subrip",
+        "language": "en",
+        "rel": "captions"
+      },
+      {
+        "path": "podcast/transcripts/2026-07-04-how-touchscreens-know-where-you-touched.vtt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-04-how-touchscreens-know-where-you-touched.vtt",
+        "type": "text/vtt",
+        "language": "en",
+        "rel": "captions"
+      }
+    ],
+    "satishTake": "Touchscreens are a useful example of real-time human-computer interaction. The visible action is just a tap or swipe, but the deeper system is sensing, sampling, coordinate estimation, filtering, gesture recognition, and event delivery. The engineering lesson is that smooth interfaces often depend on turning noisy physical signals into stable intent.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What is the main idea behind modern capacitive touchscreens?",
+          "options": [
+            "They detect tiny changes in an electrical field across a transparent sensing grid.",
+            "They use a tiny camera under every pixel to watch your finger.",
+            "They only work by measuring how hard you press the glass."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Most phone touchscreens use capacitive sensing, where a finger changes the local electrical behavior of the sensor grid."
+        },
+        {
+          "prompt": "Why does the screen estimate an X and Y coordinate?",
+          "options": [
+            "A finger covers an area, so the controller estimates a center point from the signal pattern.",
+            "Every app manually calculates the finger location from the camera.",
+            "The screen only reports the nearest physical button."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The raw signal is spread over a small region, so the controller turns it into a useful coordinate."
+        },
+        {
+          "prompt": "Why does sampling rate matter?",
+          "options": [
+            "Repeated measurements make swipes and gestures look smooth instead of becoming one single point.",
+            "Sampling rate decides the color of the app icon.",
+            "A touchscreen only needs one sample per gesture."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "A swipe is a stream of touch samples over time, so faster sampling can improve responsiveness."
+        },
+        {
+          "prompt": "Why do touchscreens need filtering and palm rejection?",
+          "options": [
+            "Real touch data is noisy because of water, chargers, screen protectors, shaky hands, and accidental palm contact.",
+            "Filtering is only used to make the screen brighter.",
+            "Palm rejection is a music feature."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The system must separate intentional touch from noise and accidental contact."
+        },
+        {
+          "prompt": "What is the broader engineering takeaway?",
+          "options": [
+            "Smooth interfaces often turn noisy physical signals into stable user intent.",
+            "Touchscreens are simple buttons with no signal processing.",
+            "Apps receive raw electrical measurements from the glass."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The pipeline runs from sensing to coordinates to gestures to app events."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-07-04-how-touchscreens-know-where-you-touched.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-07-04-how-touchscreens-know-where-you-touched.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-07-04-how-touchscreens-know-where-you-touched.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-04-how-touchscreens-know-where-you-touched.jpg",
+    "topicProfile": {
+      "id": "interfaces",
+      "label": "Interface systems",
+      "accent": "#16A879"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-07-04-how-touchscreens-know-where-you-touched"
+  },
+  {
     "guid": "in-simple-terms-2026-07-03-how-tap-to-pay-works-without-sharing-your-card-number",
     "title": "How Tap-to-Pay Works Without Sharing Your Card Number",
     "subtitle": "Security model in simple terms",

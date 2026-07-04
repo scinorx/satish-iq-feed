@@ -22,7 +22,74 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Fri, 03 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How Touchscreens Know Where You Touched</title>
+      <description>One missed tap, one ghost touch, or one delayed swipe can make an expensive phone feel broken.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: projected capacitive touchscreen sensing.
+- Main architecture pattern: conductive grid -&gt; capacitance measurement -&gt; scan controller -&gt; coordinate estimation -&gt; filtering and palm rejection -&gt; gesture recognition -&gt; OS input event -&gt; app response.
+- Useful mental model: a touchscreen is an invisible electrical grid plus a real-time signal-processing pipeline.
+- Rough timing anchor: at 120 Hz, samples are about 8.3 milliseconds apart; at 240 Hz, samples are about 4.2 milliseconds apart. Actual device rates vary by hardware, power mode, stylus mode, and operating-system pipeline.
+- App-layer mapping: platforms expose interpreted touch or pointer events rather than raw capacitance maps. Android `MotionEvent` exposes coordinates, pointer count, touch size, pressure, tool type, and historical points; W3C Pointer Events similarly define hardware-agnostic pointer input with coalesced and predicted events.
+- Main limitation: capacitive touch can be affected by gloves, water, electrical noise, screen protectors, palm contact, latency smoothing, and device-specific sensitivity tradeoffs.
+
+
+Sources:
+- https://arxiv.org/abs/1612.08227
+- https://developer.android.com/reference/android/view/MotionEvent
+- https://www.w3.org/TR/pointerevents3/
+- https://developer.apple.com/documentation/uikit/handling-touches-in-your-view</description>
+      <itunes:subtitle>Interface systems in simple terms</itunes:subtitle>
+      <itunes:summary>One missed tap, one ghost touch, or one delayed swipe can make an expensive phone feel broken.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: projected capacitive touchscreen sensing.
+- Main architecture pattern: conductive grid -&gt; capacitance measurement -&gt; scan controller -&gt; coordinate estimation -&gt; filtering and palm rejection -&gt; gesture recognition -&gt; OS input event -&gt; app response.
+- Useful mental model: a touchscreen is an invisible electrical grid plus a real-time signal-processing pipeline.
+- Rough timing anchor: at 120 Hz, samples are about 8.3 milliseconds apart; at 240 Hz, samples are about 4.2 milliseconds apart. Actual device rates vary by hardware, power mode, stylus mode, and operating-system pipeline.
+- App-layer mapping: platforms expose interpreted touch or pointer events rather than raw capacitance maps. Android `MotionEvent` exposes coordinates, pointer count, touch size, pressure, tool type, and historical points; W3C Pointer Events similarly define hardware-agnostic pointer input with coalesced and predicted events.
+- Main limitation: capacitive touch can be affected by gloves, water, electrical noise, screen protectors, palm contact, latency smoothing, and device-specific sensitivity tradeoffs.
+
+
+Sources:
+- https://arxiv.org/abs/1612.08227
+- https://developer.android.com/reference/android/view/MotionEvent
+- https://www.w3.org/TR/pointerevents3/
+- https://developer.apple.com/documentation/uikit/handling-touches-in-your-view</itunes:summary>
+      <itunes:duration>00:04:44</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>30</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-04-how-touchscreens-know-where-you-touched.txt" type="text/plain" language="en" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-04-how-touchscreens-know-where-you-touched.srt" type="application/x-subrip" language="en" rel="captions" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-04-how-touchscreens-know-where-you-touched.vtt" type="text/vtt" language="en" rel="captions" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-04-how-touchscreens-know-where-you-touched.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-04-how-touchscreens-know-where-you-touched.mp3" length="4544932" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-04-how-touchscreens-know-where-you-touched</guid>
+      <pubDate>Sat, 04 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How Tap-to-Pay Works Without Sharing Your Card Number</title>

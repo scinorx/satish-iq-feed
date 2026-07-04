@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-03",
-  "title": "Today's object: Security model in simple terms",
+  "generatedAt": "2026-07-04",
+  "title": "Today's object: Interface systems in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-07-03",
-    "status": "partial",
-    "scheduledFor": "2026-07-03T05:30:00-04:00",
-    "startedAt": "2026-07-03T09:25:01.995Z",
-    "finishedAt": "2026-07-03T10:34:12.854Z",
-    "currentStage": "completed",
+    "date": "2026-07-04",
+    "status": "running",
+    "scheduledFor": "2026-07-04T05:30:00-04:00",
+    "startedAt": "2026-07-04T09:25:05.720Z",
+    "finishedAt": null,
+    "currentStage": "publish",
     "topic": null,
-    "podcastTopic": "How Tap-to-Pay Works Without Sharing Your Card Number",
-    "commit": "6e16c6c08b5aeb41a5d96ed75f9571aaac3627d0",
+    "podcastTopic": "How Touchscreens Know Where You Touched",
+    "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "success",
-      "spotifyPrep": "success",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "How Tap-to-Pay Works Without Sharing Your Card Number"
+      "latestPodcastEpisode": "How Touchscreens Know Where You Touched"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "How Tap-to-Pay Works Without Sharing Your Card Number",
-      "publishedAt": "2026-07-03T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-03-how-tap-to-pay-works-without-sharing-your-card-number.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-03-how-tap-to-pay-works-without-sharing-your-card-number.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-03-how-tap-to-pay-works-without-sharing-your-card-number"
+      "title": "How Touchscreens Know Where You Touched",
+      "publishedAt": "2026-07-04T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-04-how-touchscreens-know-where-you-touched.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-04-how-touchscreens-know-where-you-touched.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-04-how-touchscreens-know-where-you-touched"
     }
   }
 }

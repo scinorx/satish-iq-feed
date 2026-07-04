@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-07-03",
-  "status": "partial",
-  "scheduledFor": "2026-07-03T05:30:00-04:00",
-  "startedAt": "2026-07-03T09:25:01.995Z",
-  "finishedAt": "2026-07-03T10:34:12.854Z",
-  "currentStage": "completed",
+  "date": "2026-07-04",
+  "status": "running",
+  "scheduledFor": "2026-07-04T05:30:00-04:00",
+  "startedAt": "2026-07-04T09:25:05.720Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "How Tap-to-Pay Works Without Sharing Your Card Number",
-  "commit": "6e16c6c08b5aeb41a5d96ed75f9571aaac3627d0",
+  "podcastTopic": "How Touchscreens Know Where You Touched",
+  "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "success",
-    "spotifyPrep": "success",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How Tap-to-Pay Works Without Sharing Your Card Number"
+    "latestPodcastEpisode": "How Touchscreens Know Where You Touched"
   }
 }
