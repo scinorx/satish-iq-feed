@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-07-04",
-  "status": "failed",
-  "scheduledFor": "2026-07-04T05:30:00-04:00",
-  "startedAt": "2026-07-04T09:40:01.737Z",
-  "finishedAt": "2026-07-04T09:42:34.844Z",
-  "currentStage": "completed",
+  "date": "2026-07-06",
+  "status": "running",
+  "scheduledFor": "2026-07-06T05:30:00-04:00",
+  "startedAt": "2026-07-06T12:17:16.461Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "How Touchscreens Know Where You Touched",
+  "podcastTopic": "What Exactly Is a Computer Chip?",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How Touchscreens Know Where You Touched"
+    "latestPodcastEpisode": "What Exactly Is a Computer Chip?"
   }
 }

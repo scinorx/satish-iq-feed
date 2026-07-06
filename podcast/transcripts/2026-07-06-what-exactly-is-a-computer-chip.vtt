@@ -1,0 +1,240 @@
+WEBVTT
+
+
+
+00:00:00.000 --> 00:00:02.720
+Hello, and welcome to In Simple Terms with Satish.
+
+00:00:02.720 --> 00:00:07.040
+Today, let's understand what a computer chip actually is and why people keep calling it
+
+00:00:07.040 --> 00:00:08.040
+silicon.
+
+00:00:08.040 --> 00:00:14.600
+Before AI chips, chiplets, GPUs, or data centers, there is one basic object underneath the modern
+
+00:00:14.600 --> 00:00:16.280
+world, the computer chip.
+
+00:00:16.280 --> 00:00:21.920
+Every tap, card payment, photo, video call, and AI answer eventually becomes controlled
+
+00:00:21.920 --> 00:00:25.080
+electricity moving through manufactured silicon.
+
+00:00:25.080 --> 00:00:29.320
+The digital world feels invisible, but it runs on physical objects.
+
+00:00:29.320 --> 00:00:34.320
+When someone says chip, they usually mean the small electronic part inside a phone,
+
+00:00:34.320 --> 00:00:36.160
+car, router, or server.
+
+00:00:36.160 --> 00:00:41.600
+But a chip is not just a shiny square, and silicon is not the same thing as a chip.
+
+00:00:41.600 --> 00:00:42.840
+Silicon is the material.
+
+00:00:42.840 --> 00:00:46.200
+The chip is the engineered circuit built on that material.
+
+00:00:46.200 --> 00:00:48.600
+A simple way to picture it is this.
+
+00:00:48.600 --> 00:00:53.360
+Silicon is the land, transistors are controlled gates, metal wires are the roads, and the
+
+00:00:53.360 --> 00:00:55.240
+chip is the whole city.
+
+00:00:55.240 --> 00:00:56.240
+Why silicon?
+
+00:00:56.240 --> 00:00:58.340
+Because silicon is a semiconductor.
+
+00:00:58.360 --> 00:01:03.540
+That means it is not a perfect conductor like copper and not a perfect insulator like glass.
+
+00:01:03.540 --> 00:01:05.860
+Its electrical behavior can be controlled.
+
+00:01:05.860 --> 00:01:11.020
+By adding tiny amounts of materials, such as boron or phosphorus, engineers can change
+
+00:01:11.020 --> 00:01:14.000
+how easily electricity moves through silicon.
+
+00:01:14.000 --> 00:01:18.940
+That controllability is the reason silicon became one of the most important materials
+
+00:01:18.940 --> 00:01:19.940
+in technology.
+
+00:01:19.940 --> 00:01:23.380
+The most important object on a chip is the transistor.
+
+00:01:23.380 --> 00:01:27.460
+In simple terms, a transistor is an electrically controlled switch.
+
+00:01:27.580 --> 00:01:29.860
+It can allow current to flow or stop it.
+
+00:01:29.860 --> 00:01:33.420
+Once you have a controllable switch, you can represent information.
+
+00:01:33.420 --> 00:01:35.820
+On can mean 1, off can mean 0.
+
+00:01:35.820 --> 00:01:39.820
+Now connect many switches together and you can build logic gates.
+
+00:01:39.820 --> 00:01:44.220
+Logic gates can answer tiny questions like AND, OR, and NOT.
+
+00:01:44.220 --> 00:01:49.660
+Connect enough gates and you can build adders, memory cells, control units, graphics engines,
+
+00:01:49.660 --> 00:01:54.600
+neural processing blocks, and almost everything else a modern device needs.
+
+00:01:54.600 --> 00:01:56.980
+This is the quiet magic of computing.
+
+00:01:56.980 --> 00:01:59.620
+There is no floating intelligence inside the chip.
+
+00:01:59.620 --> 00:02:05.420
+There are billions of tiny physical switches arranged so precisely that electricity becomes
+
+00:02:05.420 --> 00:02:06.420
+logic.
+
+00:02:06.420 --> 00:02:08.220
+ASML's definition is plain.
+
+00:02:08.220 --> 00:02:14.260
+A microchip is electronic circuits on a small flat piece of silicon with transistors acting
+
+00:02:14.260 --> 00:02:15.780
+as miniature switches.
+
+00:02:15.780 --> 00:02:17.480
+A chip is not software.
+
+00:02:17.480 --> 00:02:19.820
+It is a manufactured physical circuit.
+
+00:02:19.820 --> 00:02:24.980
+The manufacturing starts with a silicon wafer, which is a very thin slice of highly purified
+
+00:02:24.980 --> 00:02:25.980
+silicon.
+
+00:02:25.980 --> 00:02:30.820
+Instead of making one chip at a time, chip makers build many copies across one wafer.
+
+00:02:30.820 --> 00:02:36.180
+Layer by layer, they print patterns, add and remove materials, change electrical properties,
+
+00:02:36.180 --> 00:02:37.700
+and connect regions together.
+
+00:02:37.700 --> 00:02:42.660
+This is why chip manufacturing feels less like normal assembly and more like nanoscale
+
+00:02:42.660 --> 00:02:43.660
+city planning.
+
+00:02:43.660 --> 00:02:49.720
+ASML says modern chips can have up to about 100 layers aligned with nanometer precision.
+
+00:02:49.720 --> 00:02:51.380
+That scale is difficult to imagine.
+
+00:02:51.380 --> 00:02:54.340
+A nanometer is one billionth of a meter.
+
+00:02:54.340 --> 00:03:00.180
+For comparison, ASML notes that a human red blood cell is about 7,000 nanometers wide
+
+00:03:00.180 --> 00:03:03.240
+and a flu virus is around 100 nanometers.
+
+00:03:03.240 --> 00:03:06.100
+The useful point is not just that chips are small.
+
+00:03:06.100 --> 00:03:10.820
+It is that the smallness has to be repeatable, aligned, tested, and connected.
+
+00:03:10.820 --> 00:03:15.460
+After the wafer is processed, each individual chip area is cut out as a die.
+
+00:03:15.460 --> 00:03:18.040
+Then it is tested and placed into a package.
+
+00:03:18.040 --> 00:03:22.660
+The package protects the silicon and gives it electrical connections to the circuit board.
+
+00:03:22.700 --> 00:03:27.620
+So the black square you see on a motherboard is usually packaged silicon designed to survive
+
+00:03:27.620 --> 00:03:30.860
+heat, power, signals, and real-world use.
+
+00:03:30.860 --> 00:03:33.500
+And one more thing, not every chip is a CPU.
+
+00:03:33.500 --> 00:03:39.100
+Some chips store memory, some run logic, some handle real-world signals, some manage power,
+
+00:03:39.100 --> 00:03:42.740
+and some combine many jobs into one system on a chip.
+
+00:03:42.740 --> 00:03:44.340
+The clear takeaway is this.
+
+00:03:44.340 --> 00:03:49.580
+A computer chip is a physical machine for controlling electricity at enormous scale
+
+00:03:49.580 --> 00:03:51.500
+and enormous precision.
+
+00:03:51.500 --> 00:03:54.700
+Silicon gives engineers a controllable material.
+
+00:03:54.700 --> 00:03:56.340
+Transistors give them switches.
+
+00:03:56.340 --> 00:03:57.860
+Circuits give them logic.
+
+00:03:57.860 --> 00:04:01.340
+Layers and packaging turn those circuits into reliable products.
+
+00:04:01.340 --> 00:04:04.540
+So in simple terms, a chip is not just silicon.
+
+00:04:04.540 --> 00:04:10.460
+It is silicon transformed into billions of organized switches wired together so precisely
+
+00:04:10.460 --> 00:04:13.620
+that controlled electricity becomes computation.
+
+00:04:13.620 --> 00:04:19.060
+That is the foundation behind phones, cars, cloud servers, AI accelerators, and the chiplets
+
+00:04:19.060 --> 00:04:20.660
+we will talk about next.
+
+00:04:20.660 --> 00:04:25.140
+If this helped you understand the topic in simple terms, follow or subscribe to In Simple
+
+00:04:25.140 --> 00:04:29.460
+Terms with Satish and share this episode with one friend who likes technology.
+
+00:04:29.460 --> 00:04:31.180
+I will see you in the next episode.

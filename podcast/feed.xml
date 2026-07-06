@@ -22,7 +22,159 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sat, 04 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>What Exactly Is a Computer Chip?</title>
+      <description>Today, let&apos;s understand what a computer chip actually is, and why people keep calling it silicon.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: a computer chip as an integrated circuit built on semiconductor material, usually silicon.
+- Main explanation pattern: silicon material -&gt; doped semiconductor regions -&gt; transistors as controllable switches -&gt; logic gates and memory cells -&gt; layered wafer fabrication -&gt; die cutting -&gt; packaging.
+- ASML definition anchor: a microchip, also called a chip or integrated circuit, is a set of electronic circuits on a small flat piece of silicon, with transistors acting as miniature switches.
+- Semiconductor anchor: SIA explains that semiconductors have adjustable electrical conductivity and that integrated circuits are made by processing wafers with metals and dopants, yielding many dies from one wafer.
+- Manufacturing anchor: ASML says fabrication builds layers of interconnected patterns on silicon wafers, can involve hundreds of steps, and can take up to four months from design to mass production.
+- Scale anchor: ASML notes that a fingernail-sized microchip can contain billions of transistors; a nanometer is one billionth of a meter; a human red blood cell is about 7,000 nm wide and a flu virus is around 100 nm.
+- Listener-safe analogy: silicon is the land, transistors are controlled gates, metal wires are roads, and the chip is the city. Use this briefly; the engineering spine should stay material, transistor, circuit, wafer, die, package.
+- Next-episode bridge: chiplets become much easier after listeners understand die and package. A chiplet is essentially one specialized die used as part of a larger packaged system.
+
+
+Sources:
+- https://www.asml.com/en/technology/all-about-microchips/microchip-basics
+- https://www.asml.com/en/technology/all-about-microchips/how-microchips-are-made
+- https://www.semiconductors.org/semiconductors-101/what-are-semiconductors/
+- https://www.semiconductors.org/semiconductors-101/how-are-semiconductors-made/</description>
+      <itunes:subtitle>Compute basics in simple terms</itunes:subtitle>
+      <itunes:summary>Today, let&apos;s understand what a computer chip actually is, and why people keep calling it silicon.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: a computer chip as an integrated circuit built on semiconductor material, usually silicon.
+- Main explanation pattern: silicon material -&gt; doped semiconductor regions -&gt; transistors as controllable switches -&gt; logic gates and memory cells -&gt; layered wafer fabrication -&gt; die cutting -&gt; packaging.
+- ASML definition anchor: a microchip, also called a chip or integrated circuit, is a set of electronic circuits on a small flat piece of silicon, with transistors acting as miniature switches.
+- Semiconductor anchor: SIA explains that semiconductors have adjustable electrical conductivity and that integrated circuits are made by processing wafers with metals and dopants, yielding many dies from one wafer.
+- Manufacturing anchor: ASML says fabrication builds layers of interconnected patterns on silicon wafers, can involve hundreds of steps, and can take up to four months from design to mass production.
+- Scale anchor: ASML notes that a fingernail-sized microchip can contain billions of transistors; a nanometer is one billionth of a meter; a human red blood cell is about 7,000 nm wide and a flu virus is around 100 nm.
+- Listener-safe analogy: silicon is the land, transistors are controlled gates, metal wires are roads, and the chip is the city. Use this briefly; the engineering spine should stay material, transistor, circuit, wafer, die, package.
+- Next-episode bridge: chiplets become much easier after listeners understand die and package. A chiplet is essentially one specialized die used as part of a larger packaged system.
+
+
+Sources:
+- https://www.asml.com/en/technology/all-about-microchips/microchip-basics
+- https://www.asml.com/en/technology/all-about-microchips/how-microchips-are-made
+- https://www.semiconductors.org/semiconductors-101/what-are-semiconductors/
+- https://www.semiconductors.org/semiconductors-101/how-are-semiconductors-made/</itunes:summary>
+      <itunes:duration>00:04:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>32</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-06-what-exactly-is-a-computer-chip.txt" type="text/plain" language="en" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-06-what-exactly-is-a-computer-chip.srt" type="application/x-subrip" language="en" rel="captions" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-06-what-exactly-is-a-computer-chip.vtt" type="text/vtt" language="en" rel="captions" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-06-what-exactly-is-a-computer-chip.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-06-what-exactly-is-a-computer-chip.mp3" length="4340132" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-06-what-exactly-is-a-computer-chip</guid>
+      <pubDate>Mon, 06 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>The Engineering Behind Weather Apps</title>
+      <description>But behind that tiny forecast is one of the most impressive everyday engineering systems we use.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: probability of precipitation, often abbreviated PoP.
+- Main architecture pattern: observations -&gt; quality control -&gt; data assimilation -&gt; numerical weather prediction -&gt; ensembles -&gt; nowcasting/post-processing -&gt; app UI.
+- Listener-safe PoP definition: in the NWS point/grid context, PoP describes the probability that the forecast grid or point receives at least 0.01 inch of precipitation during the period.
+- Worked probability anchor: with 10 similar 60% forecasts for the same point and time window, measurable rain should occur on roughly 6 and not occur on roughly 4 if the forecasts are well calibrated.
+- Observation layer: surface stations such as ASOS report wind, temperature, dew point, pressure, visibility, precipitation type, and precipitation accumulation; radar and satellite add remote observations of precipitation and storm structure.
+- Data assimilation layer: the GFS page describes GDAS producing initial conditions for the GFS using a 4D hybrid ensemble-variational data-assimilation scheme.
+- Numerical model layer: the GFS is global numerical guidance at about 13 km resolution, run four times a day, producing forecasts up to 16 days in advance.
+- Ensemble layer: GEFS v12 is a global ensemble system with 31 members per cycle, run four times daily, representing initial-condition and model uncertainty.
+- Nowcasting layer: HRRR is an hourly updated, 3 km, cloud-resolving NOAA model initialized with radar assimilation; radar data is assimilated every 15 minutes over a 1-hour period, useful for short-range storm updates.
+- Main limitation: app percentages depend on provider, forecast grid, user location, time window, precipitation threshold, model blend, post-processing, and how the app rounds or displays uncertainty.
+
+
+Sources:
+- https://www.weather.gov/ffc/pop
+- https://www.weather.gov/asos/
+- https://www.nssl.noaa.gov/education/svrwx101/tornadoes/detection/
+- https://www.nesdis.noaa.gov/current-satellite-missions/currently-flying/geostationary-satellites
+- https://www.emc.ncep.noaa.gov/emc/pages/numerical_forecast_systems/gfs.php
+- https://www.emc.ncep.noaa.gov/emc/pages/numerical_forecast_systems/gefs.php
+- https://rapidrefresh.noaa.gov/hrrr/</description>
+      <itunes:subtitle>Weather systems in simple terms</itunes:subtitle>
+      <itunes:summary>But behind that tiny forecast is one of the most impressive everyday engineering systems we use.
+
+In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: probability of precipitation, often abbreviated PoP.
+- Main architecture pattern: observations -&gt; quality control -&gt; data assimilation -&gt; numerical weather prediction -&gt; ensembles -&gt; nowcasting/post-processing -&gt; app UI.
+- Listener-safe PoP definition: in the NWS point/grid context, PoP describes the probability that the forecast grid or point receives at least 0.01 inch of precipitation during the period.
+- Worked probability anchor: with 10 similar 60% forecasts for the same point and time window, measurable rain should occur on roughly 6 and not occur on roughly 4 if the forecasts are well calibrated.
+- Observation layer: surface stations such as ASOS report wind, temperature, dew point, pressure, visibility, precipitation type, and precipitation accumulation; radar and satellite add remote observations of precipitation and storm structure.
+- Data assimilation layer: the GFS page describes GDAS producing initial conditions for the GFS using a 4D hybrid ensemble-variational data-assimilation scheme.
+- Numerical model layer: the GFS is global numerical guidance at about 13 km resolution, run four times a day, producing forecasts up to 16 days in advance.
+- Ensemble layer: GEFS v12 is a global ensemble system with 31 members per cycle, run four times daily, representing initial-condition and model uncertainty.
+- Nowcasting layer: HRRR is an hourly updated, 3 km, cloud-resolving NOAA model initialized with radar assimilation; radar data is assimilated every 15 minutes over a 1-hour period, useful for short-range storm updates.
+- Main limitation: app percentages depend on provider, forecast grid, user location, time window, precipitation threshold, model blend, post-processing, and how the app rounds or displays uncertainty.
+
+
+Sources:
+- https://www.weather.gov/ffc/pop
+- https://www.weather.gov/asos/
+- https://www.nssl.noaa.gov/education/svrwx101/tornadoes/detection/
+- https://www.nesdis.noaa.gov/current-satellite-missions/currently-flying/geostationary-satellites
+- https://www.emc.ncep.noaa.gov/emc/pages/numerical_forecast_systems/gfs.php
+- https://www.emc.ncep.noaa.gov/emc/pages/numerical_forecast_systems/gefs.php
+- https://rapidrefresh.noaa.gov/hrrr/</itunes:summary>
+      <itunes:duration>00:04:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>31</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-05-why-weather-apps-say-60-chance-of-rain.txt" type="text/plain" language="en" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-05-why-weather-apps-say-60-chance-of-rain.srt" type="application/x-subrip" language="en" rel="captions" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-05-why-weather-apps-say-60-chance-of-rain.vtt" type="text/vtt" language="en" rel="captions" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-05-why-weather-apps-say-60-chance-of-rain.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-05-why-weather-apps-say-60-chance-of-rain.mp3" length="3965222" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-05-why-weather-apps-say-60-chance-of-rain</guid>
+      <pubDate>Sun, 05 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How Touchscreens Know Where You Touched</title>
