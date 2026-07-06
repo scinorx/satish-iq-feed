@@ -8,19 +8,19 @@
   "runStatus": {
     "version": 1,
     "date": "2026-07-06",
-    "status": "running",
+    "status": "partial",
     "scheduledFor": "2026-07-06T05:30:00-04:00",
     "startedAt": "2026-07-06T12:17:16.461Z",
-    "finishedAt": null,
-    "currentStage": "publish",
+    "finishedAt": "2026-07-06T12:19:15.294Z",
+    "currentStage": "completed",
     "topic": null,
     "podcastTopic": "What Exactly Is a Computer Chip?",
     "commit": null,
     "results": {
-      "publicFeedPublish": null,
-      "privatePush": null,
-      "spotifyPrep": null,
-      "spotifyDraft": null
+      "publicFeedPublish": "success",
+      "privatePush": "success",
+      "spotifyPrep": "skipped",
+      "spotifyDraft": "skipped"
     },
     "outputs": {
       "snapshot": true,
