@@ -8,19 +8,19 @@
   "runStatus": {
     "version": 1,
     "date": "2026-07-07",
-    "status": "running",
+    "status": "failed",
     "scheduledFor": "2026-07-07T05:30:00-04:00",
     "startedAt": "2026-07-07T09:25:02.248Z",
-    "finishedAt": null,
-    "currentStage": "publish",
+    "finishedAt": "2026-07-07T09:38:01.599Z",
+    "currentStage": "completed",
     "topic": null,
     "podcastTopic": "The Hidden Tech Behind Chiplets in Modern AI Chips",
     "commit": null,
     "results": {
-      "publicFeedPublish": null,
-      "privatePush": null,
-      "spotifyPrep": null,
-      "spotifyDraft": null
+      "publicFeedPublish": "success",
+      "privatePush": "blocked",
+      "spotifyPrep": "skipped",
+      "spotifyDraft": "skipped"
     },
     "outputs": {
       "snapshot": true,
