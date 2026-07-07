@@ -22,13 +22,70 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Mon, 06 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 09:30:00 GMT</lastBuildDate>
 
     <item>
-      <title>What Exactly Is a Computer Chip?</title>
-      <description>Today, let&apos;s understand what a computer chip actually is, and why people keep calling it silicon.
+      <title>The Hidden Tech Behind Chiplets in Modern AI Chips</title>
+      <description>Today we are talking about chiplets, the hidden technology behind many modern AI chips.
 
-In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+- HBM: high-bandwidth memory, usually placed close to compute for very high memory bandwidth.
+- UCIe: Universal Chiplet Interconnect Express, an open die-to-die interconnect specification.
+- CoWoS: chip-on-wafer-on-substrate, a TSMC advanced packaging family used in large AI packages.
+- Useful system concepts: partitioning, locality, interconnect, orchestration, observability, and graceful degradation.
+
+
+Sources:
+- https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html
+- https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/
+- https://www.uciexpress.org/specifications
+- https://www.tomshardware.com/tech-industry/semiconductors/tsmc-says-panel-packaging-wont-replace-cowos-anytime-soon-for-the-largest-future-ai-processors-wafer-level-tech-can-scale-to-58-massive-dies-in-one-package</description>
+      <itunes:subtitle>Chip architecture in simple terms</itunes:subtitle>
+      <itunes:summary>Today we are talking about chiplets, the hidden technology behind many modern AI chips.
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+- HBM: high-bandwidth memory, usually placed close to compute for very high memory bandwidth.
+- UCIe: Universal Chiplet Interconnect Express, an open die-to-die interconnect specification.
+- CoWoS: chip-on-wafer-on-substrate, a TSMC advanced packaging family used in large AI packages.
+- Useful system concepts: partitioning, locality, interconnect, orchestration, observability, and graceful degradation.
+
+
+Sources:
+- https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html
+- https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/
+- https://www.uciexpress.org/specifications
+- https://www.tomshardware.com/tech-industry/semiconductors/tsmc-says-panel-packaging-wont-replace-cowos-anytime-soon-for-the-largest-future-ai-processors-wafer-level-tech-can-scale-to-58-massive-dies-in-one-package</itunes:summary>
+      <itunes:duration>00:04:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>36</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-07-the-hidden-tech-behind-chiplets-in-modern-ai-chips.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-07-the-hidden-tech-behind-chiplets-in-modern-ai-chips.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-07-the-hidden-tech-behind-chiplets-in-modern-ai-chips.mp3" length="4238986" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-07-the-hidden-tech-behind-chiplets-in-modern-ai-chips</guid>
+      <pubDate>Tue, 07 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>How Chiplets Make Modern AI Chips Possible</title>
+      <description>Once you understand that a chip is a manufactured circuit on silicon, the next question is obvious: why not just make one giant chip for AI?
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
 
 In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
 
@@ -38,14 +95,73 @@ Production note: This episode uses authorized synthetic narration based on Satis
 Engineer notes:
 Exact technical references:
 
-- Core technical object: a computer chip as an integrated circuit built on semiconductor material, usually silicon.
-- Main explanation pattern: silicon material -&gt; doped semiconductor regions -&gt; transistors as controllable switches -&gt; logic gates and memory cells -&gt; layered wafer fabrication -&gt; die cutting -&gt; packaging.
-- ASML definition anchor: a microchip, also called a chip or integrated circuit, is a set of electronic circuits on a small flat piece of silicon, with transistors acting as miniature switches.
-- Semiconductor anchor: SIA explains that semiconductors have adjustable electrical conductivity and that integrated circuits are made by processing wafers with metals and dopants, yielding many dies from one wafer.
-- Manufacturing anchor: ASML says fabrication builds layers of interconnected patterns on silicon wafers, can involve hundreds of steps, and can take up to four months from design to mass production.
-- Scale anchor: ASML notes that a fingernail-sized microchip can contain billions of transistors; a nanometer is one billionth of a meter; a human red blood cell is about 7,000 nm wide and a flu virus is around 100 nm.
-- Listener-safe analogy: silicon is the land, transistors are controlled gates, metal wires are roads, and the chip is the city. Use this briefly; the engineering spine should stay material, transistor, circuit, wafer, die, package.
-- Next-episode bridge: chiplets become much easier after listeners understand die and package. A chiplet is essentially one specialized die used as part of a larger packaged system.
+- Core technical object: chiplets and advanced packaging for AI accelerators.
+- Main architecture pattern: split a large accelerator into specialized dies/chiplets -&gt; place them close together in an advanced package -&gt; connect them with high-bandwidth die-to-die links -&gt; present them as one usable system.
+- NVIDIA Blackwell anchor: NVIDIA says Blackwell GPUs have 208 billion transistors and use two reticle-limited dies connected by a 10 TB/s chip-to-chip interconnect as one unified GPU.
+- AMD MI300X scale anchor: AMD lists 153 billion transistors, 192 GB HBM3, and 5.3 TB/s peak memory bandwidth for MI300X.
+- UCIe standard anchor: UCIe defines an open package-level die-to-die interconnect covering physical layer, protocols, software model, and compliance testing; UCIe 3.0 adds 48 GT/s and 64 GT/s rates.
+- Listener-safe analogy: chiplets are like specialized city districts inside one package; the interconnects are roads, and advanced packaging is the city plan that keeps the districts close enough to work together.
+- Main limitation: chiplet systems add complexity in thermal design, power delivery, signal integrity, testing, reliability, security, and software placement.
+- Software angle: this is distributed systems thinking inside hardware. Data movement, locality, bandwidth, and scheduling matter, even when the product appears as one accelerator.
+
+
+Sources:
+- https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/
+- https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html
+- https://www.uciexpress.org/specifications
+- https://www.uciexpress.org/</description>
+      <itunes:subtitle>Chip architecture in simple terms</itunes:subtitle>
+      <itunes:summary>Once you understand that a chip is a manufactured circuit on silicon, the next question is obvious: why not just make one giant chip for AI?
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: chiplets and advanced packaging for AI accelerators.
+- Main architecture pattern: split a large accelerator into specialized dies/chiplets -&gt; place them close together in an advanced package -&gt; connect them with high-bandwidth die-to-die links -&gt; present them as one usable system.
+- NVIDIA Blackwell anchor: NVIDIA says Blackwell GPUs have 208 billion transistors and use two reticle-limited dies connected by a 10 TB/s chip-to-chip interconnect as one unified GPU.
+- AMD MI300X scale anchor: AMD lists 153 billion transistors, 192 GB HBM3, and 5.3 TB/s peak memory bandwidth for MI300X.
+- UCIe standard anchor: UCIe defines an open package-level die-to-die interconnect covering physical layer, protocols, software model, and compliance testing; UCIe 3.0 adds 48 GT/s and 64 GT/s rates.
+- Listener-safe analogy: chiplets are like specialized city districts inside one package; the interconnects are roads, and advanced packaging is the city plan that keeps the districts close enough to work together.
+- Main limitation: chiplet systems add complexity in thermal design, power delivery, signal integrity, testing, reliability, security, and software placement.
+- Software angle: this is distributed systems thinking inside hardware. Data movement, locality, bandwidth, and scheduling matter, even when the product appears as one accelerator.
+
+
+Sources:
+- https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/
+- https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html
+- https://www.uciexpress.org/specifications
+- https://www.uciexpress.org/</itunes:summary>
+      <itunes:duration>00:04:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>33</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-07-how-chiplets-make-modern-ai-chips-possible.txt" type="text/plain" language="en" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-07-how-chiplets-make-modern-ai-chips-possible.srt" type="application/x-subrip" language="en" rel="captions" />
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-07-how-chiplets-make-modern-ai-chips-possible.vtt" type="text/vtt" language="en" rel="captions" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-07-how-chiplets-make-modern-ai-chips-possible.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-07-how-chiplets-make-modern-ai-chips-possible.mp3" length="4592579" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-07-how-chiplets-make-modern-ai-chips-possible</guid>
+      <pubDate>Tue, 07 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>What Exactly Is a Computer Chip?</title>
+      <description>Today, let&apos;s understand what a computer chip actually is, and why people keep calling it silicon.
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
 
 
 Sources:
@@ -56,24 +172,12 @@ Sources:
       <itunes:subtitle>Compute basics in simple terms</itunes:subtitle>
       <itunes:summary>Today, let&apos;s understand what a computer chip actually is, and why people keep calling it silicon.
 
-In this episode, Satish uses a simple real-life example first, then turns the idea into a practical technical mental model for engineers and curious builders.
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
 
 In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
 
 Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
 
-
-Engineer notes:
-Exact technical references:
-
-- Core technical object: a computer chip as an integrated circuit built on semiconductor material, usually silicon.
-- Main explanation pattern: silicon material -&gt; doped semiconductor regions -&gt; transistors as controllable switches -&gt; logic gates and memory cells -&gt; layered wafer fabrication -&gt; die cutting -&gt; packaging.
-- ASML definition anchor: a microchip, also called a chip or integrated circuit, is a set of electronic circuits on a small flat piece of silicon, with transistors acting as miniature switches.
-- Semiconductor anchor: SIA explains that semiconductors have adjustable electrical conductivity and that integrated circuits are made by processing wafers with metals and dopants, yielding many dies from one wafer.
-- Manufacturing anchor: ASML says fabrication builds layers of interconnected patterns on silicon wafers, can involve hundreds of steps, and can take up to four months from design to mass production.
-- Scale anchor: ASML notes that a fingernail-sized microchip can contain billions of transistors; a nanometer is one billionth of a meter; a human red blood cell is about 7,000 nm wide and a flu virus is around 100 nm.
-- Listener-safe analogy: silicon is the land, transistors are controlled gates, metal wires are roads, and the chip is the city. Use this briefly; the engineering spine should stay material, transistor, circuit, wafer, die, package.
-- Next-episode bridge: chiplets become much easier after listeners understand die and package. A chiplet is essentially one specialized die used as part of a larger packaged system.
 
 
 Sources:
@@ -87,8 +191,6 @@ Sources:
       <itunes:episode>32</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-06-what-exactly-is-a-computer-chip.txt" type="text/plain" language="en" />
-      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-06-what-exactly-is-a-computer-chip.srt" type="application/x-subrip" language="en" rel="captions" />
-      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-06-what-exactly-is-a-computer-chip.vtt" type="text/vtt" language="en" rel="captions" />
       <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-06-what-exactly-is-a-computer-chip.jpg" />
       <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-06-what-exactly-is-a-computer-chip.mp3" length="4340132" type="audio/mpeg" />
       <guid isPermaLink="false">in-simple-terms-2026-07-06-what-exactly-is-a-computer-chip</guid>
