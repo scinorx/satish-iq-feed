@@ -1,19 +1,19 @@
 {
   "version": 1,
   "date": "2026-07-08",
-  "status": "running",
+  "status": "failed",
   "scheduledFor": "2026-07-08T05:30:00-04:00",
   "startedAt": "2026-07-08T09:25:00.895Z",
-  "finishedAt": null,
-  "currentStage": "publish",
+  "finishedAt": "2026-07-08T09:31:14.229Z",
+  "currentStage": "completed",
   "topic": null,
   "podcastTopic": "Why World Cup Tickets Feel Impossible To Buy",
   "commit": null,
   "results": {
-    "publicFeedPublish": null,
-    "privatePush": null,
-    "spotifyPrep": null,
-    "spotifyDraft": null
+    "publicFeedPublish": "success",
+    "privatePush": "blocked",
+    "spotifyPrep": "skipped",
+    "spotifyDraft": "skipped"
   },
   "outputs": {
     "snapshot": true,
