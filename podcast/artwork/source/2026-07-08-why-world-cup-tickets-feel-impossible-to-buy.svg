@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF4D6"/>
+      <stop offset="58%" stop-color="#FFB23F"/>
+      <stop offset="100%" stop-color="#B7192F"/>
+    </linearGradient>
+    <radialGradient id="topicGlow" cx="50%" cy="50%" r="62%">
+      <stop offset="0%" stop-color="#B7192F" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#241118" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#6D4E00" flood-opacity="0.15"/>
+    </filter>
+    <style>
+      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #241118; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 197px; font-weight: 900; letter-spacing: 2px; fill: #241118; }
+      .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #241118; }
+      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #241118; }
+    </style>
+  </defs>
+  <rect width="3000" height="3000" fill="url(#paper)"/>
+  <circle cx="2450" cy="560" r="530" fill="#2E7D32" opacity="0.22"/>
+  <circle cx="360" cy="2500" r="560" fill="#2E7D32" opacity="0.13"/>
+  <circle cx="2250" cy="1540" r="770" fill="url(#topicGlow)" opacity="0.9"/>
+  <g>
+  <path d="M1785 990 H2745 V1585 H1785 Z" fill="none" stroke="#B7192F" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M1990 990 V1585 M2540 990 V1585" fill="none" stroke="#241118" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <circle cx="1785" cy="1290" r="80" fill="#2E7D32" opacity="0.18"/>
+  <circle cx="2745" cy="1290" r="80" fill="#2E7D32" opacity="0.18"/>
+  <path d="M2105 1165 H2425 M2105 1295 H2425 M2105 1425 H2325" fill="none" stroke="#241118" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <path d="M1880 1945 H2730 M1990 1810 V2080 M2180 1810 V2080 M2370 1810 V2080 M2560 1810 V2080" fill="none" stroke="#B7192F" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M1835 2240 C2025 2115 2245 2360 2440 2240 C2565 2165 2690 2190 2795 2285" fill="none" stroke="#241118" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+</g>
+  <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#241118" stroke-width="12" opacity="0.36"/>
+  <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
+  <g filter="url(#shadow)">
+    <text x="245" y="1193" class="title">WHY WORLD CUP</text>
+    <text x="245" y="1422" class="title">TICKETS FEEL</text>
+    <text x="245" y="1651" class="title">IMPOSSIBLE TO</text>
+    <text x="245" y="1880" class="title">BUY</text>
+  </g>
+  <path d="M260 2135 H1080" stroke="#B7192F" stroke-width="24" stroke-linecap="round"/>
+  <text x="260" y="2270" class="date">2026-07-08</text>
+  <text x="260" y="2575" class="small">TICKETING SYSTEMS</text>
+</svg>
