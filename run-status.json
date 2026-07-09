@@ -1,19 +1,19 @@
 {
   "version": 1,
   "date": "2026-07-09",
-  "status": "running",
+  "status": "failed",
   "scheduledFor": "2026-07-09T05:30:00-04:00",
   "startedAt": "2026-07-09T09:25:05.332Z",
-  "finishedAt": null,
-  "currentStage": "publish",
+  "finishedAt": "2026-07-09T09:31:09.241Z",
+  "currentStage": "completed",
   "topic": null,
   "podcastTopic": "How AI Can Copy a Voice And Why It Is Hard To Detect",
   "commit": null,
   "results": {
-    "publicFeedPublish": null,
-    "privatePush": null,
-    "spotifyPrep": null,
-    "spotifyDraft": null
+    "publicFeedPublish": "success",
+    "privatePush": "blocked",
+    "spotifyPrep": "skipped",
+    "spotifyDraft": "skipped"
   },
   "outputs": {
     "snapshot": true,
