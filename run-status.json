@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-07-08",
-  "status": "failed",
-  "scheduledFor": "2026-07-08T05:30:00-04:00",
-  "startedAt": "2026-07-08T09:40:01.551Z",
-  "finishedAt": "2026-07-08T09:41:12.889Z",
-  "currentStage": "completed",
+  "date": "2026-07-09",
+  "status": "running",
+  "scheduledFor": "2026-07-09T05:30:00-04:00",
+  "startedAt": "2026-07-09T09:25:05.332Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "Why World Cup Tickets Feel Impossible To Buy",
+  "podcastTopic": "How AI Can Copy a Voice And Why It Is Hard To Detect",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "Why World Cup Tickets Feel Impossible To Buy"
+    "latestPodcastEpisode": "How AI Can Copy a Voice And Why It Is Hard To Detect"
   }
 }
