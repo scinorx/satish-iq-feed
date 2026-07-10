@@ -22,7 +22,80 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Thu, 09 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How AirTags Find Lost Things Without GPS</title>
+      <description>So it is natural to imagine a small GPS tracker inside it, constantly talking to satellites and sending its position to Apple.
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: AirTag as a low-power Bluetooth beacon plus privacy-preserving crowdsourced relay network, not a standalone GPS tracker.
+- Main architecture pattern: AirTag broadcasts changing BLE signal -&gt; nearby finder device detects signal -&gt; finder attaches its own location -&gt; location report is encrypted and sent to iCloud -&gt; owner retrieves/decrypts matching sighting -&gt; nearby search uses sound/Bluetooth/Ultra Wideband.
+- Apple product anchor: Apple says AirTag sends a secure Bluetooth signal detected by nearby Find My network devices, which send location to iCloud, and that the process is anonymous and encrypted.
+- Apple privacy/security anchor: Apple Platform Security describes Find My offline finding as end-to-end encrypted, anonymous, battery/data efficient, and based on short-lived Bluetooth keys that change about every 15 minutes.
+- Bluetooth anchor: Bluetooth SIG describes Bluetooth LE as low-power, operating across 40 channels in the 2.4 GHz band, supporting broadcast communication and positioning features.
+- Precision Finding anchor: Apple states AirTag supports Bluetooth for proximity finding, Ultra Wideband for Precision Finding, NFC for Lost Mode, a speaker, accelerometer, and a replaceable CR2032 battery.
+- Safety anchor: Apple and Google both document unknown/unwanted tracker alerts for AirTags and compatible Bluetooth location-tracking devices.
+- Listener-safe boundary: explain recovery, privacy, and abuse-prevention architecture without giving operational guidance for stalking or evasion.
+
+
+Sources:
+- https://www.apple.com/airtag/
+- https://support.apple.com/guide/security/find-my-security-sec6cbc80fd0/web
+- https://support.apple.com/en-us/119874
+- https://support.google.com/android/answer/13658562
+- https://security.googleblog.com/2024/05/google-and-apple-deliver-support-for.html
+- https://www.bluetooth.com/learn-about-bluetooth/tech-overview/</description>
+      <itunes:subtitle>Location systems in simple terms</itunes:subtitle>
+      <itunes:summary>So it is natural to imagine a small GPS tracker inside it, constantly talking to satellites and sending its position to Apple.
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: AirTag as a low-power Bluetooth beacon plus privacy-preserving crowdsourced relay network, not a standalone GPS tracker.
+- Main architecture pattern: AirTag broadcasts changing BLE signal -&gt; nearby finder device detects signal -&gt; finder attaches its own location -&gt; location report is encrypted and sent to iCloud -&gt; owner retrieves/decrypts matching sighting -&gt; nearby search uses sound/Bluetooth/Ultra Wideband.
+- Apple product anchor: Apple says AirTag sends a secure Bluetooth signal detected by nearby Find My network devices, which send location to iCloud, and that the process is anonymous and encrypted.
+- Apple privacy/security anchor: Apple Platform Security describes Find My offline finding as end-to-end encrypted, anonymous, battery/data efficient, and based on short-lived Bluetooth keys that change about every 15 minutes.
+- Bluetooth anchor: Bluetooth SIG describes Bluetooth LE as low-power, operating across 40 channels in the 2.4 GHz band, supporting broadcast communication and positioning features.
+- Precision Finding anchor: Apple states AirTag supports Bluetooth for proximity finding, Ultra Wideband for Precision Finding, NFC for Lost Mode, a speaker, accelerometer, and a replaceable CR2032 battery.
+- Safety anchor: Apple and Google both document unknown/unwanted tracker alerts for AirTags and compatible Bluetooth location-tracking devices.
+- Listener-safe boundary: explain recovery, privacy, and abuse-prevention architecture without giving operational guidance for stalking or evasion.
+
+
+Sources:
+- https://www.apple.com/airtag/
+- https://support.apple.com/guide/security/find-my-security-sec6cbc80fd0/web
+- https://support.apple.com/en-us/119874
+- https://support.google.com/android/answer/13658562
+- https://security.googleblog.com/2024/05/google-and-apple-deliver-support-for.html
+- https://www.bluetooth.com/learn-about-bluetooth/tech-overview/</itunes:summary>
+      <itunes:duration>00:04:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>36</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-10-how-airtags-find-lost-things-without-gps.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-10-how-airtags-find-lost-things-without-gps.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-10-how-airtags-find-lost-things-without-gps.mp3" length="4165007" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-10-how-airtags-find-lost-things-without-gps</guid>
+      <pubDate>Fri, 10 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How AI Can Copy a Voice And Why It Is Hard To Detect</title>

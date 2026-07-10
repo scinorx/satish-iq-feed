@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "status": "failed",
-  "scheduledFor": "2026-07-09T05:30:00-04:00",
-  "startedAt": "2026-07-09T09:40:04.014Z",
-  "finishedAt": "2026-07-09T09:41:14.793Z",
+  "scheduledFor": "2026-07-10T05:30:00-04:00",
+  "startedAt": "2026-07-10T09:25:03.740Z",
+  "finishedAt": "2026-07-10T10:50:11.450Z",
   "currentStage": "completed",
   "topic": null,
-  "podcastTopic": "How AI Can Copy a Voice And Why It Is Hard To Detect",
+  "podcastTopic": "How AirTags Find Lost Things Without GPS",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
+    "publicFeedPublish": "blocked",
     "privatePush": "blocked",
     "spotifyPrep": "skipped",
     "spotifyDraft": "skipped"
@@ -18,6 +18,6 @@
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How AI Can Copy a Voice And Why It Is Hard To Detect"
+    "latestPodcastEpisode": "How AirTags Find Lost Things Without GPS"
   }
 }

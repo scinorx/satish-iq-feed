@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-09",
-  "title": "Today's object: Audio systems in simple terms",
+  "generatedAt": "2026-07-10",
+  "title": "Today's object: Location systems in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-07-09",
+    "date": "2026-07-10",
     "status": "failed",
-    "scheduledFor": "2026-07-09T05:30:00-04:00",
-    "startedAt": "2026-07-09T09:40:04.014Z",
-    "finishedAt": "2026-07-09T09:41:14.793Z",
+    "scheduledFor": "2026-07-10T05:30:00-04:00",
+    "startedAt": "2026-07-10T09:25:03.740Z",
+    "finishedAt": "2026-07-10T10:50:11.450Z",
     "currentStage": "completed",
     "topic": null,
-    "podcastTopic": "How AI Can Copy a Voice And Why It Is Hard To Detect",
+    "podcastTopic": "How AirTags Find Lost Things Without GPS",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
+      "publicFeedPublish": "blocked",
       "privatePush": "blocked",
       "spotifyPrep": "skipped",
       "spotifyDraft": "skipped"
@@ -25,17 +25,17 @@
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "How AI Can Copy a Voice And Why It Is Hard To Detect"
+      "latestPodcastEpisode": "How AirTags Find Lost Things Without GPS"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "How AI Can Copy a Voice And Why It Is Hard To Detect",
-      "publishedAt": "2026-07-09T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-09-how-ai-can-copy-a-voice-and-why-it-is-hard-to-detect.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-09-how-ai-can-copy-a-voice-and-why-it-is-hard-to-detect.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-09-how-ai-can-copy-a-voice-and-why-it-is-hard-to-detect"
+      "title": "How AirTags Find Lost Things Without GPS",
+      "publishedAt": "2026-07-10T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-10-how-airtags-find-lost-things-without-gps.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-10-how-airtags-find-lost-things-without-gps.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-10-how-airtags-find-lost-things-without-gps"
     }
   }
 }
