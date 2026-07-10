@@ -8,17 +8,17 @@
   "runStatus": {
     "version": 1,
     "date": "2026-07-10",
-    "status": "failed",
+    "status": "partial",
     "scheduledFor": "2026-07-10T05:30:00-04:00",
     "startedAt": "2026-07-10T09:25:03.740Z",
-    "finishedAt": "2026-07-10T10:50:11.450Z",
+    "finishedAt": "2026-07-10T13:02:05.063Z",
     "currentStage": "completed",
     "topic": null,
     "podcastTopic": "How AirTags Find Lost Things Without GPS",
     "commit": null,
     "results": {
-      "publicFeedPublish": "blocked",
-      "privatePush": "blocked",
+      "publicFeedPublish": "success",
+      "privatePush": "skipped",
       "spotifyPrep": "skipped",
       "spotifyDraft": "skipped"
     },
