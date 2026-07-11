@@ -1,5 +1,100 @@
 [
   {
+    "guid": "in-simple-terms-2026-07-11-how-your-map-knows-which-road-you-re-on",
+    "title": "How Your Map Knows Which Road You're On",
+    "subtitle": "Location systems in simple terms",
+    "description": "Imagine you are driving on a highway, and there is a service road running right beside it.\n\nIn this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.\n\nIn Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.\n\nProduction note: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\n\nEngineer notes:\nExact technical references:\n\n- Core technical object: the location marker as an estimated state, not a single raw GPS measurement.\n- Main architecture pattern: raw location signals -> sensor fusion -> road graph constraints -> map matching -> confidence/uncertainty display -> continuous correction.\n- GPS anchor: NIST explains that GPS works by comparing satellite timing signals, requires at least four satellites for a position fix, and can locate position to within about 4.9 meters, with modern phones improving precision using additional signals and processing.\n- Google Maps uncertainty anchor: Google Maps Help says the blue dot shows location, and a light blue circle indicates uncertainty; the smaller the circle, the more certain the app is.\n- Fused-location anchor: Google's fused location provider combines multiple signals, such as GPS, Wi-Fi, and device sensors, while managing accuracy and battery tradeoffs.\n- Road-snapping anchor: Google Roads API can take GPS points along a route and return points snapped to the most likely roads, with optional interpolation.\n- Map-matching anchor: Mapbox describes map matching as snapping fuzzy or inaccurate GPS traces from a phone or GPS unit to the road and path network.\n- Listener-safe analogy: the app is not asking one witness where you are; it is cross-examining several imperfect witnesses and checking their story against the road map.\n\n\nSources:\n- https://www.nist.gov/how-do-you-measure-it/how-do-you-measure-your-location-using-gps\n- https://developers.google.com/location-context/fused-location-provider\n- https://support.google.com/maps/answer/2839911\n- https://developers.google.com/maps/documentation/roads/snap\n- https://docs.mapbox.com/api/navigation/map-matching/",
+    "publishedAt": "2026-07-11T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-07-11",
+    "seasonNumber": 5,
+    "episodeNumber": 37,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-07-11T05:30:00-04:00",
+    "durationSeconds": 257,
+    "audioPath": "podcast/audio/2026-07-11-how-your-map-knows-which-road-you-re-on.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-11-how-your-map-knows-which-road-you-re-on.mp3",
+    "lengthBytes": 4113598,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday, let's understand how your map knows which road you're on.\n\nImagine you are driving on a highway, and there is a service road running right beside it.\n\nOn your screen, the location marker might look like a dot, an arrow, or, in Google Maps, the blue dot.\n\nBut the job is the same:\n\nkeep that marker on the road you are actually using.\n\nThat sounds simple until the two roads are only a few meters apart.\n\nSomehow, the marker usually stays on the highway instead of jumping to the service road.\n\nThat feels obvious when it works.\n\nBut technically, it is not obvious at all.\n\nYour phone does not know your exact position perfectly.\n\nIt is estimating from messy evidence.\n\nThe first evidence is GPS.\n\nGPS satellites broadcast timing and position signals from space.\n\nYour phone receives signals from multiple satellites and compares when those signals arrived.\n\nBecause radio signals travel at the speed of light, tiny timing differences become distance estimates.\n\nNIST explains that a device needs at least four satellites to get a position fix, and today's GPS can locate a position to within about 4.9 meters, or 16 feet.\n\nThat sounds precise, but it is not enough for navigation.\n\nFour or five meters can put you in the wrong lane, on the wrong ramp, or on the road beside you.\n\nAnd in real places, GPS gets messy.\n\nTall buildings can reflect signals.\n\nTunnels and parking garages can block them.\n\nTrees and dense city streets can weaken them.\n\nSo maps need a second kind of evidence: the phone's own sensors.\n\nModern phones use sensor fusion.\n\nThey can combine GPS, Wi-Fi, network clues, accelerometer data, gyroscope data, compass direction, speed, and recent movement.\n\nThe accelerometer can sense movement.\n\nThe gyroscope can sense turning.\n\nRecent points can estimate speed.\n\nSo the app is not only asking, \"Where is the phone?\"\n\nIt is asking, \"What story best explains the last few seconds of movement?\"\n\nThe third kind of evidence is the map itself.\n\nA digital map is not just a picture.\n\nIt is a road graph.\n\nRoads are connected segments with directions, turns, ramps, lanes, speed limits, and restrictions.\n\nThis is where map matching happens.\n\nThe app compares the noisy location signal against possible roads and asks which path is most likely.\n\nIf you are moving north at 40 miles per hour, and one nearby road goes north while another road goes east, the north road becomes more likely.\n\nIf you just turned right, the road graph checks which turns were physically possible.\n\nIf you are on a highway, the app should not jump you onto a service road every time the GPS drifts a few meters.\n\nSo the location marker is not the raw GPS point.\n\nIt is the system's best answer.\n\nHere is the core idea:\n\nnavigation is a probability problem.\n\nFor a moment, the app may think: highway, 80 percent; service road, 20 percent.\n\nThen you slow down, curve right, and keep moving along the ramp.\n\nNow the evidence changes.\n\nThe ramp becomes more likely, the highway becomes less likely, and the app moves the marker.\n\nThis is also why maps sometimes correct themselves after a few seconds.\n\nThey are not embarrassed.\n\nThey are updating the best explanation as new evidence arrives.\n\nMaps also show uncertainty visually.\n\nWhen Google Maps is not sure, its blue dot can have a light blue circle around it.\n\nThe smaller the circle, the more certain the app is.\n\nIn stacked roads, tunnels, or dense cities, two paths can look almost identical from noisy signals.\n\nIn that moment, the app is not confused because it is dumb.\n\nIt is confused because the evidence is genuinely ambiguous.\n\nThe clear takeaway is this:\n\nthe location marker is not a perfect measurement.\n\nIt is an estimate that keeps improving.\n\nIn simple terms, maps combine GPS, phone sensors, Wi-Fi and network clues, a road graph, map matching, and probability.\n\nAll of that works together to turn messy real-world signals into one useful answer:\n\nyou are probably here.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday, let's understand how your map knows which road you're on.\n\nImagine you are driving on a highway, and there is a service road running right beside it.\n\nOn your screen, the location marker might look like a dot, an arrow, or, in Google Maps, the blue dot.\n\nBut the job is the same:\n\nkeep that marker on the road you are actually using.\n\nThat sounds simple until the two roads are only a few meters apart.\n\nSomehow, the marker usually stays on the highway instead of jumping to the service road.\n\nThat feels obvious when it works.\n\nBut technically, it is not obvious at all.\n\nYour phone does not know your exact position perfectly.\n\nIt is estimating from messy evidence.\n\nThe first evidence is GPS.\n\nGPS satellites broadcast timing and position signals from space.\n\nYour phone receives signals from multiple satellites and compares when those signals arrived.\n\nBecause radio signals travel at the speed of light, tiny timing differences become distance estimates.\n\nNIST explains that a device needs at least four satellites to get a position fix, and today's GPS can locate a position to within about 4.9 meters, or 16 feet.\n\nThat sounds precise, but it is not enough for navigation.\n\nFour or five meters can put you in the wrong lane, on the wrong ramp, or on the road beside you.\n\nAnd in real places, GPS gets messy.\n\nTall buildings can reflect signals.\n\nTunnels and parking garages can block them.\n\nTrees and dense city streets can weaken them.\n\nSo maps need a second kind of evidence: the phone's own sensors.\n\nModern phones use sensor fusion.\n\nThey can combine GPS, Wi-Fi, network clues, accelerometer data, gyroscope data, compass direction, speed, and recent movement.\n\nThe accelerometer can sense movement.\n\nThe gyroscope can sense turning.\n\nRecent points can estimate speed.\n\nSo the app is not only asking, \"Where is the phone?\"\n\nIt is asking, \"What story best explains the last few seconds of movement?\"\n\nThe third kind of evidence is the map itself.\n\nA digital map is not just a picture.\n\nIt is a road graph.\n\nRoads are connected segments with directions, turns, ramps, lanes, speed limits, and restrictions.\n\nThis is where map matching happens.\n\nThe app compares the noisy location signal against possible roads and asks which path is most likely.\n\nIf you are moving north at 40 miles per hour, and one nearby road goes north while another road goes east, the north road becomes more likely.\n\nIf you just turned right, the road graph checks which turns were physically possible.\n\nIf you are on a highway, the app should not jump you onto a service road every time the GPS drifts a few meters.\n\nSo the location marker is not the raw GPS point.\n\nIt is the system's best answer.\n\nHere is the core idea:\n\nnavigation is a probability problem.\n\nFor a moment, the app may think: highway, 80 percent; service road, 20 percent.\n\nThen you slow down, curve right, and keep moving along the ramp.\n\nNow the evidence changes.\n\nThe ramp becomes more likely, the highway becomes less likely, and the app moves the marker.\n\nThis is also why maps sometimes correct themselves after a few seconds.\n\nThey are not embarrassed.\n\nThey are updating the best explanation as new evidence arrives.\n\nMaps also show uncertainty visually.\n\nWhen Google Maps is not sure, its blue dot can have a light blue circle around it.\n\nThe smaller the circle, the more certain the app is.\n\nIn stacked roads, tunnels, or dense cities, two paths can look almost identical from noisy signals.\n\nIn that moment, the app is not confused because it is dumb.\n\nIt is confused because the evidence is genuinely ambiguous.\n\nThe clear takeaway is this:\n\nthe location marker is not a perfect measurement.\n\nIt is an estimate that keeps improving.\n\nIn simple terms, maps combine GPS, phone sensors, Wi-Fi and network clues, a road graph, map matching, and probability.\n\nAll of that works together to turn messy real-world signals into one useful answer:\n\nyou are probably here.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-07-11-how-your-map-knows-which-road-you-re-on.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-11-how-your-map-knows-which-road-you-re-on.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "Maps are useful because they turn uncertain physical signals into a stable product experience. The reusable engineering pattern is sensor fusion plus constraint solving: raw measurements are noisy, so the system combines multiple signals, applies domain constraints from a graph, keeps probability over possible states, and continuously corrects when new evidence arrives.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "Why is GPS alone not enough for perfect navigation?",
+          "options": [
+            "GPS has error and can be affected by buildings, tunnels, signal reflections, and weak visibility.",
+            "GPS only works at night.",
+            "GPS only works on highways."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "A few meters of error can be enough to confuse nearby roads, lanes, ramps, or service roads."
+        },
+        {
+          "prompt": "What is sensor fusion in this context?",
+          "options": [
+            "Combining signals such as GPS, Wi-Fi, motion sensors, direction, speed, and recent location history.",
+            "Turning two phones into one phone.",
+            "Making the map image brighter."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Multiple imperfect signals can produce a better estimate than one signal alone."
+        },
+        {
+          "prompt": "What is map matching?",
+          "options": [
+            "Matching noisy location points to the most likely road or path in a digital road network.",
+            "Choosing the prettiest map color.",
+            "Downloading a paper map."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The app compares raw location estimates with possible roads and movement constraints."
+        },
+        {
+          "prompt": "Why does the location marker sometimes snap to a road?",
+          "options": [
+            "The app uses the road graph and recent movement to choose the most likely road.",
+            "The satellite knows every road name.",
+            "The phone camera reads lane signs."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "A road-aware estimate is often more useful than plotting raw GPS points directly."
+        },
+        {
+          "prompt": "Why can maps be confused near stacked roads or parallel roads?",
+          "options": [
+            "The sensor evidence can match multiple possible paths at the same time.",
+            "Maps stop working when roads are close together.",
+            "Navigation apps ignore highways."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "When several road candidates are plausible, the app must wait for more evidence before correcting."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-07-11-how-your-map-knows-which-road-you-re-on.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-07-11-how-your-map-knows-which-road-you-re-on.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-07-11-how-your-map-knows-which-road-you-re-on.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-11-how-your-map-knows-which-road-you-re-on.jpg",
+    "topicProfile": {
+      "id": "location",
+      "label": "Location systems",
+      "accent": "#0077C8"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-07-11-how-your-map-knows-which-road-you-re-on"
+  },
+  {
     "guid": "in-simple-terms-2026-07-10-how-airtags-find-lost-things-without-gps",
     "title": "How AirTags Find Lost Things Without GPS",
     "subtitle": "Location systems in simple terms",

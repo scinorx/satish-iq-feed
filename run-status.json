@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-07-10",
-  "status": "partial",
-  "scheduledFor": "2026-07-10T05:30:00-04:00",
-  "startedAt": "2026-07-10T09:25:03.740Z",
-  "finishedAt": "2026-07-10T13:02:05.063Z",
-  "currentStage": "completed",
+  "date": "2026-07-11",
+  "status": "running",
+  "scheduledFor": "2026-07-11T05:30:00-04:00",
+  "startedAt": "2026-07-11T09:25:02.804Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "How AirTags Find Lost Things Without GPS",
+  "podcastTopic": "How Your Map Knows Which Road You're On",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "skipped",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How AirTags Find Lost Things Without GPS"
+    "latestPodcastEpisode": "How Your Map Knows Which Road You're On"
   }
 }

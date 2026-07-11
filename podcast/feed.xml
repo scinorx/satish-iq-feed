@@ -22,7 +22,78 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Fri, 10 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How Your Map Knows Which Road You&apos;re On</title>
+      <description>Imagine you are driving on a highway, and there is a service road running right beside it.
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: the location marker as an estimated state, not a single raw GPS measurement.
+- Main architecture pattern: raw location signals -&gt; sensor fusion -&gt; road graph constraints -&gt; map matching -&gt; confidence/uncertainty display -&gt; continuous correction.
+- GPS anchor: NIST explains that GPS works by comparing satellite timing signals, requires at least four satellites for a position fix, and can locate position to within about 4.9 meters, with modern phones improving precision using additional signals and processing.
+- Google Maps uncertainty anchor: Google Maps Help says the blue dot shows location, and a light blue circle indicates uncertainty; the smaller the circle, the more certain the app is.
+- Fused-location anchor: Google&apos;s fused location provider combines multiple signals, such as GPS, Wi-Fi, and device sensors, while managing accuracy and battery tradeoffs.
+- Road-snapping anchor: Google Roads API can take GPS points along a route and return points snapped to the most likely roads, with optional interpolation.
+- Map-matching anchor: Mapbox describes map matching as snapping fuzzy or inaccurate GPS traces from a phone or GPS unit to the road and path network.
+- Listener-safe analogy: the app is not asking one witness where you are; it is cross-examining several imperfect witnesses and checking their story against the road map.
+
+
+Sources:
+- https://www.nist.gov/how-do-you-measure-it/how-do-you-measure-your-location-using-gps
+- https://developers.google.com/location-context/fused-location-provider
+- https://support.google.com/maps/answer/2839911
+- https://developers.google.com/maps/documentation/roads/snap
+- https://docs.mapbox.com/api/navigation/map-matching/</description>
+      <itunes:subtitle>Location systems in simple terms</itunes:subtitle>
+      <itunes:summary>Imagine you are driving on a highway, and there is a service road running right beside it.
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: the location marker as an estimated state, not a single raw GPS measurement.
+- Main architecture pattern: raw location signals -&gt; sensor fusion -&gt; road graph constraints -&gt; map matching -&gt; confidence/uncertainty display -&gt; continuous correction.
+- GPS anchor: NIST explains that GPS works by comparing satellite timing signals, requires at least four satellites for a position fix, and can locate position to within about 4.9 meters, with modern phones improving precision using additional signals and processing.
+- Google Maps uncertainty anchor: Google Maps Help says the blue dot shows location, and a light blue circle indicates uncertainty; the smaller the circle, the more certain the app is.
+- Fused-location anchor: Google&apos;s fused location provider combines multiple signals, such as GPS, Wi-Fi, and device sensors, while managing accuracy and battery tradeoffs.
+- Road-snapping anchor: Google Roads API can take GPS points along a route and return points snapped to the most likely roads, with optional interpolation.
+- Map-matching anchor: Mapbox describes map matching as snapping fuzzy or inaccurate GPS traces from a phone or GPS unit to the road and path network.
+- Listener-safe analogy: the app is not asking one witness where you are; it is cross-examining several imperfect witnesses and checking their story against the road map.
+
+
+Sources:
+- https://www.nist.gov/how-do-you-measure-it/how-do-you-measure-your-location-using-gps
+- https://developers.google.com/location-context/fused-location-provider
+- https://support.google.com/maps/answer/2839911
+- https://developers.google.com/maps/documentation/roads/snap
+- https://docs.mapbox.com/api/navigation/map-matching/</itunes:summary>
+      <itunes:duration>00:04:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>37</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-11-how-your-map-knows-which-road-you-re-on.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-11-how-your-map-knows-which-road-you-re-on.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-11-how-your-map-knows-which-road-you-re-on.mp3" length="4113598" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-11-how-your-map-knows-which-road-you-re-on</guid>
+      <pubDate>Sat, 11 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How AirTags Find Lost Things Without GPS</title>
