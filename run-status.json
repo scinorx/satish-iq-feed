@@ -1,19 +1,19 @@
 {
   "version": 1,
   "date": "2026-07-11",
-  "status": "running",
+  "status": "failed",
   "scheduledFor": "2026-07-11T05:30:00-04:00",
   "startedAt": "2026-07-11T09:40:00.904Z",
-  "finishedAt": null,
-  "currentStage": "publish",
+  "finishedAt": "2026-07-11T09:41:03.081Z",
+  "currentStage": "completed",
   "topic": null,
   "podcastTopic": "How Your Map Knows Which Road You're On",
   "commit": null,
   "results": {
-    "publicFeedPublish": null,
-    "privatePush": null,
-    "spotifyPrep": null,
-    "spotifyDraft": null
+    "publicFeedPublish": "success",
+    "privatePush": "blocked",
+    "spotifyPrep": "skipped",
+    "spotifyDraft": "skipped"
   },
   "outputs": {
     "snapshot": true,
