@@ -8,19 +8,19 @@
   "runStatus": {
     "version": 1,
     "date": "2026-07-12",
-    "status": "running",
+    "status": "failed",
     "scheduledFor": "2026-07-12T05:30:00-04:00",
     "startedAt": "2026-07-12T09:25:04.703Z",
-    "finishedAt": null,
-    "currentStage": "publish",
+    "finishedAt": "2026-07-12T09:44:00.247Z",
+    "currentStage": "completed",
     "topic": null,
     "podcastTopic": "How MRI Machines See Inside The Body",
     "commit": null,
     "results": {
-      "publicFeedPublish": null,
-      "privatePush": null,
-      "spotifyPrep": null,
-      "spotifyDraft": null
+      "publicFeedPublish": "success",
+      "privatePush": "blocked",
+      "spotifyPrep": "skipped",
+      "spotifyDraft": "skipped"
     },
     "outputs": {
       "snapshot": true,
