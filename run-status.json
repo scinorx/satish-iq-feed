@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-07-11",
-  "status": "failed",
-  "scheduledFor": "2026-07-11T05:30:00-04:00",
-  "startedAt": "2026-07-11T09:40:00.904Z",
-  "finishedAt": "2026-07-11T09:41:03.081Z",
-  "currentStage": "completed",
+  "date": "2026-07-12",
+  "status": "running",
+  "scheduledFor": "2026-07-12T05:30:00-04:00",
+  "startedAt": "2026-07-12T09:25:04.703Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "How Your Map Knows Which Road You're On",
+  "podcastTopic": "How MRI Machines See Inside The Body",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How Your Map Knows Which Road You're On"
+    "latestPodcastEpisode": "How MRI Machines See Inside The Body"
   }
 }

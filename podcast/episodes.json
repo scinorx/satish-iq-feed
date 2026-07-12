@@ -1,5 +1,100 @@
 [
   {
+    "guid": "in-simple-terms-2026-07-12-how-mri-machines-see-inside-the-body",
+    "title": "How MRI Machines See Inside The Body",
+    "subtitle": "Medical imaging in simple terms",
+    "description": "Imagine lying inside a giant white tunnel while the machine knocks loudly around you.\n\nIn this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.\n\nIn Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.\n\nProduction note: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\n\nEngineer notes:\nExact technical references:\n\n- Core technical object: MRI as an indirect measurement and reconstruction system, not a camera.\n- Main architecture pattern: strong static magnet -> hydrogen proton alignment -> radiofrequency excitation -> relaxation signal -> gradient-based spatial encoding -> receiver coil measurement -> computational image reconstruction.\n- NIH/NIBIB anchor: MRI is non-invasive imaging that produces detailed three-dimensional anatomical images by exciting and detecting changes in protons in water-rich living tissues.\n- Signal anchor: NIBIB explains that powerful magnets align protons, radiofrequency pulses stimulate them, and sensors detect energy released as protons realign with the magnetic field.\n- Tissue contrast anchor: NIBIB notes that realignment time and released energy differ by tissue environment and molecular nature, allowing physicians to distinguish tissues.\n- Use-case anchor: NIBIB and RadiologyInfo note MRI is especially useful for soft tissues and does not use X-ray ionizing radiation.\n- Safety anchor: FDA notes MRI images are made without ionizing radiation, but strong static magnetic fields, changing magnetic fields, radiofrequency energy, implants, devices, heating, and projectile risks require screening.\n- Listener-safe boundary: explain MRI physics and engineering only; do not give diagnostic guidance, scan eligibility advice, or medical recommendations.\n\n\nSources:\n- https://www.nibib.nih.gov/science-education/science-topics/magnetic-resonance-imaging-mri\n- https://www.fda.gov/radiation-emitting-products/mri-magnetic-resonance-imaging/benefits-and-risks\n- https://www.radiologyinfo.org/en/info/bodymr\n- https://www.radiologyinfo.org/en/info/safety-mr",
+    "publishedAt": "2026-07-12T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-07-12",
+    "seasonNumber": 5,
+    "episodeNumber": 38,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-07-12T05:30:00-04:00",
+    "durationSeconds": 267,
+    "audioPath": "podcast/audio/2026-07-12-how-mri-machines-see-inside-the-body.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-12-how-mri-machines-see-inside-the-body.mp3",
+    "lengthBytes": 4267407,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday, let's understand how MRI machines see inside the body.\n\nImagine lying inside a giant white tunnel while the machine knocks loudly around you.\n\nThere is no camera inside.\n\nThere is no flashlight.\n\nThere is no X-ray beam painting a shadow through your body.\n\nAnd yet, a few minutes later, a doctor can look at clear slices of a knee, spine, brain, or organ.\n\nThat feels like magic.\n\nBut the engineering idea is even better:\n\nMRI turns your own atoms into the signal.\n\nThe story starts with water.\n\nYour body contains a lot of water, and water contains hydrogen.\n\nEach hydrogen nucleus behaves a little like a tiny magnetic spinner.\n\nUsually, those tiny spinners point in many directions.\n\nWhen you enter an MRI scanner, a strong magnet nudges many of them to line up with its magnetic field.\n\nAt this point, nothing has been seen yet.\n\nThe machine has prepared the body like an instrument being tuned.\n\nNow it sends in a carefully chosen radiofrequency pulse.\n\nThis is not a normal radio station.\n\nIt is a pulse tuned to the physics of those hydrogen nuclei.\n\nThe pulse tips the aligned nuclei away from their comfortable state.\n\nWhen the pulse stops, the nuclei relax back toward alignment with the magnet.\n\nAs they relax, they give off tiny radio signals.\n\nReceiver coils around the body listen for those signals.\n\nSo the first mental model is simple:\n\nMRI is not looking through you.\n\nIt is listening to hydrogen atoms after a magnet and radio wave have made them respond.\n\nBut listening is not enough.\n\nIf the scanner hears one blended signal from the whole body, it still has a mystery.\n\nWhich part came from the shoulder?\n\nWhich part came from the spine?\n\nWhich part came from the brain?\n\nThis is where gradient coils become the location system.\n\nGradient coils slightly change the magnetic field across space.\n\nOne side of the body experiences a slightly different field than another side.\n\nBecause the magnetic field is different, hydrogen nuclei in different places respond with slightly different frequencies and timing.\n\nIn simple terms, the machine puts an address into the signal.\n\nThat is the genius of MRI.\n\nIt does not collect a picture.\n\nIt collects encoded clues.\n\nThe scanner repeats this many times.\n\nMagnetic field.\n\nRadio pulse.\n\nRelaxation signal.\n\nLocation encoding.\n\nAgain and again, until enough data has been collected.\n\nThen software reconstructs the image.\n\nThe computer asks:\n\ngiven these signals, these gradients, and this timing, what arrangement of tissue most likely produced the data?\n\nThat is why an MRI image is not a snapshot.\n\nIt is a computed picture made from physics.\n\nDifferent tissues answer differently.\n\nWater-rich tissue, fat, muscle, ligaments, organs, and blood vessels can relax at different rates and send back different signal patterns.\n\nBy changing the pulse sequence, engineers and radiologists can emphasize different properties.\n\nOne setup may make fluid stand out.\n\nAnother may make soft-tissue structure clearer.\n\nThat is why MRI is so powerful for soft tissue.\n\nIt can reveal details in the brain, spinal cord, muscles, tendons, ligaments, organs, and blood vessels that ordinary X-rays are not designed to show well.\n\nThe engineering tradeoff is that MRI is powerful, but not simple.\n\nThe scan can take time because the machine is collecting enough encoded signal to reconstruct a clean image.\n\nMovement can blur the result because the computer assumes the body stayed still while data was gathered.\n\nThe loud knocking comes from gradient coils switching rapidly.\n\nAnd safety screening matters because the magnet is serious.\n\nMRI does not use ionizing radiation, but strong magnetic fields, changing magnetic fields, radiofrequency energy, implants, devices, heating, and loose metal objects all have to be treated carefully.\n\nSo when you see an MRI image, remember what you are really seeing.\n\nNot a photograph.\n\nNot a shadow.\n\nA measurement system.\n\nA giant magnet aligns atoms.\n\nA radio pulse nudges them.\n\nCoils listen as they relax.\n\nGradients stamp location into the signal.\n\nSoftware turns the hidden pattern into a visible map.\n\nThe mental model is this:\n\nMRI does not see inside your body by shining something through it.\n\nIt asks atoms inside you a physics question, records their answers, and uses math to draw the map.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday, let's understand how MRI machines see inside the body.\n\nImagine lying inside a giant white tunnel while the machine knocks loudly around you.\n\nThere is no camera inside.\n\nThere is no flashlight.\n\nThere is no X-ray beam painting a shadow through your body.\n\nAnd yet, a few minutes later, a doctor can look at clear slices of a knee, spine, brain, or organ.\n\nThat feels like magic.\n\nBut the engineering idea is even better:\n\nMRI turns your own atoms into the signal.\n\nThe story starts with water.\n\nYour body contains a lot of water, and water contains hydrogen.\n\nEach hydrogen nucleus behaves a little like a tiny magnetic spinner.\n\nUsually, those tiny spinners point in many directions.\n\nWhen you enter an MRI scanner, a strong magnet nudges many of them to line up with its magnetic field.\n\nAt this point, nothing has been seen yet.\n\nThe machine has prepared the body like an instrument being tuned.\n\nNow it sends in a carefully chosen radiofrequency pulse.\n\nThis is not a normal radio station.\n\nIt is a pulse tuned to the physics of those hydrogen nuclei.\n\nThe pulse tips the aligned nuclei away from their comfortable state.\n\nWhen the pulse stops, the nuclei relax back toward alignment with the magnet.\n\nAs they relax, they give off tiny radio signals.\n\nReceiver coils around the body listen for those signals.\n\nSo the first mental model is simple:\n\nMRI is not looking through you.\n\nIt is listening to hydrogen atoms after a magnet and radio wave have made them respond.\n\nBut listening is not enough.\n\nIf the scanner hears one blended signal from the whole body, it still has a mystery.\n\nWhich part came from the shoulder?\n\nWhich part came from the spine?\n\nWhich part came from the brain?\n\nThis is where gradient coils become the location system.\n\nGradient coils slightly change the magnetic field across space.\n\nOne side of the body experiences a slightly different field than another side.\n\nBecause the magnetic field is different, hydrogen nuclei in different places respond with slightly different frequencies and timing.\n\nIn simple terms, the machine puts an address into the signal.\n\nThat is the genius of MRI.\n\nIt does not collect a picture.\n\nIt collects encoded clues.\n\nThe scanner repeats this many times.\n\nMagnetic field.\n\nRadio pulse.\n\nRelaxation signal.\n\nLocation encoding.\n\nAgain and again, until enough data has been collected.\n\nThen software reconstructs the image.\n\nThe computer asks:\n\ngiven these signals, these gradients, and this timing, what arrangement of tissue most likely produced the data?\n\nThat is why an MRI image is not a snapshot.\n\nIt is a computed picture made from physics.\n\nDifferent tissues answer differently.\n\nWater-rich tissue, fat, muscle, ligaments, organs, and blood vessels can relax at different rates and send back different signal patterns.\n\nBy changing the pulse sequence, engineers and radiologists can emphasize different properties.\n\nOne setup may make fluid stand out.\n\nAnother may make soft-tissue structure clearer.\n\nThat is why MRI is so powerful for soft tissue.\n\nIt can reveal details in the brain, spinal cord, muscles, tendons, ligaments, organs, and blood vessels that ordinary X-rays are not designed to show well.\n\nThe engineering tradeoff is that MRI is powerful, but not simple.\n\nThe scan can take time because the machine is collecting enough encoded signal to reconstruct a clean image.\n\nMovement can blur the result because the computer assumes the body stayed still while data was gathered.\n\nThe loud knocking comes from gradient coils switching rapidly.\n\nAnd safety screening matters because the magnet is serious.\n\nMRI does not use ionizing radiation, but strong magnetic fields, changing magnetic fields, radiofrequency energy, implants, devices, heating, and loose metal objects all have to be treated carefully.\n\nSo when you see an MRI image, remember what you are really seeing.\n\nNot a photograph.\n\nNot a shadow.\n\nA measurement system.\n\nA giant magnet aligns atoms.\n\nA radio pulse nudges them.\n\nCoils listen as they relax.\n\nGradients stamp location into the signal.\n\nSoftware turns the hidden pattern into a visible map.\n\nThe mental model is this:\n\nMRI does not see inside your body by shining something through it.\n\nIt asks atoms inside you a physics question, records their answers, and uses math to draw the map.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-07-12-how-mri-machines-see-inside-the-body.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-12-how-mri-machines-see-inside-the-body.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "MRI is a beautiful reminder that sensing is not always about cameras. The reusable engineering pattern is controlled excitation, encoded measurement, and reconstruction. The system prepares a physical state, disturbs it in a controlled way, records the response, stamps location into the signal, and uses computation to recover a useful picture from indirect clues.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "Why is an MRI not like a normal camera?",
+          "options": [
+            "It listens to signals from hydrogen nuclei after magnetic and radiofrequency excitation.",
+            "It uses a hidden flashlight inside the scanner.",
+            "It takes a photo through the skin."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "MRI is based on magnetic resonance and signal reconstruction, not ordinary photography."
+        },
+        {
+          "prompt": "Why is hydrogen important in MRI?",
+          "options": [
+            "Hydrogen is abundant in water and fat, and its nuclei can produce detectable magnetic resonance signals.",
+            "Hydrogen makes the machine brighter.",
+            "Hydrogen blocks all radio waves."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Many MRI signals come from how hydrogen nuclei respond in a strong magnetic field."
+        },
+        {
+          "prompt": "What do radiofrequency pulses do?",
+          "options": [
+            "They disturb aligned nuclei so the scanner can detect signals as the nuclei relax.",
+            "They burn a picture into the tissue.",
+            "They replace the magnet."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The pulse changes the nuclei's state; the return toward equilibrium produces measurable signals."
+        },
+        {
+          "prompt": "Why are gradient coils needed?",
+          "options": [
+            "They vary the magnetic field across space so signal location can be encoded.",
+            "They cool the patient.",
+            "They store the final image."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Without spatial encoding, the scanner would hear signal but not know where it came from."
+        },
+        {
+          "prompt": "Why can movement blur an MRI?",
+          "options": [
+            "The image is reconstructed from signal data collected over time, so motion breaks the assumptions.",
+            "The magnet forgets the body shape.",
+            "The image is drawn by hand."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Reconstruction expects stable geometry while encoded measurements are gathered."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-07-12-how-mri-machines-see-inside-the-body.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-07-12-how-mri-machines-see-inside-the-body.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-07-12-how-mri-machines-see-inside-the-body.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-12-how-mri-machines-see-inside-the-body.jpg",
+    "topicProfile": {
+      "id": "medical-imaging",
+      "label": "Medical imaging",
+      "accent": "#FF4D86"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-07-12-how-mri-machines-see-inside-the-body"
+  },
+  {
     "guid": "in-simple-terms-2026-07-11-how-your-map-knows-which-road-you-re-on",
     "title": "How Your Map Knows Which Road You're On",
     "subtitle": "Location systems in simple terms",
