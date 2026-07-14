@@ -8,19 +8,19 @@
   "runStatus": {
     "version": 1,
     "date": "2026-07-14",
-    "status": "running",
+    "status": "failed",
     "scheduledFor": "2026-07-14T05:30:00-04:00",
     "startedAt": "2026-07-14T09:25:05.539Z",
-    "finishedAt": null,
-    "currentStage": "publish",
+    "finishedAt": "2026-07-14T09:31:06.243Z",
+    "currentStage": "completed",
     "topic": null,
     "podcastTopic": "How Sunlight Becomes Electricity",
     "commit": null,
     "results": {
-      "publicFeedPublish": null,
-      "privatePush": null,
-      "spotifyPrep": null,
-      "spotifyDraft": null
+      "publicFeedPublish": "success",
+      "privatePush": "blocked",
+      "spotifyPrep": "skipped",
+      "spotifyDraft": "skipped"
     },
     "outputs": {
       "snapshot": true,
