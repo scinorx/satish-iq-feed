@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-07-12",
-  "status": "failed",
-  "scheduledFor": "2026-07-12T05:30:00-04:00",
-  "startedAt": "2026-07-12T09:25:04.703Z",
-  "finishedAt": "2026-07-12T09:44:00.247Z",
-  "currentStage": "completed",
+  "date": "2026-07-14",
+  "status": "running",
+  "scheduledFor": "2026-07-14T05:30:00-04:00",
+  "startedAt": "2026-07-14T09:25:05.539Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "How MRI Machines See Inside The Body",
+  "podcastTopic": "How Sunlight Becomes Electricity",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How MRI Machines See Inside The Body"
+    "latestPodcastEpisode": "How Sunlight Becomes Electricity"
   }
 }

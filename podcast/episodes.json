@@ -1,5 +1,195 @@
 [
   {
+    "guid": "in-simple-terms-2026-07-14-how-sunlight-becomes-electricity",
+    "title": "How Sunlight Becomes Electricity",
+    "subtitle": "Solar power in simple terms",
+    "description": "the panel sits in the sun, so maybe it is collecting heat and turning it into power.\n\nIn this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.\n\nIn Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.\n\nProduction note: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\n\nEngineer notes:\nExact technical references:\n\n- Core technical object: a photovoltaic solar system as a semiconductor charge-separation device plus a power-electronics conversion and control system.\n- Main architecture pattern: photons -> semiconductor absorption -> electron-hole pair creation -> internal field separation -> metal contact collection -> DC panel output -> inverter conversion -> AC grid/home output.\n- DOE PV basics anchor: PV materials and devices convert sunlight into electrical energy; a single PV cell is usually small and typically produces about one or two watts.\n- DOE scaling anchor: cells connect into modules or panels, panels connect into arrays, and the complete system includes mounting plus components that convert DC into AC.\n- DOE semiconductor anchor: a PV cell absorbs light energy and transfers it to electrons, allowing electrical current that is extracted through metal contacts.\n- DOE material anchor: silicon is the most common PV semiconductor material, representing about 95% of modules sold, and modules are expected to last 25 years or more while still producing more than 80% of original power.\n- DOE efficiency anchor: PV conversion efficiency is the percentage of solar energy converted into usable electricity; wavelength, recombination, heat, dirt, shade, and other design/environment factors affect output.\n- DOE inverter anchor: inverters convert DC from solar panels into AC used by the grid; modern inverters are power electronics that regulate flow and can monitor systems.\n- Listener-safe boundary: do not imply solar panels store electricity by themselves; storage requires a battery or other storage system outside the basic PV conversion path.\n\n\nSources:\n- https://www.energy.gov/eere/solar/solar-photovoltaic-technology-basics\n- https://www.energy.gov/cmei/systems/solar-photovoltaic-cell-basics\n- https://www.energy.gov/cmei/systems/articles/pv-cells-101-primer-solar-photovoltaic-cell\n- https://www.energy.gov/cmei/systems/solar-photovoltaic-performance-and-efficiency-basics\n- https://www.energy.gov/eere/solar/solar-integration-inverters-and-grid-services-basics",
+    "publishedAt": "2026-07-14T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-07-14",
+    "seasonNumber": 5,
+    "episodeNumber": 40,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-07-14T05:30:00-04:00",
+    "durationSeconds": 274,
+    "audioPath": "podcast/audio/2026-07-14-how-sunlight-becomes-electricity.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-14-how-sunlight-becomes-electricity.mp3",
+    "lengthBytes": 4382346,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday, let's understand how sunlight becomes electricity.\n\nI used to think solar panels worked because they got hot in the sun.\n\nThe logic seemed obvious:\n\nthe panel sits in the sun, so maybe it is collecting heat and turning it into power.\n\nBut that is almost the opposite of the real story.\n\nSolar panels mainly use light, not heat.\n\nAnd too much heat can actually make them less efficient.\n\nThe quiet black panel on a roof is not a passive sheet.\n\nIt is a silent semiconductor machine.\n\nNo moving parts.\n\nNo smoke.\n\nNo spinning turbine.\n\nBut inside, sunlight is constantly freeing tiny charges and the panel is trying to turn that movement into useful electricity.\n\nSunlight arrives in tiny packets of energy called photons.\n\nInside a solar cell, usually made from silicon, those photons hit a semiconductor.\n\nA semiconductor is useful because it is not a perfect conductor like metal, and not a perfect insulator like glass.\n\nIts electrical behavior can be engineered.\n\nWhen the right photon hits the silicon, it can give energy to an electron.\n\nThat electron can break loose from where it was sitting.\n\nNow the cell has two useful things:\n\na loose electron, and an empty place where that electron used to be.\n\nEngineers call that empty place a hole.\n\nBut freeing an electron is only half the job.\n\nIf electrons simply wander around and fall back into holes, the useful energy is mostly lost.\n\nThe solar cell needs direction.\n\nThat direction comes from the structure of the cell.\n\nDifferent layers of semiconductor material create an internal electric field.\n\nThat field acts like a built-in traffic rule for charges.\n\nWhen light creates electrons and holes, the cell pushes them apart.\n\nElectrons are guided one way.\n\nHoles are guided the other way.\n\nMetal contacts on the cell collect the moving charges.\n\nOnce an outside circuit is connected, electrons can flow through that circuit.\n\nThat flow is electric current.\n\nThat is the photovoltaic effect:\n\nlight energy becomes electrical energy inside a semiconductor device.\n\nNow, one tiny solar cell does not make much power.\n\nThe Department of Energy says an individual photovoltaic cell typically produces about one or two watts.\n\nSo cells are connected together into modules, which we usually call panels.\n\nPanels are connected into arrays.\n\nThat is the scaling move:\n\ncell to module,\n\nmodule to array,\n\narray to useful power system.\n\nBut here is the second big surprise:\n\nthe panel does not store sunlight.\n\nAnd it does not directly produce the exact kind of electricity your home expects.\n\nThe electricity coming from the panels is direct current, or DC.\n\nBut most homes and the electric grid use alternating current, or AC.\n\nThat is why a solar system needs an inverter.\n\nThe inverter is the translator and the controller.\n\nIt converts changing DC from the panels into AC that matches the grid.\n\nIt also watches the system, protects the grid during outages, and searches for the best operating point.\n\nThat matters because a solar panel does not have one fixed output.\n\nIts voltage and current change with sunlight, temperature, shade, dust, panel angle, clouds, and electrical load.\n\nThe inverter tries to find the point where voltage times current gives the most power right now.\n\nThis is called maximum power point tracking.\n\nSo a solar system is not just a panel.\n\nIt is a live optimization system.\n\nPhotons arrive.\n\nThe semiconductor separates charge.\n\nContacts collect current.\n\nCells scale into panels.\n\nThe inverter converts and controls the power.\n\nThe home or grid receives usable electricity.\n\nThe catch is that sunlight is messy.\n\nClouds reduce the number of photons.\n\nShade on part of a panel can reduce output more than people expect because cells are wired together into electrical paths.\n\nHeat can also reduce efficiency, even though the panel is in the sun.\n\nA hot panel is not always a better panel.\n\nThe useful mental model is this:\n\na solar panel is a semiconductor that frees and separates charge.\n\nA solar system is power electronics that makes those charges useful.\n\nLight does the first push.\n\nSilicon turns that push into charge movement.\n\nThe inverter turns that changing electrical output into power your house and the grid can actually use.\n\nThat is how sunlight becomes electricity.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday, let's understand how sunlight becomes electricity.\n\nI used to think solar panels worked because they got hot in the sun.\n\nThe logic seemed obvious:\n\nthe panel sits in the sun, so maybe it is collecting heat and turning it into power.\n\nBut that is almost the opposite of the real story.\n\nSolar panels mainly use light, not heat.\n\nAnd too much heat can actually make them less efficient.\n\nThe quiet black panel on a roof is not a passive sheet.\n\nIt is a silent semiconductor machine.\n\nNo moving parts.\n\nNo smoke.\n\nNo spinning turbine.\n\nBut inside, sunlight is constantly freeing tiny charges and the panel is trying to turn that movement into useful electricity.\n\nSunlight arrives in tiny packets of energy called photons.\n\nInside a solar cell, usually made from silicon, those photons hit a semiconductor.\n\nA semiconductor is useful because it is not a perfect conductor like metal, and not a perfect insulator like glass.\n\nIts electrical behavior can be engineered.\n\nWhen the right photon hits the silicon, it can give energy to an electron.\n\nThat electron can break loose from where it was sitting.\n\nNow the cell has two useful things:\n\na loose electron, and an empty place where that electron used to be.\n\nEngineers call that empty place a hole.\n\nBut freeing an electron is only half the job.\n\nIf electrons simply wander around and fall back into holes, the useful energy is mostly lost.\n\nThe solar cell needs direction.\n\nThat direction comes from the structure of the cell.\n\nDifferent layers of semiconductor material create an internal electric field.\n\nThat field acts like a built-in traffic rule for charges.\n\nWhen light creates electrons and holes, the cell pushes them apart.\n\nElectrons are guided one way.\n\nHoles are guided the other way.\n\nMetal contacts on the cell collect the moving charges.\n\nOnce an outside circuit is connected, electrons can flow through that circuit.\n\nThat flow is electric current.\n\nThat is the photovoltaic effect:\n\nlight energy becomes electrical energy inside a semiconductor device.\n\nNow, one tiny solar cell does not make much power.\n\nThe Department of Energy says an individual photovoltaic cell typically produces about one or two watts.\n\nSo cells are connected together into modules, which we usually call panels.\n\nPanels are connected into arrays.\n\nThat is the scaling move:\n\ncell to module,\n\nmodule to array,\n\narray to useful power system.\n\nBut here is the second big surprise:\n\nthe panel does not store sunlight.\n\nAnd it does not directly produce the exact kind of electricity your home expects.\n\nThe electricity coming from the panels is direct current, or DC.\n\nBut most homes and the electric grid use alternating current, or AC.\n\nThat is why a solar system needs an inverter.\n\nThe inverter is the translator and the controller.\n\nIt converts changing DC from the panels into AC that matches the grid.\n\nIt also watches the system, protects the grid during outages, and searches for the best operating point.\n\nThat matters because a solar panel does not have one fixed output.\n\nIts voltage and current change with sunlight, temperature, shade, dust, panel angle, clouds, and electrical load.\n\nThe inverter tries to find the point where voltage times current gives the most power right now.\n\nThis is called maximum power point tracking.\n\nSo a solar system is not just a panel.\n\nIt is a live optimization system.\n\nPhotons arrive.\n\nThe semiconductor separates charge.\n\nContacts collect current.\n\nCells scale into panels.\n\nThe inverter converts and controls the power.\n\nThe home or grid receives usable electricity.\n\nThe catch is that sunlight is messy.\n\nClouds reduce the number of photons.\n\nShade on part of a panel can reduce output more than people expect because cells are wired together into electrical paths.\n\nHeat can also reduce efficiency, even though the panel is in the sun.\n\nA hot panel is not always a better panel.\n\nThe useful mental model is this:\n\na solar panel is a semiconductor that frees and separates charge.\n\nA solar system is power electronics that makes those charges useful.\n\nLight does the first push.\n\nSilicon turns that push into charge movement.\n\nThe inverter turns that changing electrical output into power your house and the grid can actually use.\n\nThat is how sunlight becomes electricity.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-07-14-how-sunlight-becomes-electricity.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-14-how-sunlight-becomes-electricity.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "The interesting engineering lesson is that solar power is not just an energy story. The panel is a semiconductor that frees and separates charge. The full system is power electronics that converts, synchronizes, protects, and optimizes that changing output so uncontrolled sunlight becomes controlled electricity.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What does a solar panel mainly convert into electricity?",
+          "options": [
+            "Light energy from photons.",
+            "Only heat from the sun.",
+            "Wind moving across the panel."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Photovoltaic cells convert sunlight directly into electrical energy through semiconductor physics."
+        },
+        {
+          "prompt": "Why is silicon useful in many solar cells?",
+          "options": [
+            "It is a semiconductor whose electrical behavior can be engineered.",
+            "It is a battery material that stores sunlight.",
+            "It is a magnet that pulls electricity from the air."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Silicon can absorb light and help create movable charge carriers inside a designed cell structure."
+        },
+        {
+          "prompt": "Why does a solar cell need an internal electric field?",
+          "options": [
+            "It separates electrons and holes so charge can flow through a circuit.",
+            "It cools the glass surface.",
+            "It turns DC into AC by itself."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Without charge separation, many excited electrons would simply recombine and lose useful energy."
+        },
+        {
+          "prompt": "Why are many solar cells connected together?",
+          "options": [
+            "One cell makes little power, so cells are scaled into modules and arrays.",
+            "A single cell can power an entire house by itself.",
+            "Panels only work when every cell is a different color."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The useful system comes from connecting small cells into larger electrical units."
+        },
+        {
+          "prompt": "What does the inverter do?",
+          "options": [
+            "It converts panel DC into AC that homes and the grid can use.",
+            "It creates sunlight at night.",
+            "It stores all solar energy inside the panel."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Solar panels produce DC; most home and grid systems use AC, so power electronics are needed."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-07-14-how-sunlight-becomes-electricity.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-07-14-how-sunlight-becomes-electricity.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-07-14-how-sunlight-becomes-electricity.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-14-how-sunlight-becomes-electricity.jpg",
+    "topicProfile": {
+      "id": "solar-pv",
+      "label": "Solar power",
+      "accent": "#FF9D00"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-07-14-how-sunlight-becomes-electricity"
+  },
+  {
+    "guid": "in-simple-terms-2026-07-13-why-batteries-charge-fast-at-first-and-slow-down-later",
+    "title": "Why Batteries Charge Fast At First And Slow Down Later",
+    "subtitle": "Energy storage in simple terms",
+    "description": "I was on a road trip, the battery was getting low, and I selected a Supercharger in navigation.\n\nIn this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.\n\nIn Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.\n\nProduction note: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\n\nEngineer notes:\nExact technical references:\n\n- Core technical object: lithium-ion fast charging as a state-dependent acceptance curve managed by a battery management system.\n- Main architecture pattern: charger capability -> vehicle negotiation -> battery state measurement -> thermal conditioning -> current limit calculation -> taper as voltage, temperature, and degradation constraints tighten.\n- Tesla Supercharging anchor: Tesla says Supercharging rates vary by battery pack size and age, state of charge, ambient temperature conditions, and vehicle configuration.\n- Tesla taper anchor: Tesla says charging speeds slow as the battery charges, reaching 100% typically takes significantly longer than reaching 80%, and vehicles charge faster at lower state of charge.\n- Tesla communication anchor: Tesla says vehicles and Superchargers communicate to select an appropriate charging rate, with battery charge level, battery temperature, current station use, and extreme climate conditions affecting rate.\n- Trip planning anchor: Tesla says Trip Planner recommends Supercharger stops and charge times based on driving, which supports the route-aware preparation explanation.\n- AC/DC anchor: Tesla's onboard charger support distinguishes AC power from stored DC energy; Supercharging is best explained as high-power DC charging managed by the vehicle and pack.\n- Battery-control anchor: recent lithium-ion fast-charging research describes fast charging as a constrained control problem involving current, voltage, temperature, ambient uncertainty, cooling health, and lithium-plating risk.\n- Listener-safe boundary: \"preparing for fast charge\" is explained as battery thermal conditioning/preconditioning inferred from Tesla's public temperature and route-planning guidance plus battery-control literature; do not present it as a charger reservation or a vehicle-specific diagnosis.\n\n\nSources:\n- https://www.tesla.com/support/charging/supercharging\n- https://www.tesla.com/support/charging\n- https://www.tesla.com/support/charging/onboard-charger\n- https://arxiv.org/abs/2405.01681\n- https://arxiv.org/abs/2606.27781",
+    "publishedAt": "2026-07-13T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-07-13",
+    "seasonNumber": 5,
+    "episodeNumber": 39,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-07-13T05:30:00-04:00",
+    "durationSeconds": 242,
+    "audioPath": "podcast/audio/2026-07-13-why-batteries-charge-fast-at-first-and-slow-down-later.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-13-why-batteries-charge-fast-at-first-and-slow-down-later.mp3",
+    "lengthBytes": 3867838,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday, I want to start with something I noticed while driving my Tesla.\n\nI was on a road trip, the battery was getting low, and I selected a Supercharger in navigation.\n\nBefore I reached the charger, the car showed a message like preparing, or optimizing, the battery for fast charging.\n\nThat was the first clue.\n\nFast charging was not starting at the plug.\n\nIt was starting earlier, in software.\n\nThe car knew where I was going, looked at the battery state, and began preparing the pack for the charging event.\n\nThen I reached the Supercharger.\n\nI plugged in, and the screen showed a big charging number.\n\nFor the first few minutes, it felt like electricity was rushing in.\n\nThen, as the battery moved toward sixty, seventy, or eighty percent, the number started dropping.\n\nThat is the part many people notice.\n\nWhy does it start fast, then slow down?\n\nThe answer is that a battery is not a fuel tank.\n\nIt is a chemical system with limits.\n\nIn a lithium-ion battery, charging means pushing lithium ions back into storage positions inside the battery material.\n\nWhen the battery is low, there is more available room, the cell voltage is lower, and the pack can usually accept high current safely.\n\nThat is the fast part.\n\nBut as the battery fills, voltage rises.\n\nThe available room gets tighter.\n\nHeat becomes more important.\n\nAnd if you keep forcing current too aggressively, you increase stress on the cells.\n\nSo the battery management system starts reducing current.\n\nIt is not wasting time.\n\nIt is protecting the battery.\n\nThis pattern is called a charging curve.\n\nEarly in the session, the car can accept high power.\n\nLater, the system tapers the current down as voltage, temperature, and cell-health limits get tighter.\n\nThat is why twenty to eighty percent can feel quick, while eighty to one hundred percent can feel slow.\n\nTesla makes this visible because the screen shows the power changing.\n\nBut this is not Tesla-only.\n\nThe same principle applies broadly to lithium-ion fast charging in EVs, and you can see a smaller version in phones, laptops, and other rechargeable devices.\n\nThe exact numbers change by battery chemistry, pack design, charger, temperature, and software.\n\nThe pattern is the same:\n\nthe device charges fastest when the battery can safely accept high current, then slows when the limits get tighter.\n\nNow come back to the message before fast charging:\n\npreparing for fast charge.\n\nA high-power battery has a preferred temperature window.\n\nIf the pack is too cold, lithium ions move more slowly through the materials.\n\nIf it is too hot, adding more power can create too much heat.\n\nSo when the car knows you are driving to a fast charger, it can warm or condition the battery before you arrive.\n\nThis is why routing matters.\n\nThe route tells the car:\n\na charging event is coming.\n\nThe car can use the drive time to move the battery closer to the right temperature, instead of waiting until you plug in.\n\nAt the charger, another control loop starts.\n\nThe charger and vehicle communicate.\n\nThe station can offer power, but the car decides how much the battery should accept right now.\n\nTo make that decision, the car watches the battery's charge level, voltage, temperature, cooling capacity, pack limits, charger capability, and even the route context.\n\nThe controller decides a safe charging current and keeps adjusting it.\n\nSo what looked like one simple action, plug in and charge, is actually three engineering systems working together.\n\nPrediction before arrival.\n\nNegotiation at the charger.\n\nConstraint control inside the battery pack.\n\nThe mental model is this:\n\nfast charging is not filling a bucket.\n\nIt is guiding ions back into a chemical structure without overheating it, overfilling it, or damaging the material.\n\nAt the beginning, the battery can take more.\n\nNear the end, the system slows down because careful placement matters more than raw speed.\n\nSo when your Tesla prepares before the charger, then charges fast, then slows later, that is not inconsistency.\n\nThat is the technology doing exactly what it was designed to do: get energy in quickly, but stay inside the battery's safe operating limits.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nToday, I want to start with something I noticed while driving my Tesla.\n\nI was on a road trip, the battery was getting low, and I selected a Supercharger in navigation.\n\nBefore I reached the charger, the car showed a message like preparing, or optimizing, the battery for fast charging.\n\nThat was the first clue.\n\nFast charging was not starting at the plug.\n\nIt was starting earlier, in software.\n\nThe car knew where I was going, looked at the battery state, and began preparing the pack for the charging event.\n\nThen I reached the Supercharger.\n\nI plugged in, and the screen showed a big charging number.\n\nFor the first few minutes, it felt like electricity was rushing in.\n\nThen, as the battery moved toward sixty, seventy, or eighty percent, the number started dropping.\n\nThat is the part many people notice.\n\nWhy does it start fast, then slow down?\n\nThe answer is that a battery is not a fuel tank.\n\nIt is a chemical system with limits.\n\nIn a lithium-ion battery, charging means pushing lithium ions back into storage positions inside the battery material.\n\nWhen the battery is low, there is more available room, the cell voltage is lower, and the pack can usually accept high current safely.\n\nThat is the fast part.\n\nBut as the battery fills, voltage rises.\n\nThe available room gets tighter.\n\nHeat becomes more important.\n\nAnd if you keep forcing current too aggressively, you increase stress on the cells.\n\nSo the battery management system starts reducing current.\n\nIt is not wasting time.\n\nIt is protecting the battery.\n\nThis pattern is called a charging curve.\n\nEarly in the session, the car can accept high power.\n\nLater, the system tapers the current down as voltage, temperature, and cell-health limits get tighter.\n\nThat is why twenty to eighty percent can feel quick, while eighty to one hundred percent can feel slow.\n\nTesla makes this visible because the screen shows the power changing.\n\nBut this is not Tesla-only.\n\nThe same principle applies broadly to lithium-ion fast charging in EVs, and you can see a smaller version in phones, laptops, and other rechargeable devices.\n\nThe exact numbers change by battery chemistry, pack design, charger, temperature, and software.\n\nThe pattern is the same:\n\nthe device charges fastest when the battery can safely accept high current, then slows when the limits get tighter.\n\nNow come back to the message before fast charging:\n\npreparing for fast charge.\n\nA high-power battery has a preferred temperature window.\n\nIf the pack is too cold, lithium ions move more slowly through the materials.\n\nIf it is too hot, adding more power can create too much heat.\n\nSo when the car knows you are driving to a fast charger, it can warm or condition the battery before you arrive.\n\nThis is why routing matters.\n\nThe route tells the car:\n\na charging event is coming.\n\nThe car can use the drive time to move the battery closer to the right temperature, instead of waiting until you plug in.\n\nAt the charger, another control loop starts.\n\nThe charger and vehicle communicate.\n\nThe station can offer power, but the car decides how much the battery should accept right now.\n\nTo make that decision, the car watches the battery's charge level, voltage, temperature, cooling capacity, pack limits, charger capability, and even the route context.\n\nThe controller decides a safe charging current and keeps adjusting it.\n\nSo what looked like one simple action, plug in and charge, is actually three engineering systems working together.\n\nPrediction before arrival.\n\nNegotiation at the charger.\n\nConstraint control inside the battery pack.\n\nThe mental model is this:\n\nfast charging is not filling a bucket.\n\nIt is guiding ions back into a chemical structure without overheating it, overfilling it, or damaging the material.\n\nAt the beginning, the battery can take more.\n\nNear the end, the system slows down because careful placement matters more than raw speed.\n\nSo when your Tesla prepares before the charger, then charges fast, then slows later, that is not inconsistency.\n\nThat is the technology doing exactly what it was designed to do: get energy in quickly, but stay inside the battery's safe operating limits.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-07-13-why-batteries-charge-fast-at-first-and-slow-down-later.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-13-why-batteries-charge-fast-at-first-and-slow-down-later.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "The visible charging number is the output of a control loop. The reusable engineering pattern is an acceptance curve under constraints: the system measures state, watches limits, predicts risk, and changes the allowed rate. Once you see this, EV charging looks less like plumbing and more like admission control for chemistry.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "Why does an EV battery often charge fastest when it is low?",
+          "options": [
+            "The battery has more available chemical room and can safely accept more current.",
+            "The charger only works at low battery levels.",
+            "The battery is colder when it is low."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Low state of charge usually allows higher current before voltage and heat limits become tight."
+        },
+        {
+          "prompt": "Why does charging slow near the top?",
+          "options": [
+            "The battery management system tapers current to stay within voltage, heat, and degradation limits.",
+            "The cable becomes weaker.",
+            "The car stops communicating with the charger."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The last part is slower because the cells are close to their safe upper limits."
+        },
+        {
+          "prompt": "What is a charging curve?",
+          "options": [
+            "The changing charge rate across a session as battery conditions change.",
+            "A map of where chargers are located.",
+            "A fixed speed chosen by the charging station."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Fast charging is dynamic; the allowed current changes with state of charge, temperature, and limits."
+        },
+        {
+          "prompt": "What does \"preparing for fast charge\" usually mean?",
+          "options": [
+            "The car is conditioning the battery toward a temperature range where high-power charging is safer and faster.",
+            "The charger is reserving a private cable.",
+            "The battery is being filled before arrival."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The message is best understood as battery thermal preparation for fast charging."
+        },
+        {
+          "prompt": "Why does navigating to a Supercharger help?",
+          "options": [
+            "The car can use route context to plan charging stops and begin battery preparation earlier.",
+            "Navigation adds extra electricity to the battery.",
+            "The map controls the public grid."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Route context lets the system predict the next charging event instead of reacting only after plug-in."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-07-13-why-batteries-charge-fast-at-first-and-slow-down-later.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-07-13-why-batteries-charge-fast-at-first-and-slow-down-later.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-07-13-why-batteries-charge-fast-at-first-and-slow-down-later.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-13-why-batteries-charge-fast-at-first-and-slow-down-later.jpg",
+    "topicProfile": {
+      "id": "energy-storage",
+      "label": "Energy storage",
+      "accent": "#00B8A9"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-07-13-why-batteries-charge-fast-at-first-and-slow-down-later"
+  },
+  {
     "guid": "in-simple-terms-2026-07-12-how-mri-machines-see-inside-the-body",
     "title": "How MRI Machines See Inside The Body",
     "subtitle": "Medical imaging in simple terms",

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF7D6"/>
+      <stop offset="58%" stop-color="#FFD35A"/>
+      <stop offset="100%" stop-color="#32C7B5"/>
+    </linearGradient>
+    <radialGradient id="topicGlow" cx="50%" cy="50%" r="62%">
+      <stop offset="0%" stop-color="#FF9D00" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#1B6F62" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#6D4E00" flood-opacity="0.15"/>
+    </filter>
+    <style>
+      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #223315; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 266px; font-weight: 900; letter-spacing: 3px; fill: #223315; }
+      .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #223315; }
+      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #223315; }
+    </style>
+  </defs>
+  <rect width="3000" height="3000" fill="url(#paper)"/>
+  <circle cx="2450" cy="560" r="530" fill="#FF7A1A" opacity="0.22"/>
+  <circle cx="360" cy="2500" r="560" fill="#FF7A1A" opacity="0.13"/>
+  <circle cx="2250" cy="1540" r="770" fill="url(#topicGlow)" opacity="0.9"/>
+  <g>
+  <circle cx="2050" cy="920" r="170" fill="#FF9D00" opacity="0.26"/>
+  <path d="M2050 620 V515 M2050 1325 V1220 M1745 920 H1640 M2460 920 H2355 M1835 705 L1760 630 M2265 705 L2340 630 M1835 1135 L1760 1210 M2265 1135 L2340 1210" fill="none" stroke="#1B6F62" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <path d="M1815 1500 H2705 L2545 2105 H1655 Z" fill="none" stroke="#FF9D00" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M1925 1500 L1810 2105 M2110 1500 L2040 2105 M2295 1500 L2270 2105 M2480 1500 L2500 2105 M1760 1695 H2655 M1710 1900 H2600" fill="none" stroke="#1B6F62" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <rect x="2120" y="2180" width="390" height="250" rx="62" fill="#FF9D00" opacity="0.1"/>
+  <path d="M2230 2305 H2400 M2315 2225 V2385" fill="none" stroke="#1B6F62" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <path d="M1875 2205 C2000 2105 2090 2395 2220 2215 C2335 2055 2465 2165 2570 2050" fill="none" stroke="#FF9D00" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+</g>
+  <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#223315" stroke-width="12" opacity="0.36"/>
+  <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
+  <g filter="url(#shadow)">
+    <text x="245" y="1262" class="title">HOW SUNLIGHT</text>
+    <text x="245" y="1571" class="title">BECOMES</text>
+    <text x="245" y="1880" class="title">ELECTRICITY</text>
+  </g>
+  <path d="M260 2135 H1080" stroke="#FF9D00" stroke-width="24" stroke-linecap="round"/>
+  <text x="260" y="2270" class="date">2026-07-14</text>
+  <text x="260" y="2575" class="small">SOLAR POWER</text>
+</svg>

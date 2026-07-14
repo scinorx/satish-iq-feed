@@ -22,7 +22,153 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sun, 12 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How Sunlight Becomes Electricity</title>
+      <description>the panel sits in the sun, so maybe it is collecting heat and turning it into power.
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: a photovoltaic solar system as a semiconductor charge-separation device plus a power-electronics conversion and control system.
+- Main architecture pattern: photons -&gt; semiconductor absorption -&gt; electron-hole pair creation -&gt; internal field separation -&gt; metal contact collection -&gt; DC panel output -&gt; inverter conversion -&gt; AC grid/home output.
+- DOE PV basics anchor: PV materials and devices convert sunlight into electrical energy; a single PV cell is usually small and typically produces about one or two watts.
+- DOE scaling anchor: cells connect into modules or panels, panels connect into arrays, and the complete system includes mounting plus components that convert DC into AC.
+- DOE semiconductor anchor: a PV cell absorbs light energy and transfers it to electrons, allowing electrical current that is extracted through metal contacts.
+- DOE material anchor: silicon is the most common PV semiconductor material, representing about 95% of modules sold, and modules are expected to last 25 years or more while still producing more than 80% of original power.
+- DOE efficiency anchor: PV conversion efficiency is the percentage of solar energy converted into usable electricity; wavelength, recombination, heat, dirt, shade, and other design/environment factors affect output.
+- DOE inverter anchor: inverters convert DC from solar panels into AC used by the grid; modern inverters are power electronics that regulate flow and can monitor systems.
+- Listener-safe boundary: do not imply solar panels store electricity by themselves; storage requires a battery or other storage system outside the basic PV conversion path.
+
+
+Sources:
+- https://www.energy.gov/eere/solar/solar-photovoltaic-technology-basics
+- https://www.energy.gov/cmei/systems/solar-photovoltaic-cell-basics
+- https://www.energy.gov/cmei/systems/articles/pv-cells-101-primer-solar-photovoltaic-cell
+- https://www.energy.gov/cmei/systems/solar-photovoltaic-performance-and-efficiency-basics
+- https://www.energy.gov/eere/solar/solar-integration-inverters-and-grid-services-basics</description>
+      <itunes:subtitle>Solar power in simple terms</itunes:subtitle>
+      <itunes:summary>the panel sits in the sun, so maybe it is collecting heat and turning it into power.
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: a photovoltaic solar system as a semiconductor charge-separation device plus a power-electronics conversion and control system.
+- Main architecture pattern: photons -&gt; semiconductor absorption -&gt; electron-hole pair creation -&gt; internal field separation -&gt; metal contact collection -&gt; DC panel output -&gt; inverter conversion -&gt; AC grid/home output.
+- DOE PV basics anchor: PV materials and devices convert sunlight into electrical energy; a single PV cell is usually small and typically produces about one or two watts.
+- DOE scaling anchor: cells connect into modules or panels, panels connect into arrays, and the complete system includes mounting plus components that convert DC into AC.
+- DOE semiconductor anchor: a PV cell absorbs light energy and transfers it to electrons, allowing electrical current that is extracted through metal contacts.
+- DOE material anchor: silicon is the most common PV semiconductor material, representing about 95% of modules sold, and modules are expected to last 25 years or more while still producing more than 80% of original power.
+- DOE efficiency anchor: PV conversion efficiency is the percentage of solar energy converted into usable electricity; wavelength, recombination, heat, dirt, shade, and other design/environment factors affect output.
+- DOE inverter anchor: inverters convert DC from solar panels into AC used by the grid; modern inverters are power electronics that regulate flow and can monitor systems.
+- Listener-safe boundary: do not imply solar panels store electricity by themselves; storage requires a battery or other storage system outside the basic PV conversion path.
+
+
+Sources:
+- https://www.energy.gov/eere/solar/solar-photovoltaic-technology-basics
+- https://www.energy.gov/cmei/systems/solar-photovoltaic-cell-basics
+- https://www.energy.gov/cmei/systems/articles/pv-cells-101-primer-solar-photovoltaic-cell
+- https://www.energy.gov/cmei/systems/solar-photovoltaic-performance-and-efficiency-basics
+- https://www.energy.gov/eere/solar/solar-integration-inverters-and-grid-services-basics</itunes:summary>
+      <itunes:duration>00:04:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>40</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-14-how-sunlight-becomes-electricity.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-14-how-sunlight-becomes-electricity.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-14-how-sunlight-becomes-electricity.mp3" length="4382346" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-14-how-sunlight-becomes-electricity</guid>
+      <pubDate>Tue, 14 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Why Batteries Charge Fast At First And Slow Down Later</title>
+      <description>I was on a road trip, the battery was getting low, and I selected a Supercharger in navigation.
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: lithium-ion fast charging as a state-dependent acceptance curve managed by a battery management system.
+- Main architecture pattern: charger capability -&gt; vehicle negotiation -&gt; battery state measurement -&gt; thermal conditioning -&gt; current limit calculation -&gt; taper as voltage, temperature, and degradation constraints tighten.
+- Tesla Supercharging anchor: Tesla says Supercharging rates vary by battery pack size and age, state of charge, ambient temperature conditions, and vehicle configuration.
+- Tesla taper anchor: Tesla says charging speeds slow as the battery charges, reaching 100% typically takes significantly longer than reaching 80%, and vehicles charge faster at lower state of charge.
+- Tesla communication anchor: Tesla says vehicles and Superchargers communicate to select an appropriate charging rate, with battery charge level, battery temperature, current station use, and extreme climate conditions affecting rate.
+- Trip planning anchor: Tesla says Trip Planner recommends Supercharger stops and charge times based on driving, which supports the route-aware preparation explanation.
+- AC/DC anchor: Tesla&apos;s onboard charger support distinguishes AC power from stored DC energy; Supercharging is best explained as high-power DC charging managed by the vehicle and pack.
+- Battery-control anchor: recent lithium-ion fast-charging research describes fast charging as a constrained control problem involving current, voltage, temperature, ambient uncertainty, cooling health, and lithium-plating risk.
+- Listener-safe boundary: &quot;preparing for fast charge&quot; is explained as battery thermal conditioning/preconditioning inferred from Tesla&apos;s public temperature and route-planning guidance plus battery-control literature; do not present it as a charger reservation or a vehicle-specific diagnosis.
+
+
+Sources:
+- https://www.tesla.com/support/charging/supercharging
+- https://www.tesla.com/support/charging
+- https://www.tesla.com/support/charging/onboard-charger
+- https://arxiv.org/abs/2405.01681
+- https://arxiv.org/abs/2606.27781</description>
+      <itunes:subtitle>Energy storage in simple terms</itunes:subtitle>
+      <itunes:summary>I was on a road trip, the battery was getting low, and I selected a Supercharger in navigation.
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: lithium-ion fast charging as a state-dependent acceptance curve managed by a battery management system.
+- Main architecture pattern: charger capability -&gt; vehicle negotiation -&gt; battery state measurement -&gt; thermal conditioning -&gt; current limit calculation -&gt; taper as voltage, temperature, and degradation constraints tighten.
+- Tesla Supercharging anchor: Tesla says Supercharging rates vary by battery pack size and age, state of charge, ambient temperature conditions, and vehicle configuration.
+- Tesla taper anchor: Tesla says charging speeds slow as the battery charges, reaching 100% typically takes significantly longer than reaching 80%, and vehicles charge faster at lower state of charge.
+- Tesla communication anchor: Tesla says vehicles and Superchargers communicate to select an appropriate charging rate, with battery charge level, battery temperature, current station use, and extreme climate conditions affecting rate.
+- Trip planning anchor: Tesla says Trip Planner recommends Supercharger stops and charge times based on driving, which supports the route-aware preparation explanation.
+- AC/DC anchor: Tesla&apos;s onboard charger support distinguishes AC power from stored DC energy; Supercharging is best explained as high-power DC charging managed by the vehicle and pack.
+- Battery-control anchor: recent lithium-ion fast-charging research describes fast charging as a constrained control problem involving current, voltage, temperature, ambient uncertainty, cooling health, and lithium-plating risk.
+- Listener-safe boundary: &quot;preparing for fast charge&quot; is explained as battery thermal conditioning/preconditioning inferred from Tesla&apos;s public temperature and route-planning guidance plus battery-control literature; do not present it as a charger reservation or a vehicle-specific diagnosis.
+
+
+Sources:
+- https://www.tesla.com/support/charging/supercharging
+- https://www.tesla.com/support/charging
+- https://www.tesla.com/support/charging/onboard-charger
+- https://arxiv.org/abs/2405.01681
+- https://arxiv.org/abs/2606.27781</itunes:summary>
+      <itunes:duration>00:04:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>39</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-13-why-batteries-charge-fast-at-first-and-slow-down-later.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-13-why-batteries-charge-fast-at-first-and-slow-down-later.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-13-why-batteries-charge-fast-at-first-and-slow-down-later.mp3" length="3867838" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-13-why-batteries-charge-fast-at-first-and-slow-down-later</guid>
+      <pubDate>Mon, 13 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How MRI Machines See Inside The Body</title>
