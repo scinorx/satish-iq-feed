@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF1E3"/>
+      <stop offset="58%" stop-color="#D77A4B"/>
+      <stop offset="100%" stop-color="#211A3D"/>
+    </linearGradient>
+    <radialGradient id="topicGlow" cx="50%" cy="50%" r="62%">
+      <stop offset="0%" stop-color="#D85A28" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#211A3D" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#6D4E00" flood-opacity="0.15"/>
+    </filter>
+    <style>
+      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #1B1027; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 266px; font-weight: 900; letter-spacing: 3px; fill: #1B1027; }
+      .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #1B1027; }
+      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #1B1027; }
+    </style>
+  </defs>
+  <rect width="3000" height="3000" fill="url(#paper)"/>
+  <circle cx="2450" cy="560" r="530" fill="#FFB06A" opacity="0.22"/>
+  <circle cx="360" cy="2500" r="560" fill="#FFB06A" opacity="0.13"/>
+  <circle cx="2250" cy="1540" r="770" fill="url(#topicGlow)" opacity="0.9"/>
+  <g>
+  <circle cx="2625" cy="870" r="185" fill="#D85A28" opacity="0.22"/>
+  <path d="M2500 870 H2750 M2625 745 V995" fill="none" stroke="#211A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <path d="M1835 1945 C2070 1740 2385 1740 2625 1945" fill="none" stroke="#D85A28" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M1925 1945 L1805 2220 M2535 1945 L2655 2220 M2175 1945 V2295" fill="none" stroke="#211A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <path d="M1955 1715 C2145 1570 2335 1570 2525 1715 M2055 1535 C2195 1445 2285 1445 2425 1535" fill="none" stroke="#211A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <path d="M1980 1120 L2365 1375" fill="none" stroke="#D85A28" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <rect x="1790" y="920" width="330" height="210" rx="48" fill="#D85A28" opacity="0.1"/>
+  <path d="M1790 1025 H1605 M1955 920 V760 M2120 1025 H2305" fill="none" stroke="#211A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <circle cx="2365" cy="1375" r="48" fill="#D85A28" opacity="0.46"/>
+  <path d="M1660 2360 C1840 2260 2070 2500 2260 2360 C2435 2230 2640 2300 2785 2430" fill="none" stroke="#D85A28" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+</g>
+  <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#1B1027" stroke-width="12" opacity="0.36"/>
+  <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
+  <g filter="url(#shadow)">
+    <text x="245" y="1262" class="title">HOW NASA GETS</text>
+    <text x="245" y="1571" class="title">PICTURES BACK</text>
+    <text x="245" y="1880" class="title">FROM MARS</text>
+  </g>
+  <path d="M260 2135 H1080" stroke="#D85A28" stroke-width="24" stroke-linecap="round"/>
+  <text x="260" y="2270" class="date">2026-07-15</text>
+  <text x="260" y="2575" class="small">MARS COMMUNICATIONS</text>
+</svg>

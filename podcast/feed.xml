@@ -22,7 +22,90 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Tue, 14 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How NASA Gets Pictures Back From Mars</title>
+      <description>The picture has to become data, then a signal, then a faint whisper moving across space.
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: NASA space communication as a transmitter-receiver pipeline plus scheduled ground and relay networks.
+- Main architecture pattern: spacecraft data -&gt; modulation -&gt; radio or optical link -&gt; relay or ground antenna -&gt; demodulation -&gt; error correction -&gt; mission operations system.
+- SCaN anchor: NASA&apos;s Space Communications and Navigation program operates and manages communications and navigation systems critical to NASA missions, carrying commands, images, and science data between spacecraft and Earth.
+- Near Space Network anchor: NASA describes the NSN as supporting missions within 1.25 million miles of Earth through ground stations, space relays, government assets, and commercial assets.
+- Relay anchor: NASA notes that many missions rely on relay satellites; the ISS uses TDRS, and Mars rovers can send data through Mars orbiters that forward it to Earth.
+- Deep Space Network anchor: NASA describes the DSN as an international array of giant radio antennas at Goldstone, Madrid, and Canberra, supporting Moon, Mars, and beyond.
+- DSN coverage anchor: NASA says the three DSN complexes are positioned so one site can pick up as another loses the spacecraft below the horizon as Earth rotates.
+- Antenna anchor: DSN sites include large parabolic antennas, including 34-meter and 70-meter dishes, with ultra-sensitive receiving systems for faint deep-space signals.
+- Latency anchor: NASA says Mars one-way latency can be roughly four to twenty-four minutes depending on planetary positions.
+- Error-control anchor: NASA describes error detection and correction methods that interpret noisy transmissions as usable data.
+- Optical communications anchor: NASA says laser communications uses infrared light, can carry more data per link than radio, but is affected by clouds, turbulence, and pointing needs.
+- Listener-safe boundary: explain optical communication as an emerging high-capacity complement, not a universal replacement for radio.
+
+
+Sources:
+- https://www.nasa.gov/communicating-with-missions/
+- https://www.nasa.gov/centers-and-facilities/goddard/space-communications-7-things-you-need-to-know/
+- https://www.nasa.gov/communicating-with-missions/nsn/
+- https://www.nasa.gov/communicating-with-missions/dsn/
+- https://www.nasa.gov/directorates/somd/space-communications-navigation-program/what-is-the-deep-space-network/
+- https://www.nasa.gov/communicating-with-missions/lasercomms/
+- https://www.nasa.gov/communicating-with-missions/delay-disruption-tolerant-networking/</description>
+      <itunes:subtitle>Mars communications in simple terms</itunes:subtitle>
+      <itunes:summary>The picture has to become data, then a signal, then a faint whisper moving across space.
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: NASA space communication as a transmitter-receiver pipeline plus scheduled ground and relay networks.
+- Main architecture pattern: spacecraft data -&gt; modulation -&gt; radio or optical link -&gt; relay or ground antenna -&gt; demodulation -&gt; error correction -&gt; mission operations system.
+- SCaN anchor: NASA&apos;s Space Communications and Navigation program operates and manages communications and navigation systems critical to NASA missions, carrying commands, images, and science data between spacecraft and Earth.
+- Near Space Network anchor: NASA describes the NSN as supporting missions within 1.25 million miles of Earth through ground stations, space relays, government assets, and commercial assets.
+- Relay anchor: NASA notes that many missions rely on relay satellites; the ISS uses TDRS, and Mars rovers can send data through Mars orbiters that forward it to Earth.
+- Deep Space Network anchor: NASA describes the DSN as an international array of giant radio antennas at Goldstone, Madrid, and Canberra, supporting Moon, Mars, and beyond.
+- DSN coverage anchor: NASA says the three DSN complexes are positioned so one site can pick up as another loses the spacecraft below the horizon as Earth rotates.
+- Antenna anchor: DSN sites include large parabolic antennas, including 34-meter and 70-meter dishes, with ultra-sensitive receiving systems for faint deep-space signals.
+- Latency anchor: NASA says Mars one-way latency can be roughly four to twenty-four minutes depending on planetary positions.
+- Error-control anchor: NASA describes error detection and correction methods that interpret noisy transmissions as usable data.
+- Optical communications anchor: NASA says laser communications uses infrared light, can carry more data per link than radio, but is affected by clouds, turbulence, and pointing needs.
+- Listener-safe boundary: explain optical communication as an emerging high-capacity complement, not a universal replacement for radio.
+
+
+Sources:
+- https://www.nasa.gov/communicating-with-missions/
+- https://www.nasa.gov/centers-and-facilities/goddard/space-communications-7-things-you-need-to-know/
+- https://www.nasa.gov/communicating-with-missions/nsn/
+- https://www.nasa.gov/communicating-with-missions/dsn/
+- https://www.nasa.gov/directorates/somd/space-communications-navigation-program/what-is-the-deep-space-network/
+- https://www.nasa.gov/communicating-with-missions/lasercomms/
+- https://www.nasa.gov/communicating-with-missions/delay-disruption-tolerant-networking/</itunes:summary>
+      <itunes:duration>00:04:38</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>41</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-15-how-nasa-gets-pictures-back-from-mars.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-15-how-nasa-gets-pictures-back-from-mars.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-15-how-nasa-gets-pictures-back-from-mars.mp3" length="4450473" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-15-how-nasa-gets-pictures-back-from-mars</guid>
+      <pubDate>Wed, 15 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How Sunlight Becomes Electricity</title>
