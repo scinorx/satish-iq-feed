@@ -1,19 +1,19 @@
 {
   "version": 1,
   "date": "2026-07-15",
-  "status": "failed",
+  "status": "running",
   "scheduledFor": "2026-07-15T05:30:00-04:00",
-  "startedAt": "2026-07-15T09:25:05.329Z",
-  "finishedAt": "2026-07-15T09:31:14.972Z",
-  "currentStage": "completed",
+  "startedAt": "2026-07-15T09:40:04.774Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
   "podcastTopic": "How NASA Gets Pictures Back From Mars",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
