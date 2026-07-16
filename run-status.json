@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-07-15",
-  "status": "failed",
-  "scheduledFor": "2026-07-15T05:30:00-04:00",
-  "startedAt": "2026-07-15T09:40:04.774Z",
-  "finishedAt": "2026-07-15T09:41:19.316Z",
-  "currentStage": "completed",
+  "date": "2026-07-16",
+  "status": "running",
+  "scheduledFor": "2026-07-16T05:30:00-04:00",
+  "startedAt": "2026-07-16T09:25:06.237Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "How NASA Gets Pictures Back From Mars",
+  "podcastTopic": "How 3D Printers Turn Digital Files Into Real Objects",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How NASA Gets Pictures Back From Mars"
+    "latestPodcastEpisode": "How 3D Printers Turn Digital Files Into Real Objects"
   }
 }

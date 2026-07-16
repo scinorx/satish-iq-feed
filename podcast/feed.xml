@@ -22,7 +22,84 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Wed, 15 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How 3D Printers Turn Digital Files Into Real Objects</title>
+      <description>Additive manufacturing begins with empty space and adds material only where the object needs it.
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: 3D printing as a digital-to-physical additive manufacturing pipeline.
+- Main architecture pattern: digital model -&gt; mesh or printable geometry -&gt; slicing -&gt; layer plan -&gt; toolpaths and process parameters -&gt; printer motion or energy delivery -&gt; material bonding -&gt; post-processing.
+- NIST definition anchor: additive manufacturing uses digital designs to fabricate three-dimensional products built up layer by layer, also known as 3D printing.
+- NIST process anchor: metallic, plastic, or ceramic materials can be placed one thin layer at a time, directed by a digital design file; a patient-specific jawbone example can start from a 3D computer model sliced into many layers.
+- FDA anchor: 3D printing creates a three-dimensional object by building successive layers of raw material from a digital 3D file such as CAD or MRI data.
+- DOE material extrusion anchor: desktop material extrusion printers commonly heat plastic filament until it liquefies, then deposit it through a nozzle along paths derived from thin cross-sections of the digital design.
+- DOE layer anchor: the DOE example describes layer thickness often around 0.1 millimeter for material extrusion, while actual layer height varies by machine, nozzle, material, and quality/speed target.
+- DOE post-processing anchor: printed objects may require support removal, unsticking from the build platform, brushing off excess powder, or other finishing steps.
+- Process-family anchor: DOE summarizes several additive-manufacturing families, including material extrusion, binder jetting, powder bed fusion, directed energy deposition, sheet lamination, and vat photopolymerization.
+- Current research anchor: NIST reported in June 2026 that researchers changed metal-printer laser paths to stir molten metal during printing, showing that toolpaths can shape both geometry and material properties.
+- Listener-safe boundary: explain 3D printing as manufacturing, not magic; finished part quality depends on material, machine calibration, geometry, process settings, orientation, and finishing.
+
+
+Sources:
+- https://www.nist.gov/additive-manufacturing
+- https://www.energy.gov/articles/how-3d-printers-work
+- https://www.fda.gov/medical-devices/products-and-medical-procedures/3d-printing-medical-devices
+- https://www.fda.gov/regulatory-information/search-fda-guidance-documents/technical-considerations-additive-manufactured-medical-devices
+- https://www.nist.gov/news-events/news/2026/06/nist-researchers-discover-new-way-whisk-alloys-together-lasers</description>
+      <itunes:subtitle>3D printing in simple terms</itunes:subtitle>
+      <itunes:summary>Additive manufacturing begins with empty space and adds material only where the object needs it.
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: 3D printing as a digital-to-physical additive manufacturing pipeline.
+- Main architecture pattern: digital model -&gt; mesh or printable geometry -&gt; slicing -&gt; layer plan -&gt; toolpaths and process parameters -&gt; printer motion or energy delivery -&gt; material bonding -&gt; post-processing.
+- NIST definition anchor: additive manufacturing uses digital designs to fabricate three-dimensional products built up layer by layer, also known as 3D printing.
+- NIST process anchor: metallic, plastic, or ceramic materials can be placed one thin layer at a time, directed by a digital design file; a patient-specific jawbone example can start from a 3D computer model sliced into many layers.
+- FDA anchor: 3D printing creates a three-dimensional object by building successive layers of raw material from a digital 3D file such as CAD or MRI data.
+- DOE material extrusion anchor: desktop material extrusion printers commonly heat plastic filament until it liquefies, then deposit it through a nozzle along paths derived from thin cross-sections of the digital design.
+- DOE layer anchor: the DOE example describes layer thickness often around 0.1 millimeter for material extrusion, while actual layer height varies by machine, nozzle, material, and quality/speed target.
+- DOE post-processing anchor: printed objects may require support removal, unsticking from the build platform, brushing off excess powder, or other finishing steps.
+- Process-family anchor: DOE summarizes several additive-manufacturing families, including material extrusion, binder jetting, powder bed fusion, directed energy deposition, sheet lamination, and vat photopolymerization.
+- Current research anchor: NIST reported in June 2026 that researchers changed metal-printer laser paths to stir molten metal during printing, showing that toolpaths can shape both geometry and material properties.
+- Listener-safe boundary: explain 3D printing as manufacturing, not magic; finished part quality depends on material, machine calibration, geometry, process settings, orientation, and finishing.
+
+
+Sources:
+- https://www.nist.gov/additive-manufacturing
+- https://www.energy.gov/articles/how-3d-printers-work
+- https://www.fda.gov/medical-devices/products-and-medical-procedures/3d-printing-medical-devices
+- https://www.fda.gov/regulatory-information/search-fda-guidance-documents/technical-considerations-additive-manufactured-medical-devices
+- https://www.nist.gov/news-events/news/2026/06/nist-researchers-discover-new-way-whisk-alloys-together-lasers</itunes:summary>
+      <itunes:duration>00:04:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>42</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-16-how-3d-printers-turn-digital-files-into-real-objects.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-16-how-3d-printers-turn-digital-files-into-real-objects.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-16-how-3d-printers-turn-digital-files-into-real-objects.mp3" length="3935965" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-16-how-3d-printers-turn-digital-files-into-real-objects</guid>
+      <pubDate>Thu, 16 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How NASA Gets Pictures Back From Mars</title>

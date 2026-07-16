@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF4E8"/>
+      <stop offset="58%" stop-color="#FFB46B"/>
+      <stop offset="100%" stop-color="#5B6CFF"/>
+    </linearGradient>
+    <radialGradient id="topicGlow" cx="50%" cy="50%" r="62%">
+      <stop offset="0%" stop-color="#F47A20" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#221743" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#6D4E00" flood-opacity="0.15"/>
+    </filter>
+    <style>
+      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #221743; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 197px; font-weight: 900; letter-spacing: 2px; fill: #221743; }
+      .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #221743; }
+      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #221743; }
+    </style>
+  </defs>
+  <rect width="3000" height="3000" fill="url(#paper)"/>
+  <circle cx="2450" cy="560" r="530" fill="#FFFFFF" opacity="0.22"/>
+  <circle cx="360" cy="2500" r="560" fill="#FFFFFF" opacity="0.13"/>
+  <circle cx="2250" cy="1540" r="770" fill="url(#topicGlow)" opacity="0.9"/>
+  <g>
+  <rect x="1815" y="855" width="900" height="570" rx="92" fill="none" stroke="#F47A20" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M1905 1015 H2625 M1905 1225 H2625" fill="none" stroke="#221743" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <path d="M2130 1425 V1685 L2285 1815 L2440 1685 V1425" fill="none" stroke="#F47A20" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M2200 1425 H2370" fill="none" stroke="#221743" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <path d="M1945 1970 H2675 M2045 2105 H2575 M2160 2240 H2460" fill="none" stroke="#F47A20" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M2045 2355 H2575" fill="none" stroke="#221743" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <circle cx="1975" cy="1130" r="48" fill="#F47A20" opacity="0.38"/>
+  <circle cx="2555" cy="1130" r="48" fill="#F47A20" opacity="0.38"/>
+  <path d="M2185 1815 C2250 1875 2350 1875 2415 1815" fill="none" stroke="#221743" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+</g>
+  <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#221743" stroke-width="12" opacity="0.36"/>
+  <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
+  <g filter="url(#shadow)">
+    <text x="245" y="1193" class="title">HOW 3D PRINTERS</text>
+    <text x="245" y="1422" class="title">TURN DIGITAL</text>
+    <text x="245" y="1651" class="title">FILES INTO REAL</text>
+    <text x="245" y="1880" class="title">OBJECTS</text>
+  </g>
+  <path d="M260 2135 H1080" stroke="#F47A20" stroke-width="24" stroke-linecap="round"/>
+  <text x="260" y="2270" class="date">2026-07-16</text>
+  <text x="260" y="2575" class="small">3D PRINTING</text>
+</svg>
