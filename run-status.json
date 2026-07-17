@@ -1,10 +1,10 @@
 {
   "version": 1,
   "date": "2026-07-17",
-  "status": "failed",
+  "status": "partial",
   "scheduledFor": "2026-07-17T05:30:00-04:00",
   "startedAt": "2026-07-17T09:25:01.373Z",
-  "finishedAt": "2026-07-17T12:13:33.427Z",
+  "finishedAt": "2026-07-17T12:15:23.071Z",
   "currentStage": "completed",
   "topic": null,
   "podcastTopic": "How Brain Chips Could Help Someone Say I Need Water",
