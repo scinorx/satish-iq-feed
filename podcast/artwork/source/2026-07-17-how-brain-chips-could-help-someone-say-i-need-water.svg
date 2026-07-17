@@ -15,7 +15,7 @@
     </filter>
     <style>
       .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #1B1742; }
-      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 197px; font-weight: 900; letter-spacing: 2px; fill: #1B1742; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 176px; font-weight: 900; letter-spacing: 2px; fill: #1B1742; }
       .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #1B1742; }
       .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #1B1742; }
     </style>
@@ -37,9 +37,9 @@
   <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
   <g filter="url(#shadow)">
     <text x="245" y="1193" class="title">HOW BRAIN CHIPS</text>
-    <text x="245" y="1422" class="title">COULD HELP</text>
-    <text x="245" y="1651" class="title">SOMEONE SAY I</text>
-    <text x="245" y="1880" class="title">NEED WATER</text>
+    <text x="245" y="1422" class="title">COULD HELP PEOPLE</text>
+    <text x="245" y="1651" class="title">PERFORM EVERYDAY</text>
+    <text x="245" y="1880" class="title">TASKS</text>
   </g>
   <path d="M260 2135 H1080" stroke="#6F5BFF" stroke-width="24" stroke-linecap="round"/>
   <text x="260" y="2270" class="date">2026-07-17</text>
