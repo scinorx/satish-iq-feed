@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "date": "2026-07-16",
+  "date": "2026-07-17",
   "status": "running",
-  "scheduledFor": "2026-07-16T05:30:00-04:00",
-  "startedAt": "2026-07-16T09:40:03.467Z",
+  "scheduledFor": "2026-07-17T05:30:00-04:00",
+  "startedAt": "2026-07-17T09:25:01.373Z",
   "finishedAt": null,
   "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "How 3D Printers Turn Digital Files Into Real Objects",
+  "podcastTopic": "How Brain Chips Could Help Someone Say I Need Water",
   "commit": null,
   "results": {
     "publicFeedPublish": null,
@@ -18,6 +18,6 @@
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How 3D Printers Turn Digital Files Into Real Objects"
+    "latestPodcastEpisode": "How Brain Chips Could Help Someone Say I Need Water"
   }
 }

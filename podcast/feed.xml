@@ -22,7 +22,92 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Thu, 16 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How Brain Chips Could Help Someone Say I Need Water</title>
+      <description>If the normal path is brain to nerves to muscles to device, a brain chip tries to build a detour: brain signal to decoder to computer command.
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: implanted brain-computer interface, or BCI, for control of external devices.
+- Main architecture pattern: neural activity -&gt; electrodes -&gt; analog front end -&gt; digitized signal -&gt; wireless transmission -&gt; decoder model -&gt; user interface command -&gt; feedback -&gt; recalibration.
+- Neuralink PRIME Study ClinicalTrials.gov anchor: NCT06429735 describes a first-in-human early feasibility study evaluating initial clinical safety and device functionality of the N1 Implant and R1 Robot in participants with tetraparesis or tetraplegia. The record was last updated on January 9, 2026 and the API derived version observed was 2026-07-10.
+- Neuralink device description anchor: ClinicalTrials.gov describes the N1 as a skull-mounted, wireless, rechargeable implant connected to electrode threads implanted in the brain by the R1 Robot.
+- Neuralink brochure anchor: the PRIME Study brochure describes BCIs as systems that decode intended movement signals from brain activity to control external devices such as computers.
+- Neuralink electrode-count anchor: the PRIME Study brochure describes 1,024 electrodes distributed across 64 threads, each thinner than a human hair.
+- Trial status anchor: the ClinicalTrials.gov record lists the PRIME Study as recruiting, FDA-regulated device, estimated enrollment 15, with device-related and procedure-related adverse events measured at 12 months and up to 72 months post-implant.
+- FDA boundary anchor: FDA guidance defines implanted BCI devices for this guidance as neuroprostheses interfacing with the central or peripheral nervous system to restore lost motor and/or sensory capabilities in patients with paralysis or amputation.
+- FDA safety-anchor list: FDA guidance covers risk management, software, human factors, biocompatibility, sterility, pyrogenicity, shelf life and packaging, electrical safety, EMC, wireless technology, MR compatibility, bench testing, animal testing, and clinical performance testing.
+- Prior-art anchor: a 2006 Nature BrainGate study reported a 96-microelectrode array in primary motor cortex where a participant used a neural cursor, opened simulated email, operated devices, and controlled prosthetic/robotic actions.
+- Performance anchor: a 2021 Nature handwriting BCI study reported 90 characters per minute with 94.1% raw online accuracy and over 99% offline accuracy with autocorrect in one participant.
+- Speech direction anchor: a 2023 Nature speech neuroprosthesis study reported 78 words per minute median text decoding and 25% median word error rate in one participant using high-density surface recordings of speech cortex.
+- Listener-safe boundary: avoid &quot;mind reading&quot;; describe the system as decoding intentional, task-trained control patterns under clinical constraints.
+
+
+Sources:
+- https://clinicaltrials.gov/study/NCT06429735
+- https://clinicaltrials.gov/api/v2/studies/NCT06429735
+- https://neuralink.com/pdfs/PRIME-Study-Brochure.pdf
+- https://www.fda.gov/regulatory-information/search-fda-guidance-documents/implanted-brain-computer-interface-bci-devices-patients-paralysis-or-amputation-non-clinical-testing
+- https://www.nature.com/articles/nature04970
+- https://www.nature.com/articles/s41586-021-03506-2
+- https://www.nature.com/articles/s41586-023-06443-4</description>
+      <itunes:subtitle>Neurotechnology in simple terms</itunes:subtitle>
+      <itunes:summary>If the normal path is brain to nerves to muscles to device, a brain chip tries to build a detour: brain signal to decoder to computer command.
+
+In this episode, Satish starts with the engineering problem, then turns the idea into a practical technical mental model for engineers and curious builders.
+
+In Simple Terms with Satish: daily tech trends explained simply, with enough technical depth for builders.
+
+Production note: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+
+Engineer notes:
+Exact technical references:
+
+- Core technical object: implanted brain-computer interface, or BCI, for control of external devices.
+- Main architecture pattern: neural activity -&gt; electrodes -&gt; analog front end -&gt; digitized signal -&gt; wireless transmission -&gt; decoder model -&gt; user interface command -&gt; feedback -&gt; recalibration.
+- Neuralink PRIME Study ClinicalTrials.gov anchor: NCT06429735 describes a first-in-human early feasibility study evaluating initial clinical safety and device functionality of the N1 Implant and R1 Robot in participants with tetraparesis or tetraplegia. The record was last updated on January 9, 2026 and the API derived version observed was 2026-07-10.
+- Neuralink device description anchor: ClinicalTrials.gov describes the N1 as a skull-mounted, wireless, rechargeable implant connected to electrode threads implanted in the brain by the R1 Robot.
+- Neuralink brochure anchor: the PRIME Study brochure describes BCIs as systems that decode intended movement signals from brain activity to control external devices such as computers.
+- Neuralink electrode-count anchor: the PRIME Study brochure describes 1,024 electrodes distributed across 64 threads, each thinner than a human hair.
+- Trial status anchor: the ClinicalTrials.gov record lists the PRIME Study as recruiting, FDA-regulated device, estimated enrollment 15, with device-related and procedure-related adverse events measured at 12 months and up to 72 months post-implant.
+- FDA boundary anchor: FDA guidance defines implanted BCI devices for this guidance as neuroprostheses interfacing with the central or peripheral nervous system to restore lost motor and/or sensory capabilities in patients with paralysis or amputation.
+- FDA safety-anchor list: FDA guidance covers risk management, software, human factors, biocompatibility, sterility, pyrogenicity, shelf life and packaging, electrical safety, EMC, wireless technology, MR compatibility, bench testing, animal testing, and clinical performance testing.
+- Prior-art anchor: a 2006 Nature BrainGate study reported a 96-microelectrode array in primary motor cortex where a participant used a neural cursor, opened simulated email, operated devices, and controlled prosthetic/robotic actions.
+- Performance anchor: a 2021 Nature handwriting BCI study reported 90 characters per minute with 94.1% raw online accuracy and over 99% offline accuracy with autocorrect in one participant.
+- Speech direction anchor: a 2023 Nature speech neuroprosthesis study reported 78 words per minute median text decoding and 25% median word error rate in one participant using high-density surface recordings of speech cortex.
+- Listener-safe boundary: avoid &quot;mind reading&quot;; describe the system as decoding intentional, task-trained control patterns under clinical constraints.
+
+
+Sources:
+- https://clinicaltrials.gov/study/NCT06429735
+- https://clinicaltrials.gov/api/v2/studies/NCT06429735
+- https://neuralink.com/pdfs/PRIME-Study-Brochure.pdf
+- https://www.fda.gov/regulatory-information/search-fda-guidance-documents/implanted-brain-computer-interface-bci-devices-patients-paralysis-or-amputation-non-clinical-testing
+- https://www.nature.com/articles/nature04970
+- https://www.nature.com/articles/s41586-021-03506-2
+- https://www.nature.com/articles/s41586-023-06443-4</itunes:summary>
+      <itunes:duration>00:04:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>43</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-17-how-brain-chips-could-help-someone-say-i-need-water.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-17-how-brain-chips-could-help-someone-say-i-need-water.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-17-how-brain-chips-could-help-someone-say-i-need-water.mp3" length="4264899" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-17-how-brain-chips-could-help-someone-say-i-need-water</guid>
+      <pubDate>Fri, 17 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How 3D Printers Turn Digital Files Into Real Objects</title>

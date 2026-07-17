@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F1FF"/>
+      <stop offset="58%" stop-color="#79E6D8"/>
+      <stop offset="100%" stop-color="#4D47C9"/>
+    </linearGradient>
+    <radialGradient id="topicGlow" cx="50%" cy="50%" r="62%">
+      <stop offset="0%" stop-color="#6F5BFF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#1B1742" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#6D4E00" flood-opacity="0.15"/>
+    </filter>
+    <style>
+      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #1B1742; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 197px; font-weight: 900; letter-spacing: 2px; fill: #1B1742; }
+      .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #1B1742; }
+      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #1B1742; }
+    </style>
+  </defs>
+  <rect width="3000" height="3000" fill="url(#paper)"/>
+  <circle cx="2450" cy="560" r="530" fill="#FF6FAE" opacity="0.22"/>
+  <circle cx="360" cy="2500" r="560" fill="#FF6FAE" opacity="0.13"/>
+  <circle cx="2250" cy="1540" r="770" fill="url(#topicGlow)" opacity="0.9"/>
+  <g>
+  <path d="M2020 1025 C1865 1080 1785 1245 1835 1415 C1875 1555 1995 1645 2145 1665 C2235 1810 2435 1820 2530 1685 C2685 1660 2790 1535 2785 1385 C2780 1230 2670 1125 2520 1105 C2435 955 2205 930 2095 1065" fill="none" stroke="#6F5BFF" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M2035 1245 C2150 1160 2285 1180 2360 1285 M2025 1435 C2175 1535 2355 1515 2495 1405 M2240 1065 V1655 M2425 1195 C2370 1275 2370 1375 2440 1460" fill="none" stroke="#1B1742" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <circle cx="2050" cy="1345" r="48" fill="#6F5BFF" opacity="0.42"/>
+  <circle cx="2255" cy="1215" r="48" fill="#6F5BFF" opacity="0.42"/>
+  <circle cx="2495" cy="1405" r="48" fill="#6F5BFF" opacity="0.42"/>
+  <path d="M1885 2050 H2150 L2285 1930 L2435 2170 L2575 2050 H2810" fill="none" stroke="#6F5BFF" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M2185 2300 H2765 M2295 2185 V2415 M2485 2185 V2415 M2675 2185 V2415" fill="none" stroke="#1B1742" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+</g>
+  <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#1B1742" stroke-width="12" opacity="0.36"/>
+  <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
+  <g filter="url(#shadow)">
+    <text x="245" y="1193" class="title">HOW BRAIN CHIPS</text>
+    <text x="245" y="1422" class="title">COULD HELP</text>
+    <text x="245" y="1651" class="title">SOMEONE SAY I</text>
+    <text x="245" y="1880" class="title">NEED WATER</text>
+  </g>
+  <path d="M260 2135 H1080" stroke="#6F5BFF" stroke-width="24" stroke-linecap="round"/>
+  <text x="260" y="2270" class="date">2026-07-17</text>
+  <text x="260" y="2575" class="small">NEUROTECHNOLOGY</text>
+</svg>

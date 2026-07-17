@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-16",
-  "title": "Today's object: 3D printing in simple terms",
+  "generatedAt": "2026-07-17",
+  "title": "Today's object: Neurotechnology in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-07-16",
+    "date": "2026-07-17",
     "status": "running",
-    "scheduledFor": "2026-07-16T05:30:00-04:00",
-    "startedAt": "2026-07-16T09:40:03.467Z",
+    "scheduledFor": "2026-07-17T05:30:00-04:00",
+    "startedAt": "2026-07-17T09:25:01.373Z",
     "finishedAt": null,
     "currentStage": "publish",
     "topic": null,
-    "podcastTopic": "How 3D Printers Turn Digital Files Into Real Objects",
+    "podcastTopic": "How Brain Chips Could Help Someone Say I Need Water",
     "commit": null,
     "results": {
       "publicFeedPublish": null,
@@ -25,17 +25,17 @@
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "How 3D Printers Turn Digital Files Into Real Objects"
+      "latestPodcastEpisode": "How Brain Chips Could Help Someone Say I Need Water"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "How 3D Printers Turn Digital Files Into Real Objects",
-      "publishedAt": "2026-07-16T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-16-how-3d-printers-turn-digital-files-into-real-objects.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-16-how-3d-printers-turn-digital-files-into-real-objects.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-16-how-3d-printers-turn-digital-files-into-real-objects"
+      "title": "How Brain Chips Could Help Someone Say I Need Water",
+      "publishedAt": "2026-07-17T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-17-how-brain-chips-could-help-someone-say-i-need-water.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-17-how-brain-chips-could-help-someone-say-i-need-water.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-17-how-brain-chips-could-help-someone-say-i-need-water"
     }
   }
 }
