@@ -7,7 +7,7 @@
   "finishedAt": "2026-07-17T12:15:23.071Z",
   "currentStage": "completed",
   "topic": null,
-  "podcastTopic": "How Brain Chips Could Help Someone Say I Need Water",
+  "podcastTopic": "How Brain Chips Could Help People Perform Everyday Tasks",
   "commit": null,
   "results": {
     "publicFeedPublish": "success",
@@ -18,6 +18,6 @@
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How Brain Chips Could Help Someone Say I Need Water"
+    "latestPodcastEpisode": "How Brain Chips Could Help People Perform Everyday Tasks"
   }
 }

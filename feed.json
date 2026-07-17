@@ -14,7 +14,7 @@
     "finishedAt": "2026-07-17T12:15:23.071Z",
     "currentStage": "completed",
     "topic": null,
-    "podcastTopic": "How Brain Chips Could Help Someone Say I Need Water",
+    "podcastTopic": "How Brain Chips Could Help People Perform Everyday Tasks",
     "commit": null,
     "results": {
       "publicFeedPublish": "success",
@@ -25,13 +25,13 @@
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "How Brain Chips Could Help Someone Say I Need Water"
+      "latestPodcastEpisode": "How Brain Chips Could Help People Perform Everyday Tasks"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "How Brain Chips Could Help Someone Say I Need Water",
+      "title": "How Brain Chips Could Help People Perform Everyday Tasks",
       "publishedAt": "2026-07-17T09:30:00.000Z",
       "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-17-how-brain-chips-could-help-someone-say-i-need-water.mp3",
       "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-17-how-brain-chips-could-help-someone-say-i-need-water.jpg",
