@@ -22,7 +22,56 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Fri, 17 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How Holograms Trick Your Eyes Into Seeing 3D</title>
+      <description>Today, let&apos;s understand how holograms work, and why true holography is much more interesting than a floating picture.
+
+Inside this four-minute explanation:
+- Optical holography as recording and reconstructing a light wavefront.
+- Coherent source -&gt; beam split -&gt; object beam plus reference beam -&gt; interference pattern -&gt; recording or computed hologram -&gt; diffractive reconstruction -&gt; viewer...
+- Explain holograms as wavefront reconstruction, not floating matter, teleportation, or a universal label for any projected image.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.nobelprize.org/prizes/physics/1971/gabor/facts/
+- https://www.nobelprize.org/prizes/physics/1971/summary/
+- https://arxiv.org/abs/2205.02367
+- https://arxiv.org/abs/2409.03143
+- https://arxiv.org/abs/2601.20376</description>
+      <itunes:subtitle>Smart devices in simple terms</itunes:subtitle>
+      <itunes:summary>Today, let&apos;s understand how holograms work, and why true holography is much more interesting than a floating picture.
+
+Inside this four-minute explanation:
+- Optical holography as recording and reconstructing a light wavefront.
+- Coherent source -&gt; beam split -&gt; object beam plus reference beam -&gt; interference pattern -&gt; recording or computed hologram -&gt; diffractive reconstruction -&gt; viewer...
+- Explain holograms as wavefront reconstruction, not floating matter, teleportation, or a universal label for any projected image.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.nobelprize.org/prizes/physics/1971/gabor/facts/
+- https://www.nobelprize.org/prizes/physics/1971/summary/
+- https://arxiv.org/abs/2205.02367
+- https://arxiv.org/abs/2409.03143
+- https://arxiv.org/abs/2601.20376</itunes:summary>
+      <itunes:duration>00:04:52</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>44</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-18-how-holograms-trick-your-eyes-into-seeing-3d.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-18-how-holograms-trick-your-eyes-into-seeing-3d.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-18-how-holograms-trick-your-eyes-into-seeing-3d.mp3" length="4670319" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-18-how-holograms-trick-your-eyes-into-seeing-3d</guid>
+      <pubDate>Sat, 18 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How Brain Chips Could Help People Perform Everyday Tasks</title>

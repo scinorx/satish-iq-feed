@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-07-17",
-  "status": "partial",
-  "scheduledFor": "2026-07-17T05:30:00-04:00",
-  "startedAt": "2026-07-17T09:25:01.373Z",
-  "finishedAt": "2026-07-17T12:15:23.071Z",
-  "currentStage": "completed",
+  "date": "2026-07-18",
+  "status": "running",
+  "scheduledFor": "2026-07-18T05:30:00-04:00",
+  "startedAt": "2026-07-18T09:25:06.254Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "How Brain Chips Could Help People Perform Everyday Tasks",
+  "podcastTopic": "How Holograms Trick Your Eyes Into Seeing 3D",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How Brain Chips Could Help People Perform Everyday Tasks"
+    "latestPodcastEpisode": "How Holograms Trick Your Eyes Into Seeing 3D"
   }
 }

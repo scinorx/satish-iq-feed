@@ -1,5 +1,100 @@
 [
   {
+    "guid": "in-simple-terms-2026-07-18-how-holograms-trick-your-eyes-into-seeing-3d",
+    "title": "How Holograms Trick Your Eyes Into Seeing 3D",
+    "subtitle": "Smart devices in simple terms",
+    "description": "Today, let's understand how holograms work, and why true holography is much more interesting than a floating picture.\n\nInside this four-minute explanation:\n- Optical holography as recording and reconstructing a light wavefront.\n- Coherent source -> beam split -> object beam plus reference beam -> interference pattern -> recording or computed hologram -> diffractive reconstruction -> viewer...\n- Explain holograms as wavefront reconstruction, not floating matter, teleportation, or a universal label for any projected image.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://www.nobelprize.org/prizes/physics/1971/gabor/facts/\n- https://www.nobelprize.org/prizes/physics/1971/summary/\n- https://arxiv.org/abs/2205.02367\n- https://arxiv.org/abs/2409.03143\n- https://arxiv.org/abs/2601.20376",
+    "publishedAt": "2026-07-18T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-07-18",
+    "seasonNumber": 5,
+    "episodeNumber": 44,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-07-18T05:30:00-04:00",
+    "durationSeconds": 292,
+    "audioPath": "podcast/audio/2026-07-18-how-holograms-trick-your-eyes-into-seeing-3d.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-18-how-holograms-trick-your-eyes-into-seeing-3d.mp3",
+    "lengthBytes": 4670319,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nTake a credit card or ID card with a shiny hologram on it.\n\nTilt it.\n\nThe image changes.\n\nA number appears, disappears, shifts color, or seems to move.\n\nAt first, it feels like a tiny video is hidden inside the sticker.\n\nBut there is no tiny screen there.\n\nThe surface is steering light.\n\nToday, let's understand how holograms work, and why true holography is much more interesting than a floating picture.\n\nWe use the word hologram for concerts, phone tricks, stickers, and science-fiction displays.\n\nMany are projections or reflections.\n\nA true hologram is stranger.\n\nA normal photo records how bright each point looked from one camera position.\n\nA hologram records information needed to rebuild how light was traveling.\n\nThat is the key difference.\n\nLight from a real object carries brightness, direction, and phase, the timing inside the wave.\n\nTogether, that forms a wavefront, a shaped sheet of light reaching your eyes.\n\nYour brain uses angle, focus, parallax, and perspective to sense depth.\n\nA hologram tries to store that wavefront.\n\nClassic holography starts with coherent light, usually a laser.\n\nCoherent means the light waves keep a predictable relationship with each other.\n\nThe laser is split into two beams.\n\nOne beam hits the object and scatters shape information toward the recording plate.\n\nThis is the object beam.\n\nThe other beam goes straight to the recording plate.\n\nThis is the reference beam.\n\nWhen the object beam and reference beam meet, their waves interfere.\n\nSome parts reinforce each other.\n\nSome parts cancel.\n\nThe recording material stores that tiny interference pattern.\n\nHere is the surprise:\n\nthe pattern does not look like the object.\n\nIt may look like random scratches, rings, or shimmer.\n\nBut it is not a picture.\n\nIt is an optical instruction.\n\nLater, when the right light hits that pattern, the pattern diffracts the light.\n\nDiffraction means the pattern bends and spreads light in specific directions.\n\nThe stored pattern rebuilds a version of the original wavefront.\n\nYour eye receives light almost as if it came from the original object.\n\nSo when you move your head, the view can shift.\n\nOne side appears, then another.\n\nThat is why a real hologram can feel three-dimensional without glasses.\n\nNow go back to that security hologram on a card.\n\nTilt it, and the image changes.\n\nThe surface contains microscopic structures that send different light toward your eye at different angles.\n\nNow compare that with many stage \"holograms.\"\n\nA singer appearing on stage may be a projection reflected by angled glass or film, often related to Pepper's ghost.\n\nIt can be impressive, but it usually is not storing and reconstructing a light wavefront.\n\nIt is more like a controlled reflection.\n\nModern holographic displays go further.\n\nInstead of recording a real object on film, computers calculate the wave pattern a fake 3D object should produce.\n\nThen a device, such as a spatial light modulator, changes laser light pixel by pixel.\n\nIn simple terms:\n\nthe computer is not just drawing the object.\n\nIt draws the light field the object would have created.\n\nThat is powerful, but hard.\n\nThe system must calculate wave behavior fast.\n\nThe display needs extremely fine control.\n\nLaser light can create speckle, which looks like grainy shimmer.\n\nColor is difficult because red, green, and blue light have different wavelengths.\n\nNear-eye displays must also balance field of view, eyebox, brightness, focus cues, and comfort.\n\nThis is why true holographic video is still difficult.\n\nThe word hologram is easy.\n\nRebuilding light is hard.\n\nThe useful mental model is this:\n\na photograph stores an appearance.\n\nA hologram stores instructions for recreating a wavefront.\n\nA fake stage hologram tricks your viewpoint.\n\nA true hologram tricks the light itself, so your eye receives depth cues that feel more natural.\n\nThe engineering lesson is bigger than holograms.\n\nSometimes the interface we see is not the system.\n\nA shiny sticker, a floating stage image, or a future AR display may hide optics, wave physics, computation, materials, calibration, and human perception.\n\nIn simple terms, holograms work because light can be encoded as an interference pattern and later reconstructed by diffraction.\n\nThe magic is not a floating ghost.\n\nThe magic is that a flat pattern can tell light how to behave as if a 3D object were still there.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nTake a credit card or ID card with a shiny hologram on it.\n\nTilt it.\n\nThe image changes.\n\nA number appears, disappears, shifts color, or seems to move.\n\nAt first, it feels like a tiny video is hidden inside the sticker.\n\nBut there is no tiny screen there.\n\nThe surface is steering light.\n\nToday, let's understand how holograms work, and why true holography is much more interesting than a floating picture.\n\nWe use the word hologram for concerts, phone tricks, stickers, and science-fiction displays.\n\nMany are projections or reflections.\n\nA true hologram is stranger.\n\nA normal photo records how bright each point looked from one camera position.\n\nA hologram records information needed to rebuild how light was traveling.\n\nThat is the key difference.\n\nLight from a real object carries brightness, direction, and phase, the timing inside the wave.\n\nTogether, that forms a wavefront, a shaped sheet of light reaching your eyes.\n\nYour brain uses angle, focus, parallax, and perspective to sense depth.\n\nA hologram tries to store that wavefront.\n\nClassic holography starts with coherent light, usually a laser.\n\nCoherent means the light waves keep a predictable relationship with each other.\n\nThe laser is split into two beams.\n\nOne beam hits the object and scatters shape information toward the recording plate.\n\nThis is the object beam.\n\nThe other beam goes straight to the recording plate.\n\nThis is the reference beam.\n\nWhen the object beam and reference beam meet, their waves interfere.\n\nSome parts reinforce each other.\n\nSome parts cancel.\n\nThe recording material stores that tiny interference pattern.\n\nHere is the surprise:\n\nthe pattern does not look like the object.\n\nIt may look like random scratches, rings, or shimmer.\n\nBut it is not a picture.\n\nIt is an optical instruction.\n\nLater, when the right light hits that pattern, the pattern diffracts the light.\n\nDiffraction means the pattern bends and spreads light in specific directions.\n\nThe stored pattern rebuilds a version of the original wavefront.\n\nYour eye receives light almost as if it came from the original object.\n\nSo when you move your head, the view can shift.\n\nOne side appears, then another.\n\nThat is why a real hologram can feel three-dimensional without glasses.\n\nNow go back to that security hologram on a card.\n\nTilt it, and the image changes.\n\nThe surface contains microscopic structures that send different light toward your eye at different angles.\n\nNow compare that with many stage \"holograms.\"\n\nA singer appearing on stage may be a projection reflected by angled glass or film, often related to Pepper's ghost.\n\nIt can be impressive, but it usually is not storing and reconstructing a light wavefront.\n\nIt is more like a controlled reflection.\n\nModern holographic displays go further.\n\nInstead of recording a real object on film, computers calculate the wave pattern a fake 3D object should produce.\n\nThen a device, such as a spatial light modulator, changes laser light pixel by pixel.\n\nIn simple terms:\n\nthe computer is not just drawing the object.\n\nIt draws the light field the object would have created.\n\nThat is powerful, but hard.\n\nThe system must calculate wave behavior fast.\n\nThe display needs extremely fine control.\n\nLaser light can create speckle, which looks like grainy shimmer.\n\nColor is difficult because red, green, and blue light have different wavelengths.\n\nNear-eye displays must also balance field of view, eyebox, brightness, focus cues, and comfort.\n\nThis is why true holographic video is still difficult.\n\nThe word hologram is easy.\n\nRebuilding light is hard.\n\nThe useful mental model is this:\n\na photograph stores an appearance.\n\nA hologram stores instructions for recreating a wavefront.\n\nA fake stage hologram tricks your viewpoint.\n\nA true hologram tricks the light itself, so your eye receives depth cues that feel more natural.\n\nThe engineering lesson is bigger than holograms.\n\nSometimes the interface we see is not the system.\n\nA shiny sticker, a floating stage image, or a future AR display may hide optics, wave physics, computation, materials, calibration, and human perception.\n\nIn simple terms, holograms work because light can be encoded as an interference pattern and later reconstructed by diffraction.\n\nThe magic is not a floating ghost.\n\nThe magic is that a flat pattern can tell light how to behave as if a 3D object were still there.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-07-18-how-holograms-trick-your-eyes-into-seeing-3d.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-18-how-holograms-trick-your-eyes-into-seeing-3d.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "The strongest mental model is that holography is not \"a floating video.\" It is wavefront engineering. A normal screen controls brightness and color. A true holographic system tries to control how light travels, so the eye receives depth cues closer to the original scene. That is why a tiny security sticker, a lab hologram, and future AR glasses all point to the same deeper idea: the display is not just showing an image; it is shaping light.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What is the key difference between a normal photograph and a true hologram?",
+          "options": [
+            "A photo stores an appearance from one viewpoint, while a hologram stores information used to reconstruct a light wavefront.",
+            "A photo is always black and white, while a hologram is always colorful.",
+            "A hologram is just a video projected into smoke."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Holography records interference information that can later diffract light into a reconstructed wavefront."
+        },
+        {
+          "prompt": "Why does classic holography often use a laser?",
+          "options": [
+            "A laser can provide coherent light whose waves keep a predictable relationship.",
+            "A laser is used only because it is brighter than every other light.",
+            "A laser turns solid objects into floating images."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Stable interference patterns require light waves with enough coherence to preserve phase relationships."
+        },
+        {
+          "prompt": "What do the object beam and reference beam do?",
+          "options": [
+            "The object beam carries light scattered from the object, and the reference beam combines with it to form an interference pattern.",
+            "The object beam paints the final picture, and the reference beam colors it.",
+            "Both beams are just two flashlights aimed at the same wall."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The interaction between these beams creates the encoded pattern that later reconstructs the wavefront."
+        },
+        {
+          "prompt": "Why can a real hologram show depth without special glasses?",
+          "options": [
+            "It can reconstruct light so the eye receives angle-dependent cues such as parallax.",
+            "It sends a different radio signal to each eye.",
+            "It makes the object physically appear in front of the viewer."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The reconstructed wavefront can change with viewing angle, similar to how light from a real object changes."
+        },
+        {
+          "prompt": "Why are many stage \"holograms\" not true holograms?",
+          "options": [
+            "They often use projection and reflection tricks, such as angled glass or film, rather than wavefront reconstruction.",
+            "They are not true holograms because they use music.",
+            "They are only true holograms if the performer is alive."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "A convincing floating image can be a theatrical optical illusion without being holography."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-07-18-how-holograms-trick-your-eyes-into-seeing-3d.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-07-18-how-holograms-trick-your-eyes-into-seeing-3d.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-07-18-how-holograms-trick-your-eyes-into-seeing-3d.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-18-how-holograms-trick-your-eyes-into-seeing-3d.jpg",
+    "topicProfile": {
+      "id": "smart-glasses",
+      "label": "Smart devices",
+      "accent": "#00A889"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-07-18-how-holograms-trick-your-eyes-into-seeing-3d"
+  },
+  {
     "guid": "in-simple-terms-2026-07-17-how-brain-chips-could-help-someone-say-i-need-water",
     "title": "How Brain Chips Could Help People Perform Everyday Tasks",
     "subtitle": "Neurotechnology in simple terms",

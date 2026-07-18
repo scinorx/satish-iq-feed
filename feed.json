@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-17",
-  "title": "Today's object: Neurotechnology in simple terms",
+  "generatedAt": "2026-07-18",
+  "title": "Today's object: Smart devices in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-07-17",
-    "status": "partial",
-    "scheduledFor": "2026-07-17T05:30:00-04:00",
-    "startedAt": "2026-07-17T09:25:01.373Z",
-    "finishedAt": "2026-07-17T12:15:23.071Z",
-    "currentStage": "completed",
+    "date": "2026-07-18",
+    "status": "running",
+    "scheduledFor": "2026-07-18T05:30:00-04:00",
+    "startedAt": "2026-07-18T09:25:06.254Z",
+    "finishedAt": null,
+    "currentStage": "publish",
     "topic": null,
-    "podcastTopic": "How Brain Chips Could Help People Perform Everyday Tasks",
+    "podcastTopic": "How Holograms Trick Your Eyes Into Seeing 3D",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "blocked",
-      "spotifyPrep": "skipped",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "How Brain Chips Could Help People Perform Everyday Tasks"
+      "latestPodcastEpisode": "How Holograms Trick Your Eyes Into Seeing 3D"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "How Brain Chips Could Help People Perform Everyday Tasks",
-      "publishedAt": "2026-07-17T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-17-how-brain-chips-could-help-someone-say-i-need-water.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-17-how-brain-chips-could-help-someone-say-i-need-water.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-17-how-brain-chips-could-help-someone-say-i-need-water"
+      "title": "How Holograms Trick Your Eyes Into Seeing 3D",
+      "publishedAt": "2026-07-18T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-18-how-holograms-trick-your-eyes-into-seeing-3d.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-18-how-holograms-trick-your-eyes-into-seeing-3d.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-18-how-holograms-trick-your-eyes-into-seeing-3d"
     }
   }
 }

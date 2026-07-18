@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8FFF8"/>
+      <stop offset="58%" stop-color="#99F0D8"/>
+      <stop offset="100%" stop-color="#00A889"/>
+    </linearGradient>
+    <radialGradient id="topicGlow" cx="50%" cy="50%" r="62%">
+      <stop offset="0%" stop-color="#00A889" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#003F6B" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#6D4E00" flood-opacity="0.15"/>
+    </filter>
+    <style>
+      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #063F4C; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 254px; font-weight: 900; letter-spacing: 3px; fill: #063F4C; }
+      .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #063F4C; }
+      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #063F4C; }
+    </style>
+  </defs>
+  <rect width="3000" height="3000" fill="url(#paper)"/>
+  <circle cx="2450" cy="560" r="530" fill="#FFFFFF" opacity="0.22"/>
+  <circle cx="360" cy="2500" r="560" fill="#FFFFFF" opacity="0.13"/>
+  <circle cx="2250" cy="1540" r="770" fill="url(#topicGlow)" opacity="0.9"/>
+  <g>
+  <path d="M1790 1230 C1920 1110 2120 1115 2225 1250 M2225 1250 C2325 1115 2535 1110 2670 1230" fill="none" stroke="#00A889" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <rect x="1795" y="1210" width="420" height="250" rx="110" fill="none" stroke="#003F6B" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <rect x="2245" y="1210" width="420" height="250" rx="110" fill="none" stroke="#003F6B" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <path d="M2215 1328 H2245 M2670 1285 L2780 1210 M1790 1285 L1685 1210" fill="none" stroke="#003F6B" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <path d="M1970 1655 C2130 1545 2360 1545 2520 1655 M2050 1785 C2180 1710 2310 1710 2440 1785" fill="none" stroke="#00A889" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+</g>
+  <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#063F4C" stroke-width="12" opacity="0.36"/>
+  <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
+  <g filter="url(#shadow)">
+    <text x="245" y="1270" class="title">HOW HOLOGRAMS</text>
+    <text x="245" y="1565" class="title">TRICK YOUR EYES</text>
+    <text x="245" y="1860" class="title">INTO SEEING 3D</text>
+  </g>
+  <path d="M260 2135 H1080" stroke="#00A889" stroke-width="24" stroke-linecap="round"/>
+  <text x="260" y="2270" class="date">2026-07-18</text>
+  <text x="260" y="2575" class="small">SMART DEVICES</text>
+</svg>
