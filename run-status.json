@@ -1,19 +1,19 @@
 {
   "version": 1,
   "date": "2026-07-18",
-  "status": "running",
+  "status": "failed",
   "scheduledFor": "2026-07-18T05:30:00-04:00",
   "startedAt": "2026-07-18T09:25:06.254Z",
-  "finishedAt": null,
-  "currentStage": "publish",
+  "finishedAt": "2026-07-18T09:31:25.546Z",
+  "currentStage": "completed",
   "topic": null,
   "podcastTopic": "How Holograms Trick Your Eyes Into Seeing 3D",
   "commit": null,
   "results": {
-    "publicFeedPublish": null,
-    "privatePush": null,
-    "spotifyPrep": null,
-    "spotifyDraft": null
+    "publicFeedPublish": "success",
+    "privatePush": "blocked",
+    "spotifyPrep": "skipped",
+    "spotifyDraft": "skipped"
   },
   "outputs": {
     "snapshot": true,
