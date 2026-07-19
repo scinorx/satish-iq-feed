@@ -1,19 +1,19 @@
 {
   "version": 1,
   "date": "2026-07-19",
-  "status": "failed",
+  "status": "running",
   "scheduledFor": "2026-07-19T05:30:00-04:00",
-  "startedAt": "2026-07-19T09:25:05.118Z",
-  "finishedAt": "2026-07-19T09:31:16.108Z",
-  "currentStage": "completed",
+  "startedAt": "2026-07-19T09:40:05.259Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
   "podcastTopic": "How Microwaves Heat Food",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
