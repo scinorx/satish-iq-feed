@@ -22,7 +22,56 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sat, 18 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How Microwaves Heat Food</title>
+      <description>Two minutes later, the bowl is hot, the edge is steaming, and the center is still cold.
+
+Inside this four-minute explanation:
+- Microwave oven heating as dielectric heating inside a metal resonant cavity.
+- Electrical input -&gt; high-voltage supply or inverter -&gt; magnetron -&gt; waveguide -&gt; reflective metal cavity -&gt; food absorbs energy -&gt; heat diffuses by conduction.
+- Explain microwave heating as electromagnetic energy absorption and heat flow, not radiation contamination or magic inside-out cooking.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-ovens
+- https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm?fr=1030.10
+- https://arxiv.org/abs/2303.12518
+- https://arxiv.org/abs/1612.01457
+- https://en.wikipedia.org/wiki/Microwave_oven</description>
+      <itunes:subtitle>Solar power in simple terms</itunes:subtitle>
+      <itunes:summary>Two minutes later, the bowl is hot, the edge is steaming, and the center is still cold.
+
+Inside this four-minute explanation:
+- Microwave oven heating as dielectric heating inside a metal resonant cavity.
+- Electrical input -&gt; high-voltage supply or inverter -&gt; magnetron -&gt; waveguide -&gt; reflective metal cavity -&gt; food absorbs energy -&gt; heat diffuses by conduction.
+- Explain microwave heating as electromagnetic energy absorption and heat flow, not radiation contamination or magic inside-out cooking.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-ovens
+- https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm?fr=1030.10
+- https://arxiv.org/abs/2303.12518
+- https://arxiv.org/abs/1612.01457
+- https://en.wikipedia.org/wiki/Microwave_oven</itunes:summary>
+      <itunes:duration>00:04:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>45</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-19-how-microwaves-heat-food.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-19-how-microwaves-heat-food.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-19-how-microwaves-heat-food.mp3" length="4391541" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-19-how-microwaves-heat-food</guid>
+      <pubDate>Sun, 19 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How Holograms Trick Your Eyes Into Seeing 3D</title>

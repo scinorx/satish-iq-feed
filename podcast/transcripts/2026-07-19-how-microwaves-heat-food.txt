@@ -1,0 +1,139 @@
+Hello, and welcome to In Simple Terms with Satish.
+
+You put yesterday's rice, pasta, or curry into the microwave.
+
+Two minutes later, the bowl is hot, the edge is steaming, and the center is still cold.
+
+That is not random.
+
+That is the microwave telling you exactly how it works.
+
+Today, let's understand how microwaves heat food.
+
+A microwave is not a tiny oven with invisible fire.
+
+It is closer to an energy transmitter inside a shielded metal room.
+
+Instead of heating air first, it sends electromagnetic waves into the chamber and lets food absorb energy directly.
+
+Inside the oven is a device called a magnetron.
+
+It converts electrical energy into microwaves, usually around 2.45 gigahertz in a household oven.
+
+Those waves enter through a waveguide.
+
+The metal walls reflect them, so energy bounces around the cavity instead of escaping.
+
+Glass, paper, ceramic, and many plastics mostly pass microwaves through.
+
+Metal reflects them.
+
+Food absorbs them.
+
+The main heating mechanism is called dielectric heating.
+
+Food contains water, and water molecules are polar.
+
+That means one side of the molecule is slightly positive and the other side is slightly negative.
+
+The microwave field keeps changing direction.
+
+So those molecules keep trying to turn and line up.
+
+They cannot follow perfectly.
+
+They lag, twist, bump into neighbors, and lose energy as heat.
+
+This does not mean the food becomes radioactive.
+
+It means electromagnetic energy became heat.
+
+Water is the star, but not the only actor.
+
+Fats, sugars, salts, thickness, and structure also change absorption.
+
+That is why soup, bread, cheese, frozen vegetables, and meat do not behave the same way.
+
+Now return to the cold center.
+
+Microwaves do not magically cook food from the inside out.
+
+They penetrate some distance, but not infinitely.
+
+In thick or frozen food, the outer regions can absorb energy first.
+
+Then ordinary heat conduction has to carry warmth inward.
+
+That is why a dense frozen block can have hot edges and an icy middle.
+
+The microwave did not fail.
+
+Physics is asking for more time.
+
+This is also why standing time is not a polite suggestion.
+
+When the timer ends, temperature is still moving from hotter regions to colder regions.
+
+Letting food sit for a minute gives conduction time to finish what the microwaves started.
+
+The oven itself also creates hot spots and cold spots.
+
+Microwaves bouncing inside a metal cavity form field patterns.
+
+Some places receive more energy.
+
+Some receive less.
+
+The turntable is not decoration.
+
+It moves the food through different parts of the field, averaging out the unevenness.
+
+Some ovens also use a hidden stirrer that changes the wave pattern.
+
+And the bowl?
+
+A microwave-safe bowl mostly lets waves pass through.
+
+If it becomes hot, that is often because the hot food heated the bowl.
+
+Some materials absorb microwave energy too, which is why microwave-safe containers matter.
+
+Power settings are another hidden detail.
+
+In many older microwaves, fifty percent power often means full power turning on and off in bursts, not a half-strength magnetron.
+
+Newer inverter designs can deliver smoother lower power for gentler heating and defrosting.
+
+So defrost mode is not magic either.
+
+It is mostly giving heat time to move before the outside overcooks.
+
+The practical mental model is this:
+
+a microwave does not cook food evenly by default.
+
+It deposits energy where the waves and the food allow it.
+
+Then heat still has to travel.
+
+That explains stirring, rotating, covering, lower power, and waiting.
+
+It also explains why one food can be perfect while another has lava-hot edges and a frozen center.
+
+The safety story is simpler than many people think.
+
+When the oven turns off, the waves stop.
+
+The metal cavity, door mesh, seals, and interlocks keep energy inside while the oven runs.
+
+In simple terms, a microwave heats food by using a changing electric field to make polar molecules, especially water, absorb energy.
+
+That energy becomes heat.
+
+But the final result depends on the whole system: magnetron, metal cavity, wave patterns, turntable, food chemistry, food shape, power timing, and heat conduction.
+
+The microwave is fast because it can put energy directly into the food.
+
+It is uneven because physics still gets a vote.
+
+If this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.
