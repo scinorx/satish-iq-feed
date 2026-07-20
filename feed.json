@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-19",
-  "title": "Today's object: Solar power in simple terms",
+  "generatedAt": "2026-07-20",
+  "title": "Today's object: Robotics systems in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-07-19",
-    "status": "failed",
-    "scheduledFor": "2026-07-19T05:30:00-04:00",
-    "startedAt": "2026-07-19T09:40:05.259Z",
-    "finishedAt": "2026-07-19T09:41:24.680Z",
+    "date": "2026-07-20",
+    "status": "partial",
+    "scheduledFor": "2026-07-20T05:30:00-04:00",
+    "startedAt": "2026-07-20T09:25:02.029Z",
+    "finishedAt": "2026-07-20T14:07:43.481Z",
     "currentStage": "completed",
     "topic": null,
-    "podcastTopic": "How Microwaves Heat Food",
+    "podcastTopic": "What Is A Sensor And How Does It Work?",
     "commit": null,
     "results": {
       "publicFeedPublish": "success",
@@ -25,17 +25,17 @@
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "How Microwaves Heat Food"
+      "latestPodcastEpisode": "What Is A Sensor And How Does It Work?"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "How Microwaves Heat Food",
-      "publishedAt": "2026-07-19T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-19-how-microwaves-heat-food.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-19-how-microwaves-heat-food.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-19-how-microwaves-heat-food"
+      "title": "What Is A Sensor And How Does It Work?",
+      "publishedAt": "2026-07-20T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-20-what-is-a-sensor-and-how-does-it-work.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-20-what-is-a-sensor-and-how-does-it-work.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-20-what-is-a-sensor-and-how-does-it-work"
     }
   }
 }

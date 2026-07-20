@@ -22,7 +22,56 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sun, 19 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>What Is A Sensor And How Does It Work?</title>
+      <description>A sensor is a device that detects something physical and turns it into a signal a machine can use.
+
+Inside this four-minute explanation:
+- A sensor as a measurement-system component that detects a physical quantity and produces a signal.
+- Physical quantity -&gt; transducer -&gt; analog signal -&gt; signal conditioning -&gt; ADC -&gt; calibrated units or states -&gt; software decision.
+- So today, let&apos;s answer directly: what is a sensor, and how does it work?
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensors
+- https://www.ti.com/lit/an/slaa013/slaa013.pdf
+- https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf
+- https://en.wikipedia.org/wiki/Ultrasonic_sensor
+- https://en.wikipedia.org/wiki/Parking_sensor</description>
+      <itunes:subtitle>Robotics systems in simple terms</itunes:subtitle>
+      <itunes:summary>A sensor is a device that detects something physical and turns it into a signal a machine can use.
+
+Inside this four-minute explanation:
+- A sensor as a measurement-system component that detects a physical quantity and produces a signal.
+- Physical quantity -&gt; transducer -&gt; analog signal -&gt; signal conditioning -&gt; ADC -&gt; calibrated units or states -&gt; software decision.
+- So today, let&apos;s answer directly: what is a sensor, and how does it work?
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensors
+- https://www.ti.com/lit/an/slaa013/slaa013.pdf
+- https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf
+- https://en.wikipedia.org/wiki/Ultrasonic_sensor
+- https://en.wikipedia.org/wiki/Parking_sensor</itunes:summary>
+      <itunes:duration>00:04:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>46</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-20-what-is-a-sensor-and-how-does-it-work.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-20-what-is-a-sensor-and-how-does-it-work.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-20-what-is-a-sensor-and-how-does-it-work.mp3" length="4765196" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-20-what-is-a-sensor-and-how-does-it-work</guid>
+      <pubDate>Mon, 20 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How Microwaves Heat Food</title>
