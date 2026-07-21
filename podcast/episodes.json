@@ -1,5 +1,100 @@
 [
   {
+    "guid": "in-simple-terms-2026-07-21-why-ads-feel-like-your-phone-is-listening",
+    "title": "Why Ads Feel Like Your Phone Is Listening",
+    "subtitle": "Privacy and ad targeting in simple terms",
+    "description": "Why does an ad sometimes appear right after you talked about something, or even after you only thought about it?\n\nInside this four-minute explanation:\n- Why ads usually do not need secret microphone recording to feel personal.\n- How weak signals become targeting: life pattern -> tracking event -> audience -> ad auction -> ad.\n- Why prior behavior, nearby people, household signals, location patterns, and lookalike prediction can make an ad feel like thought reading.\n- Where microphone permissions still matter, and how iPhone and Android expose microphone access.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-require-cox-media-group-two-other-firms-pay-nearly-1-million-settle-charges-they-deceived\n- https://consumer.ftc.gov/articles/how-websites-and-apps-collect-and-use-your-information\n- https://support.apple.com/en-us/108331\n- https://support.apple.com/en-us/102188\n- https://support.google.com/android/answer/13530434",
+    "publishedAt": "2026-07-21T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-07-21",
+    "seasonNumber": 5,
+    "episodeNumber": 47,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-07-21T05:30:00-04:00",
+    "durationSeconds": 285,
+    "audioPath": "podcast/audio/2026-07-21-why-ads-feel-like-your-phone-is-listening.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-21-why-ads-feel-like-your-phone-is-listening.mp3",
+    "lengthBytes": 4556635,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nYou talk about running shoes at lunch.\n\nLater, your phone shows you an ad for running shoes.\n\nThe first thought is obvious: did my phone listen to me?\n\nToday, let's answer that like an engineer.\n\nThe short answer is: usually, the ad system does not need your microphone.\n\nIn May 2026, the Federal Trade Commission announced an active-listening advertising case.\n\nCompanies had promoted a service that supposedly targeted people using conversations from smart devices.\n\nThe FTC said the service was not actually based on voice data.\n\nBut the real ad system is often built from quieter signals.\n\nSo how can talking, or even just thinking about something, seem to become an ad?\n\nThere are several realistic paths.\n\nFirst, conversation can trigger behavior.\n\nAt lunch, you and a friend talk about running shoes. Later, your friend searches, opens a store page, or taps a review.\n\nThat store page may have a pixel, cookie, or app event that reports: this browser looked at running shoes.\n\nNow the ad system does not know your lunch conversation.\n\nIt knows a nearby person, related account, household, or device graph just showed running-shoe intent.\n\nIf your phones are often in the same home, office, car, school, or location pattern, the system may infer that you belong to a useful audience cluster.\n\nSecond, you may have produced earlier weak signals.\n\nMaybe you watched fitness videos.\n\nMaybe you once browsed sportswear.\n\nMaybe your household already bought related products.\n\nThird, you may match people who are behaving like you.\n\nIf people with similar routines, apps, location patterns, and purchases start buying shoes, the model may predict you are a good candidate too.\n\nNone of those signals proves you said or even searched \"running shoes.\"\n\nTogether, they can make the system confident enough to show you a running-shoe ad.\n\nSo the conversion is not usually speech to text to ad.\n\nIt is often life pattern to tracking event, tracking event to audience, audience to auction, auction to ad.\n\nThe FTC describes tools like cookies, pixels, device fingerprinting, advertising identifiers, browsing history, location, and cross-device tracking.\n\nOne signal is weak.\n\nThousands of signals become a profile.\n\nThen comes prediction.\n\nThe ad platform asks: people with patterns like this, in this location, on this device, at this time, are likely to care about what?\n\nThat is a ranking problem.\n\nMany candidate ads compete.\n\nThe system scores them using targeting rules, bid price, expected click rate, conversion history, and policy filters.\n\nThe winner appears.\n\nSo why does it feel like listening?\n\nBecause conversations and tracking both follow your real life.\n\nYou talk about things you already care about.\n\nThen you, your friend, your household, or people similar to you may search, shop, move, or click around the same topics.\n\nThe ad system only needs one of those traces to enter the pipeline.\n\nYou notice the creepy match and forget the hundred irrelevant ads that missed.\n\nThat does not mean microphones never matter.\n\nA phone can capture audio when an app has microphone access, or when a voice assistant is active.\n\nThat is why platform controls matter.\n\nOn iPhone, Apple says an orange indicator means an app is using the microphone, and App Privacy Report can show recent sensor and network access.\n\nOn Android, Privacy Dashboard can show which apps used permissions and when. Android developer guidance says Android 9 and higher block microphone or camera access while an app is in the background.\n\nThose controls do not make privacy perfect, but they give you evidence.\n\nThe engineering reason secret always-on ad listening is unlikely as the default business model is simple: audio is expensive, sensitive, battery-heavy, legally risky, and easier for platforms to expose.\n\nMetadata is cheaper.\n\nIt is already structured.\n\nAnd it is often enough.\n\nIn simple terms, your phone usually does not need to secretly listen to make ads feel creepy.\n\nThe ad system is listening to your behavior.\n\nNot with ears, but with events, identifiers, location, relationships, and prediction models.\n\nThat is the lesson for engineers.\n\nPrivacy is not only about microphones.\n\nIt is about the invisible data pipeline around the microphone.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nYou talk about running shoes at lunch.\n\nLater, your phone shows you an ad for running shoes.\n\nThe first thought is obvious: did my phone listen to me?\n\nToday, let's answer that like an engineer.\n\nThe short answer is: usually, the ad system does not need your microphone.\n\nIn May 2026, the Federal Trade Commission announced an active-listening advertising case.\n\nCompanies had promoted a service that supposedly targeted people using conversations from smart devices.\n\nThe FTC said the service was not actually based on voice data.\n\nBut the real ad system is often built from quieter signals.\n\nSo how can talking, or even just thinking about something, seem to become an ad?\n\nThere are several realistic paths.\n\nFirst, conversation can trigger behavior.\n\nAt lunch, you and a friend talk about running shoes. Later, your friend searches, opens a store page, or taps a review.\n\nThat store page may have a pixel, cookie, or app event that reports: this browser looked at running shoes.\n\nNow the ad system does not know your lunch conversation.\n\nIt knows a nearby person, related account, household, or device graph just showed running-shoe intent.\n\nIf your phones are often in the same home, office, car, school, or location pattern, the system may infer that you belong to a useful audience cluster.\n\nSecond, you may have produced earlier weak signals.\n\nMaybe you watched fitness videos.\n\nMaybe you once browsed sportswear.\n\nMaybe your household already bought related products.\n\nThird, you may match people who are behaving like you.\n\nIf people with similar routines, apps, location patterns, and purchases start buying shoes, the model may predict you are a good candidate too.\n\nNone of those signals proves you said or even searched \"running shoes.\"\n\nTogether, they can make the system confident enough to show you a running-shoe ad.\n\nSo the conversion is not usually speech to text to ad.\n\nIt is often life pattern to tracking event, tracking event to audience, audience to auction, auction to ad.\n\nThe FTC describes tools like cookies, pixels, device fingerprinting, advertising identifiers, browsing history, location, and cross-device tracking.\n\nOne signal is weak.\n\nThousands of signals become a profile.\n\nThen comes prediction.\n\nThe ad platform asks: people with patterns like this, in this location, on this device, at this time, are likely to care about what?\n\nThat is a ranking problem.\n\nMany candidate ads compete.\n\nThe system scores them using targeting rules, bid price, expected click rate, conversion history, and policy filters.\n\nThe winner appears.\n\nSo why does it feel like listening?\n\nBecause conversations and tracking both follow your real life.\n\nYou talk about things you already care about.\n\nThen you, your friend, your household, or people similar to you may search, shop, move, or click around the same topics.\n\nThe ad system only needs one of those traces to enter the pipeline.\n\nYou notice the creepy match and forget the hundred irrelevant ads that missed.\n\nThat does not mean microphones never matter.\n\nA phone can capture audio when an app has microphone access, or when a voice assistant is active.\n\nThat is why platform controls matter.\n\nOn iPhone, Apple says an orange indicator means an app is using the microphone, and App Privacy Report can show recent sensor and network access.\n\nOn Android, Privacy Dashboard can show which apps used permissions and when. Android developer guidance says Android 9 and higher block microphone or camera access while an app is in the background.\n\nThose controls do not make privacy perfect, but they give you evidence.\n\nThe engineering reason secret always-on ad listening is unlikely as the default business model is simple: audio is expensive, sensitive, battery-heavy, legally risky, and easier for platforms to expose.\n\nMetadata is cheaper.\n\nIt is already structured.\n\nAnd it is often enough.\n\nIn simple terms, your phone usually does not need to secretly listen to make ads feel creepy.\n\nThe ad system is listening to your behavior.\n\nNot with ears, but with events, identifiers, location, relationships, and prediction models.\n\nThat is the lesson for engineers.\n\nPrivacy is not only about microphones.\n\nIt is about the invisible data pipeline around the microphone.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-07-21-why-ads-feel-like-your-phone-is-listening.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-21-why-ads-feel-like-your-phone-is-listening.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "The important mental model is this: creepy ads are usually not direct thought-to-ad or speech-to-ad conversion. The path can be prior weak signals, nearby people, household behavior, location overlap, or lookalike prediction. Those traces become targeting signals. The system links identities, predicts intent, runs an auction, and measures response. Microphone permissions still matter, but metadata can be powerful enough to feel like listening.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What is the main reason ads can feel like your phone is listening?",
+          "options": [
+            "Ad systems can infer intent from many behavior, location, device, and identity signals.",
+            "Every phone continuously streams all room audio to advertisers by default.",
+            "Ads are selected randomly with no data."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The listener-facing feeling often comes from prediction over many non-audio signals."
+        },
+        {
+          "prompt": "What did the FTC's 2026 active-listening case help clarify?",
+          "options": [
+            "Some companies claimed voice-based ad targeting, but the FTC alleged the service was not actually based on voice data.",
+            "The FTC proved every ad platform records phone calls.",
+            "The FTC banned all online advertising."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The case is a useful news hook because it separates marketing claims from how the alleged service worked."
+        },
+        {
+          "prompt": "Which tools can websites and apps use to track activity?",
+          "options": [
+            "Cookies, pixels, device fingerprinting, and advertising identifiers.",
+            "Only handwritten surveys.",
+            "Only the phone's flashlight sensor."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Ad targeting can use many digital traces without needing raw microphone audio."
+        },
+        {
+          "prompt": "Why can an ad appear even if you did not search for the exact thing?",
+          "options": [
+            "Prior weak signals, nearby people, household behavior, or lookalike prediction may be enough.",
+            "The phone must have read your private thought.",
+            "Ads can only appear after an exact search."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Ad systems can infer intent from indirect signals, not only from explicit searches."
+        },
+        {
+          "prompt": "What does an iPhone orange indicator mean?",
+          "options": [
+            "An app is using the microphone.",
+            "An ad auction just finished.",
+            "The battery is being charged wirelessly."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Platform indicators can provide evidence of sensor access."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-07-21-why-ads-feel-like-your-phone-is-listening.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-07-21-why-ads-feel-like-your-phone-is-listening.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-07-21-why-ads-feel-like-your-phone-is-listening.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-21-why-ads-feel-like-your-phone-is-listening.jpg",
+    "topicProfile": {
+      "id": "security",
+      "label": "Privacy and ad targeting",
+      "accent": "#E04343"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-07-21-why-ads-feel-like-your-phone-is-listening"
+  },
+  {
     "guid": "in-simple-terms-2026-07-20-what-is-a-sensor-and-how-does-it-work",
     "title": "What Is A Sensor And How Does It Work?",
     "subtitle": "Robotics systems in simple terms",
