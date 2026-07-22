@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-07-21",
-  "status": "failed",
-  "scheduledFor": "2026-07-21T05:30:00-04:00",
-  "startedAt": "2026-07-21T09:40:01.897Z",
-  "finishedAt": "2026-07-21T09:41:34.642Z",
-  "currentStage": "completed",
+  "date": "2026-07-22",
+  "status": "running",
+  "scheduledFor": "2026-07-22T05:30:00-04:00",
+  "startedAt": "2026-07-22T09:25:05.549Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "Why Ads Feel Like Your Phone Is Listening",
+  "podcastTopic": "How Quantum Computers Are Different From Normal Computers",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "Why Ads Feel Like Your Phone Is Listening"
+    "latestPodcastEpisode": "How Quantum Computers Are Different From Normal Computers"
   }
 }

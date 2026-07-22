@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-21",
-  "title": "Today's object: Privacy and ad targeting in simple terms",
+  "generatedAt": "2026-07-22",
+  "title": "Today's object: Quantum computing in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-07-21",
-    "status": "failed",
-    "scheduledFor": "2026-07-21T05:30:00-04:00",
-    "startedAt": "2026-07-21T09:40:01.897Z",
-    "finishedAt": "2026-07-21T09:41:34.642Z",
-    "currentStage": "completed",
+    "date": "2026-07-22",
+    "status": "running",
+    "scheduledFor": "2026-07-22T05:30:00-04:00",
+    "startedAt": "2026-07-22T09:25:05.549Z",
+    "finishedAt": null,
+    "currentStage": "publish",
     "topic": null,
-    "podcastTopic": "Why Ads Feel Like Your Phone Is Listening",
+    "podcastTopic": "How Quantum Computers Are Different From Normal Computers",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "blocked",
-      "spotifyPrep": "skipped",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "Why Ads Feel Like Your Phone Is Listening"
+      "latestPodcastEpisode": "How Quantum Computers Are Different From Normal Computers"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "Why Ads Feel Like Your Phone Is Listening",
-      "publishedAt": "2026-07-21T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-21-why-ads-feel-like-your-phone-is-listening.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-21-why-ads-feel-like-your-phone-is-listening.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-21-why-ads-feel-like-your-phone-is-listening"
+      "title": "How Quantum Computers Are Different From Normal Computers",
+      "publishedAt": "2026-07-22T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-22-how-quantum-computers-are-different-from-normal-computers.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-22-how-quantum-computers-are-different-from-normal-computers.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-22-how-quantum-computers-are-different-from-normal-computers"
     }
   }
 }

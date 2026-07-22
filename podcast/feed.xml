@@ -22,7 +22,60 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Tue, 21 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How Quantum Computers Are Different From Normal Computers</title>
+      <description>Why would a quantum computer that sounds like the future still not replace your laptop?
+
+Inside this four-minute explanation:
+- Why normal computers are switch machines built around stable 0s and 1s.
+- What a qubit actually is: not a magic third answer, but a fragile system described by amplitudes before measurement.
+- Why the real quantum trick is interference, where unhelpful paths can cancel and useful paths can become more likely.
+- Why quantum computers are specialized machines for problems like molecules, materials, and future cryptography, not faster versions of everyday laptops.
+- Why noise, extreme hardware, and quantum error correction make useful quantum computers so hard to build.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.nist.gov/quantum-information-science/quantum-computing-explained
+- https://www.nist.gov/quantum-information-science
+- https://learn.microsoft.com/en-us/azure/quantum/overview-understanding-quantum-computing
+- https://learn.microsoft.com/en-us/azure/quantum/tutorial-qdk-explore-entanglement
+- https://www.ibm.com/think/topics/quantum-computing</description>
+      <itunes:subtitle>Quantum computing in simple terms</itunes:subtitle>
+      <itunes:summary>Why would a quantum computer that sounds like the future still not replace your laptop?
+
+Inside this four-minute explanation:
+- Why normal computers are switch machines built around stable 0s and 1s.
+- What a qubit actually is: not a magic third answer, but a fragile system described by amplitudes before measurement.
+- Why the real quantum trick is interference, where unhelpful paths can cancel and useful paths can become more likely.
+- Why quantum computers are specialized machines for problems like molecules, materials, and future cryptography, not faster versions of everyday laptops.
+- Why noise, extreme hardware, and quantum error correction make useful quantum computers so hard to build.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.nist.gov/quantum-information-science/quantum-computing-explained
+- https://www.nist.gov/quantum-information-science
+- https://learn.microsoft.com/en-us/azure/quantum/overview-understanding-quantum-computing
+- https://learn.microsoft.com/en-us/azure/quantum/tutorial-qdk-explore-entanglement
+- https://www.ibm.com/think/topics/quantum-computing</itunes:summary>
+      <itunes:duration>00:04:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>48</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-22-how-quantum-computers-are-different-from-normal-computers.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-22-how-quantum-computers-are-different-from-normal-computers.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-22-how-quantum-computers-are-different-from-normal-computers.mp3" length="4613059" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-22-how-quantum-computers-are-different-from-normal-computers</guid>
+      <pubDate>Wed, 22 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>Why Ads Feel Like Your Phone Is Listening</title>
