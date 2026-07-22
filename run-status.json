@@ -1,19 +1,19 @@
 {
   "version": 1,
   "date": "2026-07-22",
-  "status": "failed",
+  "status": "running",
   "scheduledFor": "2026-07-22T05:30:00-04:00",
-  "startedAt": "2026-07-22T09:25:05.549Z",
-  "finishedAt": "2026-07-22T09:31:44.128Z",
-  "currentStage": "completed",
+  "startedAt": "2026-07-22T09:40:02.053Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
   "podcastTopic": "How Quantum Computers Are Different From Normal Computers",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
