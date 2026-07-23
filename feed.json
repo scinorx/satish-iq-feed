@@ -8,10 +8,10 @@
   "runStatus": {
     "version": 1,
     "date": "2026-07-23",
-    "status": "failed",
+    "status": "partial",
     "scheduledFor": "2026-07-23T05:30:00-04:00",
     "startedAt": "2026-07-23T09:40:01.926Z",
-    "finishedAt": "2026-07-23T09:41:22.474Z",
+    "finishedAt": "2026-07-23T12:28:24.709Z",
     "currentStage": "completed",
     "topic": null,
     "podcastTopic": "What Exactly Is Time, And How Do Machines Agree On It?",
