@@ -1,0 +1,141 @@
+Hello, and welcome to In Simple Terms with Satish.
+
+Last week, the U.S. House voted 308 to 117 to pass the Sunshine Protection Act, a bill that would make daylight saving time permanent.
+
+It is not law yet.
+
+The Senate and the President still matter.
+
+But it gives us a perfect question:
+
+if a country can vote to change the clock, what exactly is time?
+
+And how do billions of machines agree on it?
+
+For humans, the debate sounds simple.
+
+Should we stop changing clocks twice a year?
+
+Should winter evenings have more daylight?
+
+Should winter mornings be darker?
+
+But for computers, this is not just a wall-clock question.
+
+It is a layered engineering problem.
+
+First, there is physical time.
+
+A second needs a definition.
+
+Modern official time does not depend on a pendulum, a wristwatch, or someone's opinion.
+
+The SI second is tied to a fixed frequency of the cesium-133 atom: 9,192,631,770 cycles per second.
+
+That is the physics layer.
+
+Then there is world time.
+
+No single clock owns it.
+
+National labs run groups of atomic clocks, compare them, and contribute timing data.
+
+BIPM, the International Bureau of Weights and Measures, uses that data to compute UTC, Coordinated Universal Time.
+
+Think of UTC as the world's reference timeline.
+
+Then there is local time.
+
+This is where daylight saving enters.
+
+New York local time is not the same thing as UTC.
+
+It is UTC plus a time-zone rule.
+
+In winter, New York is normally UTC minus 5 hours.
+
+During daylight saving time, it is UTC minus 4 hours.
+
+So a law does not change the atomic second.
+
+It changes the rule for how a place labels that second on the clock.
+
+That difference is huge for software.
+
+Your calendar may say a meeting is at 9 AM in New York.
+
+A server may store the actual instant closer to UTC.
+
+Your phone then converts that instant back into local time using time-zone rules.
+
+If the law changes, operating systems, browsers, databases, airlines, banks, and calendar apps need updated time-zone data.
+
+Otherwise, a meeting, flight, payroll job, or reminder can appear one hour wrong.
+
+Now comes the distribution problem.
+
+Your laptop and phone contain local clocks, and local clocks drift.
+
+So machines ask trusted time sources.
+
+On the internet, the common tool is NTP, the Network Time Protocol.
+
+NTP sends timestamps, measures round-trip delay, estimates clock offset, and gradually steers the local clock.
+
+It is not just asking, "what time is it?"
+
+It is asking, "given network delay, what time is it probably now?"
+
+GPS is also a timing system.
+
+Each GPS satellite carries atomic clocks and sends precise timing signals.
+
+A receiver uses timing to estimate distance.
+
+Here is the wow part: light travels about 300 meters in one microsecond.
+
+So tiny timing errors can become large location errors.
+
+That is why time is deeply connected to maps, telecom, banking, power grids, and databases.
+
+There is one more awkward layer.
+
+Earth rotation is not perfectly smooth.
+
+Atomic time is steady, but civil time has historically used leap seconds to stay close to Earth's rotation.
+
+As of IERS Bulletin C on July 6, 2026, no leap second will be introduced at the end of December 2026, and UTC minus International Atomic Time remains negative 37 seconds.
+
+The exact number is less important than the lesson:
+
+time in software is physics, plus coordination, plus policy.
+
+In simple terms, a clock on your screen is not just a clock.
+
+It is the final display of a global agreement.
+
+Atoms define the second.
+
+Labs help maintain UTC.
+
+Satellites, networks, and servers distribute it.
+
+Time-zone databases translate it into local human life.
+
+And software uses it to decide order, trust, schedules, and evidence.
+
+So when Congress debates daylight saving time, it is not changing time itself.
+
+It is changing one layer of the naming system humans use on top of time.
+
+Machines still need the deeper agreement underneath.
+
+The best mental model is this:
+
+UTC is the timeline.
+
+A time zone is the label.
+
+And every reliable machine has to know both.
+
+If this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.

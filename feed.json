@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-22",
-  "title": "Today's object: Quantum computing in simple terms",
+  "generatedAt": "2026-07-23",
+  "title": "Today's object: Location systems in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-07-22",
-    "status": "failed",
-    "scheduledFor": "2026-07-22T05:30:00-04:00",
-    "startedAt": "2026-07-22T09:40:02.053Z",
-    "finishedAt": "2026-07-22T09:41:26.215Z",
-    "currentStage": "completed",
+    "date": "2026-07-23",
+    "status": "running",
+    "scheduledFor": "2026-07-23T05:30:00-04:00",
+    "startedAt": "2026-07-23T09:25:02.120Z",
+    "finishedAt": null,
+    "currentStage": "publish",
     "topic": null,
-    "podcastTopic": "How Quantum Computers Are Different From Normal Computers",
+    "podcastTopic": "What Exactly Is Time, And How Do Machines Agree On It?",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "blocked",
-      "spotifyPrep": "skipped",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "How Quantum Computers Are Different From Normal Computers"
+      "latestPodcastEpisode": "What Exactly Is Time, And How Do Machines Agree On It?"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "How Quantum Computers Are Different From Normal Computers",
-      "publishedAt": "2026-07-22T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-22-how-quantum-computers-are-different-from-normal-computers.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-22-how-quantum-computers-are-different-from-normal-computers.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-22-how-quantum-computers-are-different-from-normal-computers"
+      "title": "What Exactly Is Time, And How Do Machines Agree On It?",
+      "publishedAt": "2026-07-23T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-23-what-exactly-is-time-and-how-do-machines-agree-on-it.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-23-what-exactly-is-time-and-how-do-machines-agree-on-it.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-23-what-exactly-is-time-and-how-do-machines-agree-on-it"
     }
   }
 }
