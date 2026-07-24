@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-07-23",
-  "status": "partial",
-  "scheduledFor": "2026-07-23T05:30:00-04:00",
-  "startedAt": "2026-07-23T09:40:01.926Z",
-  "finishedAt": "2026-07-23T12:28:24.709Z",
-  "currentStage": "completed",
+  "date": "2026-07-24",
+  "status": "running",
+  "scheduledFor": "2026-07-24T05:30:00-04:00",
+  "startedAt": "2026-07-24T09:25:06.423Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "What Exactly Is Time, And How Do Machines Agree On It?",
+  "podcastTopic": "When AI Agents Escape The Sandbox",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "What Exactly Is Time, And How Do Machines Agree On It?"
+    "latestPodcastEpisode": "When AI Agents Escape The Sandbox"
   }
 }

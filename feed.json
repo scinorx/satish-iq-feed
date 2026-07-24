@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-23",
-  "title": "Today's object: Location systems in simple terms",
+  "generatedAt": "2026-07-24",
+  "title": "Today's object: AI agent safety in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-07-23",
-    "status": "partial",
-    "scheduledFor": "2026-07-23T05:30:00-04:00",
-    "startedAt": "2026-07-23T09:40:01.926Z",
-    "finishedAt": "2026-07-23T12:28:24.709Z",
-    "currentStage": "completed",
+    "date": "2026-07-24",
+    "status": "running",
+    "scheduledFor": "2026-07-24T05:30:00-04:00",
+    "startedAt": "2026-07-24T09:25:06.423Z",
+    "finishedAt": null,
+    "currentStage": "publish",
     "topic": null,
-    "podcastTopic": "What Exactly Is Time, And How Do Machines Agree On It?",
+    "podcastTopic": "When AI Agents Escape The Sandbox",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "blocked",
-      "spotifyPrep": "skipped",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "What Exactly Is Time, And How Do Machines Agree On It?"
+      "latestPodcastEpisode": "When AI Agents Escape The Sandbox"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "What Exactly Is Time, And How Do Machines Agree On It?",
-      "publishedAt": "2026-07-23T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-23-what-exactly-is-time-and-how-do-machines-agree-on-it.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-23-what-exactly-is-time-and-how-do-machines-agree-on-it.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-23-what-exactly-is-time-and-how-do-machines-agree-on-it"
+      "title": "When AI Agents Escape The Sandbox",
+      "publishedAt": "2026-07-24T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-24-when-ai-agents-escape-the-sandbox.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-24-when-ai-agents-escape-the-sandbox.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-24-when-ai-agents-escape-the-sandbox"
     }
   }
 }
