@@ -1,19 +1,19 @@
 {
   "version": 1,
   "date": "2026-07-24",
-  "status": "running",
+  "status": "failed",
   "scheduledFor": "2026-07-24T05:30:00-04:00",
   "startedAt": "2026-07-24T09:25:06.423Z",
-  "finishedAt": null,
-  "currentStage": "publish",
+  "finishedAt": "2026-07-24T09:31:35.065Z",
+  "currentStage": "completed",
   "topic": null,
   "podcastTopic": "When AI Agents Escape The Sandbox",
   "commit": null,
   "results": {
-    "publicFeedPublish": null,
-    "privatePush": null,
-    "spotifyPrep": null,
-    "spotifyDraft": null
+    "publicFeedPublish": "success",
+    "privatePush": "blocked",
+    "spotifyPrep": "skipped",
+    "spotifyDraft": "skipped"
   },
   "outputs": {
     "snapshot": true,
