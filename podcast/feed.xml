@@ -22,7 +22,56 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Fri, 24 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How Passwords Get Cracked</title>
+      <description>Earlier this month, KDDI in Japan reported unauthorized access to an email system it provided for internet service providers.
+
+Inside this four-minute explanation:
+- Password cracking as a guess-and-compare system: attackers test candidate passwords, hash them, and compare the result to leaked or stored password fingerprints.
+- Password -&gt; salted slow hash -&gt; stored verifier -&gt; login comparison; a breach gets worse when guessing moves offline beyond website rate limits.
+- Strong-looking passwords still fail when they are reused, predictable, stored poorly, or protected only by fast hashes without layered defenses.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-73_4619/kddi_nr_s-73_4619_pdf_01.pdf
+- https://pages.nist.gov/800-63-4/sp800-63b.html
+- https://pages.nist.gov/800-63-4/sp800-63b/authenticators/
+- https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
+- https://www.cisa.gov/resources-tools/training/cyb3rsmrt-use-password-manager-create-and-remember-strong-passwords</description>
+      <itunes:subtitle>Password security in simple terms</itunes:subtitle>
+      <itunes:summary>Earlier this month, KDDI in Japan reported unauthorized access to an email system it provided for internet service providers.
+
+Inside this four-minute explanation:
+- Password cracking as a guess-and-compare system: attackers test candidate passwords, hash them, and compare the result to leaked or stored password fingerprints.
+- Password -&gt; salted slow hash -&gt; stored verifier -&gt; login comparison; a breach gets worse when guessing moves offline beyond website rate limits.
+- Strong-looking passwords still fail when they are reused, predictable, stored poorly, or protected only by fast hashes without layered defenses.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-73_4619/kddi_nr_s-73_4619_pdf_01.pdf
+- https://pages.nist.gov/800-63-4/sp800-63b.html
+- https://pages.nist.gov/800-63-4/sp800-63b/authenticators/
+- https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
+- https://www.cisa.gov/resources-tools/training/cyb3rsmrt-use-password-manager-create-and-remember-strong-passwords</itunes:summary>
+      <itunes:duration>00:04:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>51</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-25-how-passwords-get-cracked.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-25-how-passwords-get-cracked.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-25-how-passwords-get-cracked.mp3" length="4198026" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-25-how-passwords-get-cracked</guid>
+      <pubDate>Sat, 25 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>When AI Agents Escape The Sandbox</title>

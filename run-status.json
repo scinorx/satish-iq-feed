@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "date": "2026-07-24",
-  "status": "failed",
-  "scheduledFor": "2026-07-24T05:30:00-04:00",
-  "startedAt": "2026-07-24T09:40:05.387Z",
-  "finishedAt": "2026-07-24T09:41:48.757Z",
+  "date": "2026-07-25",
+  "status": "partial",
+  "scheduledFor": "2026-07-25T05:30:00-04:00",
+  "startedAt": "2026-07-25T09:25:02.922Z",
+  "finishedAt": "2026-07-25T14:33:09.472Z",
   "currentStage": "completed",
   "topic": null,
-  "podcastTopic": "When AI Agents Escape The Sandbox",
+  "podcastTopic": "How Passwords Get Cracked",
   "commit": null,
   "results": {
     "publicFeedPublish": "success",
@@ -18,6 +18,6 @@
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "When AI Agents Escape The Sandbox"
+    "latestPodcastEpisode": "How Passwords Get Cracked"
   }
 }

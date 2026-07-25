@@ -1,5 +1,100 @@
 [
   {
+    "guid": "in-simple-terms-2026-07-25-how-passwords-get-cracked",
+    "title": "How Passwords Get Cracked",
+    "subtitle": "Password security in simple terms",
+    "description": "Earlier this month, KDDI in Japan reported unauthorized access to an email system it provided for internet service providers.\n\nInside this four-minute explanation:\n- Password cracking as a guess-and-compare system: attackers test candidate passwords, hash them, and compare the result to leaked or stored password fingerprints.\n- Password -> salted slow hash -> stored verifier -> login comparison; a breach gets worse when guessing moves offline beyond website rate limits.\n- Strong-looking passwords still fail when they are reused, predictable, stored poorly, or protected only by fast hashes without layered defenses.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-73_4619/kddi_nr_s-73_4619_pdf_01.pdf\n- https://pages.nist.gov/800-63-4/sp800-63b.html\n- https://pages.nist.gov/800-63-4/sp800-63b/authenticators/\n- https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html\n- https://www.cisa.gov/resources-tools/training/cyb3rsmrt-use-password-manager-create-and-remember-strong-passwords",
+    "publishedAt": "2026-07-25T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-07-25",
+    "seasonNumber": 5,
+    "episodeNumber": 51,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-07-25T05:30:00-04:00",
+    "durationSeconds": 262,
+    "audioPath": "podcast/audio/2026-07-25-how-passwords-get-cracked.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-25-how-passwords-get-cracked.mp3",
+    "lengthBytes": 4198026,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nEarlier this month, KDDI in Japan reported unauthorized access to an email system it provided for internet service providers.\n\nIn its July 6 report, KDDI said more than 12 million email addresses and more than 7.6 million passwords were confirmed leaked.\n\nThat headline raises a question most of us never ask:\n\nwhen a company says passwords leaked, what actually leaked?\n\nWas it the readable password?\n\nWas it a scrambled version?\n\nAnd how does a scrambled password still become dangerous?\n\nStart with the worst design.\n\nA bad system stores your password as plain text.\n\nIf that database leaks, there is nothing to crack.\n\nThe password is just exposed.\n\nBut a well-built website should not know your password at all.\n\nWhen you create one, the site should run it through a one-way mathematical function and store only the result.\n\nThat result is called a hash.\n\nThink of it as a fingerprint of the password.\n\nAt login, the site hashes what you type and checks whether the new fingerprint matches the stored fingerprint.\n\nSo password cracking is usually not someone reversing the hash like opening a locked box.\n\nGood hashes are designed to be one-way.\n\nInstead, attackers guess.\n\nThey take a candidate password, hash it the same way, and compare fingerprints.\n\nIf the fingerprints match, the guess was right.\n\nThere are two worlds here.\n\nOnline guessing happens against a live website.\n\nThe site can slow attempts, lock accounts, require MFA, detect unusual traffic, or block repeated failures.\n\nIt is like trying keys at the front door while the building can see you.\n\nOffline cracking is different.\n\nIf attackers steal a database of password hashes, they can guess on their own machines, away from the website's rate limits.\n\nThat is why storage design matters.\n\nA hash alone is not enough.\n\nEach password also needs a salt.\n\nA salt is unique random data added before hashing.\n\nSo if two people choose the same password, their stored hashes still look different.\n\nSalt also makes giant precomputed lookup tables much less useful.\n\nImportant detail:\n\nthe salt does not have to be secret.\n\nIts job is not to hide the password.\n\nIts job is to make every account a separate guessing problem.\n\nThen speed matters.\n\nFast hash functions are useful for file checks and data integrity.\n\nThey are dangerous for password storage.\n\nIf each guess is cheap, attackers can test huge numbers of guesses quickly using specialized hardware or rented cloud machines.\n\nThat is why password systems use slow, purpose-built algorithms such as Argon2id, bcrypt, or PBKDF2.\n\nFor one real login, the delay can be tiny.\n\nFor millions of guesses, the cost becomes painful.\n\nThis is why password security is not only about whether the password looks complicated.\n\nIt is about entropy, storage design, and attacker cost.\n\nAttackers also do not start with random nonsense.\n\nThey start with human behavior:\n\nreused passwords, old breach lists, common words, names, years, keyboard patterns, and small changes like adding a number or symbol.\n\nThat is why \"Summer2026!\" can look strong to a human but still be predictable to a guessing system.\n\nThere is another problem: credential stuffing.\n\nIf one leaked email-password pair works on your shopping site, cloud storage, or recovery email, one breach becomes many breaches.\n\nNo cracking breakthrough is needed.\n\nJust reuse.\n\nSo the personal defense is simple:\n\nuse long, unique passwords, let a password manager create them, and turn on MFA or passkeys where possible.\n\nFor builders, the rule is harsher:\n\nnever store plain text passwords.\n\nUse salted, slow password hashing.\n\nBlock known-bad passwords.\n\nRate-limit logins.\n\nWatch for credential stuffing.\n\nAnd design as if one database might someday leak.\n\nIn simple terms, passwords usually get cracked when guessing becomes cheap.\n\nGood security makes every guess slow, isolated, and less useful.\n\nThat is the mental model:\n\na password hash is a fingerprint.\n\nCracking is matching fingerprints by guessing.\n\nAnd reuse is how one cracked password opens doors it was never meant to open.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nEarlier this month, KDDI in Japan reported unauthorized access to an email system it provided for internet service providers.\n\nIn its July 6 report, KDDI said more than 12 million email addresses and more than 7.6 million passwords were confirmed leaked.\n\nThat headline raises a question most of us never ask:\n\nwhen a company says passwords leaked, what actually leaked?\n\nWas it the readable password?\n\nWas it a scrambled version?\n\nAnd how does a scrambled password still become dangerous?\n\nStart with the worst design.\n\nA bad system stores your password as plain text.\n\nIf that database leaks, there is nothing to crack.\n\nThe password is just exposed.\n\nBut a well-built website should not know your password at all.\n\nWhen you create one, the site should run it through a one-way mathematical function and store only the result.\n\nThat result is called a hash.\n\nThink of it as a fingerprint of the password.\n\nAt login, the site hashes what you type and checks whether the new fingerprint matches the stored fingerprint.\n\nSo password cracking is usually not someone reversing the hash like opening a locked box.\n\nGood hashes are designed to be one-way.\n\nInstead, attackers guess.\n\nThey take a candidate password, hash it the same way, and compare fingerprints.\n\nIf the fingerprints match, the guess was right.\n\nThere are two worlds here.\n\nOnline guessing happens against a live website.\n\nThe site can slow attempts, lock accounts, require MFA, detect unusual traffic, or block repeated failures.\n\nIt is like trying keys at the front door while the building can see you.\n\nOffline cracking is different.\n\nIf attackers steal a database of password hashes, they can guess on their own machines, away from the website's rate limits.\n\nThat is why storage design matters.\n\nA hash alone is not enough.\n\nEach password also needs a salt.\n\nA salt is unique random data added before hashing.\n\nSo if two people choose the same password, their stored hashes still look different.\n\nSalt also makes giant precomputed lookup tables much less useful.\n\nImportant detail:\n\nthe salt does not have to be secret.\n\nIts job is not to hide the password.\n\nIts job is to make every account a separate guessing problem.\n\nThen speed matters.\n\nFast hash functions are useful for file checks and data integrity.\n\nThey are dangerous for password storage.\n\nIf each guess is cheap, attackers can test huge numbers of guesses quickly using specialized hardware or rented cloud machines.\n\nThat is why password systems use slow, purpose-built algorithms such as Argon2id, bcrypt, or PBKDF2.\n\nFor one real login, the delay can be tiny.\n\nFor millions of guesses, the cost becomes painful.\n\nThis is why password security is not only about whether the password looks complicated.\n\nIt is about entropy, storage design, and attacker cost.\n\nAttackers also do not start with random nonsense.\n\nThey start with human behavior:\n\nreused passwords, old breach lists, common words, names, years, keyboard patterns, and small changes like adding a number or symbol.\n\nThat is why \"Summer2026!\" can look strong to a human but still be predictable to a guessing system.\n\nThere is another problem: credential stuffing.\n\nIf one leaked email-password pair works on your shopping site, cloud storage, or recovery email, one breach becomes many breaches.\n\nNo cracking breakthrough is needed.\n\nJust reuse.\n\nSo the personal defense is simple:\n\nuse long, unique passwords, let a password manager create them, and turn on MFA or passkeys where possible.\n\nFor builders, the rule is harsher:\n\nnever store plain text passwords.\n\nUse salted, slow password hashing.\n\nBlock known-bad passwords.\n\nRate-limit logins.\n\nWatch for credential stuffing.\n\nAnd design as if one database might someday leak.\n\nIn simple terms, passwords usually get cracked when guessing becomes cheap.\n\nGood security makes every guess slow, isolated, and less useful.\n\nThat is the mental model:\n\na password hash is a fingerprint.\n\nCracking is matching fingerprints by guessing.\n\nAnd reuse is how one cracked password opens doors it was never meant to open.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-07-25-how-passwords-get-cracked.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-25-how-passwords-get-cracked.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "The KDDI report makes the topic feel immediate: password exposure is not abstract. The important technical shift is that password cracking is usually not movie-style decoding. It is economics. If attackers can get plain text passwords, there is nothing to crack. If they get hashes and can make guesses cheaply, weak or reused passwords fall first. Strong systems change that economy with unique salts, slow password hashing, blocklists, rate limits, MFA, and passkeys.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What should a well-built website avoid storing?",
+          "options": [
+            "The plain text password itself.",
+            "The account creation date.",
+            "The user's email address."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Good systems store a salted, slow password hash rather than the password in readable form."
+        },
+        {
+          "prompt": "What does password cracking usually mean in this episode?",
+          "options": [
+            "Guessing candidate passwords, hashing them, and comparing fingerprints.",
+            "Mathematically reversing every password hash instantly.",
+            "Reading the password from the screen."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Password hashes are intended to be one-way, so attackers usually test guesses until one matches."
+        },
+        {
+          "prompt": "Why is offline cracking more dangerous than online guessing?",
+          "options": [
+            "Attackers can guess away from the website's rate limits and monitoring.",
+            "Offline cracking requires no stolen data.",
+            "Websites can always stop every offline guess."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Once attackers have a hash database, they can test guesses on their own hardware."
+        },
+        {
+          "prompt": "What does a salt do?",
+          "options": [
+            "Adds unique random data so identical passwords do not produce identical stored hashes.",
+            "Makes a short password impossible to guess.",
+            "Replaces the need for hashing."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Salts make large-scale reuse and precomputed lookups harder, but they still need strong hashing."
+        },
+        {
+          "prompt": "Why is a very fast hash a poor choice for password storage?",
+          "options": [
+            "It lets attackers test guesses cheaply at high speed.",
+            "It makes login pages load too slowly.",
+            "It prevents users from changing passwords."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Password hashing should intentionally make each guess cost more."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-07-25-how-passwords-get-cracked.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-07-25-how-passwords-get-cracked.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-07-25-how-passwords-get-cracked.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-25-how-passwords-get-cracked.jpg",
+    "topicProfile": {
+      "id": "password-security",
+      "label": "Password security",
+      "accent": "#1E7A5F"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-07-25-how-passwords-get-cracked"
+  },
+  {
     "guid": "in-simple-terms-2026-07-24-when-ai-agents-escape-the-sandbox",
     "title": "When AI Agents Escape The Sandbox",
     "subtitle": "AI agent safety in simple terms",
