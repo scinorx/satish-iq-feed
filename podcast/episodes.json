@@ -1,5 +1,100 @@
 [
   {
+    "guid": "in-simple-terms-2026-07-26-how-drones-fly-and-stay-stable-in-the-air",
+    "title": "How Drones Fly And Stay Stable In The Air",
+    "subtitle": "Drone systems in simple terms",
+    "description": "Technically, it is fighting gravity, wind, motor torque, vibration, and battery voltage every second.\n\nInside this four-minute explanation:\n- A quadcopter as a real-time flight-control system that maps desired motion into individual motor thrust commands.\n- Desired state -> sensor estimate -> control error -> motor mixing -> new motion -> repeat.\n- That safety story gives us a useful engineering question: how does a small machine with four spinning propellers actually fly, turn, hover, and not immediately flip over?\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://www.faa.gov/newsroom/successful-counter-drone-efforts-helped-keep-millions-fans-safe-during-fifa-world-cup-2026\n- https://www.faa.gov/uas/recreational_flyers\n- https://www.faa.gov/uas/getting_started/remote_id\n- https://www.faa.gov/newsroom/small-unmanned-aircraft-systems-uas-regulations-part-107\n- https://www.nasa.gov/aeronautics/exploring-drone-aerodynamics-with-computers/",
+    "publishedAt": "2026-07-26T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-07-26",
+    "seasonNumber": 5,
+    "episodeNumber": 52,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-07-26T05:30:00-04:00",
+    "durationSeconds": 280,
+    "audioPath": "podcast/audio/2026-07-26-how-drones-fly-and-stay-stable-in-the-air.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-26-how-drones-fly-and-stay-stable-in-the-air.mp3",
+    "lengthBytes": 4483492,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nPicture a small drone hovering above a field.\n\nFrom the ground, it looks still.\n\nTechnically, it is fighting gravity, wind, motor torque, vibration, and battery voltage every second.\n\nA gust tilts it, a gyro senses the rotation, and the flight controller changes motor speeds before your eye notices the wobble.\n\nThis week, the FAA said more than 700 unauthorized drones were seized during FIFA World Cup 2026 security operations.\n\nThat safety story gives us a useful engineering question:\n\nhow does a small machine with four spinning propellers actually fly, turn, hover, and not immediately flip over?\n\nStart with lift.\n\nA drone propeller is a rotating wing.\n\nAs it spins, it pushes air downward.\n\nThe air pushes back upward on the drone.\n\nThat upward force is thrust.\n\nIf total thrust is greater than the drone's weight, it rises.\n\nIf thrust equals weight, it hovers.\n\nIf thrust is lower, it descends.\n\nSo a drone is not floating.\n\nIt is throwing air down fast enough to hold itself up.\n\nTo move sideways, it tilts.\n\nIf the rear motors push a little harder than the front motors, the drone tilts forward.\n\nOnce it tilts, some thrust still points upward, but some now points forward.\n\nThe drone moves by leaning its lift in the direction it wants to go.\n\nTurning is different.\n\nIf all four propellers spun the same way, the drone body would twist in the opposite direction.\n\nSo most quadcopters use pairs of propellers spinning clockwise and pairs spinning counterclockwise.\n\nThose opposite rotations cancel unwanted spin during normal flight.\n\nTo yaw, or rotate left and right, the flight controller slightly speeds up one diagonal pair and slows down the other.\n\nThat creates a controlled twisting force without changing total lift too much.\n\nThis is why the key object inside a drone is not the camera or the remote.\n\nIt is the flight controller.\n\nWhen you move a joystick, you are asking for direction, speed, height, or rotation.\n\nThe flight controller converts that request into motor-speed changes.\n\nTo do that, it needs sensors.\n\nThe most important sensor package is the IMU: the inertial measurement unit.\n\nIt includes gyroscopes that sense rotation and accelerometers that sense acceleration.\n\nMany drones also use a barometer for altitude, GPS for outdoor position, a compass for heading, and downward cameras or optical-flow sensors near the ground.\n\nThe drone compares two things constantly: where it is, and where it should be.\n\nIf it tilts too far forward, the controller corrects motor speeds.\n\nIf a gust of wind pushes it sideways, the controller reacts.\n\nIf the battery voltage drops, the same motor command may produce less thrust, so the system has to compensate or warn the pilot.\n\nThis is closed-loop control: measure what actually happened, compare it with the target, and correct the next command.\n\nIn real drone stacks, the fast stabilization loop can run hundreds of times per second.\n\nAt 400 hertz, each correction window is about 2.5 milliseconds.\n\nThe exact number depends on hardware and software, but the point is simple:\n\nstability is not human reflex.\n\nIt is real-time feedback.\n\nThat is also why drones have limits.\n\nExtra payload means more weight, wind means more correction, damaged propellers create vibration, weak GPS can hurt position hold, and a low battery changes the power available for control.\n\nThis is why aviation rules matter.\n\nThe FAA treats drones as aircraft in the national airspace system.\n\nIn the U.S., many recreational flights must stay within visual line of sight and at or below 400 feet in uncontrolled airspace, and registered drones generally need Remote ID.\n\nOnce small aircraft become cheap and easy to fly, the larger system needs identity and safety boundaries.\n\nIn simple terms, a drone flies by pushing air down.\n\nIt moves by tilting that push.\n\nIt turns by balancing opposite spinning propellers.\n\nAnd it stays stable because a flight controller uses sensors and feedback loops to make thousands of tiny corrections.\n\nThe mental model is this:\n\na drone is not four propellers attached to a camera.\n\nIt is a flying balancing robot.\n\nThe propellers create force, but the control system creates trust.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nPicture a small drone hovering above a field.\n\nFrom the ground, it looks still.\n\nTechnically, it is fighting gravity, wind, motor torque, vibration, and battery voltage every second.\n\nA gust tilts it, a gyro senses the rotation, and the flight controller changes motor speeds before your eye notices the wobble.\n\nThis week, the FAA said more than 700 unauthorized drones were seized during FIFA World Cup 2026 security operations.\n\nThat safety story gives us a useful engineering question:\n\nhow does a small machine with four spinning propellers actually fly, turn, hover, and not immediately flip over?\n\nStart with lift.\n\nA drone propeller is a rotating wing.\n\nAs it spins, it pushes air downward.\n\nThe air pushes back upward on the drone.\n\nThat upward force is thrust.\n\nIf total thrust is greater than the drone's weight, it rises.\n\nIf thrust equals weight, it hovers.\n\nIf thrust is lower, it descends.\n\nSo a drone is not floating.\n\nIt is throwing air down fast enough to hold itself up.\n\nTo move sideways, it tilts.\n\nIf the rear motors push a little harder than the front motors, the drone tilts forward.\n\nOnce it tilts, some thrust still points upward, but some now points forward.\n\nThe drone moves by leaning its lift in the direction it wants to go.\n\nTurning is different.\n\nIf all four propellers spun the same way, the drone body would twist in the opposite direction.\n\nSo most quadcopters use pairs of propellers spinning clockwise and pairs spinning counterclockwise.\n\nThose opposite rotations cancel unwanted spin during normal flight.\n\nTo yaw, or rotate left and right, the flight controller slightly speeds up one diagonal pair and slows down the other.\n\nThat creates a controlled twisting force without changing total lift too much.\n\nThis is why the key object inside a drone is not the camera or the remote.\n\nIt is the flight controller.\n\nWhen you move a joystick, you are asking for direction, speed, height, or rotation.\n\nThe flight controller converts that request into motor-speed changes.\n\nTo do that, it needs sensors.\n\nThe most important sensor package is the IMU: the inertial measurement unit.\n\nIt includes gyroscopes that sense rotation and accelerometers that sense acceleration.\n\nMany drones also use a barometer for altitude, GPS for outdoor position, a compass for heading, and downward cameras or optical-flow sensors near the ground.\n\nThe drone compares two things constantly: where it is, and where it should be.\n\nIf it tilts too far forward, the controller corrects motor speeds.\n\nIf a gust of wind pushes it sideways, the controller reacts.\n\nIf the battery voltage drops, the same motor command may produce less thrust, so the system has to compensate or warn the pilot.\n\nThis is closed-loop control: measure what actually happened, compare it with the target, and correct the next command.\n\nIn real drone stacks, the fast stabilization loop can run hundreds of times per second.\n\nAt 400 hertz, each correction window is about 2.5 milliseconds.\n\nThe exact number depends on hardware and software, but the point is simple:\n\nstability is not human reflex.\n\nIt is real-time feedback.\n\nThat is also why drones have limits.\n\nExtra payload means more weight, wind means more correction, damaged propellers create vibration, weak GPS can hurt position hold, and a low battery changes the power available for control.\n\nThis is why aviation rules matter.\n\nThe FAA treats drones as aircraft in the national airspace system.\n\nIn the U.S., many recreational flights must stay within visual line of sight and at or below 400 feet in uncontrolled airspace, and registered drones generally need Remote ID.\n\nOnce small aircraft become cheap and easy to fly, the larger system needs identity and safety boundaries.\n\nIn simple terms, a drone flies by pushing air down.\n\nIt moves by tilting that push.\n\nIt turns by balancing opposite spinning propellers.\n\nAnd it stays stable because a flight controller uses sensors and feedback loops to make thousands of tiny corrections.\n\nThe mental model is this:\n\na drone is not four propellers attached to a camera.\n\nIt is a flying balancing robot.\n\nThe propellers create force, but the control system creates trust.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-07-26-how-drones-fly-and-stay-stable-in-the-air.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-26-how-drones-fly-and-stay-stable-in-the-air.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "Drones are a useful way to teach control systems because the machine makes the abstraction visible. The drone that looks still is actually making rapid corrections. Lift is easy to see, but stability is the real engineering story: measure state, compare it with the target, and correct the output. That same pattern appears in robots, cars, rockets, factory machines, camera stabilization, and software systems that constantly compare desired state with actual state.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What creates the upward force that lets a quadcopter rise?",
+          "options": [
+            "Propellers push air downward, and the air pushes the drone upward.",
+            "GPS pulls the drone toward a location.",
+            "The camera stabilizer creates lift."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The propellers act like rotating wings and produce thrust."
+        },
+        {
+          "prompt": "How does a drone usually move forward?",
+          "options": [
+            "It tilts forward so part of its thrust points forward.",
+            "It turns off the back motors completely.",
+            "It waits for wind to push it."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Motor-speed differences tilt the drone, redirecting some lift into horizontal motion."
+        },
+        {
+          "prompt": "Why do opposite propellers spin in opposite directions?",
+          "options": [
+            "To cancel unwanted body rotation during normal flight.",
+            "To make the drone quieter.",
+            "To make GPS more accurate."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Opposite rotations balance torque so the drone does not spin uncontrollably."
+        },
+        {
+          "prompt": "What is the flight controller's main job?",
+          "options": [
+            "Convert pilot or autopilot goals into motor-speed corrections.",
+            "Store recorded video.",
+            "Charge the battery faster."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The flight controller is the control brain that keeps the aircraft stable."
+        },
+        {
+          "prompt": "What does an IMU help the drone sense?",
+          "options": [
+            "Rotation and acceleration.",
+            "Wi-Fi password strength.",
+            "The price of the battery."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Gyroscopes and accelerometers help estimate attitude and motion."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-07-26-how-drones-fly-and-stay-stable-in-the-air.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-07-26-how-drones-fly-and-stay-stable-in-the-air.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-07-26-how-drones-fly-and-stay-stable-in-the-air.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-26-how-drones-fly-and-stay-stable-in-the-air.jpg",
+    "topicProfile": {
+      "id": "drone-systems",
+      "label": "Drone systems",
+      "accent": "#2E7CF6"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-07-26-how-drones-fly-and-stay-stable-in-the-air"
+  },
+  {
     "guid": "in-simple-terms-2026-07-25-how-passwords-get-cracked",
     "title": "How Passwords Get Cracked",
     "subtitle": "Password security in simple terms",

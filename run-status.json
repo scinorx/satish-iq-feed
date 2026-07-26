@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-07-25",
-  "status": "partial",
-  "scheduledFor": "2026-07-25T05:30:00-04:00",
-  "startedAt": "2026-07-25T09:25:02.922Z",
-  "finishedAt": "2026-07-25T14:33:09.472Z",
-  "currentStage": "completed",
+  "date": "2026-07-26",
+  "status": "running",
+  "scheduledFor": "2026-07-26T05:30:00-04:00",
+  "startedAt": "2026-07-26T09:25:06.307Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "How Passwords Get Cracked",
+  "podcastTopic": "How Drones Fly And Stay Stable In The Air",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How Passwords Get Cracked"
+    "latestPodcastEpisode": "How Drones Fly And Stay Stable In The Air"
   }
 }

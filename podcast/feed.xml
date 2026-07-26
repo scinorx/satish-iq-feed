@@ -22,7 +22,56 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sat, 25 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How Drones Fly And Stay Stable In The Air</title>
+      <description>Technically, it is fighting gravity, wind, motor torque, vibration, and battery voltage every second.
+
+Inside this four-minute explanation:
+- A quadcopter as a real-time flight-control system that maps desired motion into individual motor thrust commands.
+- Desired state -&gt; sensor estimate -&gt; control error -&gt; motor mixing -&gt; new motion -&gt; repeat.
+- That safety story gives us a useful engineering question: how does a small machine with four spinning propellers actually fly, turn, hover, and not immediately flip over?
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.faa.gov/newsroom/successful-counter-drone-efforts-helped-keep-millions-fans-safe-during-fifa-world-cup-2026
+- https://www.faa.gov/uas/recreational_flyers
+- https://www.faa.gov/uas/getting_started/remote_id
+- https://www.faa.gov/newsroom/small-unmanned-aircraft-systems-uas-regulations-part-107
+- https://www.nasa.gov/aeronautics/exploring-drone-aerodynamics-with-computers/</description>
+      <itunes:subtitle>Drone systems in simple terms</itunes:subtitle>
+      <itunes:summary>Technically, it is fighting gravity, wind, motor torque, vibration, and battery voltage every second.
+
+Inside this four-minute explanation:
+- A quadcopter as a real-time flight-control system that maps desired motion into individual motor thrust commands.
+- Desired state -&gt; sensor estimate -&gt; control error -&gt; motor mixing -&gt; new motion -&gt; repeat.
+- That safety story gives us a useful engineering question: how does a small machine with four spinning propellers actually fly, turn, hover, and not immediately flip over?
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.faa.gov/newsroom/successful-counter-drone-efforts-helped-keep-millions-fans-safe-during-fifa-world-cup-2026
+- https://www.faa.gov/uas/recreational_flyers
+- https://www.faa.gov/uas/getting_started/remote_id
+- https://www.faa.gov/newsroom/small-unmanned-aircraft-systems-uas-regulations-part-107
+- https://www.nasa.gov/aeronautics/exploring-drone-aerodynamics-with-computers/</itunes:summary>
+      <itunes:duration>00:04:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>52</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-26-how-drones-fly-and-stay-stable-in-the-air.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-26-how-drones-fly-and-stay-stable-in-the-air.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-26-how-drones-fly-and-stay-stable-in-the-air.mp3" length="4483492" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-26-how-drones-fly-and-stay-stable-in-the-air</guid>
+      <pubDate>Sun, 26 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How Passwords Get Cracked</title>
