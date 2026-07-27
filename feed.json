@@ -8,19 +8,19 @@
   "runStatus": {
     "version": 1,
     "date": "2026-07-27",
-    "status": "failed",
+    "status": "running",
     "scheduledFor": "2026-07-27T05:30:00-04:00",
-    "startedAt": "2026-07-27T09:25:01.919Z",
-    "finishedAt": "2026-07-27T09:31:34.756Z",
-    "currentStage": "completed",
+    "startedAt": "2026-07-27T09:40:01.534Z",
+    "finishedAt": null,
+    "currentStage": "publish",
     "topic": null,
     "podcastTopic": "What Exactly Is An Open-Weight AI Model?",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "blocked",
-      "spotifyPrep": "skipped",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
