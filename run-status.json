@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-07-26",
-  "status": "failed",
-  "scheduledFor": "2026-07-26T05:30:00-04:00",
-  "startedAt": "2026-07-26T09:40:06.388Z",
-  "finishedAt": "2026-07-26T09:41:35.000Z",
-  "currentStage": "completed",
+  "date": "2026-07-27",
+  "status": "running",
+  "scheduledFor": "2026-07-27T05:30:00-04:00",
+  "startedAt": "2026-07-27T09:25:01.919Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "How Drones Fly And Stay Stable In The Air",
+  "podcastTopic": "What Exactly Is An Open-Weight AI Model?",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How Drones Fly And Stay Stable In The Air"
+    "latestPodcastEpisode": "What Exactly Is An Open-Weight AI Model?"
   }
 }

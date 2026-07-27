@@ -1,0 +1,117 @@
+Hello, and welcome to In Simple Terms with Satish.
+
+Suppose a university wants an AI tutor, but student data cannot leave its own systems.
+
+Or a company wants an internal assistant, but the documents are private.
+
+Do they have to send every question to another company's API?
+
+Sometimes, yes.
+
+But open-weight AI models create another path:
+
+download the trained model files and run them on your own infrastructure.
+
+That is why this week's AI policy news matters to engineers.
+
+NVIDIA, Microsoft, Meta, IBM, Hugging Face, Mistral, Mozilla, Palantir, Y Combinator, and others signed a public letter called Open Weights and American AI Leadership.
+
+The letter says open-weight models are AI models that "anyone can download, inspect, modify, and run on their own infrastructure."
+
+That sounds like policy language, but underneath it is a deployment question:
+
+is AI only a remote service you call through an API, or can it become software you deploy, tune, secure, and operate yourself?
+
+With a closed AI API, your app sends input to provider servers and gets an answer back.
+
+But an open-weight model changes the shape.
+
+Instead of only sending requests to someone else's model, you can download the trained model files, place them on your own GPU server or cloud environment, and run inference there.
+
+Inference is the moment the model uses what it learned to produce an answer.
+
+Now, what are weights?
+
+A neural network has an architecture, which is the shape of the machine: layers, attention blocks, token rules, and math operations.
+
+During training, the system sees huge amounts of data and adjusts billions of internal numbers.
+
+Those numbers are weights.
+
+They are not sentences.
+
+They are learned settings.
+
+They decide which patterns matter when the model predicts the next token.
+
+So when someone releases model weights, they are releasing the trained behavior of the model, not necessarily the whole recipe that created it.
+
+That distinction is important.
+
+Open-weight does not always mean open-source.
+
+The Open Source Initiative says true Open Source AI needs more than weights: it needs enough data information, training code, inference code, and parameters for people to study, modify, and share the system.
+
+Many open AI models give you the weights, but not the full training dataset or every training detail.
+
+So the honest phrase is often open-weight, not fully open-source.
+
+Why would anyone want this?
+
+Control.
+
+A hospital, bank, school, defense contractor, or large company may not want sensitive data leaving its own environment.
+
+A startup may want lower cost at high volume.
+
+A university may want to inspect behavior.
+
+A product team may want to fine-tune a model for a narrow task.
+
+OpenAI's gpt-oss docs describe open-weight models that run on infrastructure you control, while still carrying compute and maintenance costs.
+
+That is the catch.
+
+Downloading the model is not the same as having a finished product.
+
+You still need hardware, memory, serving software, monitoring, access controls, evaluation, safety filters, logging, versioning, and operators.
+
+You also need to read the license.
+
+A model can be downloadable but still come with rules.
+
+There is also a safety debate.
+
+Once powerful weights are released, the original developer cannot fully control every modified copy.
+
+But closed models are not automatically safe either.
+
+The current letter argues that open models can help researchers test behavior, find vulnerabilities, and build defenses.
+
+The real engineering answer is not "open is always good" or "closed is always safe."
+
+It is deployment architecture.
+
+Use closed APIs when you need managed reliability, frontier capability, and less infrastructure work.
+
+Use open-weight models when privacy, customization, cost control, offline use, or sovereignty matter enough to justify owning the stack.
+
+In simple terms, an open-weight model is like getting a trained engine you can install.
+
+You may not know every detail of how the engine was built.
+
+But you can run it in your own machine, tune it for your workload, and decide who gets access.
+
+That is why this news matters.
+
+AI is moving from a product you only subscribe to into infrastructure that companies, schools, governments, and developers may operate themselves.
+
+The mental model is this:
+
+closed AI is like ordering electricity from the grid.
+
+Open-weight AI is like installing your own generator.
+
+More control, more responsibility, and a lot more engineering.
+
+If this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.

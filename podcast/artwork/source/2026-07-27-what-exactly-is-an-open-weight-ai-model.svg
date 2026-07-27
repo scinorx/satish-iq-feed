@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2FFE9"/>
+      <stop offset="58%" stop-color="#B7E86B"/>
+      <stop offset="100%" stop-color="#295A4A"/>
+    </linearGradient>
+    <radialGradient id="topicGlow" cx="50%" cy="50%" r="62%">
+      <stop offset="0%" stop-color="#295A4A" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#12281F" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#6D4E00" flood-opacity="0.15"/>
+    </filter>
+    <style>
+      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #12281F; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 254px; font-weight: 900; letter-spacing: 3px; fill: #12281F; }
+      .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #12281F; }
+      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #12281F; }
+    </style>
+  </defs>
+  <rect width="3000" height="3000" fill="url(#paper)"/>
+  <circle cx="2450" cy="560" r="530" fill="#FFFFFF" opacity="0.22"/>
+  <circle cx="360" cy="2500" r="560" fill="#FFFFFF" opacity="0.13"/>
+  <circle cx="2250" cy="1540" r="770" fill="url(#topicGlow)" opacity="0.9"/>
+  <g>
+  <rect x="1825" y="910" width="900" height="520" rx="88" fill="none" stroke="#295A4A" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M1985 1070 H2485 M1985 1210 H2360 M1985 1350 H2590" fill="none" stroke="#12281F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <path d="M1980 1775 H2580 L2760 1965 L2580 2155 H1980 L1800 1965 Z" fill="none" stroke="#295A4A" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M2045 1965 H2520 M2260 1775 V2155 M2440 1775 V2155" fill="none" stroke="#12281F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <circle cx="2305" cy="1965" r="70" fill="#295A4A" opacity="0.34"/>
+  <path d="M1900 2325 C2055 2190 2220 2460 2375 2325 C2530 2190 2695 2460 2850 2325" fill="none" stroke="#12281F" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+</g>
+  <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#12281F" stroke-width="12" opacity="0.36"/>
+  <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
+  <g filter="url(#shadow)">
+    <text x="245" y="1270" class="title">WHAT EXACTLY IS</text>
+    <text x="245" y="1565" class="title">AN OPEN-WEIGHT</text>
+    <text x="245" y="1860" class="title">AI MODEL?</text>
+  </g>
+  <path d="M260 2135 H1080" stroke="#295A4A" stroke-width="24" stroke-linecap="round"/>
+  <text x="260" y="2270" class="date">2026-07-27</text>
+  <text x="260" y="2575" class="small">OPEN-WEIGHT AI</text>
+</svg>

@@ -22,7 +22,56 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sun, 26 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>What Exactly Is An Open-Weight AI Model?</title>
+      <description>A new public letter from major technology companies put open-weight AI models into the news. The headline sounds political, but the engineering question is practical: when does AI stay a remote API, and when can it become infrastructure you run yourself?
+
+Inside this four-minute explanation:
+- What model weights actually are.
+- Why open-weight is not always the same as open-source.
+- What changes when a company downloads, hosts, evaluates, and tunes an AI model on its own infrastructure.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf
+- https://www.investing.com/news/stock-market-news/nvidia-microsoft-and-other-tech-giants-back-opensource-ai-models-4812383
+- https://opensource.org/ai/open-source-ai-definition
+- https://help.openai.com/en/articles/11870455-openai-open-weight-models-gpt-oss
+- https://www.ai.gov/action-plan</description>
+      <itunes:subtitle>Open-weight AI in simple terms</itunes:subtitle>
+      <itunes:summary>A new public letter from major technology companies put open-weight AI models into the news. The headline sounds political, but the engineering question is practical: when does AI stay a remote API, and when can it become infrastructure you run yourself?
+
+Inside this four-minute explanation:
+- What model weights actually are.
+- Why open-weight is not always the same as open-source.
+- What changes when a company downloads, hosts, evaluates, and tunes an AI model on its own infrastructure.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf
+- https://www.investing.com/news/stock-market-news/nvidia-microsoft-and-other-tech-giants-back-opensource-ai-models-4812383
+- https://opensource.org/ai/open-source-ai-definition
+- https://help.openai.com/en/articles/11870455-openai-open-weight-models-gpt-oss
+- https://www.ai.gov/action-plan</itunes:summary>
+      <itunes:duration>00:04:36</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>53</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-27-what-exactly-is-an-open-weight-ai-model.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-27-what-exactly-is-an-open-weight-ai-model.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-27-what-exactly-is-an-open-weight-ai-model.mp3" length="4410767" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-27-what-exactly-is-an-open-weight-ai-model</guid>
+      <pubDate>Mon, 27 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How Drones Fly And Stay Stable In The Air</title>
