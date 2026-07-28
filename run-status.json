@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-07-27",
-  "status": "failed",
-  "scheduledFor": "2026-07-27T05:30:00-04:00",
-  "startedAt": "2026-07-27T09:40:01.534Z",
-  "finishedAt": "2026-07-27T09:41:30.009Z",
-  "currentStage": "completed",
+  "date": "2026-07-28",
+  "status": "running",
+  "scheduledFor": "2026-07-28T05:30:00-04:00",
+  "startedAt": "2026-07-28T09:25:02.159Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "What Exactly Is An Open-Weight AI Model?",
+  "podcastTopic": "How Digital Twins Predict Machine Failures Before They Happen",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "What Exactly Is An Open-Weight AI Model?"
+    "latestPodcastEpisode": "How Digital Twins Predict Machine Failures Before They Happen"
   }
 }

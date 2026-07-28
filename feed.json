@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-27",
-  "title": "Today's object: Open-weight AI in simple terms",
+  "generatedAt": "2026-07-28",
+  "title": "Today's object: Simulation systems in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-07-27",
-    "status": "failed",
-    "scheduledFor": "2026-07-27T05:30:00-04:00",
-    "startedAt": "2026-07-27T09:40:01.534Z",
-    "finishedAt": "2026-07-27T09:41:30.009Z",
-    "currentStage": "completed",
+    "date": "2026-07-28",
+    "status": "running",
+    "scheduledFor": "2026-07-28T05:30:00-04:00",
+    "startedAt": "2026-07-28T09:25:02.159Z",
+    "finishedAt": null,
+    "currentStage": "publish",
     "topic": null,
-    "podcastTopic": "What Exactly Is An Open-Weight AI Model?",
+    "podcastTopic": "How Digital Twins Predict Machine Failures Before They Happen",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "blocked",
-      "spotifyPrep": "skipped",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "What Exactly Is An Open-Weight AI Model?"
+      "latestPodcastEpisode": "How Digital Twins Predict Machine Failures Before They Happen"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "What Exactly Is An Open-Weight AI Model?",
-      "publishedAt": "2026-07-27T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-27-what-exactly-is-an-open-weight-ai-model.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-27-what-exactly-is-an-open-weight-ai-model.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-27-what-exactly-is-an-open-weight-ai-model"
+      "title": "How Digital Twins Predict Machine Failures Before They Happen",
+      "publishedAt": "2026-07-28T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-28-how-digital-twins-predict-machine-failures-before-they-happen.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-28-how-digital-twins-predict-machine-failures-before-they-happen.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-28-how-digital-twins-predict-machine-failures-before-they-happen"
     }
   }
 }

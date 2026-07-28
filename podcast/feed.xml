@@ -22,7 +22,54 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Mon, 27 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How Digital Twins Predict Machine Failures Before They Happen</title>
+      <description>A factory machine can look healthy while its vibration, temperature, and electrical signals quietly move away from normal. A digital twin combines those live signals with a virtual model to estimate what the machine is doing now—and what may fail next.
+
+Inside this five-minute explanation:
+- What separates a digital twin from a normal dashboard or 3D model.
+- How sensor data, physics, and machine learning work together.
+- Why useful prediction depends on calibration, maintenance feedback, and human judgment.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.nist.gov/programs-projects/digital-twins-advanced-manufacturing
+- https://news.samsung.com/global/samsung-electronics-announces-strategy-to-transition-global-manufacturing-into-ai-driven-factories-by-2030
+- https://press.siemens.com/global/en/pressrelease/siemens-unveils-technologies-accelerate-industrial-ai-revolution-ces-2026
+- https://www.ibm.com/think/topics/predictive-maintenance</description>
+      <itunes:subtitle>Simulation systems in simple terms</itunes:subtitle>
+      <itunes:summary>A factory machine can look healthy while its vibration, temperature, and electrical signals quietly move away from normal. A digital twin combines those live signals with a virtual model to estimate what the machine is doing now—and what may fail next.
+
+Inside this five-minute explanation:
+- What separates a digital twin from a normal dashboard or 3D model.
+- How sensor data, physics, and machine learning work together.
+- Why useful prediction depends on calibration, maintenance feedback, and human judgment.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.nist.gov/programs-projects/digital-twins-advanced-manufacturing
+- https://news.samsung.com/global/samsung-electronics-announces-strategy-to-transition-global-manufacturing-into-ai-driven-factories-by-2030
+- https://press.siemens.com/global/en/pressrelease/siemens-unveils-technologies-accelerate-industrial-ai-revolution-ces-2026
+- https://www.ibm.com/think/topics/predictive-maintenance</itunes:summary>
+      <itunes:duration>00:04:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>54</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-28-how-digital-twins-predict-machine-failures-before-they-happen.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-28-how-digital-twins-predict-machine-failures-before-they-happen.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-28-how-digital-twins-predict-machine-failures-before-they-happen.mp3" length="4144527" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-28-how-digital-twins-predict-machine-failures-before-they-happen</guid>
+      <pubDate>Tue, 28 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>What Exactly Is An Open-Weight AI Model?</title>
