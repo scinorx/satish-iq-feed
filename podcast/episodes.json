@@ -1,5 +1,100 @@
 [
   {
+    "guid": "in-simple-terms-2026-07-29-can-a-digital-file-prove-where-it-came-from",
+    "title": "Can A Digital File Prove Where It Came From?",
+    "subtitle": "Digital provenance in simple terms",
+    "description": "A friend sends you a surprising photograph and asks, \"Is this real or AI?\" Instead of guessing from pixels, digital provenance can reveal evidence about where the file came from and how it changed.\n\nInside this five-minute technical story:\n- How Content Credentials record a file's origin, edits, and ingredients.\n- How hashes, digital signatures, certificates, and trust lists make that history tamper-evident.\n- Why valid provenance is useful evidence but still cannot guarantee that a claim is true.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html\n- https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html\n- https://c2pa.org/the-c2pa-launches-content-credentials-2-3-and-celebrates-5-years-of-impact-across-the-digital-ecosystem/\n- https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/\n- https://blog.google/security/pixel-android-trusted-images-c2pa-content-credentials/",
+    "publishedAt": "2026-07-29T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-07-29",
+    "seasonNumber": 5,
+    "episodeNumber": 55,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-07-29T05:30:00-04:00",
+    "durationSeconds": 240,
+    "audioPath": "podcast/audio/2026-07-29-can-a-digital-file-prove-where-it-came-from.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-29-can-a-digital-file-prove-where-it-came-from.mp3",
+    "lengthBytes": 3848612,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine a friend sends you a photograph of a road covered in deep floodwater.\n\nThe caption says it was taken near you this morning.\n\nUnder it is one question:\n\n\"Is this real or AI?\"\n\nYou zoom in.\n\nYou inspect the cars, road signs, shadows, and reflections.\n\nEverything looks believable.\n\nBut you are trying to reconstruct a file's history just by looking at its pixels.\n\nThat is becoming nearly impossible.\n\nWhat you really want to know is:\n\nDid a camera capture this?\n\nWas AI involved?\n\nWhat edits happened before it reached me?\n\nAnd can I verify that history instead of trusting someone's claim?\n\nThat is the problem digital provenance is designed to address.\n\nInstead of asking your eyes to detect every fake, the file can carry evidence about its own origin and changes.\n\nYou open an information panel called Content Credentials. Behind it is a digital provenance system built around an open standard called C2PA.\n\nThe panel does not begin with cryptography.\n\nIt shows you a short history:\n\nCaptured with a compatible camera.\n\nLater edited and cropped.\n\nCredential verified.\n\nThose three lines are the visible result of an engineering chain.\n\nAt capture, the camera creates a C2PA manifest—a structured record containing claims called assertions.\n\nOne assertion says a camera captured the image. Others can record time or later actions such as cropping, adjusting brightness, or using a generative feature.\n\nHow does the panel know that record still belongs to this photograph?\n\nThe camera calculates a cryptographic hash: a compact fingerprint of the protected image data. Change that data, and the fingerprint should change.\n\nThe camera then signs the manifest with a private key. The panel checks the signature with the matching public key to see whether the signed record was altered.\n\nIt also checks identity.\n\nA certificate connects the signing key to a device, organization, or service. A trust list helps decide whether that certificate came from a recognized issuer.\n\nNow the timeline reaches the crop.\n\nAn editing tool removed a road sign. Instead of erasing the camera history, the tool created a new manifest, recorded the crop, and referenced the original photograph as an ingredient.\n\nThe journey is now:\n\ncamera capture, signed record, crop, new signed record, publication.\n\nYou did not calculate a hash or inspect a certificate. The panel performed those checks and translated them into a history you could read.\n\nThat history says a camera captured the photograph and someone cropped it. It contains no declared generative edit.\n\nThe credential may travel inside the file or through an external repository. But platforms and screenshots can remove that connection, so a missing credential does not automatically mean fake.\n\nFor a moment, the post appears more trustworthy. The file is not an obvious synthetic image.\n\nBut you keep checking.\n\nEarlier reports contain the same road and buildings. The photograph was captured three years ago in another country.\n\nThe flood was real.\n\nThe image history was valid.\n\nBut the caption claiming this happened locally today was false.\n\nThat is the twist digital provenance cannot solve alone.\n\nIt can help answer, \"What happened to this file?\"\n\nIt cannot completely answer, \"Is the story being told about this file true?\"\n\nA valid credential cannot prove that a scene was not staged or that a caption is accurate. Provenance supplies evidence about the file's recorded history, not every claim made around it.\n\nYou tell your friend that the photograph is real, but the story attached to it is not. A real image was reused with a false location and date.\n\nDigital provenance is not a truth machine. It is an evidence layer.\n\nThe mental model is a signed travel history for a file. It shows which trusted participants handled the asset and which declared changes happened along the route.\n\nIts value is not that it ends human judgment. It gives you better evidence—and helps you ask the next question before acting or sharing.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine a friend sends you a photograph of a road covered in deep floodwater.\n\nThe caption says it was taken near you this morning.\n\nUnder it is one question:\n\n\"Is this real or AI?\"\n\nYou zoom in.\n\nYou inspect the cars, road signs, shadows, and reflections.\n\nEverything looks believable.\n\nBut you are trying to reconstruct a file's history just by looking at its pixels.\n\nThat is becoming nearly impossible.\n\nWhat you really want to know is:\n\nDid a camera capture this?\n\nWas AI involved?\n\nWhat edits happened before it reached me?\n\nAnd can I verify that history instead of trusting someone's claim?\n\nThat is the problem digital provenance is designed to address.\n\nInstead of asking your eyes to detect every fake, the file can carry evidence about its own origin and changes.\n\nYou open an information panel called Content Credentials. Behind it is a digital provenance system built around an open standard called C2PA.\n\nThe panel does not begin with cryptography.\n\nIt shows you a short history:\n\nCaptured with a compatible camera.\n\nLater edited and cropped.\n\nCredential verified.\n\nThose three lines are the visible result of an engineering chain.\n\nAt capture, the camera creates a C2PA manifest—a structured record containing claims called assertions.\n\nOne assertion says a camera captured the image. Others can record time or later actions such as cropping, adjusting brightness, or using a generative feature.\n\nHow does the panel know that record still belongs to this photograph?\n\nThe camera calculates a cryptographic hash: a compact fingerprint of the protected image data. Change that data, and the fingerprint should change.\n\nThe camera then signs the manifest with a private key. The panel checks the signature with the matching public key to see whether the signed record was altered.\n\nIt also checks identity.\n\nA certificate connects the signing key to a device, organization, or service. A trust list helps decide whether that certificate came from a recognized issuer.\n\nNow the timeline reaches the crop.\n\nAn editing tool removed a road sign. Instead of erasing the camera history, the tool created a new manifest, recorded the crop, and referenced the original photograph as an ingredient.\n\nThe journey is now:\n\ncamera capture, signed record, crop, new signed record, publication.\n\nYou did not calculate a hash or inspect a certificate. The panel performed those checks and translated them into a history you could read.\n\nThat history says a camera captured the photograph and someone cropped it. It contains no declared generative edit.\n\nThe credential may travel inside the file or through an external repository. But platforms and screenshots can remove that connection, so a missing credential does not automatically mean fake.\n\nFor a moment, the post appears more trustworthy. The file is not an obvious synthetic image.\n\nBut you keep checking.\n\nEarlier reports contain the same road and buildings. The photograph was captured three years ago in another country.\n\nThe flood was real.\n\nThe image history was valid.\n\nBut the caption claiming this happened locally today was false.\n\nThat is the twist digital provenance cannot solve alone.\n\nIt can help answer, \"What happened to this file?\"\n\nIt cannot completely answer, \"Is the story being told about this file true?\"\n\nA valid credential cannot prove that a scene was not staged or that a caption is accurate. Provenance supplies evidence about the file's recorded history, not every claim made around it.\n\nYou tell your friend that the photograph is real, but the story attached to it is not. A real image was reused with a false location and date.\n\nDigital provenance is not a truth machine. It is an evidence layer.\n\nThe mental model is a signed travel history for a file. It shows which trusted participants handled the asset and which declared changes happened along the route.\n\nIts value is not that it ends human judgment. It gives you better evidence—and helps you ask the next question before acting or sharing.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-07-29-can-a-digital-file-prove-where-it-came-from.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-29-can-a-digital-file-prove-where-it-came-from.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "Digital provenance is not an automatic fake detector. It is infrastructure for verifiable file history: who signed an asset, what edits were declared, and which identities can be trusted. Product teams should show both evidence and uncertainty: a valid credential matters, but a missing one does not prove fake.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What does digital provenance describe?",
+          "options": [
+            "Evidence about where a digital asset came from and what happened to it.",
+            "A guarantee that every statement associated with a file is true.",
+            "The visual resolution of an image."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Provenance records origin and history claims; it does not independently prove the meaning or truth of the depicted scene."
+        },
+        {
+          "prompt": "What is an assertion in a C2PA manifest?",
+          "options": [
+            "A structured claim about the asset, such as how it was created or changed.",
+            "A duplicate copy of every pixel.",
+            "A password required to open the image."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Assertions can describe capture, editing actions, ingredients, identity information, and other parts of an asset's recorded history."
+        },
+        {
+          "prompt": "Why is a cryptographic hash used?",
+          "options": [
+            "It helps bind the credential to the protected asset data and reveal unexpected changes.",
+            "It makes a low-resolution image sharper.",
+            "It proves the photographer's caption is accurate."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "A validator recalculates the hash and compares it with the signed information; altered content should no longer match."
+        },
+        {
+          "prompt": "What does a digital signature establish?",
+          "options": [
+            "The signed manifest has not been altered after signing and was signed using the corresponding private key.",
+            "The photographed event definitely happened as described.",
+            "The file can never lose its metadata."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Signatures protect integrity and support signer authentication, but they do not make every claim truthful."
+        },
+        {
+          "prompt": "Why does an editing tool reference an earlier asset as an ingredient?",
+          "options": [
+            "It preserves the relationship between the edited result and its source history.",
+            "It hides all earlier changes from the viewer.",
+            "It converts the image into a password hash."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Provenance can form a chain in which later manifests record new actions while retaining links to earlier signed assets."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-07-29-can-a-digital-file-prove-where-it-came-from.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-07-29-can-a-digital-file-prove-where-it-came-from.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-07-29-can-a-digital-file-prove-where-it-came-from.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-29-can-a-digital-file-prove-where-it-came-from.jpg",
+    "topicProfile": {
+      "id": "provenance",
+      "label": "Digital provenance",
+      "accent": "#168B9A"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-07-29-can-a-digital-file-prove-where-it-came-from"
+  },
+  {
     "guid": "in-simple-terms-2026-07-28-how-digital-twins-predict-machine-failures-before-they-happen",
     "title": "How Digital Twins Predict Machine Failures Before They Happen",
     "subtitle": "Simulation systems in simple terms",

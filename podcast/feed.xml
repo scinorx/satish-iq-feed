@@ -22,7 +22,56 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Tue, 28 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Can A Digital File Prove Where It Came From?</title>
+      <description>A friend sends you a surprising photograph and asks, &quot;Is this real or AI?&quot; Instead of guessing from pixels, digital provenance can reveal evidence about where the file came from and how it changed.
+
+Inside this five-minute technical story:
+- How Content Credentials record a file&apos;s origin, edits, and ingredients.
+- How hashes, digital signatures, certificates, and trust lists make that history tamper-evident.
+- Why valid provenance is useful evidence but still cannot guarantee that a claim is true.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html
+- https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html
+- https://c2pa.org/the-c2pa-launches-content-credentials-2-3-and-celebrates-5-years-of-impact-across-the-digital-ecosystem/
+- https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/
+- https://blog.google/security/pixel-android-trusted-images-c2pa-content-credentials/</description>
+      <itunes:subtitle>Digital provenance in simple terms</itunes:subtitle>
+      <itunes:summary>A friend sends you a surprising photograph and asks, &quot;Is this real or AI?&quot; Instead of guessing from pixels, digital provenance can reveal evidence about where the file came from and how it changed.
+
+Inside this five-minute technical story:
+- How Content Credentials record a file&apos;s origin, edits, and ingredients.
+- How hashes, digital signatures, certificates, and trust lists make that history tamper-evident.
+- Why valid provenance is useful evidence but still cannot guarantee that a claim is true.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html
+- https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html
+- https://c2pa.org/the-c2pa-launches-content-credentials-2-3-and-celebrates-5-years-of-impact-across-the-digital-ecosystem/
+- https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/
+- https://blog.google/security/pixel-android-trusted-images-c2pa-content-credentials/</itunes:summary>
+      <itunes:duration>00:04:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>55</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-29-can-a-digital-file-prove-where-it-came-from.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-29-can-a-digital-file-prove-where-it-came-from.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-29-can-a-digital-file-prove-where-it-came-from.mp3" length="3848612" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-29-can-a-digital-file-prove-where-it-came-from</guid>
+      <pubDate>Wed, 29 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How Digital Twins Predict Machine Failures Before They Happen</title>

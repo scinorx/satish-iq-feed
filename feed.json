@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-28",
-  "title": "Today's object: Simulation systems in simple terms",
+  "generatedAt": "2026-07-29",
+  "title": "Today's object: Digital provenance in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-07-28",
-    "status": "failed",
-    "scheduledFor": "2026-07-28T05:30:00-04:00",
-    "startedAt": "2026-07-28T09:40:06.109Z",
-    "finishedAt": "2026-07-28T09:42:05.040Z",
-    "currentStage": "completed",
+    "date": "2026-07-29",
+    "status": "running",
+    "scheduledFor": "2026-07-29T05:30:00-04:00",
+    "startedAt": "2026-07-29T09:25:05.825Z",
+    "finishedAt": null,
+    "currentStage": "publish",
     "topic": null,
-    "podcastTopic": "How Digital Twins Predict Machine Failures Before They Happen",
+    "podcastTopic": "Can A Digital File Prove Where It Came From?",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "blocked",
-      "spotifyPrep": "skipped",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "How Digital Twins Predict Machine Failures Before They Happen"
+      "latestPodcastEpisode": "Can A Digital File Prove Where It Came From?"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "How Digital Twins Predict Machine Failures Before They Happen",
-      "publishedAt": "2026-07-28T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-28-how-digital-twins-predict-machine-failures-before-they-happen.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-28-how-digital-twins-predict-machine-failures-before-they-happen.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-28-how-digital-twins-predict-machine-failures-before-they-happen"
+      "title": "Can A Digital File Prove Where It Came From?",
+      "publishedAt": "2026-07-29T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-29-can-a-digital-file-prove-where-it-came-from.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-29-can-a-digital-file-prove-where-it-came-from.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-29-can-a-digital-file-prove-where-it-came-from"
     }
   }
 }
