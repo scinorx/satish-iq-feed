@@ -8,19 +8,19 @@
   "runStatus": {
     "version": 1,
     "date": "2026-07-30",
-    "status": "failed",
+    "status": "running",
     "scheduledFor": "2026-07-30T05:30:00-04:00",
-    "startedAt": "2026-07-30T09:25:07.231Z",
-    "finishedAt": "2026-07-30T09:32:03.000Z",
-    "currentStage": "completed",
+    "startedAt": "2026-07-30T09:40:06.407Z",
+    "finishedAt": null,
+    "currentStage": "publish",
     "topic": null,
     "podcastTopic": "How Extended Reality (XR) Works",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "blocked",
-      "spotifyPrep": "skipped",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
