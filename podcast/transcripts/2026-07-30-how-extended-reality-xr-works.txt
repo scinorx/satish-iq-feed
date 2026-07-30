@@ -1,0 +1,73 @@
+Hello, and welcome to In Simple Terms with Satish.
+
+Imagine you are shopping for a new sofa.
+
+It looks perfect in the product photo. But will it fit your living room or make the space feel crowded?
+
+The shopping app asks you to point your phone at the floor.
+
+A full-size digital sofa appears beside your real coffee table. You walk to the other side of the room, but the sofa stays in the same place.
+
+You can even change its color and view it from another angle.
+
+That experience is extended reality, or XR.
+
+XR is the umbrella term. Virtual reality replaces most of what you see with a simulated environment. Augmented reality adds digital information to a view of the physical world. Mixed reality goes further by making digital objects understand and interact with physical space.
+
+But the real engineering question is not what we call the experience.
+
+It is: how does that digital sofa stay on your floor while the phone keeps moving?
+
+The system begins with tracking.
+
+Cameras observe visual features such as corners, edges, and textures. An inertial measurement unit senses rapid rotation and acceleration. Some devices also use depth sensors.
+
+Software combines these signals to estimate the device's position and orientation. Engineers call this six degrees of freedom: movement along three axes plus rotation around three axes.
+
+The cameras provide environmental detail, while the inertial sensors react quickly between camera frames. Sensor fusion uses both because neither is sufficient alone.
+
+Now the device needs a map.
+
+As you look around, spatial-mapping software estimates the floor, walls, furniture, and obstacles. It may represent them as planes or a three-dimensional mesh.
+
+The application finds a suitable area on the floor and creates an anchor where you placed the sofa.
+
+An anchor is a remembered pose inside a coordinate system. It tells the system, "The sofa belongs here."
+
+Every frame, the device updates the relationship between three spaces:
+
+the device, the room, and the anchored sofa.
+
+You move, so the phone coordinates change. The floor stays still, so the world anchor should remain stable. The renderer calculates where the sofa must appear from the phone's new viewpoint.
+
+On your phone, the renderer combines the camera view with the three-dimensional sofa. In a headset, it can produce a slightly different image for each eye to create depth.
+
+The room map can also support occlusion. If your real coffee table is in front of the sofa, it should hide the correct part of the digital model. Otherwise, the sofa looks pasted onto the screen instead of located in your room.
+
+Touch, hand tracking, or a controller adds input. When you drag the sofa with your finger—or grab it in a headset—the system converts that action into the same spatial coordinates and updates the anchor.
+
+This sensing, tracking, mapping, input, and rendering loop repeats many times every second.
+
+Now you point the phone toward a plain white wall.
+
+For a moment, the sofa slides.
+
+The camera sees few useful corners or textures, so the tracking estimate drifts. When the rug and window return, the system compares them with its earlier map and relocalizes.
+
+This is why latency matters. If the displayed world updates noticeably after the head moves, virtual objects lag or swim. Low and consistent motion-to-photon latency—the time from physical movement to updated light reaching the eyes—supports stability and comfort.
+
+The device also sees sensitive information: your room layout, belongings, hands, gaze direction, and movement. XR therefore has a privacy boundary as well as a rendering problem.
+
+The sofa settles back into position. You walk around it, compare it with the coffee table, and realize the larger size would block the doorway.
+
+You choose the smaller sofa before spending the money.
+
+The useful mental model is not "a screen on your face."
+
+XR is a real-time agreement between sensors, a spatial map, coordinate systems, input, and a renderer.
+
+When that agreement holds, a digital sofa feels as though it is standing on your real floor.
+
+When tracking, latency, mapping, or privacy design fails, the sofa floats, slides, or reveals more about your home than the experience requires.
+
+If this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.

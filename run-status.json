@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-07-29",
-  "status": "failed",
-  "scheduledFor": "2026-07-29T05:30:00-04:00",
-  "startedAt": "2026-07-29T09:40:05.283Z",
-  "finishedAt": "2026-07-29T09:42:13.681Z",
-  "currentStage": "completed",
+  "date": "2026-07-30",
+  "status": "running",
+  "scheduledFor": "2026-07-30T05:30:00-04:00",
+  "startedAt": "2026-07-30T09:25:07.231Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "Can A Digital File Prove Where It Came From?",
+  "podcastTopic": "How Extended Reality (XR) Works",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "Can A Digital File Prove Where It Came From?"
+    "latestPodcastEpisode": "How Extended Reality (XR) Works"
   }
 }
