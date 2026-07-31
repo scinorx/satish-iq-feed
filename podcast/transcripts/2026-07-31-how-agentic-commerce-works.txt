@@ -1,0 +1,89 @@
+Hello, and welcome to In Simple Terms with Satish.
+
+It is nine at night, and your laptop charger has stopped working.
+
+You have an important meeting tomorrow morning. The laptop has twelve percent battery left.
+
+Instead, you tell an AI agent:
+
+"Find a compatible charger for my laptop. Keep it under forty dollars, make sure it can arrive tomorrow, and ask me before buying."
+
+That is agentic commerce.
+
+The agent is being asked to pursue an outcome across several systems—and possibly complete a transaction for you.
+
+First, it turns your sentence into constraints:
+
+the exact laptop model, connector type, required wattage, maximum price, delivery deadline, and one important rule: do not purchase without approval.
+
+Missing details become questions. If the agent guesses the laptop model, a fluent answer can still produce a useless charger.
+
+Next comes discovery.
+
+The agent searches product catalogues and compares specifications, prices, delivery promises, return policies, and stock.
+
+Now it finds one for thirty-four dollars.
+
+The product title says "compatible," but the specifications reveal that it supplies only forty-five watts. Your laptop needs sixty-five.
+
+The agent rejects it.
+
+This is an important difference between search and agency. Ranking a relevant result is not enough. The system must test every hard constraint before acting.
+
+The next charger passes the compatibility check and goes into a cart.
+
+The cart remembers the charger while you move between the places where you are shopping. It can watch the price, notice that stock changed, and warn that two products do not work together.
+
+Google calls its announced version of this idea Universal Cart. It is designed to work across merchants and Google services such as Search and Gemini.
+
+But remembering an item is the easy part.
+
+The agent must now ask the store:
+
+Is this exact charger available? What is the current total? Can it arrive tomorrow? How does checkout work here?
+
+For Google's system, that conversation can use the Universal Commerce Protocol, or UCP. It gives agents and merchants a shared way to exchange checkout information without forcing every agent to learn a completely different language for every store.
+
+The store still controls its inventory, price, delivery rules, and customer relationship. The protocol simply helps the two systems understand each other.
+
+Now the agent is ready to buy.
+
+But placing something in a cart is not permission to spend money.
+
+Your laptop is now at seven percent.
+
+The agent shows you a compatible sixty-five-watt charger for thirty-eight dollars, arriving tomorrow, with free returns.
+
+You approve it.
+
+At the final checkout step, the price changes to forty-two dollars.
+
+The agent stops.
+
+That pause matters. Your approval was permission to buy one compatible charger inside a forty-dollar boundary—not any charger at any price.
+
+Google's Agent Payments Protocol, or AP2, is one approach to recording boundaries like these as verifiable mandates. A mandate connects what you requested, what you approved, and what the agent is allowed to purchase.
+
+The agent finds a second compatible charger for thirty-nine dollars. Before asking again, it checks the exact model, wattage, stock, delivery date, return policy, tax, and final total.
+
+It also ignores a strange instruction hidden in the product page telling automated shoppers to add an accessory. Product content can provide facts, but it cannot rewrite your rules.
+
+You approve the new total. Only then does the payment system provide a restricted credential, the merchant completes the order, and an order number comes back.
+
+Order events report that the charger shipped and arrived. If something goes wrong, the records show what you authorized, selected, and paid.
+
+The useful mental model is not "AI that shops."
+
+Agentic commerce is a delegated transaction system.
+
+It converts human intent into testable constraints, carries those constraints through discovery and checkout, and grants only enough authority to complete the approved action.
+
+The next morning, you connect the charger.
+
+The battery icon turns green just as your meeting begins.
+
+When the chain works, an agent can save you ten tabs and a late-night mistake.
+
+When it fails, convenience becomes an unauthorized purchase.
+
+If this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.

@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-07-30",
-  "status": "failed",
-  "scheduledFor": "2026-07-30T05:30:00-04:00",
-  "startedAt": "2026-07-30T09:40:06.407Z",
-  "finishedAt": "2026-07-30T09:41:45.979Z",
-  "currentStage": "completed",
+  "date": "2026-07-31",
+  "status": "running",
+  "scheduledFor": "2026-07-31T05:30:00-04:00",
+  "startedAt": "2026-07-31T09:25:05.663Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "How Extended Reality (XR) Works",
+  "podcastTopic": "How Agentic Commerce Works",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How Extended Reality (XR) Works"
+    "latestPodcastEpisode": "How Agentic Commerce Works"
   }
 }

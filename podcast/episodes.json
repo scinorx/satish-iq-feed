@@ -1,5 +1,100 @@
 [
   {
+    "guid": "in-simple-terms-2026-07-31-how-agentic-commerce-works",
+    "title": "How Agentic Commerce Works",
+    "subtitle": "Agentic commerce in simple terms",
+    "description": "Your laptop charger stops working the night before an important meeting. Instead of opening ten shopping tabs, you ask an AI agent to find a compatible replacement under forty dollars that can arrive tomorrow. What must happen before that agent can safely buy anything?\n\nInside this five-minute technical story:\n- How an agent converts an ordinary request into testable shopping constraints.\n- How catalogues, merchant APIs, Google's Universal Cart, and UCP can carry a purchase through discovery and checkout.\n- Why compatibility, changing prices, authorization, hostile content, and returns make buying harder than recommending.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/\n- https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/\n- https://github.com/Universal-Commerce-Protocol/ucp\n- https://developers.google.com/merchant/ucp/guides\n- https://ap2-protocol.org/",
+    "publishedAt": "2026-07-31T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-07-31",
+    "seasonNumber": 5,
+    "episodeNumber": 57,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-07-31T05:30:00-04:00",
+    "durationSeconds": 266,
+    "audioPath": "podcast/audio/2026-07-31-how-agentic-commerce-works.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-31-how-agentic-commerce-works.mp3",
+    "lengthBytes": 4251942,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nIt is nine at night, and your laptop charger has stopped working.\n\nYou have an important meeting tomorrow morning. The laptop has twelve percent battery left.\n\nInstead, you tell an AI agent:\n\n\"Find a compatible charger for my laptop. Keep it under forty dollars, make sure it can arrive tomorrow, and ask me before buying.\"\n\nThat is agentic commerce.\n\nThe agent is being asked to pursue an outcome across several systems—and possibly complete a transaction for you.\n\nFirst, it turns your sentence into constraints:\n\nthe exact laptop model, connector type, required wattage, maximum price, delivery deadline, and one important rule: do not purchase without approval.\n\nMissing details become questions. If the agent guesses the laptop model, a fluent answer can still produce a useless charger.\n\nNext comes discovery.\n\nThe agent searches product catalogues and compares specifications, prices, delivery promises, return policies, and stock.\n\nNow it finds one for thirty-four dollars.\n\nThe product title says \"compatible,\" but the specifications reveal that it supplies only forty-five watts. Your laptop needs sixty-five.\n\nThe agent rejects it.\n\nThis is an important difference between search and agency. Ranking a relevant result is not enough. The system must test every hard constraint before acting.\n\nThe next charger passes the compatibility check and goes into a cart.\n\nThe cart remembers the charger while you move between the places where you are shopping. It can watch the price, notice that stock changed, and warn that two products do not work together.\n\nGoogle calls its announced version of this idea Universal Cart. It is designed to work across merchants and Google services such as Search and Gemini.\n\nBut remembering an item is the easy part.\n\nThe agent must now ask the store:\n\nIs this exact charger available? What is the current total? Can it arrive tomorrow? How does checkout work here?\n\nFor Google's system, that conversation can use the Universal Commerce Protocol, or UCP. It gives agents and merchants a shared way to exchange checkout information without forcing every agent to learn a completely different language for every store.\n\nThe store still controls its inventory, price, delivery rules, and customer relationship. The protocol simply helps the two systems understand each other.\n\nNow the agent is ready to buy.\n\nBut placing something in a cart is not permission to spend money.\n\nYour laptop is now at seven percent.\n\nThe agent shows you a compatible sixty-five-watt charger for thirty-eight dollars, arriving tomorrow, with free returns.\n\nYou approve it.\n\nAt the final checkout step, the price changes to forty-two dollars.\n\nThe agent stops.\n\nThat pause matters. Your approval was permission to buy one compatible charger inside a forty-dollar boundary—not any charger at any price.\n\nGoogle's Agent Payments Protocol, or AP2, is one approach to recording boundaries like these as verifiable mandates. A mandate connects what you requested, what you approved, and what the agent is allowed to purchase.\n\nThe agent finds a second compatible charger for thirty-nine dollars. Before asking again, it checks the exact model, wattage, stock, delivery date, return policy, tax, and final total.\n\nIt also ignores a strange instruction hidden in the product page telling automated shoppers to add an accessory. Product content can provide facts, but it cannot rewrite your rules.\n\nYou approve the new total. Only then does the payment system provide a restricted credential, the merchant completes the order, and an order number comes back.\n\nOrder events report that the charger shipped and arrived. If something goes wrong, the records show what you authorized, selected, and paid.\n\nThe useful mental model is not \"AI that shops.\"\n\nAgentic commerce is a delegated transaction system.\n\nIt converts human intent into testable constraints, carries those constraints through discovery and checkout, and grants only enough authority to complete the approved action.\n\nThe next morning, you connect the charger.\n\nThe battery icon turns green just as your meeting begins.\n\nWhen the chain works, an agent can save you ten tabs and a late-night mistake.\n\nWhen it fails, convenience becomes an unauthorized purchase.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nIt is nine at night, and your laptop charger has stopped working.\n\nYou have an important meeting tomorrow morning. The laptop has twelve percent battery left.\n\nInstead, you tell an AI agent:\n\n\"Find a compatible charger for my laptop. Keep it under forty dollars, make sure it can arrive tomorrow, and ask me before buying.\"\n\nThat is agentic commerce.\n\nThe agent is being asked to pursue an outcome across several systems—and possibly complete a transaction for you.\n\nFirst, it turns your sentence into constraints:\n\nthe exact laptop model, connector type, required wattage, maximum price, delivery deadline, and one important rule: do not purchase without approval.\n\nMissing details become questions. If the agent guesses the laptop model, a fluent answer can still produce a useless charger.\n\nNext comes discovery.\n\nThe agent searches product catalogues and compares specifications, prices, delivery promises, return policies, and stock.\n\nNow it finds one for thirty-four dollars.\n\nThe product title says \"compatible,\" but the specifications reveal that it supplies only forty-five watts. Your laptop needs sixty-five.\n\nThe agent rejects it.\n\nThis is an important difference between search and agency. Ranking a relevant result is not enough. The system must test every hard constraint before acting.\n\nThe next charger passes the compatibility check and goes into a cart.\n\nThe cart remembers the charger while you move between the places where you are shopping. It can watch the price, notice that stock changed, and warn that two products do not work together.\n\nGoogle calls its announced version of this idea Universal Cart. It is designed to work across merchants and Google services such as Search and Gemini.\n\nBut remembering an item is the easy part.\n\nThe agent must now ask the store:\n\nIs this exact charger available? What is the current total? Can it arrive tomorrow? How does checkout work here?\n\nFor Google's system, that conversation can use the Universal Commerce Protocol, or UCP. It gives agents and merchants a shared way to exchange checkout information without forcing every agent to learn a completely different language for every store.\n\nThe store still controls its inventory, price, delivery rules, and customer relationship. The protocol simply helps the two systems understand each other.\n\nNow the agent is ready to buy.\n\nBut placing something in a cart is not permission to spend money.\n\nYour laptop is now at seven percent.\n\nThe agent shows you a compatible sixty-five-watt charger for thirty-eight dollars, arriving tomorrow, with free returns.\n\nYou approve it.\n\nAt the final checkout step, the price changes to forty-two dollars.\n\nThe agent stops.\n\nThat pause matters. Your approval was permission to buy one compatible charger inside a forty-dollar boundary—not any charger at any price.\n\nGoogle's Agent Payments Protocol, or AP2, is one approach to recording boundaries like these as verifiable mandates. A mandate connects what you requested, what you approved, and what the agent is allowed to purchase.\n\nThe agent finds a second compatible charger for thirty-nine dollars. Before asking again, it checks the exact model, wattage, stock, delivery date, return policy, tax, and final total.\n\nIt also ignores a strange instruction hidden in the product page telling automated shoppers to add an accessory. Product content can provide facts, but it cannot rewrite your rules.\n\nYou approve the new total. Only then does the payment system provide a restricted credential, the merchant completes the order, and an order number comes back.\n\nOrder events report that the charger shipped and arrived. If something goes wrong, the records show what you authorized, selected, and paid.\n\nThe useful mental model is not \"AI that shops.\"\n\nAgentic commerce is a delegated transaction system.\n\nIt converts human intent into testable constraints, carries those constraints through discovery and checkout, and grants only enough authority to complete the approved action.\n\nThe next morning, you connect the charger.\n\nThe battery icon turns green just as your meeting begins.\n\nWhen the chain works, an agent can save you ten tabs and a late-night mistake.\n\nWhen it fails, convenience becomes an unauthorized purchase.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-07-31-how-agentic-commerce-works.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-31-how-agentic-commerce-works.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "The difficult part of agentic commerce is not generating a product recommendation. It is preserving intent and authority across catalogue data, merchant capabilities, checkout state, identity, payment, and order events. Engineers should treat every external description as untrusted data, separate cart state from purchasing permission, and revalidate price, inventory, fulfillment, and policy constraints immediately before execution. A useful agent is not the one that buys fastest; it is the one whose actions remain bounded, explainable, and reversible.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What makes agentic commerce different from ordinary product search?",
+          "options": [
+            "The system can pursue a shopping outcome and potentially execute authorized actions across other systems.",
+            "It displays more advertisements on a search page.",
+            "It stores product photographs at a higher resolution."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "An agent may discover, compare, prepare checkout, and transact, so its actions require stronger controls than a recommendation."
+        },
+        {
+          "prompt": "Why should a shopping request be converted into explicit constraints?",
+          "options": [
+            "Constraints make compatibility, budget, delivery, and approval requirements testable before action.",
+            "They guarantee that every merchant has the item in stock.",
+            "They remove the need for checkout."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Natural-language intent is ambiguous; structured constraints help the system decide what qualifies and when it must ask the user."
+        },
+        {
+          "prompt": "What is Google's Universal Cart in this episode?",
+          "options": [
+            "A customer-facing cart experience across supported Google services and merchants.",
+            "The open protocol every merchant must use.",
+            "A payment credential that lets an agent spend without limits."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Universal Cart is the visible shopping layer; UCP is the interoperability protocol, and payment authorization is a separate boundary."
+        },
+        {
+          "prompt": "What does UCP provide?",
+          "options": [
+            "A shared way for agents, commerce surfaces, merchants, and payment participants to exchange capabilities and transaction state.",
+            "A guarantee that a product description is truthful.",
+            "A replacement for every merchant's inventory and business logic."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "UCP standardizes interactions such as capability discovery, checkout, identity linking, payment-token exchange, and order updates."
+        },
+        {
+          "prompt": "Why must the system revalidate immediately before purchase?",
+          "options": [
+            "Price, inventory, taxes, shipping, and other conditions may have changed since discovery.",
+            "The language model forgets every product after one minute.",
+            "Payment systems cannot process a saved cart."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Authorization applies to current transaction facts, not merely to an earlier recommendation."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-07-31-how-agentic-commerce-works.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-07-31-how-agentic-commerce-works.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-07-31-how-agentic-commerce-works.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-31-how-agentic-commerce-works.jpg",
+    "topicProfile": {
+      "id": "agent-safety",
+      "label": "Agentic commerce",
+      "accent": "#7B61FF"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-07-31-how-agentic-commerce-works"
+  },
+  {
     "guid": "in-simple-terms-2026-07-30-how-extended-reality-xr-works",
     "title": "How Extended Reality (XR) Works",
     "subtitle": "Extended reality in simple terms",

@@ -22,7 +22,56 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Thu, 30 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How Agentic Commerce Works</title>
+      <description>Your laptop charger stops working the night before an important meeting. Instead of opening ten shopping tabs, you ask an AI agent to find a compatible replacement under forty dollars that can arrive tomorrow. What must happen before that agent can safely buy anything?
+
+Inside this five-minute technical story:
+- How an agent converts an ordinary request into testable shopping constraints.
+- How catalogues, merchant APIs, Google&apos;s Universal Cart, and UCP can carry a purchase through discovery and checkout.
+- Why compatibility, changing prices, authorization, hostile content, and returns make buying harder than recommending.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/
+- https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/
+- https://github.com/Universal-Commerce-Protocol/ucp
+- https://developers.google.com/merchant/ucp/guides
+- https://ap2-protocol.org/</description>
+      <itunes:subtitle>Agentic commerce in simple terms</itunes:subtitle>
+      <itunes:summary>Your laptop charger stops working the night before an important meeting. Instead of opening ten shopping tabs, you ask an AI agent to find a compatible replacement under forty dollars that can arrive tomorrow. What must happen before that agent can safely buy anything?
+
+Inside this five-minute technical story:
+- How an agent converts an ordinary request into testable shopping constraints.
+- How catalogues, merchant APIs, Google&apos;s Universal Cart, and UCP can carry a purchase through discovery and checkout.
+- Why compatibility, changing prices, authorization, hostile content, and returns make buying harder than recommending.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/
+- https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/
+- https://github.com/Universal-Commerce-Protocol/ucp
+- https://developers.google.com/merchant/ucp/guides
+- https://ap2-protocol.org/</itunes:summary>
+      <itunes:duration>00:04:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>57</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-07-31-how-agentic-commerce-works.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-31-how-agentic-commerce-works.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-31-how-agentic-commerce-works.mp3" length="4251942" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-07-31-how-agentic-commerce-works</guid>
+      <pubDate>Fri, 31 Jul 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How Extended Reality (XR) Works</title>
