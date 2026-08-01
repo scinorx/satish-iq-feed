@@ -1,5 +1,100 @@
 [
   {
+    "guid": "in-simple-terms-2026-08-01-what-is-e-paper-and-how-does-it-work",
+    "title": "What Is E-Paper and How Does It Work?",
+    "subtitle": "Display technology in simple terms",
+    "description": "Your e-reader runs out of battery, but a message remains perfectly visible on its screen. A powerless phone becomes black glass, so what is holding this image?\n\nInside this five-minute technical story:\n- How electric fields move charged pigment particles inside e-paper.\n- Why the image remains after the power is removed.\n- Why e-paper saves energy on static content but refreshes more slowly than an LCD or OLED screen.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://www.eink.com/tech/detail/How_it_works\n- https://www.eink.com/tech/detail/Benefits\n- https://www.eink.com/tech/detail/Electronic_Ink_Film\n- https://www.eink.com/tech/detail/Electronics\n- https://www.lg.com/global/newsroom/news/media-entertainment-solution/lg-electronics-launches-ultra-low-power-lg-e-paper-display-for-commercial-spaces/",
+    "publishedAt": "2026-08-01T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-08-01",
+    "seasonNumber": 5,
+    "episodeNumber": 58,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-08-01T05:30:00-04:00",
+    "durationSeconds": 264,
+    "audioPath": "podcast/audio/2026-08-01-what-is-e-paper-and-how-does-it-work.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-01-what-is-e-paper-and-how-does-it-work.mp3",
+    "lengthBytes": 4231462,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nYou are halfway through a chapter when your e-reader shows a low-battery warning.\n\nA minute later, it shuts down.\n\nBut the screen does not become black glass like a powerless phone.\n\nA message remains perfectly visible:\n\n\"Battery empty. Please charge.\"\n\nTen minutes later, the same message is still there.\n\nIf the battery is empty, what is holding that image?\n\nThe answer is e-paper, also called electronic paper.\n\nUnlike an LCD or OLED screen, it does not keep rebuilding an image with light.\n\nIt physically rearranges the image—and then leaves it alone.\n\nImagine cutting through one black-and-white e-paper pixel and looking inside.\n\nYou would find tiny containers embedded in a thin film. In one common design, they are microcapsules roughly the width of a human hair. Inside each capsule is a clear fluid containing electrically charged white and black pigment particles.\n\nNow place that film over a layer of microscopic electrodes.\n\nWhen the display applies one electric field, the white particles move toward the visible surface while the black particles move away. That part of the screen looks white.\n\nReverse the field, and the black particles rise while the white particles move down. Now it looks black.\n\nAcross thousands or millions of controlled areas, those particles form letters, numbers, and pictures.\n\nThe important part comes next.\n\nWhen the voltage stops, the particles do not immediately drift back to where they started. They remain in their new arrangement.\n\nEngineers call this bistability: the pixel can remain in either of two stable states without continuous power.\n\nThe display remembers with matter, not light.\n\nThat is why your empty-battery message remains visible. It is also why an electronic grocery label can keep showing three dollars and forty-nine cents while an employee replaces its battery.\n\nWhen fresh power arrives and the image changes, the device wakes its controller. The controller calculates which pixels must move and sends a carefully timed sequence of voltages, called a drive waveform, through the display's backplane.\n\nYou may see the screen briefly flash or retain a faint trace of the previous page. The controller is pushing pigment particles into controlled positions before drawing the new image. Better waveforms reduce this ghosting, but moving physical particles is still slower than switching light from an LCD or OLED pixel.\n\nE-paper also looks different because it is reflective.\n\nIt uses the room light—or sunlight—that falls onto its surface and reflects it back toward your eyes. It does not need a backlight to make a page visible, so bright daylight can make it easier to read.\n\nBut in a completely dark room, the panel cannot glow by itself. An e-reader that works at night usually adds a front light above the e-paper layer.\n\nColor versions either filter the black-and-white layer or move several colored pigments with precise electrical pulses. They usually trade faster updates and television-like brightness for a result that looks more like printed ink.\n\nThe same principle is now reaching larger signs. In 2026, LG announced a thirty-two-inch commercial e-paper display designed to draw power mainly when its content changes.\n\nBut here is the engineering catch.\n\nSaying that e-paper needs no power to hold a static image does not mean the entire device uses no power.\n\nIts processor, wireless radio, touch sensor, storage, front light, and display controller still need electricity. And every screen update consumes energy.\n\nSo e-paper is strongest when an image remains useful for minutes, hours, or days. A book page, room sign, menu, timetable, or price label fits that pattern.\n\nVideo does not.\n\nYou connect your e-reader to a charger.\n\nThe controller wakes, the screen flashes, and your book returns to the same chapter.\n\nThen the electronics go back to sleep, while the pigment remains exactly where the last electric field placed it.\n\nThat is the simplest way to understand e-paper:\n\nIt is not a screen constantly shining a picture at you.\n\nIt is an electrically rearrangeable sheet of pigment that can hold a picture after the power stops.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nYou are halfway through a chapter when your e-reader shows a low-battery warning.\n\nA minute later, it shuts down.\n\nBut the screen does not become black glass like a powerless phone.\n\nA message remains perfectly visible:\n\n\"Battery empty. Please charge.\"\n\nTen minutes later, the same message is still there.\n\nIf the battery is empty, what is holding that image?\n\nThe answer is e-paper, also called electronic paper.\n\nUnlike an LCD or OLED screen, it does not keep rebuilding an image with light.\n\nIt physically rearranges the image—and then leaves it alone.\n\nImagine cutting through one black-and-white e-paper pixel and looking inside.\n\nYou would find tiny containers embedded in a thin film. In one common design, they are microcapsules roughly the width of a human hair. Inside each capsule is a clear fluid containing electrically charged white and black pigment particles.\n\nNow place that film over a layer of microscopic electrodes.\n\nWhen the display applies one electric field, the white particles move toward the visible surface while the black particles move away. That part of the screen looks white.\n\nReverse the field, and the black particles rise while the white particles move down. Now it looks black.\n\nAcross thousands or millions of controlled areas, those particles form letters, numbers, and pictures.\n\nThe important part comes next.\n\nWhen the voltage stops, the particles do not immediately drift back to where they started. They remain in their new arrangement.\n\nEngineers call this bistability: the pixel can remain in either of two stable states without continuous power.\n\nThe display remembers with matter, not light.\n\nThat is why your empty-battery message remains visible. It is also why an electronic grocery label can keep showing three dollars and forty-nine cents while an employee replaces its battery.\n\nWhen fresh power arrives and the image changes, the device wakes its controller. The controller calculates which pixels must move and sends a carefully timed sequence of voltages, called a drive waveform, through the display's backplane.\n\nYou may see the screen briefly flash or retain a faint trace of the previous page. The controller is pushing pigment particles into controlled positions before drawing the new image. Better waveforms reduce this ghosting, but moving physical particles is still slower than switching light from an LCD or OLED pixel.\n\nE-paper also looks different because it is reflective.\n\nIt uses the room light—or sunlight—that falls onto its surface and reflects it back toward your eyes. It does not need a backlight to make a page visible, so bright daylight can make it easier to read.\n\nBut in a completely dark room, the panel cannot glow by itself. An e-reader that works at night usually adds a front light above the e-paper layer.\n\nColor versions either filter the black-and-white layer or move several colored pigments with precise electrical pulses. They usually trade faster updates and television-like brightness for a result that looks more like printed ink.\n\nThe same principle is now reaching larger signs. In 2026, LG announced a thirty-two-inch commercial e-paper display designed to draw power mainly when its content changes.\n\nBut here is the engineering catch.\n\nSaying that e-paper needs no power to hold a static image does not mean the entire device uses no power.\n\nIts processor, wireless radio, touch sensor, storage, front light, and display controller still need electricity. And every screen update consumes energy.\n\nSo e-paper is strongest when an image remains useful for minutes, hours, or days. A book page, room sign, menu, timetable, or price label fits that pattern.\n\nVideo does not.\n\nYou connect your e-reader to a charger.\n\nThe controller wakes, the screen flashes, and your book returns to the same chapter.\n\nThen the electronics go back to sleep, while the pigment remains exactly where the last electric field placed it.\n\nThat is the simplest way to understand e-paper:\n\nIt is not a screen constantly shining a picture at you.\n\nIt is an electrically rearrangeable sheet of pigment that can hold a picture after the power stops.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-08-01-what-is-e-paper-and-how-does-it-work.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-01-what-is-e-paper-and-how-does-it-work.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "E-paper is a strong example of solving the right engineering problem instead of competing on the wrong metric. It does not try to beat OLED at brightness, color, or video speed. It optimizes for persistence, readability, and extremely low energy use when content changes infrequently. Engineers evaluating it should measure the complete duty cycle: update frequency, waveform energy, controller sleep current, radio activity, lighting, temperature, and acceptable refresh latency. The panel's bistability creates the opportunity, but the whole system design determines the real battery life.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What makes a typical electrophoretic e-paper pixel appear black or white?",
+          "options": [
+            "An electric field moves charged pigment particles toward or away from the visible surface.",
+            "Tiny LEDs switch between black and white light.",
+            "Liquid crystals permanently change color when heated."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The visible color depends on which charged pigment particles are positioned at the viewing surface."
+        },
+        {
+          "prompt": "Why can an e-paper image remain visible after power is removed?",
+          "options": [
+            "The pigment particles remain in a stable physical arrangement after the electric field stops.",
+            "A hidden backlight continues running without electricity.",
+            "The screen stores the picture as heat."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Bistability lets a pixel hold its state without continuous electrical power."
+        },
+        {
+          "prompt": "Why is e-paper readable in bright sunlight?",
+          "options": [
+            "It reflects ambient light instead of depending on a backlight shining through the display.",
+            "It produces more light than the sun.",
+            "Sunlight charges every pixel directly."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Reflective displays use surrounding light much like printed paper, so stronger ambient light can improve visibility."
+        },
+        {
+          "prompt": "Why might an e-paper screen flash when changing pages?",
+          "options": [
+            "The controller uses drive waveforms to move pigment particles into controlled positions and reduce residual images.",
+            "The display is taking a photograph of the next page.",
+            "The battery must restart after every page."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The visible flash can be part of a waveform that resets or cleans pixel states before drawing new content."
+        },
+        {
+          "prompt": "Why is e-paper generally less suitable for video than LCD or OLED?",
+          "options": [
+            "Moving physical pigment particles and completing drive waveforms takes comparatively more time.",
+            "E-paper cannot display any sequence of images.",
+            "Video files cannot be stored on an e-paper device."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "E-paper can refresh, but its response time and update behavior are optimized for relatively static content."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-08-01-what-is-e-paper-and-how-does-it-work.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-08-01-what-is-e-paper-and-how-does-it-work.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-08-01-what-is-e-paper-and-how-does-it-work.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-01-what-is-e-paper-and-how-does-it-work.jpg",
+    "topicProfile": {
+      "id": "display-tech",
+      "label": "Display technology",
+      "accent": "#496B3A"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-08-01-what-is-e-paper-and-how-does-it-work"
+  },
+  {
     "guid": "in-simple-terms-2026-07-31-how-agentic-commerce-works",
     "title": "How Agentic Commerce Works",
     "subtitle": "Agentic commerce in simple terms",

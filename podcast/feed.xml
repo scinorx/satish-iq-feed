@@ -22,7 +22,56 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Fri, 31 Jul 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>What Is E-Paper and How Does It Work?</title>
+      <description>Your e-reader runs out of battery, but a message remains perfectly visible on its screen. A powerless phone becomes black glass, so what is holding this image?
+
+Inside this five-minute technical story:
+- How electric fields move charged pigment particles inside e-paper.
+- Why the image remains after the power is removed.
+- Why e-paper saves energy on static content but refreshes more slowly than an LCD or OLED screen.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.eink.com/tech/detail/How_it_works
+- https://www.eink.com/tech/detail/Benefits
+- https://www.eink.com/tech/detail/Electronic_Ink_Film
+- https://www.eink.com/tech/detail/Electronics
+- https://www.lg.com/global/newsroom/news/media-entertainment-solution/lg-electronics-launches-ultra-low-power-lg-e-paper-display-for-commercial-spaces/</description>
+      <itunes:subtitle>Display technology in simple terms</itunes:subtitle>
+      <itunes:summary>Your e-reader runs out of battery, but a message remains perfectly visible on its screen. A powerless phone becomes black glass, so what is holding this image?
+
+Inside this five-minute technical story:
+- How electric fields move charged pigment particles inside e-paper.
+- Why the image remains after the power is removed.
+- Why e-paper saves energy on static content but refreshes more slowly than an LCD or OLED screen.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.eink.com/tech/detail/How_it_works
+- https://www.eink.com/tech/detail/Benefits
+- https://www.eink.com/tech/detail/Electronic_Ink_Film
+- https://www.eink.com/tech/detail/Electronics
+- https://www.lg.com/global/newsroom/news/media-entertainment-solution/lg-electronics-launches-ultra-low-power-lg-e-paper-display-for-commercial-spaces/</itunes:summary>
+      <itunes:duration>00:04:24</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>58</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-01-what-is-e-paper-and-how-does-it-work.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-01-what-is-e-paper-and-how-does-it-work.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-01-what-is-e-paper-and-how-does-it-work.mp3" length="4231462" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-08-01-what-is-e-paper-and-how-does-it-work</guid>
+      <pubDate>Sat, 01 Aug 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How Agentic Commerce Works</title>

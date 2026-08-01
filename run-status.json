@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-07-31",
-  "status": "failed",
-  "scheduledFor": "2026-07-31T05:30:00-04:00",
-  "startedAt": "2026-07-31T09:40:04.183Z",
-  "finishedAt": "2026-07-31T09:42:12.562Z",
-  "currentStage": "completed",
+  "date": "2026-08-01",
+  "status": "running",
+  "scheduledFor": "2026-08-01T05:30:00-04:00",
+  "startedAt": "2026-08-01T09:25:05.539Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
-  "podcastTopic": "How Agentic Commerce Works",
+  "podcastTopic": "What Is E-Paper and How Does It Work?",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "How Agentic Commerce Works"
+    "latestPodcastEpisode": "What Is E-Paper and How Does It Work?"
   }
 }

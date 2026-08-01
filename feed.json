@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-31",
-  "title": "Today's object: Agentic commerce in simple terms",
+  "generatedAt": "2026-08-01",
+  "title": "Today's object: Display technology in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-07-31",
-    "status": "failed",
-    "scheduledFor": "2026-07-31T05:30:00-04:00",
-    "startedAt": "2026-07-31T09:40:04.183Z",
-    "finishedAt": "2026-07-31T09:42:12.562Z",
-    "currentStage": "completed",
+    "date": "2026-08-01",
+    "status": "running",
+    "scheduledFor": "2026-08-01T05:30:00-04:00",
+    "startedAt": "2026-08-01T09:25:05.539Z",
+    "finishedAt": null,
+    "currentStage": "publish",
     "topic": null,
-    "podcastTopic": "How Agentic Commerce Works",
+    "podcastTopic": "What Is E-Paper and How Does It Work?",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "blocked",
-      "spotifyPrep": "skipped",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "How Agentic Commerce Works"
+      "latestPodcastEpisode": "What Is E-Paper and How Does It Work?"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "How Agentic Commerce Works",
-      "publishedAt": "2026-07-31T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-07-31-how-agentic-commerce-works.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-07-31-how-agentic-commerce-works.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-07-31-how-agentic-commerce-works"
+      "title": "What Is E-Paper and How Does It Work?",
+      "publishedAt": "2026-08-01T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-01-what-is-e-paper-and-how-does-it-work.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-01-what-is-e-paper-and-how-does-it-work.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-01-what-is-e-paper-and-how-does-it-work"
     }
   }
 }
