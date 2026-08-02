@@ -22,7 +22,54 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sat, 01 Aug 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How a Car Creates a Bird&apos;s-Eye View</title>
+      <description>Satish is guiding his car into a tight parking space when the dashboard suddenly shows the entire car from above. But there is no camera floating over the roof. Where did that impossible image come from?
+
+Inside this five-minute technical story:
+- How four wide-angle cameras capture the ground around a car.
+- How calibration and perspective transformation make angled images look as if they came from above.
+- How stitching creates one view—and why tall objects can still look distorted.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.bosch-mobility.com/en/solutions/assistance-systems/360-degree-surround-view/
+- https://www.mathworks.com/help/driving/ug/create-360-birds-eye-view-image.html
+- https://www.mathworks.com/help/driving/camera-sensor-configuration.html
+- https://patents.google.com/patent/US11812153B2/en</description>
+      <itunes:subtitle>Automotive vision in simple terms</itunes:subtitle>
+      <itunes:summary>Satish is guiding his car into a tight parking space when the dashboard suddenly shows the entire car from above. But there is no camera floating over the roof. Where did that impossible image come from?
+
+Inside this five-minute technical story:
+- How four wide-angle cameras capture the ground around a car.
+- How calibration and perspective transformation make angled images look as if they came from above.
+- How stitching creates one view—and why tall objects can still look distorted.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.bosch-mobility.com/en/solutions/assistance-systems/360-degree-surround-view/
+- https://www.mathworks.com/help/driving/ug/create-360-birds-eye-view-image.html
+- https://www.mathworks.com/help/driving/camera-sensor-configuration.html
+- https://patents.google.com/patent/US11812153B2/en</itunes:summary>
+      <itunes:duration>00:04:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>59</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-02-how-a-car-creates-a-bird-s-eye-view.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-02-how-a-car-creates-a-bird-s-eye-view.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-02-how-a-car-creates-a-bird-s-eye-view.mp3" length="4263645" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-08-02-how-a-car-creates-a-bird-s-eye-view</guid>
+      <pubDate>Sun, 02 Aug 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>What Is E-Paper and How Does It Work?</title>

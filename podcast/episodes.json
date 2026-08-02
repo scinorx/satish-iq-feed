@@ -1,5 +1,100 @@
 [
   {
+    "guid": "in-simple-terms-2026-08-02-how-a-car-creates-a-bird-s-eye-view",
+    "title": "How a Car Creates a Bird's-Eye View",
+    "subtitle": "Automotive vision in simple terms",
+    "description": "Satish is guiding his car into a tight parking space when the dashboard suddenly shows the entire car from above. But there is no camera floating over the roof. Where did that impossible image come from?\n\nInside this five-minute technical story:\n- How four wide-angle cameras capture the ground around a car.\n- How calibration and perspective transformation make angled images look as if they came from above.\n- How stitching creates one view—and why tall objects can still look distorted.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://www.bosch-mobility.com/en/solutions/assistance-systems/360-degree-surround-view/\n- https://www.mathworks.com/help/driving/ug/create-360-birds-eye-view-image.html\n- https://www.mathworks.com/help/driving/camera-sensor-configuration.html\n- https://patents.google.com/patent/US11812153B2/en",
+    "publishedAt": "2026-08-02T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-08-02",
+    "seasonNumber": 5,
+    "episodeNumber": 59,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-08-02T05:30:00-04:00",
+    "durationSeconds": 266,
+    "audioPath": "podcast/audio/2026-08-02-how-a-car-creates-a-bird-s-eye-view.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-02-how-a-car-creates-a-bird-s-eye-view.mp3",
+    "lengthBytes": 4263645,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nThe other day, I was driving into a crowded parking lot.\n\nI found one open space, but it was tight. A large vehicle was parked on one side, a concrete curb was on the other, and the painted lines were barely visible.\n\nI slowed down and turned the steering wheel.\n\nThen something on the dashboard caught my attention.\n\nThe screen showed my entire car from above.\n\nI could see the parking lines, the curb, and the vehicles beside me—as if a camera were floating several feet over the roof.\n\nFor a moment, I stopped thinking about parking.\n\nWhere was that image coming from?\n\nThere was no drone above me. There was no camera hanging from the parking-garage ceiling.\n\nThe car was manufacturing a viewpoint that did not physically exist.\n\nThis feature is commonly called a surround-view or bird's-eye-view camera system.\n\nA typical system begins with four wide-angle cameras.\n\nOne looks forward, usually from the grille. One looks backward. The other two look down from beneath the side mirrors.\n\nEach camera captures a different part of the area around the car. Their very wide fisheye lenses reduce blind spots, but the raw pictures look curved and stretched.\n\nSo the car cannot simply place the four videos next to one another.\n\nFirst, the system must know each camera precisely.\n\nEngineers calibrate the lens to learn how it bends straight lines. These are called intrinsic parameters.\n\nThey also measure where the camera is mounted—its height, angle, and position relative to the car. These are extrinsic parameters.\n\nWith that calibration, software can remove much of the fisheye distortion and translate every visible point into the car's coordinate system.\n\nNow comes the clever part.\n\nEach camera sees the road from a low, slanted angle. The software mathematically transforms that view as though the road were being observed from directly above.\n\nThis operation is often called inverse perspective mapping. For a mostly flat ground surface, a transformation called a homography maps points from the camera image onto the virtual overhead plane.\n\nImagine taking four flexible photographs, stretching each one into the shape it would have from above, and arranging them around a drawing of the car.\n\nThe front camera becomes the top part of the picture.\n\nThe rear camera becomes the bottom.\n\nThe mirror cameras fill the left and right sides.\n\nTheir fields of view overlap. In those shared areas, the image processor aligns matching features and blends the seams so the result looks like one continuous scene.\n\nThe picture of the car in the center may be a graphic or vehicle model placed over the area the cameras cannot see.\n\nThis complete pipeline—capture, correct, transform, align, and blend—runs repeatedly while the car moves.\n\nThat is why the parking lines appear to slide underneath the vehicle in real time.\n\nSome systems also combine the camera view with ultrasonic distance sensors. The camera gives visual context, while the ultrasonic sensors estimate how close the car is to a nearby obstacle.\n\nBut the bird's-eye view has an important limitation.\n\nThe basic transformation assumes that what it sees lies on a flat ground plane.\n\nA painted line fits that assumption beautifully.\n\nA curb is usually manageable.\n\nBut a person, shopping cart, pole, or nearby vehicle rises above the ground. When the software stretches that object onto the overhead plane, it may appear bent, duplicated, unusually long, or cut at a stitching seam.\n\nAnd if rain, mud, glare, or snow blocks one camera, part of the supposedly complete view can become unreliable.\n\nSo this is a parking aid, not a perfect three-dimensional reconstruction and not a substitute for looking around.\n\nBack in the parking lot, I watched the curb on the screen, straightened the wheel, and stopped neatly between the lines.\n\nWhat looked like one camera above my car was really four cameras below my eye level, plus calibration data and real-time geometry.\n\nThat is the simplest way to understand it:\n\nYour car does not capture a bird's-eye view.\n\nIt calculates one.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nThe other day, I was driving into a crowded parking lot.\n\nI found one open space, but it was tight. A large vehicle was parked on one side, a concrete curb was on the other, and the painted lines were barely visible.\n\nI slowed down and turned the steering wheel.\n\nThen something on the dashboard caught my attention.\n\nThe screen showed my entire car from above.\n\nI could see the parking lines, the curb, and the vehicles beside me—as if a camera were floating several feet over the roof.\n\nFor a moment, I stopped thinking about parking.\n\nWhere was that image coming from?\n\nThere was no drone above me. There was no camera hanging from the parking-garage ceiling.\n\nThe car was manufacturing a viewpoint that did not physically exist.\n\nThis feature is commonly called a surround-view or bird's-eye-view camera system.\n\nA typical system begins with four wide-angle cameras.\n\nOne looks forward, usually from the grille. One looks backward. The other two look down from beneath the side mirrors.\n\nEach camera captures a different part of the area around the car. Their very wide fisheye lenses reduce blind spots, but the raw pictures look curved and stretched.\n\nSo the car cannot simply place the four videos next to one another.\n\nFirst, the system must know each camera precisely.\n\nEngineers calibrate the lens to learn how it bends straight lines. These are called intrinsic parameters.\n\nThey also measure where the camera is mounted—its height, angle, and position relative to the car. These are extrinsic parameters.\n\nWith that calibration, software can remove much of the fisheye distortion and translate every visible point into the car's coordinate system.\n\nNow comes the clever part.\n\nEach camera sees the road from a low, slanted angle. The software mathematically transforms that view as though the road were being observed from directly above.\n\nThis operation is often called inverse perspective mapping. For a mostly flat ground surface, a transformation called a homography maps points from the camera image onto the virtual overhead plane.\n\nImagine taking four flexible photographs, stretching each one into the shape it would have from above, and arranging them around a drawing of the car.\n\nThe front camera becomes the top part of the picture.\n\nThe rear camera becomes the bottom.\n\nThe mirror cameras fill the left and right sides.\n\nTheir fields of view overlap. In those shared areas, the image processor aligns matching features and blends the seams so the result looks like one continuous scene.\n\nThe picture of the car in the center may be a graphic or vehicle model placed over the area the cameras cannot see.\n\nThis complete pipeline—capture, correct, transform, align, and blend—runs repeatedly while the car moves.\n\nThat is why the parking lines appear to slide underneath the vehicle in real time.\n\nSome systems also combine the camera view with ultrasonic distance sensors. The camera gives visual context, while the ultrasonic sensors estimate how close the car is to a nearby obstacle.\n\nBut the bird's-eye view has an important limitation.\n\nThe basic transformation assumes that what it sees lies on a flat ground plane.\n\nA painted line fits that assumption beautifully.\n\nA curb is usually manageable.\n\nBut a person, shopping cart, pole, or nearby vehicle rises above the ground. When the software stretches that object onto the overhead plane, it may appear bent, duplicated, unusually long, or cut at a stitching seam.\n\nAnd if rain, mud, glare, or snow blocks one camera, part of the supposedly complete view can become unreliable.\n\nSo this is a parking aid, not a perfect three-dimensional reconstruction and not a substitute for looking around.\n\nBack in the parking lot, I watched the curb on the screen, straightened the wheel, and stopped neatly between the lines.\n\nWhat looked like one camera above my car was really four cameras below my eye level, plus calibration data and real-time geometry.\n\nThat is the simplest way to understand it:\n\nYour car does not capture a bird's-eye view.\n\nIt calculates one.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-08-02-how-a-car-creates-a-bird-s-eye-view.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-02-how-a-car-creates-a-bird-s-eye-view.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "What impressed me was not simply that the car had four cameras. The real engineering achievement was creating a useful viewpoint from cameras that never occupied that viewpoint. Calibration gives every camera a trusted relationship to the vehicle. Perspective transformation moves the ground into a shared coordinate system. Stitching hides the boundaries. The larger lesson is that software does not always need to place a sensor where the user wants to look—it can combine carefully calibrated observations to construct the view the user actually needs.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "Where does the apparent overhead image come from?",
+          "options": [
+            "Software transforms and combines images from several cameras mounted around the car.",
+            "A small drone automatically launches above the vehicle.",
+            "A satellite streams a live image of the parking space."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The overhead viewpoint is synthesized; no physical camera occupies that position."
+        },
+        {
+          "prompt": "Why do surround-view systems commonly use wide-angle cameras?",
+          "options": [
+            "Their broad fields of view capture more of the nearby ground and reduce gaps around the vehicle.",
+            "They measure the vehicle's fuel level.",
+            "They make distant highway signs easier to read."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Wide fields of view help a small number of near-range cameras cover the vehicle's surroundings."
+        },
+        {
+          "prompt": "What does camera calibration tell the system?",
+          "options": [
+            "How the lens distorts an image and where the camera sits relative to the vehicle.",
+            "Which radio station the driver prefers.",
+            "How much weight is inside the trunk."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Intrinsic and extrinsic calibration provide the geometry needed to transform each camera image accurately."
+        },
+        {
+          "prompt": "What does inverse perspective mapping do?",
+          "options": [
+            "It transforms a slanted camera view of the ground into a virtual top-down view.",
+            "It turns the steering wheel in the opposite direction.",
+            "It converts video into an ultrasonic signal."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The transformation remaps image points onto an overhead ground plane."
+        },
+        {
+          "prompt": "Why do the camera views overlap?",
+          "options": [
+            "Overlap allows the system to align adjacent views and blend their seams.",
+            "Every camera must record an identical image.",
+            "Overlap increases the engine's power."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Shared visual regions help several transformed images become one continuous surround view."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-08-02-how-a-car-creates-a-bird-s-eye-view.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-08-02-how-a-car-creates-a-bird-s-eye-view.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-08-02-how-a-car-creates-a-bird-s-eye-view.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-02-how-a-car-creates-a-bird-s-eye-view.jpg",
+    "topicProfile": {
+      "id": "automotive-vision",
+      "label": "Automotive vision",
+      "accent": "#267EAA"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-08-02-how-a-car-creates-a-bird-s-eye-view"
+  },
+  {
     "guid": "in-simple-terms-2026-08-01-what-is-e-paper-and-how-does-it-work",
     "title": "What Is E-Paper and How Does It Work?",
     "subtitle": "Display technology in simple terms",

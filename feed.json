@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-01",
-  "title": "Today's object: Display technology in simple terms",
+  "generatedAt": "2026-08-02",
+  "title": "Today's object: Automotive vision in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-08-01",
-    "status": "failed",
-    "scheduledFor": "2026-08-01T05:30:00-04:00",
-    "startedAt": "2026-08-01T09:40:06.334Z",
-    "finishedAt": "2026-08-01T09:41:45.767Z",
+    "date": "2026-08-02",
+    "status": "partial",
+    "scheduledFor": "2026-08-02T05:30:00-04:00",
+    "startedAt": "2026-08-02T09:25:07.550Z",
+    "finishedAt": "2026-08-02T19:38:45.205Z",
     "currentStage": "completed",
     "topic": null,
-    "podcastTopic": "What Is E-Paper and How Does It Work?",
+    "podcastTopic": "How a Car Creates a Bird's-Eye View",
     "commit": null,
     "results": {
       "publicFeedPublish": "success",
@@ -25,17 +25,17 @@
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "What Is E-Paper and How Does It Work?"
+      "latestPodcastEpisode": "How a Car Creates a Bird's-Eye View"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "What Is E-Paper and How Does It Work?",
-      "publishedAt": "2026-08-01T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-01-what-is-e-paper-and-how-does-it-work.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-01-what-is-e-paper-and-how-does-it-work.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-01-what-is-e-paper-and-how-does-it-work"
+      "title": "How a Car Creates a Bird's-Eye View",
+      "publishedAt": "2026-08-02T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-02-how-a-car-creates-a-bird-s-eye-view.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-02-how-a-car-creates-a-bird-s-eye-view.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-02-how-a-car-creates-a-bird-s-eye-view"
     }
   }
 }

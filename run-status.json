@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "date": "2026-08-01",
-  "status": "failed",
-  "scheduledFor": "2026-08-01T05:30:00-04:00",
-  "startedAt": "2026-08-01T09:40:06.334Z",
-  "finishedAt": "2026-08-01T09:41:45.767Z",
+  "date": "2026-08-02",
+  "status": "partial",
+  "scheduledFor": "2026-08-02T05:30:00-04:00",
+  "startedAt": "2026-08-02T09:25:07.550Z",
+  "finishedAt": "2026-08-02T19:38:45.205Z",
   "currentStage": "completed",
   "topic": null,
-  "podcastTopic": "What Is E-Paper and How Does It Work?",
+  "podcastTopic": "How a Car Creates a Bird's-Eye View",
   "commit": null,
   "results": {
     "publicFeedPublish": "success",
@@ -18,6 +18,6 @@
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "What Is E-Paper and How Does It Work?"
+    "latestPodcastEpisode": "How a Car Creates a Bird's-Eye View"
   }
 }
