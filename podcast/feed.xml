@@ -22,7 +22,48 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sun, 02 Aug 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Generative UI: How AI Builds Interfaces in Real Time</title>
+      <description>You ask an app to plan a trip. Instead of answering with a paragraph—or sending you through six menus—it builds the exact controls, cards, map, and budget view your task needs.
+
+This is generative UI: software that can assemble an interface at runtime from trusted components. In this story, we follow one screen from a spoken request to structured data, native controls, user actions, and a difficult new testing problem.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://developers.googleblog.com/en/a2ui-v0-9-generative-ui/
+- https://a2ui.org/
+- https://a2ui.org/introduction/how-to-use/
+- https://arxiv.org/abs/2607.22928</description>
+      <itunes:subtitle>Generative UI in simple terms</itunes:subtitle>
+      <itunes:summary>You ask an app to plan a trip. Instead of answering with a paragraph—or sending you through six menus—it builds the exact controls, cards, map, and budget view your task needs.
+
+This is generative UI: software that can assemble an interface at runtime from trusted components. In this story, we follow one screen from a spoken request to structured data, native controls, user actions, and a difficult new testing problem.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://developers.googleblog.com/en/a2ui-v0-9-generative-ui/
+- https://a2ui.org/
+- https://a2ui.org/introduction/how-to-use/
+- https://arxiv.org/abs/2607.22928</itunes:summary>
+      <itunes:duration>00:03:53</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>60</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-03-generative-ui-how-ai-builds-interfaces-in-real-time.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-03-generative-ui-how-ai-builds-interfaces-in-real-time.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-03-generative-ui-how-ai-builds-interfaces-in-real-time.mp3" length="3726986" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-08-03-generative-ui-how-ai-builds-interfaces-in-real-time</guid>
+      <pubDate>Mon, 03 Aug 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>How a Car Creates a Bird&apos;s-Eye View</title>

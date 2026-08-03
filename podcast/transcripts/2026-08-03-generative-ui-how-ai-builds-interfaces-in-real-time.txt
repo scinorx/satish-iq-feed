@@ -1,0 +1,85 @@
+Hello, and welcome to In Simple Terms with Satish.
+
+It is nine at night. You leave for Chicago tomorrow, you have not booked anything, and your total budget is eight hundred dollars.
+
+You open a travel app and type:
+
+“Build me a three-day trip within my budget.”
+
+You expect a long AI answer.
+
+Instead, you watch an interface assemble itself.
+
+A budget slider appears. Three flight cards arrive beneath it. Then a hotel comparison, a map, and a day-by-day itinerary. At the bottom, a live total settles at seven hundred and seventy-four dollars.
+
+You drag the budget down to six hundred and fifty.
+
+The expensive flight disappears. The hotel changes. Friday's restaurant becomes a free lakefront walk.
+
+Nobody designed this exact screen in advance.
+
+It was assembled for your request, at that moment.
+
+This is generative UI, or GenUI.
+
+The chatbot made an answer conversational. GenUI makes the answer operable.
+
+Traditional software says, “Here are our screens. Find your way through them.”
+
+GenUI says, “Tell me the outcome. I will assemble a path.”
+
+But that does not mean the AI receives an empty canvas and unlimited control.
+
+Behind the travel app is a catalogue created by humans: approved buttons, cards, maps, forms, colors, and actions. The AI can arrange those pieces. It cannot secretly invent a “transfer money” button or run arbitrary code.
+
+Think of it as LEGO with strict rules.
+
+Now look behind our screen.
+
+The agent first extracts the intent: Chicago, three days, eight hundred dollars.
+
+It selects useful components from the approved catalogue. It then sends a structured description: place this slider here, bind it to the budget, show these flight cards, and calculate this total.
+
+The phone receives that description and renders its own native controls. Because the instructions can stream, the useful parts appear while the rest of the itinerary is still arriving.
+
+When you move the slider, the new value travels back to the agent. It recalculates the plan and sends only what changed.
+
+This is not an AI-generated picture of an app.
+
+It is a working interface with data, memory, and actions.
+
+An emerging protocol called A2UI is trying to give agents and apps a common language for this exchange. The agent describes the interface. The client decides how approved components are actually rendered.
+
+That separation creates the useful tension at the heart of GenUI:
+
+The agent gets freedom to adapt. The product keeps control of its boundaries.
+
+Then a quality engineer opens the app and asks an uncomfortable question:
+
+“Which screen am I supposed to test?”
+
+Two people can request the same trip and receive different arrangements. A screenshot test is no longer enough. Teams must validate every allowed component, action, state change, permission, accessibility rule, and fallback. They also need logs that can replay the interface when something fails.
+
+A July 2026 benchmark exposed the danger. Across broader generative-UI tools, more than one quarter of the design intentions described by the AI were not actually implemented. For functional requirements, the gap reached thirty-four percent.
+
+The AI could give a convincing explanation for a feature that the interface never delivered.
+
+So the lesson is not, “Let the model design everything.”
+
+It is, “Give the model useful freedom inside boundaries we can inspect.”
+
+Now return to the travel app.
+
+Humans designed the slider, map, cards, booking rules, and safety checks.
+
+The AI did something narrower—but powerful. It selected the right pieces and turned your goal into a usable path.
+
+The screen was not a destination waiting inside a menu.
+
+The screen was the response.
+
+That may be the real shift after chatbots.
+
+The interface becomes the answer.
+
+If this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.
