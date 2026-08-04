@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8F2"/>
+      <stop offset="52%" stop-color="#F2D1C6"/>
+      <stop offset="100%" stop-color="#B9D8F0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="68%" cy="42%" r="58%">
+      <stop offset="0%" stop-color="#2D6CDF" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#D83B36" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="14" flood-color="#4E1414" flood-opacity="0.16"/>
+    </filter>
+    <style>
+      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #581515; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 190px; font-weight: 900; letter-spacing: 2px; fill: #581515; }
+      .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #581515; }
+      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #581515; }
+    </style>
+  </defs>
+  <rect width="3000" height="3000" fill="url(#bg)"/>
+  <circle cx="2350" cy="930" r="760" fill="url(#glow)"/>
+  <circle cx="370" cy="2460" r="540" fill="#FFFFFF" opacity="0.16"/>
+  <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#581515" stroke-width="12" opacity="0.34"/>
+  <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
+  <g transform="translate(1820 780)">
+    <path d="M455 0 C690 115 820 320 795 555 C770 820 575 1010 455 1085 C335 1010 140 820 115 555 C90 320 220 115 455 0 Z" fill="#FFF8F2" stroke="#D83B36" stroke-width="28"/>
+    <path d="M455 145 V945" stroke="#2D6CDF" stroke-width="28" stroke-linecap="round"/>
+    <path d="M325 205 C520 320 365 470 560 585 C365 700 520 830 325 920" fill="none" stroke="#581515" stroke-width="22" stroke-linecap="round"/>
+    <path d="M585 205 C390 320 545 470 350 585 C545 700 390 830 585 920" fill="none" stroke="#581515" stroke-width="22" stroke-linecap="round"/>
+    <path d="M225 585 H685" stroke="#D83B36" stroke-width="38" stroke-linecap="round"/>
+    <circle cx="455" cy="585" r="82" fill="#2D6CDF"/>
+    <path d="M412 585 H498" stroke="#FFF8F2" stroke-width="26" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#shadow)">
+    <text x="245" y="1160" class="title">SPIDER-MAN'S</text>
+    <text x="245" y="1388" class="title">INHIBITOR:</text>
+    <text x="245" y="1616" class="title">CAN SCIENTISTS</text>
+    <text x="245" y="1844" class="title">SWITCH OFF</text>
+    <text x="245" y="2072" class="title">A GENE?</text>
+  </g>
+  <path d="M260 2260 H1060" stroke="#D83B36" stroke-width="24" stroke-linecap="round"/>
+  <text x="260" y="2395" class="date">2026-08-04</text>
+  <text x="260" y="2635" class="small">GENE REGULATION</text>
+</svg>

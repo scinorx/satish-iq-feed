@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-03",
-  "title": "Today's object: Generative UI in simple terms",
+  "generatedAt": "2026-08-04",
+  "title": "Today's object: Gene regulation in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-08-03",
-    "status": "partial",
-    "scheduledFor": "2026-08-03T05:30:00-04:00",
-    "startedAt": "2026-08-03T09:40:03.444Z",
-    "finishedAt": "2026-08-03T17:52:52.510Z",
-    "currentStage": "completed",
+    "date": "2026-08-04",
+    "status": "running",
+    "scheduledFor": "2026-08-04T05:30:00-04:00",
+    "startedAt": "2026-08-04T09:25:00.916Z",
+    "finishedAt": null,
+    "currentStage": "publish",
     "topic": null,
-    "podcastTopic": "Generative UI: How AI Builds Interfaces in Real Time",
+    "podcastTopic": "Spider-Man's Inhibitor: Can Scientists Switch Off a Gene?",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "blocked",
-      "spotifyPrep": "skipped",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "Generative UI: How AI Builds Interfaces in Real Time"
+      "latestPodcastEpisode": "Spider-Man's Inhibitor: Can Scientists Switch Off a Gene?"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "Generative UI: How AI Builds Interfaces in Real Time",
-      "publishedAt": "2026-08-03T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-03-generative-ui-how-ai-builds-interfaces-in-real-time.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-03-generative-ui-how-ai-builds-interfaces-in-real-time.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-03-generative-ui-how-ai-builds-interfaces-in-real-time"
+      "title": "Spider-Man's Inhibitor: Can Scientists Switch Off a Gene?",
+      "publishedAt": "2026-08-04T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-04-spider-man-s-inhibitor-can-scientists-switch-off-a-gene.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-04-spider-man-s-inhibitor-can-scientists-switch-off-a-gene.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-04-spider-man-s-inhibitor-can-scientists-switch-off-a-gene"
     }
   }
 }

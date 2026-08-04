@@ -1,5 +1,100 @@
 [
   {
+    "guid": "in-simple-terms-2026-08-04-spider-man-s-inhibitor-can-scientists-switch-off-a-gene",
+    "title": "Spider-Man's Inhibitor: Can Scientists Switch Off a Gene?",
+    "subtitle": "Gene regulation in simple terms",
+    "description": "Imagine a Spider-Man story where one dangerous instruction keeps firing, and the hero needs an inhibitor to quiet it down.\n\nReal cells do not work like superhero serum, but the question is useful: can scientists switch off a gene?\n\nThe honest answer is: sometimes they can reduce or silence a gene's output, but it is less like deleting a page from DNA and more like interrupting the message before a protein gets made. In this episode, we explain gene expression, RNA interference, antisense oligonucleotides, CRISPR interference, and why delivery, specificity, dose, and safety make this hard.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://medlineplus.gov/genetics/understanding/howgeneswork/geneonoff/\n- https://www.genome.gov/genetics-glossary/Gene-Expression\n- https://www.genome.gov/about-genomics/educational-resources/fact-sheets/ribonucleic-acid-fact-sheet\n- https://www.ncbi.nlm.nih.gov/probe/docs/techrnai/\n- https://pmc.ncbi.nlm.nih.gov/articles/PMC5464239/\n- https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-amyotrophic-lateral-sclerosis-associated-mutation-sod1-gene",
+    "publishedAt": "2026-08-04T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-08-04",
+    "seasonNumber": 5,
+    "episodeNumber": 61,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-08-04T05:30:00-04:00",
+    "durationSeconds": 273,
+    "audioPath": "podcast/audio/2026-08-04-spider-man-s-inhibitor-can-scientists-switch-off-a-gene.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-04-spider-man-s-inhibitor-can-scientists-switch-off-a-gene.mp3",
+    "lengthBytes": 4372315,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine a Spider-Man story where a dangerous mutation is running inside the body like a command that will not stop.\n\nThe comic-book solution sounds simple:\n\nbuild an inhibitor.\n\nFind the bad instruction, block it, and let the person return to normal.\n\nReal biology is not that clean.\n\nBut the question is surprisingly useful.\n\nCan scientists switch off a gene?\n\nThe short answer is: sometimes, yes, but not like flipping a light switch in every cell forever.\n\nIt is better to think of genes as recipes inside a huge cookbook.\n\nDNA is the cookbook. A gene is one recipe. But the cell does not cook every recipe all day.\n\nWhen a cell needs a protein, it copies part of the DNA into a message called messenger RNA, or mRNA. The cell then reads that message and builds the protein.\n\nThat process is called gene expression.\n\nSo when people say a gene is turned on, they usually mean the cell is using that gene to make RNA or protein.\n\nWhen a gene is turned off, the recipe may still be in the cookbook, but the kitchen is not using it right now.\n\nYour body already does this constantly.\n\nA brain cell and a muscle cell have mostly the same DNA, but they use different genes. That is why they behave differently.\n\nScientists can try to interfere with this pipeline at several points.\n\nThe first strategy is to stop the message from being made.\n\nOne research tool is called CRISPR interference, or CRISPRi. It uses a disabled version of Cas9 that can be guided to a DNA location without cutting the DNA. Think of it as parking a blocker on the page so the copying machinery has trouble reading the recipe.\n\nThe second strategy is to destroy the message after it is made.\n\nThis is where RNA interference comes in. A small guide RNA can help a cellular complex recognize a matching mRNA. If the match is right, the message can be cut up or prevented from making protein.\n\nIn simple terms, the DNA recipe remains, but the photocopy gets shredded before the kitchen uses it.\n\nThe third strategy is antisense medicine.\n\nAn antisense oligonucleotide is a short designed piece of genetic material that can bind to a matching RNA. Depending on the design, it may cause that RNA to be broken down, change how it is spliced, or reduce how much protein gets made.\n\nThis is not only science fiction. Some approved medicines already use this broad idea for specific genetic diseases. For example, the FDA describes tofersen, sold as Qalsody, as an antisense oligonucleotide that targets SOD1 mRNA to reduce SOD1 protein production in a specific form of ALS.\n\nBut here is the catch.\n\nSwitching off a gene in a lab dish is one problem.\n\nDoing it safely in a human body is another.\n\nThe treatment has to reach the right tissue. It has to enter enough of the right cells. It has to avoid hitting the wrong messages. It has to last long enough, but not create new problems by lasting too long. The dose matters. The delivery method matters. The immune system matters.\n\nAnd many genes are not simply good or bad.\n\nA gene that is harmful in one context may be useful somewhere else. A protein that causes trouble when overproduced may still be necessary at a lower level.\n\nThat is why the light-switch metaphor can mislead us.\n\nA better metaphor is volume control plus routing.\n\nScientists may try to lower the volume of one gene in one tissue for one disease state.\n\nThey are not casually deleting a person into a different form.\n\nSo, can scientists switch off a gene?\n\nIn simple terms: they can sometimes silence, reduce, or regulate a gene's output.\n\nThey can block the copying step, destroy the RNA message, or interfere with how that message becomes protein.\n\nBut the hard part is not the idea of an inhibitor.\n\nThe hard part is making the inhibitor precise, deliverable, measurable, reversible when needed, and safe in the messy reality of the body.\n\nThat is the real science hiding behind the superhero question.\n\nGenes are not destiny switches.\n\nThey are instructions inside living systems, and modern biology is learning how to control when some instructions are read, ignored, softened, or blocked.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine a Spider-Man story where a dangerous mutation is running inside the body like a command that will not stop.\n\nThe comic-book solution sounds simple:\n\nbuild an inhibitor.\n\nFind the bad instruction, block it, and let the person return to normal.\n\nReal biology is not that clean.\n\nBut the question is surprisingly useful.\n\nCan scientists switch off a gene?\n\nThe short answer is: sometimes, yes, but not like flipping a light switch in every cell forever.\n\nIt is better to think of genes as recipes inside a huge cookbook.\n\nDNA is the cookbook. A gene is one recipe. But the cell does not cook every recipe all day.\n\nWhen a cell needs a protein, it copies part of the DNA into a message called messenger RNA, or mRNA. The cell then reads that message and builds the protein.\n\nThat process is called gene expression.\n\nSo when people say a gene is turned on, they usually mean the cell is using that gene to make RNA or protein.\n\nWhen a gene is turned off, the recipe may still be in the cookbook, but the kitchen is not using it right now.\n\nYour body already does this constantly.\n\nA brain cell and a muscle cell have mostly the same DNA, but they use different genes. That is why they behave differently.\n\nScientists can try to interfere with this pipeline at several points.\n\nThe first strategy is to stop the message from being made.\n\nOne research tool is called CRISPR interference, or CRISPRi. It uses a disabled version of Cas9 that can be guided to a DNA location without cutting the DNA. Think of it as parking a blocker on the page so the copying machinery has trouble reading the recipe.\n\nThe second strategy is to destroy the message after it is made.\n\nThis is where RNA interference comes in. A small guide RNA can help a cellular complex recognize a matching mRNA. If the match is right, the message can be cut up or prevented from making protein.\n\nIn simple terms, the DNA recipe remains, but the photocopy gets shredded before the kitchen uses it.\n\nThe third strategy is antisense medicine.\n\nAn antisense oligonucleotide is a short designed piece of genetic material that can bind to a matching RNA. Depending on the design, it may cause that RNA to be broken down, change how it is spliced, or reduce how much protein gets made.\n\nThis is not only science fiction. Some approved medicines already use this broad idea for specific genetic diseases. For example, the FDA describes tofersen, sold as Qalsody, as an antisense oligonucleotide that targets SOD1 mRNA to reduce SOD1 protein production in a specific form of ALS.\n\nBut here is the catch.\n\nSwitching off a gene in a lab dish is one problem.\n\nDoing it safely in a human body is another.\n\nThe treatment has to reach the right tissue. It has to enter enough of the right cells. It has to avoid hitting the wrong messages. It has to last long enough, but not create new problems by lasting too long. The dose matters. The delivery method matters. The immune system matters.\n\nAnd many genes are not simply good or bad.\n\nA gene that is harmful in one context may be useful somewhere else. A protein that causes trouble when overproduced may still be necessary at a lower level.\n\nThat is why the light-switch metaphor can mislead us.\n\nA better metaphor is volume control plus routing.\n\nScientists may try to lower the volume of one gene in one tissue for one disease state.\n\nThey are not casually deleting a person into a different form.\n\nSo, can scientists switch off a gene?\n\nIn simple terms: they can sometimes silence, reduce, or regulate a gene's output.\n\nThey can block the copying step, destroy the RNA message, or interfere with how that message becomes protein.\n\nBut the hard part is not the idea of an inhibitor.\n\nThe hard part is making the inhibitor precise, deliverable, measurable, reversible when needed, and safe in the messy reality of the body.\n\nThat is the real science hiding behind the superhero question.\n\nGenes are not destiny switches.\n\nThey are instructions inside living systems, and modern biology is learning how to control when some instructions are read, ignored, softened, or blocked.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-08-04-spider-man-s-inhibitor-can-scientists-switch-off-a-gene.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-04-spider-man-s-inhibitor-can-scientists-switch-off-a-gene.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "The useful idea is that biology gives us more than one control point. Scientists do not usually erase a gene. They can sometimes reduce its output by blocking transcription, destroying the RNA message, or changing how the message is read. The hard part is precision in a living body.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What does it usually mean when a gene is turned on?",
+          "options": [
+            "The cell is using that gene to make RNA or protein.",
+            "The DNA has moved to a new chromosome.",
+            "Every cell in the body is making the same protein."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Gene expression means the information in a gene is being used to produce RNA or protein."
+        },
+        {
+          "prompt": "What does RNA interference mainly target?",
+          "options": [
+            "The mRNA message after it is made.",
+            "The entire chromosome before birth.",
+            "The cell membrane around the nucleus."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "RNAi can guide cellular machinery to matching mRNA so the message is degraded or blocked."
+        },
+        {
+          "prompt": "How is CRISPRi different from cutting DNA?",
+          "options": [
+            "It uses a disabled Cas9 to repress transcription without cutting the DNA.",
+            "It permanently removes every copy of a chromosome.",
+            "It only works by changing blood type."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "CRISPR interference is a gene-regulation approach, not the same as cutting and editing DNA."
+        },
+        {
+          "prompt": "What is an antisense oligonucleotide designed to do?",
+          "options": [
+            "Bind a matching RNA message and change or reduce its effect.",
+            "Turn every gene in the genome on at once.",
+            "Replace all proteins with DNA."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "ASOs are short designed molecules that bind RNA and can alter splicing, stability, or protein production."
+        },
+        {
+          "prompt": "Why is gene silencing hard in real medicine?",
+          "options": [
+            "The inhibitor must reach the right cells, hit the right target, and stay safe.",
+            "Genes cannot be regulated in any living cell.",
+            "All genes do only one job in one tissue."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Delivery, specificity, dose, durability, off-target effects, and tissue context are central problems."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-08-04-spider-man-s-inhibitor-can-scientists-switch-off-a-gene.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-08-04-spider-man-s-inhibitor-can-scientists-switch-off-a-gene.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-08-04-spider-man-s-inhibitor-can-scientists-switch-off-a-gene.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-04-spider-man-s-inhibitor-can-scientists-switch-off-a-gene.jpg",
+    "topicProfile": {
+      "id": "gene-regulation",
+      "label": "Gene regulation",
+      "accent": "#D83B36"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-08-04-spider-man-s-inhibitor-can-scientists-switch-off-a-gene"
+  },
+  {
     "guid": "in-simple-terms-2026-08-03-generative-ui-how-ai-builds-interfaces-in-real-time",
     "title": "Generative UI: How AI Builds Interfaces in Real Time",
     "subtitle": "Generative UI in simple terms",
