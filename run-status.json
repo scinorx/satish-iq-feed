@@ -1,19 +1,19 @@
 {
   "version": 1,
   "date": "2026-08-04",
-  "status": "failed",
+  "status": "running",
   "scheduledFor": "2026-08-04T05:30:00-04:00",
-  "startedAt": "2026-08-04T09:25:00.916Z",
-  "finishedAt": "2026-08-04T09:31:43.995Z",
-  "currentStage": "completed",
+  "startedAt": "2026-08-04T09:40:01.150Z",
+  "finishedAt": null,
+  "currentStage": "publish",
   "topic": null,
   "podcastTopic": "Spider-Man's Inhibitor: Can Scientists Switch Off a Gene?",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "blocked",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
