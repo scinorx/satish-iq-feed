@@ -1,5 +1,100 @@
 [
   {
+    "guid": "in-simple-terms-2026-08-05-what-is-vehicle-to-everything-v2x-technology",
+    "title": "What Is Vehicle-to-Everything (V2X) Technology?",
+    "subtitle": "Mobility systems in simple terms",
+    "description": "A truck blocks your view as you approach an intersection. You cannot see the cyclist coming from the side—and the cyclist cannot see you. Imagine if your car could still warn you before either road user became visible.\n\nThis is Vehicle-to-Everything, or V2X: a system that lets equipped vehicles, roads, traffic lights, bicycles, phones, and networks exchange short safety messages. Through one near-collision, we discover how V2X extends awareness beyond a vehicle's sensors, why it is different from autonomous driving, and why it only works at scale when the road speaks a common and trusted language.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://unece.org/transport/events/88th-itc-side-event-technical-demonstration-potential-v2x-communication-vehicle\n- https://www.its.dot.gov/research-areas/V2X-Deployment/\n- https://its.dot.gov/about/contact-us/mailinglist/ITS-JPO-NOW/july-2026/\n- https://www.itskrs.its.dot.gov/v2x",
+    "publishedAt": "2026-08-05T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-08-05",
+    "seasonNumber": 5,
+    "episodeNumber": 62,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-08-05T05:30:00-04:00",
+    "durationSeconds": 276,
+    "audioPath": "podcast/audio/2026-08-05-what-is-vehicle-to-everything-v2x-technology.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-05-what-is-vehicle-to-everything-v2x-technology.mp3",
+    "lengthBytes": 4413275,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine you are driving toward an intersection.\n\nA delivery truck is parked near the corner, blocking your view to the right.\n\nAt the same moment, a cyclist is approaching from that hidden side.\n\nYou cannot see the cyclist.\n\nThe cyclist cannot see you.\n\nYour car's camera sees only the truck. Its radar cannot reliably warn you about something concealed behind that large metal wall.\n\nWouldn't it be useful if your dashboard could flash:\n\n“Cyclist approaching. Brake.”\n\nYou could stop. A second later, the cyclist might emerge from behind the truck and cross your path.\n\nThe car would not need to see through the truck.\n\nIt could receive a message from an equipped bicycle or roadside system.\n\nThat possibility is where Vehicle-to-Everything technology comes into play.\n\nIt is usually shortened to V2X.\n\nV2X is not available on every road, car, or bicycle today. It is an emerging connected-road system with selected demonstrations and deployments.\n\nThe important word is “everything.”\n\nAn equipped car could warn another car that it is braking hard.\n\nA traffic light could tell approaching vehicles that it is about to turn red.\n\nAn equipped bicycle could announce, “I am approaching this intersection,” even while hidden behind a truck.\n\nAnd a wider network could report an accident farther along the road.\n\nEngineers give these connections names such as vehicle-to-vehicle, vehicle-to-infrastructure, vehicle-to-pedestrian, and vehicle-to-network.\n\nBut you do not need to remember four more acronyms.\n\nTogether, they are V2X: the road sharing danger with whoever needs to know.\n\nYour car already has cameras, radar, and sometimes lidar. V2X adds shared awareness: the road can contribute what other participants know.\n\nHere is how it could work in our imagined intersection.\n\nAn equipped bicycle and car could repeatedly transmit small safety messages containing information such as position, speed, direction, and movement.\n\nNearby equipment receives those messages and compares the paths.\n\nThe vehicles do not need to exchange names, phone numbers, or a conversation. The useful question is simply:\n\n“Are these two paths about to meet?”\n\nIf the answer becomes dangerous, the system could warn the driver, alert the cyclist, or support an automatic safety response—depending on the equipment and application.\n\nSome V2X messages can travel directly between nearby devices using dedicated radio spectrum. That direct path matters because a safety warning should not depend entirely on reaching a distant cloud server and returning.\n\nOther information can travel through ordinary cellular networks when wider coverage and information from farther away are useful.\n\nThis is why V2X is not the same as self-driving.\n\nAutonomous-driving systems try to interpret the world using the vehicle's own sensors and software.\n\nV2X allows road users to cooperate by sharing timely pieces of the world with one another.\n\nOne is individual perception.\n\nThe other is shared awareness.\n\nIn February 2026, a United Nations demonstration showed this exact kind of hidden-danger scenario: a car and cyclist approaching an intersection while a truck blocked their view. US transportation programs also demonstrated direct and network V2X at real intersections during 2026.\n\nBut V2X has a difficult network problem.\n\nA connected car cannot receive a warning from a bicycle that has nothing capable of sending one. A traffic light cannot help if it is not connected. And messages are dangerous if devices cannot authenticate them, interpret them consistently, or deliver them at the right moment.\n\nThe system therefore needs common message formats, accurate location, low delay, security certificates, privacy protections, reliable roadside equipment, and alerts that help without overwhelming the driver.\n\nV2X becomes more useful as more of the road participates—but it must still fail safely when participants do not.\n\nNow return to the intersection.\n\nThe truck still blocks your view. Your camera still cannot see around a corner.\n\nBut an equipped bicycle could report its path.\n\nAn equipped car could report its path.\n\nV2X lets those paths meet as data before the two road users meet in the intersection.\n\nThat is the real promise of a connected road:\n\nnot a car that can see everything,\n\nbut a road where danger no longer has to be visible before it can be understood.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine you are driving toward an intersection.\n\nA delivery truck is parked near the corner, blocking your view to the right.\n\nAt the same moment, a cyclist is approaching from that hidden side.\n\nYou cannot see the cyclist.\n\nThe cyclist cannot see you.\n\nYour car's camera sees only the truck. Its radar cannot reliably warn you about something concealed behind that large metal wall.\n\nWouldn't it be useful if your dashboard could flash:\n\n“Cyclist approaching. Brake.”\n\nYou could stop. A second later, the cyclist might emerge from behind the truck and cross your path.\n\nThe car would not need to see through the truck.\n\nIt could receive a message from an equipped bicycle or roadside system.\n\nThat possibility is where Vehicle-to-Everything technology comes into play.\n\nIt is usually shortened to V2X.\n\nV2X is not available on every road, car, or bicycle today. It is an emerging connected-road system with selected demonstrations and deployments.\n\nThe important word is “everything.”\n\nAn equipped car could warn another car that it is braking hard.\n\nA traffic light could tell approaching vehicles that it is about to turn red.\n\nAn equipped bicycle could announce, “I am approaching this intersection,” even while hidden behind a truck.\n\nAnd a wider network could report an accident farther along the road.\n\nEngineers give these connections names such as vehicle-to-vehicle, vehicle-to-infrastructure, vehicle-to-pedestrian, and vehicle-to-network.\n\nBut you do not need to remember four more acronyms.\n\nTogether, they are V2X: the road sharing danger with whoever needs to know.\n\nYour car already has cameras, radar, and sometimes lidar. V2X adds shared awareness: the road can contribute what other participants know.\n\nHere is how it could work in our imagined intersection.\n\nAn equipped bicycle and car could repeatedly transmit small safety messages containing information such as position, speed, direction, and movement.\n\nNearby equipment receives those messages and compares the paths.\n\nThe vehicles do not need to exchange names, phone numbers, or a conversation. The useful question is simply:\n\n“Are these two paths about to meet?”\n\nIf the answer becomes dangerous, the system could warn the driver, alert the cyclist, or support an automatic safety response—depending on the equipment and application.\n\nSome V2X messages can travel directly between nearby devices using dedicated radio spectrum. That direct path matters because a safety warning should not depend entirely on reaching a distant cloud server and returning.\n\nOther information can travel through ordinary cellular networks when wider coverage and information from farther away are useful.\n\nThis is why V2X is not the same as self-driving.\n\nAutonomous-driving systems try to interpret the world using the vehicle's own sensors and software.\n\nV2X allows road users to cooperate by sharing timely pieces of the world with one another.\n\nOne is individual perception.\n\nThe other is shared awareness.\n\nIn February 2026, a United Nations demonstration showed this exact kind of hidden-danger scenario: a car and cyclist approaching an intersection while a truck blocked their view. US transportation programs also demonstrated direct and network V2X at real intersections during 2026.\n\nBut V2X has a difficult network problem.\n\nA connected car cannot receive a warning from a bicycle that has nothing capable of sending one. A traffic light cannot help if it is not connected. And messages are dangerous if devices cannot authenticate them, interpret them consistently, or deliver them at the right moment.\n\nThe system therefore needs common message formats, accurate location, low delay, security certificates, privacy protections, reliable roadside equipment, and alerts that help without overwhelming the driver.\n\nV2X becomes more useful as more of the road participates—but it must still fail safely when participants do not.\n\nNow return to the intersection.\n\nThe truck still blocks your view. Your camera still cannot see around a corner.\n\nBut an equipped bicycle could report its path.\n\nAn equipped car could report its path.\n\nV2X lets those paths meet as data before the two road users meet in the intersection.\n\nThat is the real promise of a connected road:\n\nnot a car that can see everything,\n\nbut a road where danger no longer has to be visible before it can be understood.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-08-05-what-is-vehicle-to-everything-v2x-technology.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-05-what-is-vehicle-to-everything-v2x-technology.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "V2X matters because one road user's knowledge can become another's warning. Cameras and radar remain essential, but obstacles limit their view. V2X can extend awareness beyond those limits—if vehicles, roads, and users communicate securely and every system still fails safely when no message arrives.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What does V2X add to a vehicle's cameras and radar?",
+          "options": [
+            "It can provide cooperative awareness based on messages from equipped road users, infrastructure, and networks.",
+            "It allows a camera to see physically through every object.",
+            "It replaces the need for brakes and local sensors."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "V2X shares information that may reveal a hazard before the vehicle's own sensors have a clear view."
+        },
+        {
+          "prompt": "What is the difference between V2V and V2I?",
+          "options": [
+            "V2V connects equipped vehicles with one another; V2I connects vehicles with road infrastructure.",
+            "V2V is for video, while V2I is for internet browsing.",
+            "V2V works only in cities, while V2I works only on highways."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The final letter identifies the other participant in the communication."
+        },
+        {
+          "prompt": "Why can direct V2X communication be useful for immediate safety warnings?",
+          "options": [
+            "Nearby devices can exchange messages without relying entirely on a round trip through a distant cloud service.",
+            "Direct communication guarantees that every nearby person owns compatible equipment.",
+            "It allows vehicles to transmit without security or standards."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "A shorter communication path can support time-sensitive local awareness, but compatibility and security remain necessary."
+        },
+        {
+          "prompt": "Is V2X the same as autonomous driving?",
+          "options": [
+            "No. V2X shares information among equipped participants; autonomous-driving systems perceive and control a vehicle using their own sensors and software.",
+            "Yes. Every vehicle using V2X drives itself.",
+            "Yes. Both terms mean remote control by a cellular tower."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "V2X can support a human driver or an automated system without being an autonomous-driving system itself."
+        },
+        {
+          "prompt": "Why does interoperability matter for V2X?",
+          "options": [
+            "Vehicles and infrastructure from different organizations must interpret compatible safety messages reliably.",
+            "It makes every vehicle use the same engine and body design.",
+            "It prevents a vehicle from using cameras or radar."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "A warning network fails if participants cannot understand or trust one another's messages."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-08-05-what-is-vehicle-to-everything-v2x-technology.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-08-05-what-is-vehicle-to-everything-v2x-technology.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-08-05-what-is-vehicle-to-everything-v2x-technology.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-05-what-is-vehicle-to-everything-v2x-technology.jpg",
+    "topicProfile": {
+      "id": "mobility",
+      "label": "Mobility systems",
+      "accent": "#FF7A1A"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-08-05-what-is-vehicle-to-everything-v2x-technology"
+  },
+  {
     "guid": "in-simple-terms-2026-08-04-spider-man-s-inhibitor-can-scientists-switch-off-a-gene",
     "title": "Spider-Man's Inhibitor: Can Scientists Switch Off a Gene?",
     "subtitle": "Gene regulation in simple terms",

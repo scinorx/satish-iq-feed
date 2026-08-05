@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-08-04",
+  "generatedAt": "2026-08-05",
   "readFirst": "05-Outputs/Daily/MORNING_INTELLIGENCE_BRIEF.md",
   "morningBriefing": {
     "title": "Satish IQ Tech Rabbit Hole",
-    "summary": "The useful idea is that biology gives us more than one control point. Scientists do not usually erase a gene. They can sometimes reduce its output by blocking transcription, destroying the RNA message, or changing how the message is read. The hard part is precision in a living body.",
+    "summary": "V2X matters because one road user's knowledge can become another's warning. Cameras and radar remain essential, but obstacles limit their view. V2X can extend awareness beyond those limits—if vehicles, roads, and users communicate securely and every system still fails safely when no message arrives.",
     "topPriorities": [
-      "gene expression is closer to a dimmer than a simple switch",
-      "RNA is the controllable message layer between DNA and protein",
-      "RNAi and ASOs show how sequence matching can lower gene output",
-      "CRISPRi separates gene regulation from DNA cutting",
-      "delivery and safety are the real product constraints"
+      "the product experience hides a real operating system",
+      "speed depends on upstream state, not only final execution",
+      "capacity control protects trust",
+      "event feedback corrects the original promise",
+      "the pattern generalizes to other real-time systems"
     ],
     "biggestOpportunity": "Build Satish IQ Technical Lab: read-only tools for topic extraction, scoring, and daily rabbit-hole generation.",
     "biggestRisk": "Letting agent discussions stay abstract instead of explaining the runtime, tools, permissions, and failure modes.",
     "fastestWin": "Study TECH_RABBIT_HOLE.md first, then listen to AUDIO_SCRIPT.md.",
     "ignoreToday": [
-      "miracle cure framing",
-      "gene-editing panic without mechanism",
-      "treating all genes as single-purpose switches",
-      "skipping dose, delivery, and safety"
+      "surface-level feature framing",
+      "speed claims without capacity math",
+      "ignoring failure recovery",
+      "treating physical state as if it were clean database state"
     ]
   },
   "dailyPlan": null,
@@ -27,34 +27,34 @@
       "id": "tech-rabbit-hole",
       "title": "Tech Rabbit Hole",
       "label": "Research",
-      "summary": "Today's object: Gene regulation in simple terms",
-      "body": "# Tech Rabbit Hole\n\nDate: 2026-08-04\n\nToday's object: Gene regulation in simple terms\n\nRelease context: prebuild for Daily Tech Brief S5E61 at 05:30 America/New_York.\n\n## 1. Today's Tech Object\n\nThe useful idea is that biology gives us more than one control point. Scientists do not usually erase a gene. They can sometimes reduce its output by blocking transcription, destroying the RNA message, or changing how the message is read. The hard part is precision in a living body.\n\n## 2. Why It Is Interesting\n\nThis turns a superhero-style inhibitor idea into a real systems model: DNA stores the recipe, RNA carries the working message, and proteins are the output the cell actually uses.\n\n## 3. How It Works Under The Hood\n\n1. Cells naturally regulate which genes are expressed in each tissue and condition.\n2. A gene's output usually flows through DNA, RNA, and protein.\n3. RNAi can route matching mRNA toward degradation or translation blocking.\n4. Antisense oligonucleotides can bind RNA to reduce, redirect, or alter output.\n5. CRISPRi can repress transcription without cutting DNA.\n6. The hard engineering problems are delivery, specificity, dose, safety, and measurement.\n\n## 4. Everyday Model\n\nDNA is the cookbook. RNA is the photocopy of one recipe. Gene-silencing tools often work by blocking the page copier or shredding the photocopy before the kitchen makes the protein.\n\n## 5. The Catch\n\nThe light-switch metaphor is too simple. Real gene control is more like tissue-specific volume control with delivery constraints and safety checks.\n\n## 6. What To Watch Next\n\n- RNA medicines that target messages instead of replacing genes\n- CRISPRi and CRISPRa as gene regulation tools\n- delivery systems that get molecular tools into the right tissue\n\n## 7. What To Ignore\n\n- claims that any gene can be safely turned off everywhere\n- superhero-serum framing without delivery and safety constraints\n- confusing gene regulation with permanent genome editing\n\n## 8. Useful Learning Direction\n\nMap the control points: DNA transcription, mRNA stability, mRNA splicing, translation, protein stability, and cell/tissue delivery.\n\n## Source Links\n\n- https://medlineplus.gov/genetics/understanding/howgeneswork/geneonoff/\n- https://www.genome.gov/genetics-glossary/Gene-Expression\n- https://www.genome.gov/about-genomics/educational-resources/fact-sheets/ribonucleic-acid-fact-sheet\n- https://www.ncbi.nlm.nih.gov/probe/docs/techrnai/\n- https://pmc.ncbi.nlm.nih.gov/articles/PMC5464239/\n- https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-amyotrophic-lateral-sclerosis-associated-mutation-sod1-gene\n",
+      "summary": "Today's object: Mobility systems in simple terms",
+      "body": "# Tech Rabbit Hole\nDate: 2026-08-05\nToday's object: Mobility systems in simple terms\nRelease context: prebuilt Daily Tech Brief S5E62 at 05:30 America/New_York.\n## 1. Today's Tech Object\nV2X matters because one road user's knowledge can become another's warning. Cameras and radar remain essential, but obstacles limit their view. V2X can extend awareness beyond those limits—if vehicles, roads, and users communicate securely and every system still fails safely when no message arrives.\n## 2. Why It Is Interesting\nThis topic turns a familiar product experience into a concrete technical system that builders can reason about.\n## 3. How It Works Under The Hood\n1. Imagine you are driving toward an intersection.\n2. A delivery truck is parked near the corner, blocking your view to the right.\n3. At the same moment, a cyclist is approaching from that hidden side.\n4. Your car's camera sees only the truck. Its radar cannot reliably warn you about something concealed behind that large metal wall.\n5. Wouldn't it be useful if your dashboard could flash:\n6. You could stop. A second later, the cyclist might emerge from behind the truck and cross your path.\n## 4. Everyday Model\nHello, and welcome to In Simple Terms with Satish.\n## 5. The Catch\nThe product promise only works when the underlying system keeps its timing, state, capacity, and feedback loops honest.\n## 6. What To Watch Next\n- how the system makes promises before execution is complete\n- how real-world state changes affect software guarantees\n- where the architecture needs admission control, scheduling, and observability\n## 7. What To Ignore\n- simple feature descriptions without the system model\n- claims that skip capacity, failure modes, and feedback loops\n## 8. Useful Learning Direction\nMap the topic as inputs, state, decision logic, action, feedback, and failure handling.\n## Source Links\n\n- https://unece.org/transport/events/88th-itc-side-event-technical-demonstration-potential-v2x-communication-vehicle\n- https://www.its.dot.gov/research-areas/V2X-Deployment/\n- https://its.dot.gov/about/contact-us/mailinglist/ITS-JPO-NOW/july-2026/\n- https://www.itskrs.its.dot.gov/v2x\n",
       "items": [
-        "Cells naturally regulate which genes are expressed in each tissue and condition.",
-        "A gene's output usually flows through DNA, RNA, and protein.",
-        "RNAi can route matching mRNA toward degradation or translation blocking.",
-        "Antisense oligonucleotides can bind RNA to reduce, redirect, or alter output.",
-        "CRISPRi can repress transcription without cutting DNA.",
-        "The hard engineering problems are delivery, specificity, dose, safety, and measurement.",
-        "RNA medicines that target messages instead of replacing genes",
-        "CRISPRi and CRISPRa as gene regulation tools"
+        "Imagine you are driving toward an intersection.",
+        "A delivery truck is parked near the corner, blocking your view to the right.",
+        "At the same moment, a cyclist is approaching from that hidden side.",
+        "Your car's camera sees only the truck. Its radar cannot reliably warn you about something concealed behind that large metal wall.",
+        "Wouldn't it be useful if your dashboard could flash:",
+        "You could stop. A second later, the cyclist might emerge from behind the truck and cross your path.",
+        "how the system makes promises before execution is complete",
+        "how real-world state changes affect software guarantees"
       ]
     },
     {
       "id": "morning-intelligence",
       "title": "Morning Intelligence Brief",
       "label": "Research",
-      "summary": "The useful idea is that biology gives us more than one control point. Scientists do not usually erase a gene. They can sometimes reduce its output by blocking transcription, destroying the RNA message, or changing how the message is read. The hard part is precision in a living body.",
-      "body": "# Morning Intelligence Brief\n\nDate: 2026-08-04\n\nMode: Daily Tech Brief\n\n## 1. Today's Tech Spark\n\nThe useful idea is that biology gives us more than one control point. Scientists do not usually erase a gene. They can sometimes reduce its output by blocking transcription, destroying the RNA message, or changing how the message is read. The hard part is precision in a living body.\n\n## 2. Top Signals\n\n- gene expression is closer to a dimmer than a simple switch\n- RNA is the controllable message layer between DNA and protein\n- RNAi and ASOs show how sequence matching can lower gene output\n- CRISPRi separates gene regulation from DNA cutting\n- delivery and safety are the real product constraints\n\n## 8. Things Worth Learning\n\n- transcription\n- mRNA degradation\n- antisense oligonucleotides\n- CRISPR interference\n- off-target effects\n\n## 9. Contrarian Thought Of The Day\n\nThe hardest part of turning down a gene is not designing the target. It is getting the right amount of control in the right cells without breaking something else.\n\n## 10. What Is Noise\n\n- miracle cure framing\n- gene-editing panic without mechanism\n- treating all genes as single-purpose switches\n- skipping dose, delivery, and safety\n",
+      "summary": "V2X matters because one road user's knowledge can become another's warning. Cameras and radar remain essential, but obstacles limit their view. V2X can extend awareness beyond those limits—if vehicles, roads, and users communicate securely and every system still fails safely when no message arrives.",
+      "body": "# Morning Intelligence Brief\n\nDate: 2026-08-05\n\nMode: Daily Tech Brief\n\n## 1. Today's Tech Spark\n\nV2X matters because one road user's knowledge can become another's warning. Cameras and radar remain essential, but obstacles limit their view. V2X can extend awareness beyond those limits—if vehicles, roads, and users communicate securely and every system still fails safely when no message arrives.\n\n## 2. Top Signals\n\n- the product experience hides a real operating system\n- speed depends on upstream state, not only final execution\n- capacity control protects trust\n- event feedback corrects the original promise\n- the pattern generalizes to other real-time systems\n\n## 8. Things Worth Learning\n\n- state freshness\n- admission control\n- scheduling under constraints\n- observability loops\n- user-facing promises\n\n## 9. Contrarian Thought Of The Day\n\nThe most important engineering often happens before the user request arrives.\n\n## 10. What Is Noise\n\n- surface-level feature framing\n- speed claims without capacity math\n- ignoring failure recovery\n- treating physical state as if it were clean database state\n",
       "items": [
-        "gene expression is closer to a dimmer than a simple switch",
-        "RNA is the controllable message layer between DNA and protein",
-        "RNAi and ASOs show how sequence matching can lower gene output",
-        "CRISPRi separates gene regulation from DNA cutting",
-        "delivery and safety are the real product constraints",
-        "transcription",
-        "mRNA degradation",
-        "antisense oligonucleotides"
+        "the product experience hides a real operating system",
+        "speed depends on upstream state, not only final execution",
+        "capacity control protects trust",
+        "event feedback corrects the original promise",
+        "the pattern generalizes to other real-time systems",
+        "state freshness",
+        "admission control",
+        "scheduling under constraints"
       ]
     },
     {
@@ -62,51 +62,51 @@
       "title": "Audio Script",
       "label": "Research",
       "summary": "Hello, and welcome to In Simple Terms with Satish.",
-      "body": "# Daily Briefing Audio Script\n\nDate: 2026-08-04\n\nMode: Public Daily Tech Brief\n\nHello, and welcome to In Simple Terms with Satish.\n\nImagine a Spider-Man story where a dangerous mutation is running inside the body like a command that will not stop.\n\nThe comic-book solution sounds simple:\n\nbuild an inhibitor.\n\nFind the bad instruction, block it, and let the person return to normal.\n\nReal biology is not that clean.\n\nBut the question is surprisingly useful.\n\nCan scientists switch off a gene?\n\nThe short answer is: sometimes, yes, but not like flipping a light switch in every cell forever.\n\nIt is better to think of genes as recipes inside a huge cookbook.\n\nDNA is the cookbook. A gene is one recipe. But the cell does not cook every recipe all day.\n\nWhen a cell needs a protein, it copies part of the DNA into a message called messenger RNA, or mRNA. The cell then reads that message and builds the protein.\n\nThat process is called gene expression.\n\nSo when people say a gene is turned on, they usually mean the cell is using that gene to make RNA or protein.\n\nWhen a gene is turned off, the recipe may still be in the cookbook, but the kitchen is not using it right now.\n\nYour body already does this constantly.\n\nA brain cell and a muscle cell have mostly the same DNA, but they use different genes. That is why they behave differently.\n\nScientists can try to interfere with this pipeline at several points.\n\nThe first strategy is to stop the message from being made.\n\nOne research tool is called CRISPR interference, or CRISPRi. It uses a disabled version of Cas9 that can be guided to a DNA location without cutting the DNA. Think of it as parking a blocker on the page so the copying machinery has trouble reading the recipe.\n\nThe second strategy is to destroy the message after it is made.\n\nThis is where RNA interference comes in. A small guide RNA can help a cellular complex recognize a matching mRNA. If the match is right, the message can be cut up or prevented from making protein.\n\nIn simple terms, the DNA recipe remains, but the photocopy gets shredded before the kitchen uses it.\n\nThe third strategy is antisense medicine.\n\nAn antisense oligonucleotide is a short designed piece of genetic material that can bind to a matching RNA. Depending on the design, it may cause that RNA to be broken down, change how it is spliced, or reduce how much protein gets made.\n\nThis is not only science fiction. Some approved medicines already use this broad idea for specific genetic diseases. For example, the FDA describes tofersen, sold as Qalsody, as an antisense oligonucleotide that targets SOD1 mRNA to reduce SOD1 protein production in a specific form of ALS.\n\nBut here is the catch.\n\nSwitching off a gene in a lab dish is one problem.\n\nDoing it safely in a human body is another.\n\nThe treatment has to reach the right tissue. It has to enter enough of the right cells. It has to avoid hitting the wrong messages. It has to last long enough, but not create new problems by lasting too long. The dose matters. The delivery method matters. The immune system matters.\n\nAnd many genes are not simply good or bad.\n\nA gene that is harmful in one context may be useful somewhere else. A protein that causes trouble when overproduced may still be necessary at a lower level.\n\nThat is why the light-switch metaphor can mislead us.\n\nA better metaphor is volume control plus routing.\n\nScientists may try to lower the volume of one gene in one tissue for one disease state.\n\nThey are not casually deleting a person into a different form.\n\nSo, can scientists switch off a gene?\n\nIn simple terms: they can sometimes silence, reduce, or regulate a gene's output.\n\nThey can block the copying step, destroy the RNA message, or interfere with how that message becomes protein.\n\nBut the hard part is not the idea of an inhibitor.\n\nThe hard part is making the inhibitor precise, deliverable, measurable, reversible when needed, and safe in the messy reality of the body.\n\nThat is the real science hiding behind the superhero question.\n\nGenes are not destiny switches.\n\nThey are instructions inside living systems, and modern biology is learning how to control when some instructions are read, ignored, softened, or blocked.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.\n",
+      "body": "# Daily Briefing Audio Script\n\nDate: 2026-08-05\n\nMode: Public Daily Tech Brief\n\nHello, and welcome to In Simple Terms with Satish.\n\nImagine you are driving toward an intersection.\n\nA delivery truck is parked near the corner, blocking your view to the right.\n\nAt the same moment, a cyclist is approaching from that hidden side.\n\nYou cannot see the cyclist.\n\nThe cyclist cannot see you.\n\nYour car's camera sees only the truck. Its radar cannot reliably warn you about something concealed behind that large metal wall.\n\nWouldn't it be useful if your dashboard could flash:\n\n“Cyclist approaching. Brake.”\n\nYou could stop. A second later, the cyclist might emerge from behind the truck and cross your path.\n\nThe car would not need to see through the truck.\n\nIt could receive a message from an equipped bicycle or roadside system.\n\nThat possibility is where Vehicle-to-Everything technology comes into play.\n\nIt is usually shortened to V2X.\n\nV2X is not available on every road, car, or bicycle today. It is an emerging connected-road system with selected demonstrations and deployments.\n\nThe important word is “everything.”\n\nAn equipped car could warn another car that it is braking hard.\n\nA traffic light could tell approaching vehicles that it is about to turn red.\n\nAn equipped bicycle could announce, “I am approaching this intersection,” even while hidden behind a truck.\n\nAnd a wider network could report an accident farther along the road.\n\nEngineers give these connections names such as vehicle-to-vehicle, vehicle-to-infrastructure, vehicle-to-pedestrian, and vehicle-to-network.\n\nBut you do not need to remember four more acronyms.\n\nTogether, they are V2X: the road sharing danger with whoever needs to know.\n\nYour car already has cameras, radar, and sometimes lidar. V2X adds shared awareness: the road can contribute what other participants know.\n\nHere is how it could work in our imagined intersection.\n\nAn equipped bicycle and car could repeatedly transmit small safety messages containing information such as position, speed, direction, and movement.\n\nNearby equipment receives those messages and compares the paths.\n\nThe vehicles do not need to exchange names, phone numbers, or a conversation. The useful question is simply:\n\n“Are these two paths about to meet?”\n\nIf the answer becomes dangerous, the system could warn the driver, alert the cyclist, or support an automatic safety response—depending on the equipment and application.\n\nSome V2X messages can travel directly between nearby devices using dedicated radio spectrum. That direct path matters because a safety warning should not depend entirely on reaching a distant cloud server and returning.\n\nOther information can travel through ordinary cellular networks when wider coverage and information from farther away are useful.\n\nThis is why V2X is not the same as self-driving.\n\nAutonomous-driving systems try to interpret the world using the vehicle's own sensors and software.\n\nV2X allows road users to cooperate by sharing timely pieces of the world with one another.\n\nOne is individual perception.\n\nThe other is shared awareness.\n\nIn February 2026, a United Nations demonstration showed this exact kind of hidden-danger scenario: a car and cyclist approaching an intersection while a truck blocked their view. US transportation programs also demonstrated direct and network V2X at real intersections during 2026.\n\nBut V2X has a difficult network problem.\n\nA connected car cannot receive a warning from a bicycle that has nothing capable of sending one. A traffic light cannot help if it is not connected. And messages are dangerous if devices cannot authenticate them, interpret them consistently, or deliver them at the right moment.\n\nThe system therefore needs common message formats, accurate location, low delay, security certificates, privacy protections, reliable roadside equipment, and alerts that help without overwhelming the driver.\n\nV2X becomes more useful as more of the road participates—but it must still fail safely when participants do not.\n\nNow return to the intersection.\n\nThe truck still blocks your view. Your camera still cannot see around a corner.\n\nBut an equipped bicycle could report its path.\n\nAn equipped car could report its path.\n\nV2X lets those paths meet as data before the two road users meet in the intersection.\n\nThat is the real promise of a connected road:\n\nnot a car that can see everything,\n\nbut a road where danger no longer has to be visible before it can be understood.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.\n",
       "items": []
     },
     {
       "id": "content-opportunities",
       "title": "Content Opportunities",
       "label": "Brand",
-      "summary": "Spider-Man's Inhibitor: Can Scientists Switch Off a Gene?",
-      "body": "# Content Opportunities\n\nDate: 2026-08-04\n\nMode: In Simple Terms with Satish\n\n## Recommended Title\n\nSpider-Man's Inhibitor: Can Scientists Switch Off a Gene?\n\n## Episode Description\n\nImagine a Spider-Man story where one dangerous instruction keeps firing, and the hero needs an inhibitor to quiet it down.\n\n## Short Hook\n\nCan scientists switch off a gene? Sometimes they can reduce its output, but the real system is DNA, RNA, proteins, delivery, dose, specificity, and safety.\n\n## Social Post\n\nSpider-Man's Inhibitor: Can Scientists Switch Off a Gene?\n\nThe superhero version is one inhibitor that stops one dangerous instruction. The real biology version is more interesting: scientists can sometimes block transcription, degrade RNA messages, or alter how RNA becomes protein. The hard part is precision inside a living body.\n",
+      "summary": "What Is Vehicle-to-Everything (V2X) Technology?",
+      "body": "# Content Opportunities\n\nDate: 2026-08-05\n\nMode: In Simple Terms with Satish\n\n## Recommended Title\n\nWhat Is Vehicle-to-Everything (V2X) Technology?\n\n## Episode Description\n\nA truck blocks your view as you approach an intersection. You cannot see the cyclist coming from the side—and the cyclist cannot see you. Imagine if your car could still warn you before either road user became visible.\n\n## Short Hook\n\nV2X matters because one road user's knowledge can become another's warning. Cameras and radar remain essential, but obstacles limit their view. V2X can extend awareness beyond those limits—if vehicles, roads, and users communicate securely and every system still fails safely when no message arrives.\n\n## Social Post\n\nWhat Is Vehicle-to-Everything (V2X) Technology?\n\nHello, and welcome to In Simple Terms with Satish.\n",
       "items": []
     },
     {
       "id": "product-opportunities",
       "title": "Product Opportunities",
       "label": "Product",
-      "summary": "Concept: a small visual module that shows DNA -> mRNA -> protein and the intervention points for RNAi, ASOs, and CRISPRi.",
-      "body": "# Product Opportunities\n\nDate: 2026-08-04\n\nMode: technical learning infrastructure only\n\n## 1. Gene Expression Flow Diagram\n\nConcept: a small visual module that shows DNA -> mRNA -> protein and the intervention points for RNAi, ASOs, and CRISPRi.\n\n## 2. Delivery Constraint Map\n\nConcept: show how a molecular tool moves from dose to tissue to cell to target, with failure modes at each layer.\n\n## 3. Quick Check Lab\n\n1. What does it usually mean when a gene is turned on?\n2. What does RNA interference mainly target?\n3. How is CRISPRi different from cutting DNA?\n4. What is an antisense oligonucleotide designed to do?\n5. Why is gene silencing hard in real medicine?\n",
+      "summary": "Concept: A small visual learning module for What Is Vehicle-to-Everything (V2X) Technology?.",
+      "body": "# Product Opportunities\n\nDate: 2026-08-05\n\nMode: technical learning infrastructure only\n\n## 1. System Diagram\n\nConcept: A small visual learning module for What Is Vehicle-to-Everything (V2X) Technology?.\n\n## 2. Failure Mode Map\n\nConcept: Show where assumptions, state, timing, and feedback can break.\n\n## 3. Quick Check Lab\n\n1. What does V2X add to a vehicle's cameras and radar?\n2. What is the difference between V2V and V2I?\n3. Why can direct V2X communication be useful for immediate safety warnings?\n4. Is V2X the same as autonomous driving?\n5. Why does interoperability matter for V2X?\n",
       "items": [
-        "What does it usually mean when a gene is turned on?",
-        "What does RNA interference mainly target?",
-        "How is CRISPRi different from cutting DNA?",
-        "What is an antisense oligonucleotide designed to do?",
-        "Why is gene silencing hard in real medicine?"
+        "What does V2X add to a vehicle's cameras and radar?",
+        "What is the difference between V2V and V2I?",
+        "Why can direct V2X communication be useful for immediate safety warnings?",
+        "Is V2X the same as autonomous driving?",
+        "Why does interoperability matter for V2X?"
       ]
     },
     {
       "id": "things-worth-learning",
       "title": "Things Worth Learning",
       "label": "Learning",
-      "summary": "- transcription",
-      "body": "- transcription\n- mRNA degradation\n- antisense oligonucleotides\n- CRISPR interference\n- off-target effects",
+      "summary": "- state freshness",
+      "body": "- state freshness\n- admission control\n- scheduling under constraints\n- observability loops\n- user-facing promises",
       "items": [
-        "transcription",
-        "mRNA degradation",
-        "antisense oligonucleotides",
-        "CRISPR interference",
-        "off-target effects"
+        "state freshness",
+        "admission control",
+        "scheduling under constraints",
+        "observability loops",
+        "user-facing promises"
       ]
     },
     {
       "id": "contrarian-idea",
       "title": "Contrarian Thought",
       "label": "Research",
-      "summary": "The hardest part of turning down a gene is not designing the target. It is getting the right amount of control in the right cells without breaking something else.",
-      "body": "The hardest part of turning down a gene is not designing the target. It is getting the right amount of control in the right cells without breaking something else.",
+      "summary": "The most important engineering often happens before the user request arrives.",
+      "body": "The most important engineering often happens before the user request arrives.",
       "items": []
     },
     {

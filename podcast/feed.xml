@@ -22,7 +22,48 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Tue, 04 Aug 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>What Is Vehicle-to-Everything (V2X) Technology?</title>
+      <description>A truck blocks your view as you approach an intersection. You cannot see the cyclist coming from the side—and the cyclist cannot see you. Imagine if your car could still warn you before either road user became visible.
+
+This is Vehicle-to-Everything, or V2X: a system that lets equipped vehicles, roads, traffic lights, bicycles, phones, and networks exchange short safety messages. Through one near-collision, we discover how V2X extends awareness beyond a vehicle&apos;s sensors, why it is different from autonomous driving, and why it only works at scale when the road speaks a common and trusted language.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://unece.org/transport/events/88th-itc-side-event-technical-demonstration-potential-v2x-communication-vehicle
+- https://www.its.dot.gov/research-areas/V2X-Deployment/
+- https://its.dot.gov/about/contact-us/mailinglist/ITS-JPO-NOW/july-2026/
+- https://www.itskrs.its.dot.gov/v2x</description>
+      <itunes:subtitle>Mobility systems in simple terms</itunes:subtitle>
+      <itunes:summary>A truck blocks your view as you approach an intersection. You cannot see the cyclist coming from the side—and the cyclist cannot see you. Imagine if your car could still warn you before either road user became visible.
+
+This is Vehicle-to-Everything, or V2X: a system that lets equipped vehicles, roads, traffic lights, bicycles, phones, and networks exchange short safety messages. Through one near-collision, we discover how V2X extends awareness beyond a vehicle&apos;s sensors, why it is different from autonomous driving, and why it only works at scale when the road speaks a common and trusted language.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://unece.org/transport/events/88th-itc-side-event-technical-demonstration-potential-v2x-communication-vehicle
+- https://www.its.dot.gov/research-areas/V2X-Deployment/
+- https://its.dot.gov/about/contact-us/mailinglist/ITS-JPO-NOW/july-2026/
+- https://www.itskrs.its.dot.gov/v2x</itunes:summary>
+      <itunes:duration>00:04:36</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>62</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-05-what-is-vehicle-to-everything-v2x-technology.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-05-what-is-vehicle-to-everything-v2x-technology.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-05-what-is-vehicle-to-everything-v2x-technology.mp3" length="4413275" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-08-05-what-is-vehicle-to-everything-v2x-technology</guid>
+      <pubDate>Wed, 05 Aug 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>Spider-Man&apos;s Inhibitor: Can Scientists Switch Off a Gene?</title>

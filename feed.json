@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-04",
-  "title": "Today's object: Gene regulation in simple terms",
+  "generatedAt": "2026-08-05",
+  "title": "Today's object: Mobility systems in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-08-04",
-    "status": "failed",
-    "scheduledFor": "2026-08-04T05:30:00-04:00",
-    "startedAt": "2026-08-04T09:40:01.150Z",
-    "finishedAt": "2026-08-04T09:41:46.257Z",
-    "currentStage": "completed",
+    "date": "2026-08-05",
+    "status": "running",
+    "scheduledFor": "2026-08-05T05:30:00-04:00",
+    "startedAt": "2026-08-05T09:25:02.766Z",
+    "finishedAt": null,
+    "currentStage": "recovery",
     "topic": null,
-    "podcastTopic": "Spider-Man's Inhibitor: Can Scientists Switch Off a Gene?",
+    "podcastTopic": "What Is Vehicle-to-Everything (V2X) Technology?",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
+      "publicFeedPublish": "blocked",
       "privatePush": "blocked",
       "spotifyPrep": "skipped",
       "spotifyDraft": "skipped"
@@ -25,17 +25,17 @@
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "Spider-Man's Inhibitor: Can Scientists Switch Off a Gene?"
+      "latestPodcastEpisode": "What Is Vehicle-to-Everything (V2X) Technology?"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "Spider-Man's Inhibitor: Can Scientists Switch Off a Gene?",
-      "publishedAt": "2026-08-04T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-04-spider-man-s-inhibitor-can-scientists-switch-off-a-gene.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-04-spider-man-s-inhibitor-can-scientists-switch-off-a-gene.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-04-spider-man-s-inhibitor-can-scientists-switch-off-a-gene"
+      "title": "What Is Vehicle-to-Everything (V2X) Technology?",
+      "publishedAt": "2026-08-05T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-05-what-is-vehicle-to-everything-v2x-technology.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-05-what-is-vehicle-to-everything-v2x-technology.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-05-what-is-vehicle-to-everything-v2x-technology"
     }
   }
 }
