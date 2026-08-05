@@ -8,17 +8,17 @@
   "runStatus": {
     "version": 1,
     "date": "2026-08-05",
-    "status": "running",
+    "status": "success",
     "scheduledFor": "2026-08-05T05:30:00-04:00",
     "startedAt": "2026-08-05T09:25:02.766Z",
-    "finishedAt": null,
-    "currentStage": "recovery",
+    "finishedAt": "2026-08-05T19:05:40.708Z",
+    "currentStage": "completed",
     "topic": null,
     "podcastTopic": "What Is Vehicle-to-Everything (V2X) Technology?",
     "commit": null,
     "results": {
-      "publicFeedPublish": "blocked",
-      "privatePush": "blocked",
+      "publicFeedPublish": "success",
+      "privatePush": "success",
       "spotifyPrep": "skipped",
       "spotifyDraft": "skipped"
     },
