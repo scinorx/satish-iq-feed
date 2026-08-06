@@ -1,19 +1,19 @@
 {
   "version": 1,
   "date": "2026-08-06",
-  "status": "running",
+  "status": "success",
   "scheduledFor": "2026-08-06T05:30:00-04:00",
   "startedAt": "2026-08-06T12:24:50.657Z",
-  "finishedAt": null,
-  "currentStage": "recovery",
+  "finishedAt": "2026-08-06T12:38:15.030Z",
+  "currentStage": "completed",
   "topic": null,
   "podcastTopic": "Auracast: Bluetooth Audio for Everyone Nearby",
   "commit": null,
   "results": {
-    "publicFeedPublish": null,
-    "privatePush": null,
-    "spotifyPrep": null,
-    "spotifyDraft": null
+    "publicFeedPublish": "success",
+    "privatePush": "success",
+    "spotifyPrep": "skipped",
+    "spotifyDraft": "skipped"
   },
   "outputs": {
     "snapshot": true,
