@@ -1,5 +1,102 @@
 [
   {
+    "guid": "in-simple-terms-2026-08-06-auracast-bluetooth-audio-for-everyone-nearby",
+    "title": "Auracast: Bluetooth Audio for Everyone Nearby",
+    "subtitle": "Wireless audio in simple terms",
+    "description": "Three people want to watch the same television. One prefers the speaker, one needs louder dialogue through hearing aids, and one wants earbuds so the baby can sleep. Auracast can send the same sound to all of them at once—without creating a separate conventional Bluetooth pairing for every listener.\n\nThis is Auracast, a Bluetooth capability that works less like a private cable and more like a local radio station. Through one living-room story, we explore the transmitter, assistant, and receiver; how devices discover a broadcast; why one stream can serve many listeners; and why compatibility remains the biggest obstacle.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://www.bluetooth.com/auracast/how-it-works/\n- https://www.bluetooth.com/auracast/\n- https://blog.google/products-and-platforms/platforms/android/le-audio-auracast-support/\n- https://www.samsung.com/au/support/mobile-devices/using-auracast/\n\nYoutube - https://youtu.be/tQq0MzWQzvM",
+    "publishedAt": "2026-08-06T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-08-06",
+    "seasonNumber": 5,
+    "episodeNumber": 63,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-08-06T05:30:00-04:00",
+    "durationSeconds": 251,
+    "audioPath": "podcast/audio/2026-08-06-auracast-bluetooth-audio-for-everyone-nearby.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-06-auracast-bluetooth-audio-for-everyone-nearby.mp3",
+    "youtubeId": "tQq0MzWQzvM",
+    "youtubeUrl": "https://youtu.be/tQq0MzWQzvM",
+    "lengthBytes": 4022901,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nIt is ten at night. A family is watching a movie when the main character lowers his voice and reveals the secret.\n\n“Can you turn it up?” Maya's father asks. The dialogue is not clear through his hearing aids.\n\nHer brother points toward the next room. “Please don't. The baby just fell asleep.”\n\nMaya pauses the movie with the remote still in her hand.\n\nOne television. Three people. Three different ideas of the correct volume.\n\nBut tonight, the television displays a small symbol and one instruction:\n\n“Join Auracast broadcast.”\n\nMaya's father finds the movie in the broadcast list on his phone and sends it to his hearing aids. Her brother selects the same broadcast for his earbuds. Maya listens through the room speaker.\n\nMaya presses play.\n\nThe same whispered secret reaches three people through three listening setups, each at a comfortable volume.\n\nThe television is not sending three separate audio streams.\n\nIt is broadcasting once.\n\nThis is Auracast.\n\nAnd it gives Bluetooth a completely different shape.\n\nTraditional Bluetooth behaves like an invisible cable: one source forms a private connection with a listening device.\n\nAuracast behaves more like local radio. One source broadcasts, and any number of compatible receivers within range can tune in.\n\nIt is built on Bluetooth LE Audio, and three roles make it work.\n\nFirst is the transmitter. In our story, that is the television creating the broadcast.\n\nSecond is the assistant—often a phone. It scans the area and displays available audio, much like a Wi-Fi list.\n\nThird is the receiver: the hearing aids or earbuds that actually play the sound.\n\nThe assistant gives the receiver the information it needs to join.\n\nNotice that phrase: tune in.\n\nThe television does not negotiate a separate connection with every listener. It sends one broadcast, and an unlimited number of compatible receivers within range can listen.\n\nBluetooth advertisements announce the stream's name, language, and configuration. The sound travels separately in synchronized LE Audio broadcast streams, commonly encoded with the efficient LC3 codec.\n\nA broadcast can be open, like sound from a public display. It can also be encrypted so that only people with the required access information can listen.\n\nAuracast is local, not an internet stream. The sound travels through nearby Bluetooth radio, primarily in one direction.\n\nThat simple change creates many possibilities.\n\nA phone could share music with several friends. A silent public television could become audible. A lecture could provide multiple languages. Public audio could reach a compatible hearing device directly.\n\nThe accessibility impact may be the most important part.\n\nInstead of making one room louder for everyone, Auracast can give each listener control of personal volume and hearing settings.\n\nBut there is a catch.\n\nSimply having Bluetooth does not mean a product supports Auracast. The transmitter, assistant, operating system, and listening device all need the required features.\n\nThe reason this matters now is that Auracast is moving from specification pages into current Android and Samsung devices. But many phones, televisions, earbuds, and hearing aids still cannot participate. Even a Bluetooth version number alone does not guarantee the feature.\n\nThat is why Auracast today resembles Wi-Fi during its early rollout. Its value grows each time another device can broadcast, discover, or receive the same standard.\n\nNow return to the family watching the movie.\n\nThe character whispers the secret again.\n\nSame scene. Same second. Different ears. Different volume.\n\nNobody passed around one pair of headphones. Nobody forced the room to accept one listening experience.\n\nOne television produced one shared broadcast, but the sound became personal at the final step.\n\nBluetooth began by replacing a cable.\n\nAuracast turns that invisible cable into a broadcast anyone authorized and equipped can tune into.\n\nOne source. Many listeners. No conventional pairing ceremony.\n\nThat is the new idea hiding inside Bluetooth.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nIt is ten at night. A family is watching a movie when the main character lowers his voice and reveals the secret.\n\n“Can you turn it up?” Maya's father asks. The dialogue is not clear through his hearing aids.\n\nHer brother points toward the next room. “Please don't. The baby just fell asleep.”\n\nMaya pauses the movie with the remote still in her hand.\n\nOne television. Three people. Three different ideas of the correct volume.\n\nBut tonight, the television displays a small symbol and one instruction:\n\n“Join Auracast broadcast.”\n\nMaya's father finds the movie in the broadcast list on his phone and sends it to his hearing aids. Her brother selects the same broadcast for his earbuds. Maya listens through the room speaker.\n\nMaya presses play.\n\nThe same whispered secret reaches three people through three listening setups, each at a comfortable volume.\n\nThe television is not sending three separate audio streams.\n\nIt is broadcasting once.\n\nThis is Auracast.\n\nAnd it gives Bluetooth a completely different shape.\n\nTraditional Bluetooth behaves like an invisible cable: one source forms a private connection with a listening device.\n\nAuracast behaves more like local radio. One source broadcasts, and any number of compatible receivers within range can tune in.\n\nIt is built on Bluetooth LE Audio, and three roles make it work.\n\nFirst is the transmitter. In our story, that is the television creating the broadcast.\n\nSecond is the assistant—often a phone. It scans the area and displays available audio, much like a Wi-Fi list.\n\nThird is the receiver: the hearing aids or earbuds that actually play the sound.\n\nThe assistant gives the receiver the information it needs to join.\n\nNotice that phrase: tune in.\n\nThe television does not negotiate a separate connection with every listener. It sends one broadcast, and an unlimited number of compatible receivers within range can listen.\n\nBluetooth advertisements announce the stream's name, language, and configuration. The sound travels separately in synchronized LE Audio broadcast streams, commonly encoded with the efficient LC3 codec.\n\nA broadcast can be open, like sound from a public display. It can also be encrypted so that only people with the required access information can listen.\n\nAuracast is local, not an internet stream. The sound travels through nearby Bluetooth radio, primarily in one direction.\n\nThat simple change creates many possibilities.\n\nA phone could share music with several friends. A silent public television could become audible. A lecture could provide multiple languages. Public audio could reach a compatible hearing device directly.\n\nThe accessibility impact may be the most important part.\n\nInstead of making one room louder for everyone, Auracast can give each listener control of personal volume and hearing settings.\n\nBut there is a catch.\n\nSimply having Bluetooth does not mean a product supports Auracast. The transmitter, assistant, operating system, and listening device all need the required features.\n\nThe reason this matters now is that Auracast is moving from specification pages into current Android and Samsung devices. But many phones, televisions, earbuds, and hearing aids still cannot participate. Even a Bluetooth version number alone does not guarantee the feature.\n\nThat is why Auracast today resembles Wi-Fi during its early rollout. Its value grows each time another device can broadcast, discover, or receive the same standard.\n\nNow return to the family watching the movie.\n\nThe character whispers the secret again.\n\nSame scene. Same second. Different ears. Different volume.\n\nNobody passed around one pair of headphones. Nobody forced the room to accept one listening experience.\n\nOne television produced one shared broadcast, but the sound became personal at the final step.\n\nBluetooth began by replacing a cable.\n\nAuracast turns that invisible cable into a broadcast anyone authorized and equipped can tune into.\n\nOne source. Many listeners. No conventional pairing ceremony.\n\nThat is the new idea hiding inside Bluetooth.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-08-06-auracast-bluetooth-audio-for-everyone-nearby.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-06-auracast-bluetooth-audio-for-everyone-nearby.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "Auracast changes Bluetooth from a private one-to-one cable into nearby shared audio infrastructure. The technical challenge is not only broadcasting sound; it is discovery, compatibility, access control, synchronization, accessibility, and getting enough devices and venues to support the same standard.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What is the core idea behind Auracast?",
+          "options": [
+            "One compatible source can broadcast audio for many nearby receivers.",
+            "Every listener must create a separate conventional Bluetooth pairing.",
+            "Bluetooth audio only works through the internet."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Auracast uses Bluetooth LE Audio broadcast behavior so multiple compatible receivers can listen to one nearby broadcast."
+        },
+        {
+          "prompt": "Which roles are involved in an Auracast experience?",
+          "options": [
+            "Transmitter, assistant, and receiver.",
+            "Router, modem, and browser.",
+            "Camera, radar, and lidar."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The transmitter creates the broadcast, the assistant helps discover and join it, and the receiver plays the audio."
+        },
+        {
+          "prompt": "Why is Auracast useful in public places?",
+          "options": [
+            "People can join local audio from TVs, announcements, tours, or lectures on compatible devices.",
+            "It replaces all speakers and captions automatically.",
+            "It turns every Bluetooth device into a cellular tower."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Auracast can make nearby audio selectable for compatible earbuds, headphones, or hearing aids."
+        },
+        {
+          "prompt": "What does compatibility depend on?",
+          "options": [
+            "Hardware, firmware, operating system support, profiles, and receiver capability.",
+            "Only the printed Bluetooth version number.",
+            "Only having Wi-Fi turned on."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Auracast support needs the right Bluetooth LE Audio capabilities across the source, assistant, and listening device."
+        },
+        {
+          "prompt": "What is a key rollout challenge for Auracast?",
+          "options": [
+            "Its value grows when more venues and devices support the same standard.",
+            "It works only if every listener uses the same volume.",
+            "It cannot support private or protected broadcasts."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Auracast has a standards adoption problem across devices, venues, and user interfaces."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-08-06-auracast-bluetooth-audio-for-everyone-nearby.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-08-06-auracast-bluetooth-audio-for-everyone-nearby.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-08-06-auracast-bluetooth-audio-for-everyone-nearby.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-06-auracast-bluetooth-audio-for-everyone-nearby.jpg",
+    "topicProfile": {
+      "id": "wireless-audio",
+      "label": "Wireless audio",
+      "accent": "#0077C8"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-08-06-auracast-bluetooth-audio-for-everyone-nearby"
+  },
+  {
     "guid": "in-simple-terms-2026-08-05-what-is-vehicle-to-everything-v2x-technology",
     "title": "What Is Vehicle-to-Everything (V2X) Technology?",
     "subtitle": "Mobility systems in simple terms",

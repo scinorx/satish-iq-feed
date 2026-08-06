@@ -22,7 +22,52 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Wed, 05 Aug 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Auracast: Bluetooth Audio for Everyone Nearby</title>
+      <description>Three people want to watch the same television. One prefers the speaker, one needs louder dialogue through hearing aids, and one wants earbuds so the baby can sleep. Auracast can send the same sound to all of them at once—without creating a separate conventional Bluetooth pairing for every listener.
+
+This is Auracast, a Bluetooth capability that works less like a private cable and more like a local radio station. Through one living-room story, we explore the transmitter, assistant, and receiver; how devices discover a broadcast; why one stream can serve many listeners; and why compatibility remains the biggest obstacle.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.bluetooth.com/auracast/how-it-works/
+- https://www.bluetooth.com/auracast/
+- https://blog.google/products-and-platforms/platforms/android/le-audio-auracast-support/
+- https://www.samsung.com/au/support/mobile-devices/using-auracast/
+
+Youtube - https://youtu.be/tQq0MzWQzvM</description>
+      <itunes:subtitle>Wireless audio in simple terms</itunes:subtitle>
+      <itunes:summary>Three people want to watch the same television. One prefers the speaker, one needs louder dialogue through hearing aids, and one wants earbuds so the baby can sleep. Auracast can send the same sound to all of them at once—without creating a separate conventional Bluetooth pairing for every listener.
+
+This is Auracast, a Bluetooth capability that works less like a private cable and more like a local radio station. Through one living-room story, we explore the transmitter, assistant, and receiver; how devices discover a broadcast; why one stream can serve many listeners; and why compatibility remains the biggest obstacle.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.bluetooth.com/auracast/how-it-works/
+- https://www.bluetooth.com/auracast/
+- https://blog.google/products-and-platforms/platforms/android/le-audio-auracast-support/
+- https://www.samsung.com/au/support/mobile-devices/using-auracast/
+
+Youtube - https://youtu.be/tQq0MzWQzvM</itunes:summary>
+      <itunes:duration>00:04:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>63</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-06-auracast-bluetooth-audio-for-everyone-nearby.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-06-auracast-bluetooth-audio-for-everyone-nearby.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-06-auracast-bluetooth-audio-for-everyone-nearby.mp3" length="4022901" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-08-06-auracast-bluetooth-audio-for-everyone-nearby</guid>
+      <pubDate>Thu, 06 Aug 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>What Is Vehicle-to-Everything (V2X) Technology?</title>

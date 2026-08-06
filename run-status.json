@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-08-05",
-  "status": "success",
-  "scheduledFor": "2026-08-05T05:30:00-04:00",
-  "startedAt": "2026-08-05T09:25:02.766Z",
-  "finishedAt": "2026-08-05T19:05:40.708Z",
-  "currentStage": "completed",
+  "date": "2026-08-06",
+  "status": "running",
+  "scheduledFor": "2026-08-06T05:30:00-04:00",
+  "startedAt": "2026-08-06T12:24:50.657Z",
+  "finishedAt": null,
+  "currentStage": "recovery",
   "topic": null,
-  "podcastTopic": "What Is Vehicle-to-Everything (V2X) Technology?",
+  "podcastTopic": "Auracast: Bluetooth Audio for Everyone Nearby",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "success",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "What Is Vehicle-to-Everything (V2X) Technology?"
+    "latestPodcastEpisode": "Auracast: Bluetooth Audio for Everyone Nearby"
   }
 }
