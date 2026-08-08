@@ -8,19 +8,19 @@
   "runStatus": {
     "version": 1,
     "date": "2026-08-08",
-    "status": "running",
+    "status": "success",
     "scheduledFor": "2026-08-08T05:30:00-04:00",
     "startedAt": "2026-08-08T12:04:30.666Z",
-    "finishedAt": null,
-    "currentStage": "recovery",
+    "finishedAt": "2026-08-08T12:06:19.172Z",
+    "currentStage": "completed",
     "topic": null,
     "podcastTopic": "Can Wi-Fi Detect Someone Without a Camera?",
     "commit": null,
     "results": {
-      "publicFeedPublish": null,
-      "privatePush": null,
-      "spotifyPrep": null,
-      "spotifyDraft": null
+      "publicFeedPublish": "success",
+      "privatePush": "success",
+      "spotifyPrep": "skipped",
+      "spotifyDraft": "skipped"
     },
     "outputs": {
       "snapshot": true,
