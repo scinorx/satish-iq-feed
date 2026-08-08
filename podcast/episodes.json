@@ -1,5 +1,102 @@
 [
   {
+    "guid": "in-simple-terms-2026-08-07-can-your-clothes-generate-electricity-triboelectric-textiles-explained",
+    "title": "Can Your Clothes Generate Electricity? Triboelectric Textiles Explained",
+    "subtitle": "Smart textiles in simple terms",
+    "description": "You pull a sweater over your head and hear a crackle. For an instant, your clothing has generated electricity—and then it disappears.\n\nTriboelectric textiles are designed to capture those tiny electrical events. Follow one recovering runner as an experimental knee sleeve turns a step into both electricity and information. It will not replace a phone charger—but it could remove the battery from the sensor touching your body.\n\nThis episode discusses emerging textile research and hypothetical future applications. It does not describe a currently validated medical product and is not medical advice.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n\n- https://www.nature.com/articles/s41528-026-00539-3\n- https://ira.lib.polyu.edu.hk/handle/10397/119372\n- https://ira.lib.polyu.edu.hk/handle/10397/118229\n- https://onlinelibrary.wiley.com/doi/10.1002/smll.202512821\n- https://www.sciencedirect.com/science/article/pii/S2468519426001102\n- https://researchoutput.ncku.edu.tw/en/publications/scalable-lightweight-and-waterproof-unitary-fabric-triboelectric-/\n\nYoutube - https://youtu.be/CLB5u3sAB-c",
+    "publishedAt": "2026-08-07T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-08-07",
+    "seasonNumber": 5,
+    "episodeNumber": 64,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-08-07T05:30:00-04:00",
+    "durationSeconds": 265,
+    "audioPath": "podcast/audio/2026-08-07-can-your-clothes-generate-electricity-triboelectric-textiles-explained.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-07-can-your-clothes-generate-electricity-triboelectric-textiles-explained.mp3",
+    "youtubeId": "CLB5u3sAB-c",
+    "youtubeUrl": "https://youtu.be/CLB5u3sAB-c",
+    "lengthBytes": 4243165,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nYou are getting dressed in a dark room.\n\nYou pull a sweater over your head.\n\nThere is a soft crackle. Your hair rises. For a fraction of a second, a tiny spark jumps between the fabric and your skin.\n\nYou have just generated electricity.\n\nNormally, that spark disappears before you give it another thought.\n\nBut tomorrow morning, imagine taking part in a future research test and pulling an experimental soft sleeve over a knee recovering from an injury.\n\nA researcher wants to study how the knee bends during your walk. A conventional monitor would need a sensor, wires, and a battery strapped to your leg.\n\nThis experimental sleeve has no obvious battery pack.\n\nYou take one step.\n\nA small green mark appears on the therapist's screen.\n\nThe movement has recorded itself—and helped produce the electricity used to record it.\n\nHow?\n\nInside the sleeve are two textile surfaces selected because they behave differently when they touch.\n\nAs your knee bends, the surfaces press together. A small amount of electrical charge moves between them. One surface becomes slightly more negative; the other becomes slightly more positive.\n\nAs your leg straightens, the surfaces pull apart. That separation changes the electric field and pushes electrons through conductive threads.\n\nTouch. Separate. Charge flows.\n\nTake another step, and another electrical pulse travels through the fabric.\n\nThis is the triboelectric effect—the same family of physics behind that crackling sweater. A device designed to capture it is called a triboelectric nanogenerator, or TENG. Build it into cloth, and we get a triboelectric textile.\n\nBut the electricity does not arrive like the steady power from a wall socket.\n\nEvery step is different. You move faster, press harder, or bend at another angle. The textile produces irregular pulses that alternate direction.\n\nSo a tiny rectifier acts like a one-way gate. A capacitor works like a cup, collecting many electrical drops. Supporting circuitry waits until there is enough energy to perform a small task.\n\nNow comes the real reveal.\n\nThe sleeve may not need to power a separate movement sensor, because each electrical pulse already describes the movement that created it.\n\nA shallow bend creates one signal shape. A deeper bend creates another. Timing between pulses reveals rhythm. Their size can reflect changes in contact or pressure.\n\nThe pulse is both the power and the measurement.\n\nThat is why researchers are interested in triboelectric clothing. In 2026, research teams reported textile systems designed to harvest body movement while also monitoring motion. The ambition is not simply a shirt-sized generator. It is a wearable sensor that helps supply itself.\n\nYou finish the walk. The sleeve has counted the movements without carrying the kind of rigid battery pack you expected.\n\nIt sounds ready for the clothing store.\n\nThen the researcher asks the most dangerous engineering question:\n\nCan I wash it?\n\nThe sleeve must survive sweat, humidity, detergent, water, stretching, and thousands of repeated bends. Conductive layers cannot crack. Coatings cannot peel. The electronics cannot turn soft fabric into an uncomfortable gadget.\n\nHumidity can also drain surface charge. A strong signal in a dry laboratory may weaken during a humid outdoor walk. And if the electronic materials make the garment impossible to recycle, removing one battery may still create another waste problem.\n\nThere is another limitation.\n\nYour walking shirt is not going to recharge your smartphone. Laboratory demonstrations may report impressive peak voltage or power density, but a brief peak is not the same as a steady supply of usable energy.\n\nThe more believable opportunity is smaller and, in a way, smarter: generate energy exactly where a tiny sensing task occurs, then spend it on that task.\n\nReturn to the dark room and pull off the sweater.\n\nCrackle.\n\nThat spark was never useless. It was uncontrolled, uncaptured, and gone too quickly.\n\nTriboelectric textiles turn the accident into a system: movement creates charge, fabric collects it, a circuit prepares it, and the signal tells us what the body just did.\n\nYour clothes may not replace the charger in your pocket.\n\nBut one day, they could eliminate the battery from the sensor touching your body.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nYou are getting dressed in a dark room.\n\nYou pull a sweater over your head.\n\nThere is a soft crackle. Your hair rises. For a fraction of a second, a tiny spark jumps between the fabric and your skin.\n\nYou have just generated electricity.\n\nNormally, that spark disappears before you give it another thought.\n\nBut tomorrow morning, imagine taking part in a future research test and pulling an experimental soft sleeve over a knee recovering from an injury.\n\nA researcher wants to study how the knee bends during your walk. A conventional monitor would need a sensor, wires, and a battery strapped to your leg.\n\nThis experimental sleeve has no obvious battery pack.\n\nYou take one step.\n\nA small green mark appears on the therapist's screen.\n\nThe movement has recorded itself—and helped produce the electricity used to record it.\n\nHow?\n\nInside the sleeve are two textile surfaces selected because they behave differently when they touch.\n\nAs your knee bends, the surfaces press together. A small amount of electrical charge moves between them. One surface becomes slightly more negative; the other becomes slightly more positive.\n\nAs your leg straightens, the surfaces pull apart. That separation changes the electric field and pushes electrons through conductive threads.\n\nTouch. Separate. Charge flows.\n\nTake another step, and another electrical pulse travels through the fabric.\n\nThis is the triboelectric effect—the same family of physics behind that crackling sweater. A device designed to capture it is called a triboelectric nanogenerator, or TENG. Build it into cloth, and we get a triboelectric textile.\n\nBut the electricity does not arrive like the steady power from a wall socket.\n\nEvery step is different. You move faster, press harder, or bend at another angle. The textile produces irregular pulses that alternate direction.\n\nSo a tiny rectifier acts like a one-way gate. A capacitor works like a cup, collecting many electrical drops. Supporting circuitry waits until there is enough energy to perform a small task.\n\nNow comes the real reveal.\n\nThe sleeve may not need to power a separate movement sensor, because each electrical pulse already describes the movement that created it.\n\nA shallow bend creates one signal shape. A deeper bend creates another. Timing between pulses reveals rhythm. Their size can reflect changes in contact or pressure.\n\nThe pulse is both the power and the measurement.\n\nThat is why researchers are interested in triboelectric clothing. In 2026, research teams reported textile systems designed to harvest body movement while also monitoring motion. The ambition is not simply a shirt-sized generator. It is a wearable sensor that helps supply itself.\n\nYou finish the walk. The sleeve has counted the movements without carrying the kind of rigid battery pack you expected.\n\nIt sounds ready for the clothing store.\n\nThen the researcher asks the most dangerous engineering question:\n\nCan I wash it?\n\nThe sleeve must survive sweat, humidity, detergent, water, stretching, and thousands of repeated bends. Conductive layers cannot crack. Coatings cannot peel. The electronics cannot turn soft fabric into an uncomfortable gadget.\n\nHumidity can also drain surface charge. A strong signal in a dry laboratory may weaken during a humid outdoor walk. And if the electronic materials make the garment impossible to recycle, removing one battery may still create another waste problem.\n\nThere is another limitation.\n\nYour walking shirt is not going to recharge your smartphone. Laboratory demonstrations may report impressive peak voltage or power density, but a brief peak is not the same as a steady supply of usable energy.\n\nThe more believable opportunity is smaller and, in a way, smarter: generate energy exactly where a tiny sensing task occurs, then spend it on that task.\n\nReturn to the dark room and pull off the sweater.\n\nCrackle.\n\nThat spark was never useless. It was uncontrolled, uncaptured, and gone too quickly.\n\nTriboelectric textiles turn the accident into a system: movement creates charge, fabric collects it, a circuit prepares it, and the signal tells us what the body just did.\n\nYour clothes may not replace the charger in your pocket.\n\nBut one day, they could eliminate the battery from the sensor touching your body.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-08-07-can-your-clothes-generate-electricity-triboelectric-textiles-explained.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-07-can-your-clothes-generate-electricity-triboelectric-textiles-explained.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "Triboelectric textiles are useful because the same motion that creates a small electrical pulse can also describe the movement that created it. The credible product idea is not charging large devices from clothing; it is powering or triggering tiny sensing tasks where the fabric already touches the body.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What physical effect do triboelectric textiles use?",
+          "options": [
+            "Charge transfer when materials touch and separate.",
+            "A chemical battery hidden inside cotton.",
+            "Solar panels woven into every thread."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The triboelectric effect comes from contact electrification and separation between material surfaces."
+        },
+        {
+          "prompt": "Why does the output need electronics like rectifiers and storage?",
+          "options": [
+            "The textile produces small irregular pulses, not steady wall-socket power.",
+            "The fabric only works when plugged into a laptop.",
+            "The textile produces only Wi-Fi signals."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "A rectifier and storage element can condition many small pulses into usable energy for tiny loads."
+        },
+        {
+          "prompt": "What is the strongest near-term use case in the episode?",
+          "options": [
+            "Low-power sensing where the movement also creates the signal.",
+            "Replacing phone chargers with shirts.",
+            "Powering household appliances from jackets."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The episode frames self-powered sensing as more credible than large-device charging."
+        },
+        {
+          "prompt": "Why can the pulse itself be useful data?",
+          "options": [
+            "Its shape, timing, and size can reflect motion, bend, pressure, or contact.",
+            "It stores every medical record automatically.",
+            "It turns fabric into a camera."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The electrical waveform can encode information about the physical event that produced it."
+        },
+        {
+          "prompt": "What practical engineering challenge does the episode highlight?",
+          "options": [
+            "Sweat, humidity, washing, comfort, durability, and recycling.",
+            "Making all clothing rigid and heavy.",
+            "Removing every sensor from research."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "A useful textile device must survive real garment conditions, not just a dry lab demonstration."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-08-07-can-your-clothes-generate-electricity-triboelectric-textiles-explained.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-08-07-can-your-clothes-generate-electricity-triboelectric-textiles-explained.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-08-07-can-your-clothes-generate-electricity-triboelectric-textiles-explained.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-07-can-your-clothes-generate-electricity-triboelectric-textiles-explained.jpg",
+    "topicProfile": {
+      "id": "smart-textiles",
+      "label": "Smart textiles",
+      "accent": "#16A34A"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-08-07-can-your-clothes-generate-electricity-triboelectric-textiles-explained"
+  },
+  {
     "guid": "in-simple-terms-2026-08-06-auracast-bluetooth-audio-for-everyone-nearby",
     "title": "Auracast: Bluetooth Audio for Everyone Nearby",
     "subtitle": "Wireless audio in simple terms",

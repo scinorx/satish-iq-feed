@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-06",
-  "title": "Today's object: Wireless audio in simple terms",
+  "generatedAt": "2026-08-07",
+  "title": "Today's object: Smart textiles in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-08-06",
-    "status": "success",
-    "scheduledFor": "2026-08-06T05:30:00-04:00",
-    "startedAt": "2026-08-06T12:24:50.657Z",
-    "finishedAt": "2026-08-06T12:38:15.030Z",
-    "currentStage": "completed",
+    "date": "2026-08-07",
+    "status": "running",
+    "scheduledFor": "2026-08-07T05:30:00-04:00",
+    "startedAt": "2026-08-08T00:14:35.043Z",
+    "finishedAt": null,
+    "currentStage": "recovery",
     "topic": null,
-    "podcastTopic": "Auracast: Bluetooth Audio for Everyone Nearby",
+    "podcastTopic": "Can Your Clothes Generate Electricity? Triboelectric Textiles Explained",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "success",
-      "spotifyPrep": "skipped",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "Auracast: Bluetooth Audio for Everyone Nearby"
+      "latestPodcastEpisode": "Can Your Clothes Generate Electricity? Triboelectric Textiles Explained"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "Auracast: Bluetooth Audio for Everyone Nearby",
-      "publishedAt": "2026-08-06T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-06-auracast-bluetooth-audio-for-everyone-nearby.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-06-auracast-bluetooth-audio-for-everyone-nearby.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-06-auracast-bluetooth-audio-for-everyone-nearby"
+      "title": "Can Your Clothes Generate Electricity? Triboelectric Textiles Explained",
+      "publishedAt": "2026-08-07T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-07-can-your-clothes-generate-electricity-triboelectric-textiles-explained.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-07-can-your-clothes-generate-electricity-triboelectric-textiles-explained.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-07-can-your-clothes-generate-electricity-triboelectric-textiles-explained"
     }
   }
 }
