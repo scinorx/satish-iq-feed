@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-08-07",
-  "status": "success",
-  "scheduledFor": "2026-08-07T05:30:00-04:00",
-  "startedAt": "2026-08-08T00:14:35.043Z",
-  "finishedAt": "2026-08-08T00:16:07.422Z",
-  "currentStage": "completed",
+  "date": "2026-08-08",
+  "status": "running",
+  "scheduledFor": "2026-08-08T05:30:00-04:00",
+  "startedAt": "2026-08-08T12:04:30.666Z",
+  "finishedAt": null,
+  "currentStage": "recovery",
   "topic": null,
-  "podcastTopic": "Can Your Clothes Generate Electricity? Triboelectric Textiles Explained",
+  "podcastTopic": "Can Wi-Fi Detect Someone Without a Camera?",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "success",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "Can Your Clothes Generate Electricity? Triboelectric Textiles Explained"
+    "latestPodcastEpisode": "Can Wi-Fi Detect Someone Without a Camera?"
   }
 }

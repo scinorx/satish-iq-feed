@@ -22,7 +22,50 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Fri, 07 Aug 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Can Wi-Fi Detect Someone Without a Camera?</title>
+      <description>A few days ago, my Xfinity app asked whether I wanted to turn on WiFi Motion. My router has no camera, so how could it possibly detect someone walking through my home?
+
+Follow one invisible Wi-Fi signal from a gateway to a television and discover how a moving body changes the radio environment. Wi-Fi cannot see a face or understand what a person is doing—but it may detect that a previously quiet room has changed. That useful capability also creates a new privacy question: when sensing produces no picture, is it still observation?
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.xfinity.com/support/articles/wifi-motion
+- https://www.nist.gov/publications/open-source-framework-ieee-80211bf-evaluation-under-lossy-and-jittery-conditions
+- https://www.nist.gov/publications/ieee-80211bf-enabling-widespread-adoption-wi-fi-sensing
+
+Youtube - https://youtu.be/AAvlYdH1yag</description>
+      <itunes:subtitle>Wireless sensing in simple terms</itunes:subtitle>
+      <itunes:summary>A few days ago, my Xfinity app asked whether I wanted to turn on WiFi Motion. My router has no camera, so how could it possibly detect someone walking through my home?
+
+Follow one invisible Wi-Fi signal from a gateway to a television and discover how a moving body changes the radio environment. Wi-Fi cannot see a face or understand what a person is doing—but it may detect that a previously quiet room has changed. That useful capability also creates a new privacy question: when sensing produces no picture, is it still observation?
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.xfinity.com/support/articles/wifi-motion
+- https://www.nist.gov/publications/open-source-framework-ieee-80211bf-evaluation-under-lossy-and-jittery-conditions
+- https://www.nist.gov/publications/ieee-80211bf-enabling-widespread-adoption-wi-fi-sensing
+
+Youtube - https://youtu.be/AAvlYdH1yag</itunes:summary>
+      <itunes:duration>00:04:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>65</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-08-can-wi-fi-detect-someone-without-a-camera.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-08-can-wi-fi-detect-someone-without-a-camera.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-08-can-wi-fi-detect-someone-without-a-camera.mp3" length="4193010" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-08-08-can-wi-fi-detect-someone-without-a-camera</guid>
+      <pubDate>Sat, 08 Aug 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>Can Your Clothes Generate Electricity? Triboelectric Textiles Explained</title>

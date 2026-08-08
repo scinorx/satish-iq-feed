@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07",
-  "title": "Today's object: Smart textiles in simple terms",
+  "generatedAt": "2026-08-08",
+  "title": "Today's object: Wireless sensing in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-08-07",
-    "status": "success",
-    "scheduledFor": "2026-08-07T05:30:00-04:00",
-    "startedAt": "2026-08-08T00:14:35.043Z",
-    "finishedAt": "2026-08-08T00:16:07.422Z",
-    "currentStage": "completed",
+    "date": "2026-08-08",
+    "status": "running",
+    "scheduledFor": "2026-08-08T05:30:00-04:00",
+    "startedAt": "2026-08-08T12:04:30.666Z",
+    "finishedAt": null,
+    "currentStage": "recovery",
     "topic": null,
-    "podcastTopic": "Can Your Clothes Generate Electricity? Triboelectric Textiles Explained",
+    "podcastTopic": "Can Wi-Fi Detect Someone Without a Camera?",
     "commit": null,
     "results": {
-      "publicFeedPublish": "success",
-      "privatePush": "success",
-      "spotifyPrep": "skipped",
-      "spotifyDraft": "skipped"
+      "publicFeedPublish": null,
+      "privatePush": null,
+      "spotifyPrep": null,
+      "spotifyDraft": null
     },
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "Can Your Clothes Generate Electricity? Triboelectric Textiles Explained"
+      "latestPodcastEpisode": "Can Wi-Fi Detect Someone Without a Camera?"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "Can Your Clothes Generate Electricity? Triboelectric Textiles Explained",
-      "publishedAt": "2026-08-07T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-07-can-your-clothes-generate-electricity-triboelectric-textiles-explained.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-07-can-your-clothes-generate-electricity-triboelectric-textiles-explained.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-07-can-your-clothes-generate-electricity-triboelectric-textiles-explained"
+      "title": "Can Wi-Fi Detect Someone Without a Camera?",
+      "publishedAt": "2026-08-08T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-08-can-wi-fi-detect-someone-without-a-camera.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-08-can-wi-fi-detect-someone-without-a-camera.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-08-can-wi-fi-detect-someone-without-a-camera"
     }
   }
 }

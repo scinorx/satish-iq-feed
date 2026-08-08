@@ -1,5 +1,102 @@
 [
   {
+    "guid": "in-simple-terms-2026-08-08-can-wi-fi-detect-someone-without-a-camera",
+    "title": "Can Wi-Fi Detect Someone Without a Camera?",
+    "subtitle": "Wireless sensing in simple terms",
+    "description": "A few days ago, my Xfinity app asked whether I wanted to turn on WiFi Motion. My router has no camera, so how could it possibly detect someone walking through my home?\n\nFollow one invisible Wi-Fi signal from a gateway to a television and discover how a moving body changes the radio environment. Wi-Fi cannot see a face or understand what a person is doing—but it may detect that a previously quiet room has changed. That useful capability also creates a new privacy question: when sensing produces no picture, is it still observation?\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://www.xfinity.com/support/articles/wifi-motion\n- https://www.nist.gov/publications/open-source-framework-ieee-80211bf-evaluation-under-lossy-and-jittery-conditions\n- https://www.nist.gov/publications/ieee-80211bf-enabling-widespread-adoption-wi-fi-sensing\n\nYoutube - https://youtu.be/AAvlYdH1yag",
+    "publishedAt": "2026-08-08T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-08-08",
+    "seasonNumber": 5,
+    "episodeNumber": 65,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-08-08T05:30:00-04:00",
+    "durationSeconds": 262,
+    "audioPath": "podcast/audio/2026-08-08-can-wi-fi-detect-someone-without-a-camera.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-08-can-wi-fi-detect-someone-without-a-camera.mp3",
+    "youtubeId": "AAvlYdH1yag",
+    "youtubeUrl": "https://youtu.be/AAvlYdH1yag",
+    "lengthBytes": 4193010,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nA few days ago, I opened my Xfinity app and saw a prompt I was not expecting.\n\n“Turn on WiFi Motion.”\n\nI stopped.\n\nMy Xfinity gateway connects devices throughout my home to the internet.\n\nIt has no camera.\n\nSo how could it possibly detect someone moving inside my home?\n\nBefore pressing the button, I imagined a simple experiment.\n\nSuppose I place my phone on the kitchen counter and activate the feature. The television is off across the living room, but it remains connected to the gateway in another part of the house.\n\nFor a moment, I stand still.\n\nNothing happens.\n\nThen I walk across the room between the gateway and the television.\n\nMy phone lights up:\n\n“Motion detected.”\n\nI look at the television. Its screen is black.\n\nI look at the router. There is no lens hiding on it.\n\nWhat saw the person?\n\nNothing did.\n\nThe Wi-Fi signal felt the room change.\n\nA radio signal does not travel along one perfectly straight line. It can pass through materials or reflect from walls, furniture, appliances, and people. Several versions may reach a device by different paths.\n\nWhen a room is quiet, that complicated radio environment can form a relatively stable pattern.\n\nWhen I cross the room, my body absorbs, reflects, and scatters some of that radio energy. The signal arriving at the television changes slightly.\n\nThe software does not need my picture. It looks for a disruption large and consistent enough to resemble movement.\n\nThink about a dark swimming pool.\n\nYou cannot see what entered the water. But if ripples suddenly reach the edge, you know that something disturbed the pool.\n\nWi-Fi sensing reads the ripples.\n\nWi-Fi does not see the person. It measures what the person does to the signal.\n\nNow imagine I repeat the experiment in another corner of the house—and receive no alert.\n\nThat is not necessarily a contradiction. Xfinity says its feature uses a compatible gateway and selected connected devices. Their placement creates the useful sensing areas. If strong Wi-Fi is not travelling through the space where I move, the system may have little to measure.\n\nThen the family dog crosses the room and another alert appears.\n\nThe software noticed movement, but it did not understand the story.\n\nXfinity provides sensitivity controls and small-pet filtering. But without visual information, it cannot always distinguish a pet from a similarly sized child. Walls, furniture, weak signals, and other movement also change the pattern.\n\nXfinity also says WiFi Motion is not a professionally monitored home-security service and does not guarantee its performance.\n\nAn alert therefore means, “The radio environment changed enough to resemble motion.”\n\nIt does not mean, “A particular person entered,” or, “Your home is definitely safe.”\n\nEngineers are developing Wi-Fi sensing for presence detection, smart buildings, and wellness. Research also explores gestures and breathing, but ordinary commercial routers should not be assumed to perform those tasks.\n\nI return to the phone and open the motion activity feed.\n\nThere is no photograph of me crossing the room—only an event and a time.\n\nOne timestamp seems harmless. But a history of timestamps could reveal when a home becomes active, when movement normally stops, and when an apparently empty space changes.\n\nIf no picture exists, is this still observation?\n\nIt is less revealing than video, but it is still information about life inside a private place.\n\nThat is why consent, controls, retention, security, and honest product boundaries matter. Xfinity allows the feature to be turned off and says Comcast does not monitor the generated motion or notifications. Users must decide whether the benefit is worth enabling.\n\nReturn to the prompt in my app.\n\nAt first, it sounded as though my router had secretly grown eyes.\n\nIt had not. It was learning to notice disturbances in something already filling my home: radio waves.\n\nFor years, Wi-Fi had one obvious job—to carry information between devices.\n\nNow the signal itself could become information about the space through which it travelled.\n\nThe question on my screen was no longer, “Can Wi-Fi detect movement?”\n\nIt could.\n\nThe more important question was:\n\n“Do I want my internet connection to become a sensor?”\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nA few days ago, I opened my Xfinity app and saw a prompt I was not expecting.\n\n“Turn on WiFi Motion.”\n\nI stopped.\n\nMy Xfinity gateway connects devices throughout my home to the internet.\n\nIt has no camera.\n\nSo how could it possibly detect someone moving inside my home?\n\nBefore pressing the button, I imagined a simple experiment.\n\nSuppose I place my phone on the kitchen counter and activate the feature. The television is off across the living room, but it remains connected to the gateway in another part of the house.\n\nFor a moment, I stand still.\n\nNothing happens.\n\nThen I walk across the room between the gateway and the television.\n\nMy phone lights up:\n\n“Motion detected.”\n\nI look at the television. Its screen is black.\n\nI look at the router. There is no lens hiding on it.\n\nWhat saw the person?\n\nNothing did.\n\nThe Wi-Fi signal felt the room change.\n\nA radio signal does not travel along one perfectly straight line. It can pass through materials or reflect from walls, furniture, appliances, and people. Several versions may reach a device by different paths.\n\nWhen a room is quiet, that complicated radio environment can form a relatively stable pattern.\n\nWhen I cross the room, my body absorbs, reflects, and scatters some of that radio energy. The signal arriving at the television changes slightly.\n\nThe software does not need my picture. It looks for a disruption large and consistent enough to resemble movement.\n\nThink about a dark swimming pool.\n\nYou cannot see what entered the water. But if ripples suddenly reach the edge, you know that something disturbed the pool.\n\nWi-Fi sensing reads the ripples.\n\nWi-Fi does not see the person. It measures what the person does to the signal.\n\nNow imagine I repeat the experiment in another corner of the house—and receive no alert.\n\nThat is not necessarily a contradiction. Xfinity says its feature uses a compatible gateway and selected connected devices. Their placement creates the useful sensing areas. If strong Wi-Fi is not travelling through the space where I move, the system may have little to measure.\n\nThen the family dog crosses the room and another alert appears.\n\nThe software noticed movement, but it did not understand the story.\n\nXfinity provides sensitivity controls and small-pet filtering. But without visual information, it cannot always distinguish a pet from a similarly sized child. Walls, furniture, weak signals, and other movement also change the pattern.\n\nXfinity also says WiFi Motion is not a professionally monitored home-security service and does not guarantee its performance.\n\nAn alert therefore means, “The radio environment changed enough to resemble motion.”\n\nIt does not mean, “A particular person entered,” or, “Your home is definitely safe.”\n\nEngineers are developing Wi-Fi sensing for presence detection, smart buildings, and wellness. Research also explores gestures and breathing, but ordinary commercial routers should not be assumed to perform those tasks.\n\nI return to the phone and open the motion activity feed.\n\nThere is no photograph of me crossing the room—only an event and a time.\n\nOne timestamp seems harmless. But a history of timestamps could reveal when a home becomes active, when movement normally stops, and when an apparently empty space changes.\n\nIf no picture exists, is this still observation?\n\nIt is less revealing than video, but it is still information about life inside a private place.\n\nThat is why consent, controls, retention, security, and honest product boundaries matter. Xfinity allows the feature to be turned off and says Comcast does not monitor the generated motion or notifications. Users must decide whether the benefit is worth enabling.\n\nReturn to the prompt in my app.\n\nAt first, it sounded as though my router had secretly grown eyes.\n\nIt had not. It was learning to notice disturbances in something already filling my home: radio waves.\n\nFor years, Wi-Fi had one obvious job—to carry information between devices.\n\nNow the signal itself could become information about the space through which it travelled.\n\nThe question on my screen was no longer, “Can Wi-Fi detect movement?”\n\nIt could.\n\nThe more important question was:\n\n“Do I want my internet connection to become a sensor?”\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-08-08-can-wi-fi-detect-someone-without-a-camera.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-08-can-wi-fi-detect-someone-without-a-camera.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "Wi-Fi sensing matters because it turns communication signals into environmental signals. The router is not seeing a person like a camera. It is detecting changes in radio patterns, which makes the capability useful but still privacy-sensitive.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What does Wi-Fi sensing measure?",
+          "options": [
+            "Changes in radio signals caused by movement or presence.",
+            "A hidden camera image inside the router.",
+            "The exact identity of every person in a room."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Wi-Fi sensing infers motion from disruptions in wireless signal patterns, not from images."
+        },
+        {
+          "prompt": "Why can a moving person affect Wi-Fi?",
+          "options": [
+            "A body can absorb, reflect, and scatter radio waves.",
+            "A body turns the router into a microphone.",
+            "A body changes the internet bill."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Human movement changes the multipath radio environment between devices."
+        },
+        {
+          "prompt": "What does a motion alert actually prove?",
+          "options": [
+            "The radio environment changed enough to resemble motion.",
+            "A specific person entered the room.",
+            "The home is professionally monitored."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "A motion event is an inference from signal change; it does not establish identity or intent."
+        },
+        {
+          "prompt": "Why does device placement matter?",
+          "options": [
+            "Useful sensing depends on signal paths between the gateway and connected devices.",
+            "The router needs direct sunlight.",
+            "The TV must be showing a video."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "If strong Wi-Fi paths do not cross the area, there may be little useful change to measure."
+        },
+        {
+          "prompt": "Why is this still a privacy question without a camera?",
+          "options": [
+            "Motion timestamps can reveal occupancy and routines.",
+            "Every alert contains a photograph.",
+            "Radio waves automatically publish home videos."
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Presence and activity metadata can reveal private patterns even without images."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-08-08-can-wi-fi-detect-someone-without-a-camera.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-08-08-can-wi-fi-detect-someone-without-a-camera.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-08-08-can-wi-fi-detect-someone-without-a-camera.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-08-can-wi-fi-detect-someone-without-a-camera.jpg",
+    "topicProfile": {
+      "id": "wireless-sensing",
+      "label": "Wireless sensing",
+      "accent": "#2563EB"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-08-08-can-wi-fi-detect-someone-without-a-camera"
+  },
+  {
     "guid": "in-simple-terms-2026-08-07-can-your-clothes-generate-electricity-triboelectric-textiles-explained",
     "title": "Can Your Clothes Generate Electricity? Triboelectric Textiles Explained",
     "subtitle": "Smart textiles in simple terms",
