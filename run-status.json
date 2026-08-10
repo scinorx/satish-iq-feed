@@ -1,19 +1,19 @@
 {
   "version": 1,
   "date": "2026-08-10",
-  "status": "running",
+  "status": "success",
   "scheduledFor": "2026-08-10T05:30:00-04:00",
   "startedAt": "2026-08-10T14:36:17.564Z",
-  "finishedAt": null,
-  "currentStage": "recovery",
+  "finishedAt": "2026-08-10T14:37:49.470Z",
+  "currentStage": "completed",
   "topic": null,
   "podcastTopic": "What Is Mechanistic Interpretability? Inside AI’s Black Box",
   "commit": null,
   "results": {
-    "publicFeedPublish": null,
-    "privatePush": null,
-    "spotifyPrep": null,
-    "spotifyDraft": null
+    "publicFeedPublish": "success",
+    "privatePush": "success",
+    "spotifyPrep": "skipped",
+    "spotifyDraft": "skipped"
   },
   "outputs": {
     "snapshot": true,
