@@ -1,0 +1,71 @@
+Hello, and welcome to In Simple Terms with Satish.
+
+What is an S-B-O-M?
+
+Imagine your company builds a smart doorbell.
+
+Customers see one product: a camera, a button, a mobile app, and a notification when someone arrives.
+
+But the software behind that doorbell was not written entirely from scratch. It may contain an operating system, a video library, an encryption package, a networking component, and hundreds of smaller pieces created by different suppliers and open-source projects.
+
+Now imagine that a serious security flaw is discovered in one of those pieces.
+
+Your company needs to answer a simple question: Do any of our products use it?
+
+The answer may be surprisingly difficult. Your developers might not have installed that component directly. It may have arrived inside another package, which depends on another package, which depends on the vulnerable one.
+
+Let us understand this with a simple everyday example.
+
+Suppose a food supplier announces that one batch of an ingredient may be contaminated. A manufacturer can examine the ingredient records and identify which products used that batch.
+
+Software needs a similar ingredient record.
+
+That record is called an S-B-O-M: a Software Bill of Materials.
+
+An SBOM is a structured inventory of the components used to create a software product. It can include each component's name, version, supplier, identifier, and its relationship to other components.
+
+Return to the smart doorbell.
+
+At the top of its SBOM is the doorbell firmware. Underneath are the components the company selected directly. Below those are transitive dependencies: components brought in by other components.
+
+This creates a dependency tree rather than a flat shopping list.
+
+When the security alert arrives, an automated system can compare the vulnerable component and version against that inventory.
+
+The mobile app does not contain it.
+
+The latest doorbell does not contain it.
+
+But an older doorbell model contains the affected version deep inside its video-processing software.
+
+The company now knows where to investigate and which product may require an update.
+
+For this to work across different companies and tools, the information must be machine-readable. Two widely used SBOM formats are S-P-D-X and Cyclone D-X. They provide common ways to describe components and their relationships so that security and development systems can process the inventory automatically.
+
+But here is the important catch.
+
+Finding a component inside an SBOM does not automatically mean the product can be attacked.
+
+Perhaps the vulnerable function was never enabled. Perhaps the product uses the component in a way that attackers cannot reach. Or perhaps the SBOM is incomplete or out of date.
+
+An SBOM answers: What is inside this software?
+
+It does not automatically answer: Is this vulnerability exploitable here?
+
+That second question can be supported by something called VEX, or Vulnerability Exploitability eXchange. VEX allows a supplier to communicate whether a known vulnerability actually affects a particular product, along with the status or reasoning.
+
+An SBOM is also not a security scanner, a software patch, or a guarantee that a product is safe. Its value is visibility.
+
+Governments and large buyers are increasingly asking software manufacturers for this visibility. In Europe, the Cyber Resilience Act is accelerating work on software-component inventories and vulnerability handling. But the practical reason remains straightforward: a company cannot quickly protect products containing a vulnerable component if it does not know where that component exists.
+
+So, what is an SBOM?
+
+It is a machine-readable map of the ingredients and dependency relationships inside software.
+
+It does not stop a dangerous ingredient from appearing. It does not repair the product. But when an alert arrives, it can turn the question, "Where are we using this?" from a company-wide search into a targeted investigation.
+
+The smart doorbell still needs a security update.
+
+The difference is that the company now knows which doorbell needs it.
+
+If this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.

@@ -1,0 +1,71 @@
+Hello, and welcome to In Simple Terms with Satish.
+
+What is mechanistic interpretability?
+
+Let us understand this with a simple question.
+
+You ask an AI: “The number of legs on the animal that spins webs is?”
+
+It answers: eight.
+
+The answer is correct. But what happened inside the model?
+
+Did it memorize a similar sentence? Did it jump directly from “spins webs” to “eight”? Or did it first identify a spider and then remember how many legs a spider has?
+
+In a 2026 experiment, researchers detected an internal representation for “spider” while a model processed this question. The word spider never appeared in the prompt or the answer. It was an internal stepping stone.
+
+Then the researchers replaced that spider representation with one for “ant.”
+
+The model answered: six.
+
+Nothing in the visible question had changed. The researchers changed one part of the model's internal activity, and the final answer followed.
+
+That is the central idea behind mechanistic interpretability.
+
+If you ask an AI to explain its answer, it can generate a convincing explanation. But that explanation is still generated text. It may reflect the real process—or it may be a plausible story produced after the answer was already taking shape.
+
+Mechanistic interpretability does not begin by asking the model what it did. It examines the machinery that produced the answer.
+
+Modern neural networks do not contain a readable list of human-written rules. Training adjusts billions of numerical connections called weights. When a prompt moves through the model, changing numerical states called activations flow through its layers.
+
+We know the mathematics of every operation. The mystery is how those operations become concepts and decisions.
+
+Looking at one artificial neuron is usually not enough. One neuron can participate in several unrelated ideas, while one idea can be distributed across many neurons.
+
+Researchers therefore look for features: recognizable patterns across groups of activations.
+
+For example, researchers previously found a feature associated with the Golden Gate Bridge. It responded to the bridge's name in multiple languages, descriptions of it, and even an image.
+
+When they artificially strengthened that feature, the model began bringing up the bridge in unrelated answers. Asked about its physical form, it claimed that it was the Golden Gate Bridge.
+
+This gives us two useful tests.
+
+First, does an internal feature appear when the relevant concept is being processed?
+
+Second, if researchers strengthen, suppress, or replace that feature, does the model's behavior change as predicted?
+
+The second test moves the evidence from correlation toward causation.
+
+A feature alone is not the entire explanation. Researchers also study circuits: groups of internal features and connections that work together to perform a computation. Circuit-tracing tools create partial maps showing how activity may travel from the prompt to the answer.
+
+Techniques such as sparse autoencoders can help separate tangled activation patterns into features that are easier to inspect. But finding a label for a feature is not the finish line. Researchers must still test what it does and how it interacts with the rest of the model.
+
+Why does this matter?
+
+An AI might pass a safety test for the wrong reason. It might notice that it is being evaluated, follow a shortcut, or produce a reassuring explanation that does not match its internal computation. Looking only at the final answer could miss that difference.
+
+But this is not complete AI mind reading.
+
+Current maps capture only part of the computation. Feature descriptions can be incomplete or wrong. Circuit traces may omit important pathways. Tools that translate activations into words can produce incorrect explanations of their own. And techniques that work on simple examples may not scale cleanly to frontier systems.
+
+So, what is mechanistic interpretability?
+
+It is the effort to reverse-engineer a neural network into features, circuits, and causal mechanisms that humans can test.
+
+The spider-to-ant experiment did not explain the entire model. But it demonstrated something important: researchers identified an internal stepping stone, changed it, and watched the final answer follow.
+
+The black box did not become transparent.
+
+But one part of its machinery became visible.
+
+If this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.

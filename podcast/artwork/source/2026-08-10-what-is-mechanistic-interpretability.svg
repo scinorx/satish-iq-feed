@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4F1FF"/>
+      <stop offset="58%" stop-color="#69D7FF"/>
+      <stop offset="100%" stop-color="#4930A8"/>
+    </linearGradient>
+    <radialGradient id="topicGlow" cx="50%" cy="50%" r="62%">
+      <stop offset="0%" stop-color="#5B2EFF" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#101A3A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#6D4E00" flood-opacity="0.15"/>
+    </filter>
+    <style>
+      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #101A3A; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 224px; font-weight: 900; letter-spacing: 2px; fill: #101A3A; }
+      .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #101A3A; }
+      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #101A3A; }
+    </style>
+  </defs>
+  <rect width="3000" height="3000" fill="url(#paper)"/>
+  <circle cx="2450" cy="560" r="530" fill="#FFFFFF" opacity="0.22"/>
+  <circle cx="360" cy="2500" r="560" fill="#FFFFFF" opacity="0.13"/>
+  <circle cx="2250" cy="1540" r="770" fill="url(#topicGlow)" opacity="0.9"/>
+  <g>
+  <path d="M1880 1010 L2200 850 L2520 1050 L2770 880 M1880 1010 L2070 1340 L2430 1280 L2720 1510 M2070 1340 L1900 1710 L2250 1920 L2600 1740 L2800 2110 M2430 1280 L2600 1740 M2250 1920 L2040 2250 L2490 2300 L2800 2110" fill="none" stroke="#5B2EFF" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.32"/>
+  <path d="M2200 850 L2430 1280 M2520 1050 L2430 1280 M2070 1340 L2250 1920 M2720 1510 L2600 1740 M2040 2250 L2250 1920 M2490 2300 L2600 1740" fill="none" stroke="#101A3A" stroke-width="22" stroke-linecap="round" opacity="0.16"/>
+  <g fill="#5B2EFF" opacity="0.48">
+    <circle cx="1880" cy="1010" r="62"/><circle cx="2200" cy="850" r="78"/><circle cx="2520" cy="1050" r="58"/><circle cx="2770" cy="880" r="72"/>
+    <circle cx="2070" cy="1340" r="70"/><circle cx="2430" cy="1280" r="92"/><circle cx="2720" cy="1510" r="64"/><circle cx="1900" cy="1710" r="58"/>
+    <circle cx="2250" cy="1920" r="86"/><circle cx="2600" cy="1740" r="72"/><circle cx="2800" cy="2110" r="62"/><circle cx="2040" cy="2250" r="64"/><circle cx="2490" cy="2300" r="78"/>
+  </g>
+</g>
+  <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#101A3A" stroke-width="12" opacity="0.36"/>
+  <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
+  <g filter="url(#shadow)">
+    <text x="245" y="1290" class="title">WHAT IS</text>
+    <text x="245" y="1550" class="title">MECHANISTIC</text>
+    <text x="245" y="1810" class="title">INTERPRETABILITY?</text>
+  </g>
+  <path d="M260 2135 H1080" stroke="#5B2EFF" stroke-width="24" stroke-linecap="round"/>
+  <text x="260" y="2270" class="date">2026-08-10</text>
+  <text x="260" y="2575" class="small">AI INTERPRETABILITY</text>
+</svg>

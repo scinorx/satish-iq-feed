@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "date": "2026-08-08",
-  "status": "success",
-  "scheduledFor": "2026-08-08T05:30:00-04:00",
-  "startedAt": "2026-08-08T12:04:30.666Z",
-  "finishedAt": "2026-08-08T12:06:19.172Z",
-  "currentStage": "completed",
+  "date": "2026-08-10",
+  "status": "running",
+  "scheduledFor": "2026-08-10T05:30:00-04:00",
+  "startedAt": "2026-08-10T14:36:17.564Z",
+  "finishedAt": null,
+  "currentStage": "recovery",
   "topic": null,
-  "podcastTopic": "Can Wi-Fi Detect Someone Without a Camera?",
+  "podcastTopic": "What Is Mechanistic Interpretability? Inside AI’s Black Box",
   "commit": null,
   "results": {
-    "publicFeedPublish": "success",
-    "privatePush": "success",
-    "spotifyPrep": "skipped",
-    "spotifyDraft": "skipped"
+    "publicFeedPublish": null,
+    "privatePush": null,
+    "spotifyPrep": null,
+    "spotifyDraft": null
   },
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "Can Wi-Fi Detect Someone Without a Camera?"
+    "latestPodcastEpisode": "What Is Mechanistic Interpretability? Inside AI’s Black Box"
   }
 }

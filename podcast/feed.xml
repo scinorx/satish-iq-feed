@@ -22,7 +22,107 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sat, 08 Aug 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>What Is Mechanistic Interpretability? Inside AI’s Black Box</title>
+      <description>An AI answers that the animal spinning a web has eight legs. Researchers find an internal representation for “spider,” replace it with “ant,” and the answer changes to six.
+
+Mechanistic interpretability attempts to reverse-engineer the internal computations of neural networks. Follow researchers from numerical activations to features, circuits, and causal interventions—and learn why an AI&apos;s spoken explanation is not proof of how it actually reached an answer.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.anthropic.com/research/mapping-mind-language-model
+- https://www.anthropic.com/research/tracing-thoughts-language-model
+- https://www.anthropic.com/research/open-source-circuit-tracing
+- https://www.anthropic.com/research/natural-language-autoencoders
+- https://www.anthropic.com/research/global-workspace
+- https://openai.com/index/understanding-neural-networks-through-sparse-circuits/
+
+Youtube - https://youtu.be/D4uKsYgsVes</description>
+      <itunes:subtitle>AI interpretability in simple terms</itunes:subtitle>
+      <itunes:summary>An AI answers that the animal spinning a web has eight legs. Researchers find an internal representation for “spider,” replace it with “ant,” and the answer changes to six.
+
+Mechanistic interpretability attempts to reverse-engineer the internal computations of neural networks. Follow researchers from numerical activations to features, circuits, and causal interventions—and learn why an AI&apos;s spoken explanation is not proof of how it actually reached an answer.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.anthropic.com/research/mapping-mind-language-model
+- https://www.anthropic.com/research/tracing-thoughts-language-model
+- https://www.anthropic.com/research/open-source-circuit-tracing
+- https://www.anthropic.com/research/natural-language-autoencoders
+- https://www.anthropic.com/research/global-workspace
+- https://openai.com/index/understanding-neural-networks-through-sparse-circuits/
+
+Youtube - https://youtu.be/D4uKsYgsVes</itunes:summary>
+      <itunes:duration>00:04:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>67</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-10-what-is-mechanistic-interpretability.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-10-what-is-mechanistic-interpretability.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-10-what-is-mechanistic-interpretability.mp3" length="4327593" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-08-10-what-is-mechanistic-interpretability</guid>
+      <pubDate>Mon, 10 Aug 2026 09:30:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>What Is SBOM? Software’s Ingredient List Explained</title>
+      <description>When a dangerous flaw is discovered in one tiny software component, how can a company find every product that contains it?
+
+An SBOM, or Software Bill of Materials, is a machine-readable inventory of the components inside software. Follow a security alert through a smart-doorbell company to understand direct and hidden dependencies, vulnerability matching, SPDX, CycloneDX, VEX—and why an ingredient list is useful without being a security certificate.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom
+- https://www.ntia.gov/SBOM
+- https://www.cisa.gov/sites/default/files/2025-09/joint-guidance-a-shared-vision-of-software-bill-of-materials-for-cybersecurity_508c.pdf
+- https://www.enisa.europa.eu/publications/sbom-adoption-state-of-play-2026
+- https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act
+- https://spdx.dev/about/overview/
+- https://cyclonedx.org/
+
+Youtube - https://youtu.be/hZrmJjdHhyk</description>
+      <itunes:subtitle>Software supply-chain transparency in simple terms</itunes:subtitle>
+      <itunes:summary>When a dangerous flaw is discovered in one tiny software component, how can a company find every product that contains it?
+
+An SBOM, or Software Bill of Materials, is a machine-readable inventory of the components inside software. Follow a security alert through a smart-doorbell company to understand direct and hidden dependencies, vulnerability matching, SPDX, CycloneDX, VEX—and why an ingredient list is useful without being a security certificate.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom
+- https://www.ntia.gov/SBOM
+- https://www.cisa.gov/sites/default/files/2025-09/joint-guidance-a-shared-vision-of-software-bill-of-materials-for-cybersecurity_508c.pdf
+- https://www.enisa.europa.eu/publications/sbom-adoption-state-of-play-2026
+- https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act
+- https://spdx.dev/about/overview/
+- https://cyclonedx.org/
+
+Youtube - https://youtu.be/hZrmJjdHhyk</itunes:summary>
+      <itunes:duration>00:04:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>66</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-09-what-is-sbom.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-09-what-is-sbom.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-09-what-is-sbom.mp3" length="4045888" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-08-09-what-is-sbom</guid>
+      <pubDate>Sun, 09 Aug 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>Can Wi-Fi Detect Someone Without a Camera?</title>
