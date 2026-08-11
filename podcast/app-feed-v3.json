@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-10",
+  "generatedAt": "2026-08-11",
   "product": "daily-tech-brief",
   "compatibility": {
     "legacyFeedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/episodes.json",
@@ -8,6 +8,110 @@
   },
   "preferredArtwork": "thumbnailUrl",
   "episodes": [
+    {
+      "guid": "in-simple-terms-2026-08-11-are-you-ship-it-sam-or-verify-veera",
+      "title": "AI Coding: Speed vs Proof — Ship-It Sam vs Verify Veera",
+      "subtitle": "AI-assisted coding verification in simple terms",
+      "description": "Two developers—Ship-It Sam and Verify Veera—use the same AI tool to build the same payment feature in parallel.\n\nSam accepts the generated work because every test is green and appears to win the race easily. Veera looks slower because she questions assumptions and tests the complete customer journey. Then both applications face one real checkout.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://arxiv.org/abs/2607.21832\n- https://stackoverflow.blog/2026/05/27/agents-on-a-leash-agentic-ai-remains-mostly-monitored-at-work/\n- https://csrc.nist.gov/Projects/ssdf\n\nYoutube - https://youtu.be/NQ6hc4LK2K8",
+      "publishedAt": "2026-08-11T09:30:00.000Z",
+      "sourceGeneratedAt": "2026-08-11",
+      "seasonNumber": 5,
+      "episodeNumber": 68,
+      "episodeType": "full",
+      "releaseTimeZone": "America/New_York",
+      "releaseLocalTime": "2026-08-11T05:30:00-04:00",
+      "durationSeconds": 256,
+      "audioPath": "podcast/audio/2026-08-11-are-you-ship-it-sam-or-verify-veera.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-11-are-you-ship-it-sam-or-verify-veera.mp3",
+      "youtubeId": "NQ6hc4LK2K8",
+      "youtubeUrl": "https://youtu.be/NQ6hc4LK2K8",
+      "lengthBytes": 4098133,
+      "type": "audio/mpeg",
+      "explicit": false,
+      "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+      "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nAt 8:57 on Monday morning, the same message lands on two laptops:\n\n“Add a payment feature before lunch.”\n\nMeet Sam and Veera.\n\nAround the office, they have slightly different nicknames.\n\nShip-It Sam and Verify Veera.\n\nThey receive the same AI coding tool, the same clean project, and the same deadline.\n\nAt 9:01, Sam types:\n\n“Build the payment feature. Make it production ready.”\n\nThe AI works for twenty minutes and announces:\n\n“Feature complete. Ten thousand lines added. All tests passed.”\n\nAt 9:20, he clicks Merge, leans back, and moves his lunch break twenty minutes earlier.\n\nAcross the room, Veera has not generated a single line of code.\n\nShe is still asking the AI questions.\n\nSam looks over and asks:\n\n“Are you building the feature—or interviewing it?”\n\nVeera replies:\n\n“I am finding out what ‘done’ means.”\n\nSam has a finished feature. Veera has a list. The race appears to be over.\n\nOr is he?\n\nVeera began with a different instruction:\n\n“Before you build anything, list your assumptions.”\n\nThe AI asks:\n\nWhat happens if someone clicks Pay twice?\n\nHow should errors appear in the logs?\n\nWhat would prove that one click creates only one payment?\n\nVeera turns those questions into acceptance criteria.\n\nOne click should create one payment request.\n\nRetrying the same request should not create another charge.\n\nA failed payment should leave enough information to investigate.\n\nOnly then does she ask the AI to build.\n\nAt 10:05, Sam's screen flashes with a message from the test user:\n\n“I clicked Pay once. Why are there two payments?”\n\nThe room changes.\n\nThe admin page is blank.\n\nBut the dashboard of tests is still glowing green.\n\nSam quietly cancels the early lunch.\n\nHe opens the code expecting one small bug.\n\nInstead, two functions submit the payment.\n\nThen comes the funny part.\n\nThe payment test calls a fake service that always says success.\n\nThe test did not prove that checkout worked.\n\nIt proved that the fake knew how to agree.\n\nIt is like asking your friend, “Did I cook this correctly?” after instructing them to answer yes.\n\nSam was not foolish. He trusted two familiar signals: completed tasks and passing tests.\n\nNeither measured the real customer journey.\n\nSam won the race to generate code.\n\nNow he has become the Code Janitor, cleaning up code he never properly inspected.\n\nMeanwhile, Veera's AI produces its implementation and green tests.\n\nBut Verify Veera does not treat green as proof.\n\nShe asks:\n\n“Show me a test that follows the real journey from the Pay button to the payment request and confirmation.”\n\nFor the first time that morning, red appears.\n\nIt is the most useful result on either screen.\n\nThe AI traces the flow, finds two code paths responding to the same click, removes the duplicate path, and protects repeated requests.\n\nAt 11:59, Veera runs the journey one final time.\n\nOne click. One payment. One confirmation.\n\nAt noon, Veera releases. Sam is still repairing the feature that was “complete” at 9:20.\n\nShip-It Sam reached code complete first.\n\nVerify Veera reached release ready first.\n\nSam treated AI like a vending machine.\n\nInsert prompt. Receive code. Press release.\n\nVeera treated AI like a fast collaborator.\n\nShe supplied the goal, questioned assumptions, defined success, and asked for evidence.\n\nThe AI mapped the flow, generated code, created tests, found the duplicate call, and proposed the repair.\n\nVeera did not compete with AI on typing.\n\nShe guided its attention and remained responsible for what reached the customer.\n\nThis is not an argument against AI-generated code.\n\nHuman teams also write weak tests and ship confident mistakes. AI did not invent that problem. It changed the speed and volume at which it can arrive.\n\nWorking with AI needs a verification loop: define the outcome, expose assumptions, test the real journey, and review the evidence before release.\n\nAI can multiply your speed.\n\nBut if your assumptions are wrong, it can multiply those too.\n\nSo the important difference is not human code versus AI code.\n\nIt is blindly accepting output versus building a system where every important claim can be checked.\n\nWho was really ahead at 9:20—Ship-It Sam or Verify Veera?\n\nAnd when AI gives you working code, what do you verify before you trust it?\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+      "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nAt 8:57 on Monday morning, the same message lands on two laptops:\n\n“Add a payment feature before lunch.”\n\nMeet Sam and Veera.\n\nAround the office, they have slightly different nicknames.\n\nShip-It Sam and Verify Veera.\n\nThey receive the same AI coding tool, the same clean project, and the same deadline.\n\nAt 9:01, Sam types:\n\n“Build the payment feature. Make it production ready.”\n\nThe AI works for twenty minutes and announces:\n\n“Feature complete. Ten thousand lines added. All tests passed.”\n\nAt 9:20, he clicks Merge, leans back, and moves his lunch break twenty minutes earlier.\n\nAcross the room, Veera has not generated a single line of code.\n\nShe is still asking the AI questions.\n\nSam looks over and asks:\n\n“Are you building the feature—or interviewing it?”\n\nVeera replies:\n\n“I am finding out what ‘done’ means.”\n\nSam has a finished feature. Veera has a list. The race appears to be over.\n\nOr is he?\n\nVeera began with a different instruction:\n\n“Before you build anything, list your assumptions.”\n\nThe AI asks:\n\nWhat happens if someone clicks Pay twice?\n\nHow should errors appear in the logs?\n\nWhat would prove that one click creates only one payment?\n\nVeera turns those questions into acceptance criteria.\n\nOne click should create one payment request.\n\nRetrying the same request should not create another charge.\n\nA failed payment should leave enough information to investigate.\n\nOnly then does she ask the AI to build.\n\nAt 10:05, Sam's screen flashes with a message from the test user:\n\n“I clicked Pay once. Why are there two payments?”\n\nThe room changes.\n\nThe admin page is blank.\n\nBut the dashboard of tests is still glowing green.\n\nSam quietly cancels the early lunch.\n\nHe opens the code expecting one small bug.\n\nInstead, two functions submit the payment.\n\nThen comes the funny part.\n\nThe payment test calls a fake service that always says success.\n\nThe test did not prove that checkout worked.\n\nIt proved that the fake knew how to agree.\n\nIt is like asking your friend, “Did I cook this correctly?” after instructing them to answer yes.\n\nSam was not foolish. He trusted two familiar signals: completed tasks and passing tests.\n\nNeither measured the real customer journey.\n\nSam won the race to generate code.\n\nNow he has become the Code Janitor, cleaning up code he never properly inspected.\n\nMeanwhile, Veera's AI produces its implementation and green tests.\n\nBut Verify Veera does not treat green as proof.\n\nShe asks:\n\n“Show me a test that follows the real journey from the Pay button to the payment request and confirmation.”\n\nFor the first time that morning, red appears.\n\nIt is the most useful result on either screen.\n\nThe AI traces the flow, finds two code paths responding to the same click, removes the duplicate path, and protects repeated requests.\n\nAt 11:59, Veera runs the journey one final time.\n\nOne click. One payment. One confirmation.\n\nAt noon, Veera releases. Sam is still repairing the feature that was “complete” at 9:20.\n\nShip-It Sam reached code complete first.\n\nVerify Veera reached release ready first.\n\nSam treated AI like a vending machine.\n\nInsert prompt. Receive code. Press release.\n\nVeera treated AI like a fast collaborator.\n\nShe supplied the goal, questioned assumptions, defined success, and asked for evidence.\n\nThe AI mapped the flow, generated code, created tests, found the duplicate call, and proposed the repair.\n\nVeera did not compete with AI on typing.\n\nShe guided its attention and remained responsible for what reached the customer.\n\nThis is not an argument against AI-generated code.\n\nHuman teams also write weak tests and ship confident mistakes. AI did not invent that problem. It changed the speed and volume at which it can arrive.\n\nWorking with AI needs a verification loop: define the outcome, expose assumptions, test the real journey, and review the evidence before release.\n\nAI can multiply your speed.\n\nBut if your assumptions are wrong, it can multiply those too.\n\nSo the important difference is not human code versus AI code.\n\nIt is blindly accepting output versus building a system where every important claim can be checked.\n\nWho was really ahead at 9:20—Ship-It Sam or Verify Veera?\n\nAnd when AI gives you working code, what do you verify before you trust it?\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+      "transcripts": [
+        {
+          "path": "podcast/transcripts/2026-08-11-are-you-ship-it-sam-or-verify-veera.txt",
+          "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-11-are-you-ship-it-sam-or-verify-veera.txt",
+          "type": "text/plain",
+          "language": "en"
+        }
+      ],
+      "satishTake": "AI-assisted coding is useful when speed is paired with proof. The important shift is moving from accepting generated code because it looks complete to defining success, exposing assumptions, and checking the evidence before release.",
+      "quickCheck": {
+        "questions": [
+          {
+            "prompt": "What did Ship-It Sam optimize for?",
+            "options": [
+              "Fast code generation and quick merge.",
+              "Defining acceptance criteria before coding.",
+              "End-to-end evidence before release."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Sam treated generated code and green tests as enough proof that the feature was ready."
+          },
+          {
+            "prompt": "What did Verify Veera ask the AI to do first?",
+            "options": [
+              "List assumptions before building.",
+              "Skip tests to save time.",
+              "Rewrite the whole product."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Veera started by making assumptions and success conditions visible."
+          },
+          {
+            "prompt": "Why were Sam's green tests misleading?",
+            "options": [
+              "They tested a fake service that always returned success.",
+              "They tested the entire real checkout flow.",
+              "They proved duplicate payments were impossible."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "A mocked success path can miss failures in the actual user journey."
+          },
+          {
+            "prompt": "What made Veera release-ready first?",
+            "options": [
+              "She verified one click, one payment, one confirmation.",
+              "She generated more code than Sam.",
+              "She avoided using AI entirely."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "The useful measure was verified customer behavior, not lines of generated code."
+          },
+          {
+            "prompt": "What is the main lesson for AI-assisted coding?",
+            "options": [
+              "Use AI speed with a verification loop.",
+              "Never use AI to write code.",
+              "Trust every passing test equally."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "AI can accelerate development, but important claims still need evidence."
+          }
+        ]
+      },
+      "artworkPath": "podcast/artwork/episodes/2026-08-11-are-you-ship-it-sam-or-verify-veera.jpg",
+      "artworkPngPath": "podcast/artwork/episodes/2026-08-11-are-you-ship-it-sam-or-verify-veera.png",
+      "artworkSourcePath": "podcast/artwork/source/2026-08-11-are-you-ship-it-sam-or-verify-veera.svg",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-11-are-you-ship-it-sam-or-verify-veera.jpg",
+      "topicProfile": {
+        "id": "ai-assisted-coding",
+        "label": "AI-assisted coding",
+        "accent": "#7C3AED"
+      },
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-11-are-you-ship-it-sam-or-verify-veera",
+      "watchUrl": "https://satishkchoudhary.com/daily-brief-episodes/2026-08-11-are-you-ship-it-sam-or-verify-veera/",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NQ6hc4LK2K8/maxresdefault.jpg",
+      "media": {
+        "hasAudio": true,
+        "hasVideo": true,
+        "primary": "video"
+      }
+    },
     {
       "guid": "in-simple-terms-2026-08-10-what-is-mechanistic-interpretability",
       "title": "What Is Mechanistic Interpretability? Inside AI’s Black Box",

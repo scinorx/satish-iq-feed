@@ -22,7 +22,50 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Mon, 10 Aug 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>AI Coding: Speed vs Proof — Ship-It Sam vs Verify Veera</title>
+      <description>Two developers—Ship-It Sam and Verify Veera—use the same AI tool to build the same payment feature in parallel.
+
+Sam accepts the generated work because every test is green and appears to win the race easily. Veera looks slower because she questions assumptions and tests the complete customer journey. Then both applications face one real checkout.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://arxiv.org/abs/2607.21832
+- https://stackoverflow.blog/2026/05/27/agents-on-a-leash-agentic-ai-remains-mostly-monitored-at-work/
+- https://csrc.nist.gov/Projects/ssdf
+
+Youtube - https://youtu.be/NQ6hc4LK2K8</description>
+      <itunes:subtitle>AI-assisted coding verification in simple terms</itunes:subtitle>
+      <itunes:summary>Two developers—Ship-It Sam and Verify Veera—use the same AI tool to build the same payment feature in parallel.
+
+Sam accepts the generated work because every test is green and appears to win the race easily. Veera looks slower because she questions assumptions and tests the complete customer journey. Then both applications face one real checkout.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://arxiv.org/abs/2607.21832
+- https://stackoverflow.blog/2026/05/27/agents-on-a-leash-agentic-ai-remains-mostly-monitored-at-work/
+- https://csrc.nist.gov/Projects/ssdf
+
+Youtube - https://youtu.be/NQ6hc4LK2K8</itunes:summary>
+      <itunes:duration>00:04:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>68</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-11-are-you-ship-it-sam-or-verify-veera.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-11-are-you-ship-it-sam-or-verify-veera.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-11-are-you-ship-it-sam-or-verify-veera.mp3" length="4098133" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-08-11-are-you-ship-it-sam-or-verify-veera</guid>
+      <pubDate>Tue, 11 Aug 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>What Is Mechanistic Interpretability? Inside AI’s Black Box</title>

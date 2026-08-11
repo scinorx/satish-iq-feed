@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-10",
-  "title": "Today's object: AI interpretability in simple terms",
+  "generatedAt": "2026-08-11",
+  "title": "Today's object: AI-assisted coding verification in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-08-10",
+    "date": "2026-08-11",
     "status": "success",
-    "scheduledFor": "2026-08-10T05:30:00-04:00",
-    "startedAt": "2026-08-10T14:36:17.564Z",
-    "finishedAt": "2026-08-10T14:37:49.470Z",
+    "scheduledFor": "2026-08-11T05:30:00-04:00",
+    "startedAt": "2026-08-11T12:22:46.540Z",
+    "finishedAt": "2026-08-11T12:22:55.094Z",
     "currentStage": "completed",
     "topic": null,
-    "podcastTopic": "What Is Mechanistic Interpretability? Inside AI’s Black Box",
+    "podcastTopic": "AI Coding: Speed vs Proof — Ship-It Sam vs Verify Veera",
     "commit": null,
     "results": {
       "publicFeedPublish": "success",
@@ -25,17 +25,17 @@
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "What Is Mechanistic Interpretability? Inside AI’s Black Box"
+      "latestPodcastEpisode": "AI Coding: Speed vs Proof — Ship-It Sam vs Verify Veera"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "What Is Mechanistic Interpretability? Inside AI’s Black Box",
-      "publishedAt": "2026-08-10T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-10-what-is-mechanistic-interpretability.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-10-what-is-mechanistic-interpretability.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-10-what-is-mechanistic-interpretability"
+      "title": "AI Coding: Speed vs Proof — Ship-It Sam vs Verify Veera",
+      "publishedAt": "2026-08-11T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-11-are-you-ship-it-sam-or-verify-veera.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-11-are-you-ship-it-sam-or-verify-veera.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-11-are-you-ship-it-sam-or-verify-veera"
     }
   }
 }

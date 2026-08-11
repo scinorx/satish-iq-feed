@@ -1,0 +1,153 @@
+Hello, and welcome to In Simple Terms with Satish.
+
+At 8:57 on Monday morning, the same message lands on two laptops:
+
+“Add a payment feature before lunch.”
+
+Meet Sam and Veera.
+
+Around the office, they have slightly different nicknames.
+
+Ship-It Sam and Verify Veera.
+
+They receive the same AI coding tool, the same clean project, and the same deadline.
+
+At 9:01, Sam types:
+
+“Build the payment feature. Make it production ready.”
+
+The AI works for twenty minutes and announces:
+
+“Feature complete. Ten thousand lines added. All tests passed.”
+
+At 9:20, he clicks Merge, leans back, and moves his lunch break twenty minutes earlier.
+
+Across the room, Veera has not generated a single line of code.
+
+She is still asking the AI questions.
+
+Sam looks over and asks:
+
+“Are you building the feature—or interviewing it?”
+
+Veera replies:
+
+“I am finding out what ‘done’ means.”
+
+Sam has a finished feature. Veera has a list. The race appears to be over.
+
+Or is he?
+
+Veera began with a different instruction:
+
+“Before you build anything, list your assumptions.”
+
+The AI asks:
+
+What happens if someone clicks Pay twice?
+
+How should errors appear in the logs?
+
+What would prove that one click creates only one payment?
+
+Veera turns those questions into acceptance criteria.
+
+One click should create one payment request.
+
+Retrying the same request should not create another charge.
+
+A failed payment should leave enough information to investigate.
+
+Only then does she ask the AI to build.
+
+At 10:05, Sam's screen flashes with a message from the test user:
+
+“I clicked Pay once. Why are there two payments?”
+
+The room changes.
+
+The admin page is blank.
+
+But the dashboard of tests is still glowing green.
+
+Sam quietly cancels the early lunch.
+
+He opens the code expecting one small bug.
+
+Instead, two functions submit the payment.
+
+Then comes the funny part.
+
+The payment test calls a fake service that always says success.
+
+The test did not prove that checkout worked.
+
+It proved that the fake knew how to agree.
+
+It is like asking your friend, “Did I cook this correctly?” after instructing them to answer yes.
+
+Sam was not foolish. He trusted two familiar signals: completed tasks and passing tests.
+
+Neither measured the real customer journey.
+
+Sam won the race to generate code.
+
+Now he has become the Code Janitor, cleaning up code he never properly inspected.
+
+Meanwhile, Veera's AI produces its implementation and green tests.
+
+But Verify Veera does not treat green as proof.
+
+She asks:
+
+“Show me a test that follows the real journey from the Pay button to the payment request and confirmation.”
+
+For the first time that morning, red appears.
+
+It is the most useful result on either screen.
+
+The AI traces the flow, finds two code paths responding to the same click, removes the duplicate path, and protects repeated requests.
+
+At 11:59, Veera runs the journey one final time.
+
+One click. One payment. One confirmation.
+
+At noon, Veera releases. Sam is still repairing the feature that was “complete” at 9:20.
+
+Ship-It Sam reached code complete first.
+
+Verify Veera reached release ready first.
+
+Sam treated AI like a vending machine.
+
+Insert prompt. Receive code. Press release.
+
+Veera treated AI like a fast collaborator.
+
+She supplied the goal, questioned assumptions, defined success, and asked for evidence.
+
+The AI mapped the flow, generated code, created tests, found the duplicate call, and proposed the repair.
+
+Veera did not compete with AI on typing.
+
+She guided its attention and remained responsible for what reached the customer.
+
+This is not an argument against AI-generated code.
+
+Human teams also write weak tests and ship confident mistakes. AI did not invent that problem. It changed the speed and volume at which it can arrive.
+
+Working with AI needs a verification loop: define the outcome, expose assumptions, test the real journey, and review the evidence before release.
+
+AI can multiply your speed.
+
+But if your assumptions are wrong, it can multiply those too.
+
+So the important difference is not human code versus AI code.
+
+It is blindly accepting output versus building a system where every important claim can be checked.
+
+Who was really ahead at 9:20—Ship-It Sam or Verify Veera?
+
+And when AI gives you working code, what do you verify before you trust it?
+
+If this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.
