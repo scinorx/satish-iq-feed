@@ -37,7 +37,7 @@
           "prompt": "What is machine unlearning trying to remove?",
           "options": [
             "The influence of selected training data on a model.",
-            "The app icon from a phone.",
+            "Only the stored source record after training is done.",
             "Every capability the model has learned."
           ],
           "correctOptionIndex": 0,
