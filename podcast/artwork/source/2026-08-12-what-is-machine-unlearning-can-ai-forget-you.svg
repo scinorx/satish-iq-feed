@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F0FF"/>
+      <stop offset="58%" stop-color="#C8B7FF"/>
+      <stop offset="100%" stop-color="#6556D8"/>
+    </linearGradient>
+    <radialGradient id="topicGlow" cx="50%" cy="50%" r="62%">
+      <stop offset="0%" stop-color="#6556D8" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#21194A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#6D4E00" flood-opacity="0.15"/>
+    </filter>
+    <style>
+      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #21194A; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 254px; font-weight: 900; letter-spacing: 3px; fill: #21194A; }
+      .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #21194A; }
+      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #21194A; }
+    </style>
+  </defs>
+  <rect width="3000" height="3000" fill="url(#paper)"/>
+  <circle cx="2450" cy="560" r="530" fill="#7BF0D2" opacity="0.22"/>
+  <circle cx="360" cy="2500" r="560" fill="#7BF0D2" opacity="0.13"/>
+  <circle cx="2250" cy="1540" r="770" fill="url(#topicGlow)" opacity="0.9"/>
+  <g>
+  <circle cx="2305" cy="1320" r="390" fill="none" stroke="#6556D8" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <circle cx="2110" cy="1160" r="64" fill="#6556D8" opacity="0.42"/>
+  <circle cx="2415" cy="1050" r="64" fill="#6556D8" opacity="0.42"/>
+  <circle cx="2520" cy="1395" r="64" fill="#6556D8" opacity="0.42"/>
+  <circle cx="2185" cy="1515" r="64" fill="#6556D8" opacity="0.42"/>
+  <path d="M2165 1190 L2360 1080 M2460 1110 L2500 1335 M2465 1435 L2240 1500 M2150 1455 L2100 1220" fill="none" stroke="#21194A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <path d="M2050 1890 H2570" fill="none" stroke="#6556D8" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M2150 1770 L2030 1890 L2150 2010 M2470 1770 L2590 1890 L2470 2010" fill="none" stroke="#21194A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <circle cx="2305" cy="1890" r="82" fill="#7BF0D2" opacity="0.42"/>
+  <path d="M2180 2240 H2430 M2495 2240 H2745" fill="none" stroke="#21194A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+</g>
+  <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#21194A" stroke-width="12" opacity="0.36"/>
+  <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
+  <g filter="url(#shadow)">
+    <text x="245" y="1270" class="title">WHAT IS MACHINE</text>
+    <text x="245" y="1565" class="title">UNLEARNING? CAN</text>
+    <text x="245" y="1860" class="title">AI FORGET YOU?</text>
+  </g>
+  <path d="M260 2135 H1080" stroke="#6556D8" stroke-width="24" stroke-linecap="round"/>
+  <text x="260" y="2270" class="date">2026-08-12</text>
+  <text x="260" y="2575" class="small">MACHINE UNLEARNING</text>
+</svg>

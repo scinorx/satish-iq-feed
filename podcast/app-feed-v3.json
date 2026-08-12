@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-11",
+  "generatedAt": "2026-08-12",
   "product": "daily-tech-brief",
   "compatibility": {
     "legacyFeedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/episodes.json",
@@ -8,6 +8,110 @@
   },
   "preferredArtwork": "thumbnailUrl",
   "episodes": [
+    {
+      "guid": "in-simple-terms-2026-08-12-what-is-machine-unlearning-can-ai-forget-you",
+      "title": "What Is Machine Unlearning? Can AI Forget You?",
+      "subtitle": "AI forgetting in simple terms",
+      "description": "You press “Delete My Account.” Your photographs disappear and the application confirms that your data is gone. But if an AI model already trained on that information, has the model forgotten it too?\n\nMachine unlearning attempts to remove selected training data's influence without rebuilding an entire model. Follow the difference between deleting and forgetting, the trade-off between exact retraining and faster approximations, and the surprisingly difficult problem of proving that unlearning worked.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://csrc.nist.gov/glossary/term/machine_unlearning\n- https://research.google/blog/announcing-the-first-machine-unlearning-challenge/\n- https://research.google/blog/new-framework-for-auditing-machine-unlearning/\n- https://research.google/pubs/muse-machine-unlearning-six-way-evaluation-for-language-models/\n- https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02016R0679-20160504\n\nYoutube - https://youtu.be/W0TE-Ndwiuc",
+      "publishedAt": "2026-08-12T09:30:00.000Z",
+      "sourceGeneratedAt": "2026-08-12",
+      "seasonNumber": 5,
+      "episodeNumber": 69,
+      "episodeType": "full",
+      "releaseTimeZone": "America/New_York",
+      "releaseLocalTime": "2026-08-12T05:30:00-04:00",
+      "durationSeconds": 273,
+      "audioPath": "podcast/audio/2026-08-12-what-is-machine-unlearning-can-ai-forget-you.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-12-what-is-machine-unlearning-can-ai-forget-you.mp3",
+      "youtubeId": "W0TE-Ndwiuc",
+      "youtubeUrl": "https://youtu.be/W0TE-Ndwiuc",
+      "lengthBytes": 4363119,
+      "type": "audio/mpeg",
+      "explicit": false,
+      "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+      "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine an AI photo application contains years of your family photographs.\n\nOne evening, you decide to leave.\n\nYou press “Delete My Account.”\n\nA confirmation appears: “Your data has been deleted.”\n\nBut here is the uncomfortable question.\n\nWhat if some of those photographs had already been used to train the company's AI?\n\nThe files may be gone. But has the AI forgotten what it learned from them?\n\nDeleting data and making an AI forget are not necessarily the same operation.\n\nImagine giving a student a textbook. The student studies it for an exam.\n\nYou can later remove the textbook from the student's desk. But removing the book does not automatically remove what entered the student's memory.\n\nAI training creates a similar challenge.\n\nDuring training, a model examines data and adjusts millions or billions of numerical connections called weights. Your photographs' influence may now be distributed across them.\n\nThere is no folder inside the AI labelled “Your photographs” that an engineer can simply drag into the trash.\n\nSo how can we remove selected data's influence from an already-trained model?\n\nThat is the problem machine unlearning is trying to solve.\n\nMachine unlearning attempts to make an AI model behave as though selected training data had never been included.\n\nResearchers call the information to be removed the forget set. Everything the model should continue remembering is the retain set. In our story, your photographs join the forget set.\n\nThe challenge is to remove your influence without damaging everything else the AI learned.\n\nThe cleanest reference is to remove your photographs and train a new model from the beginning, like giving the student a new education using only approved textbooks.\n\nBut rebuilding a large AI model can require enormous computing power, time, and money. Retraining the complete model for every deletion request may be impractical.\n\nMachine unlearning looks for a faster route that remains trustworthy.\n\nDevelopers might divide training into sections and save checkpoints so they can rebuild only affected parts. Or they might adjust the existing weights, trying to weaken the unwanted influence while preserving everything else.\n\nBut now the story takes a turn.\n\nThe company tests the updated AI. Your photographs no longer appear. The engineers announce that unlearning worked.\n\nThen a security researcher performs a carefully designed test.\n\nThe researcher cannot recover your photograph. But the model's responses still suggest that photographs like yours were probably used during training. The file is gone, yet a trace of its influence may remain.\n\nThat is under-forgetting.\n\nThe opposite is over-forgetting: removing your influence also damages useful knowledge learned from unrelated photographs.\n\nUnlearning therefore has three competing goals: remove the requested influence, protect the model's remaining abilities, and avoid rebuilding everything.\n\nThen comes the hardest question: how does an independent auditor prove that the AI really forgot?\n\nDeleting the files is not proof. The auditor must examine the model's behaviour.\n\nOne approach compares the unlearned model with both the original and a clean reference trained without the unwanted data.\n\nIn 2026, Google Research introduced a statistical framework designed to improve this kind of auditing. Its work highlights an important distinction.\n\nPerforming unlearning is one challenge. Proving that it succeeded is another.\n\nUnlearning can also address poisoned, incorrectly labelled, copyrighted, harmful, or outdated data. Privacy protections such as the right to erasure add urgency, but removing a database record and removing its model influence are not automatically identical.\n\nMachine unlearning is not a magical forget button. Some methods are expensive. Some may leave hidden traces. Others may damage useful knowledge. Verification remains an active research problem.\n\nSo, what is machine unlearning?\n\nIt attempts to make an AI model behave as though selected training data had never been part of its education.\n\nDeleting is a database action.\n\nForgetting is a change in the model's behaviour.\n\nThe next time an application says, “Your data has been deleted,” perhaps we need to ask one more question.\n\n“Has your AI forgotten me too?”\n\nWhat should a company prove: that your files were deleted, or that its AI forgot their influence too? Share your answer in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+      "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine an AI photo application contains years of your family photographs.\n\nOne evening, you decide to leave.\n\nYou press “Delete My Account.”\n\nA confirmation appears: “Your data has been deleted.”\n\nBut here is the uncomfortable question.\n\nWhat if some of those photographs had already been used to train the company's AI?\n\nThe files may be gone. But has the AI forgotten what it learned from them?\n\nDeleting data and making an AI forget are not necessarily the same operation.\n\nImagine giving a student a textbook. The student studies it for an exam.\n\nYou can later remove the textbook from the student's desk. But removing the book does not automatically remove what entered the student's memory.\n\nAI training creates a similar challenge.\n\nDuring training, a model examines data and adjusts millions or billions of numerical connections called weights. Your photographs' influence may now be distributed across them.\n\nThere is no folder inside the AI labelled “Your photographs” that an engineer can simply drag into the trash.\n\nSo how can we remove selected data's influence from an already-trained model?\n\nThat is the problem machine unlearning is trying to solve.\n\nMachine unlearning attempts to make an AI model behave as though selected training data had never been included.\n\nResearchers call the information to be removed the forget set. Everything the model should continue remembering is the retain set. In our story, your photographs join the forget set.\n\nThe challenge is to remove your influence without damaging everything else the AI learned.\n\nThe cleanest reference is to remove your photographs and train a new model from the beginning, like giving the student a new education using only approved textbooks.\n\nBut rebuilding a large AI model can require enormous computing power, time, and money. Retraining the complete model for every deletion request may be impractical.\n\nMachine unlearning looks for a faster route that remains trustworthy.\n\nDevelopers might divide training into sections and save checkpoints so they can rebuild only affected parts. Or they might adjust the existing weights, trying to weaken the unwanted influence while preserving everything else.\n\nBut now the story takes a turn.\n\nThe company tests the updated AI. Your photographs no longer appear. The engineers announce that unlearning worked.\n\nThen a security researcher performs a carefully designed test.\n\nThe researcher cannot recover your photograph. But the model's responses still suggest that photographs like yours were probably used during training. The file is gone, yet a trace of its influence may remain.\n\nThat is under-forgetting.\n\nThe opposite is over-forgetting: removing your influence also damages useful knowledge learned from unrelated photographs.\n\nUnlearning therefore has three competing goals: remove the requested influence, protect the model's remaining abilities, and avoid rebuilding everything.\n\nThen comes the hardest question: how does an independent auditor prove that the AI really forgot?\n\nDeleting the files is not proof. The auditor must examine the model's behaviour.\n\nOne approach compares the unlearned model with both the original and a clean reference trained without the unwanted data.\n\nIn 2026, Google Research introduced a statistical framework designed to improve this kind of auditing. Its work highlights an important distinction.\n\nPerforming unlearning is one challenge. Proving that it succeeded is another.\n\nUnlearning can also address poisoned, incorrectly labelled, copyrighted, harmful, or outdated data. Privacy protections such as the right to erasure add urgency, but removing a database record and removing its model influence are not automatically identical.\n\nMachine unlearning is not a magical forget button. Some methods are expensive. Some may leave hidden traces. Others may damage useful knowledge. Verification remains an active research problem.\n\nSo, what is machine unlearning?\n\nIt attempts to make an AI model behave as though selected training data had never been part of its education.\n\nDeleting is a database action.\n\nForgetting is a change in the model's behaviour.\n\nThe next time an application says, “Your data has been deleted,” perhaps we need to ask one more question.\n\n“Has your AI forgotten me too?”\n\nWhat should a company prove: that your files were deleted, or that its AI forgot their influence too? Share your answer in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+      "transcripts": [
+        {
+          "path": "podcast/transcripts/2026-08-12-what-is-machine-unlearning-can-ai-forget-you.txt",
+          "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-12-what-is-machine-unlearning-can-ai-forget-you.txt",
+          "type": "text/plain",
+          "language": "en"
+        }
+      ],
+      "satishTake": "Machine unlearning matters because deleting a record is not the same as removing its influence from a trained model. The hard part is not only making the model forget selected data, but proving that it forgot without damaging the knowledge it should keep.",
+      "quickCheck": {
+        "questions": [
+          {
+            "prompt": "What is machine unlearning trying to remove?",
+            "options": [
+              "The influence of selected training data on a model.",
+              "The app icon from a phone.",
+              "Every capability the model has learned."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Unlearning targets the measurable influence of specific data, not just the stored source files."
+          },
+          {
+            "prompt": "Why is deleting a file not always enough?",
+            "options": [
+              "A trained model may still reflect patterns learned from that file.",
+              "Deleted files automatically become stronger.",
+              "AI models store data only in one visible folder."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Training changes model weights, so the original data can leave distributed influence behind."
+          },
+          {
+            "prompt": "What is a forget set?",
+            "options": [
+              "The examples selected for removal from the model's influence.",
+              "The examples the model must always keep unchanged.",
+              "A list of app users who forgot their password."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "The forget set contains the records or examples that an unlearning process is supposed to remove."
+          },
+          {
+            "prompt": "What is the cleanest conceptual baseline for unlearning?",
+            "options": [
+              "Retraining from scratch without the forget set.",
+              "Changing the model's display name.",
+              "Deleting the public documentation."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "A model retrained without the unwanted data is the strongest reference, but it can be expensive."
+          },
+          {
+            "prompt": "Why is proving unlearning difficult?",
+            "options": [
+              "A model may behave normally while still retaining subtle traces.",
+              "Auditors can always inspect a simple folder named forgotten data.",
+              "All unlearning methods are automatically perfect."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Verification may need statistical tests and comparisons against original and retrained reference models."
+          }
+        ]
+      },
+      "artworkPath": "podcast/artwork/episodes/2026-08-12-what-is-machine-unlearning-can-ai-forget-you.jpg",
+      "artworkPngPath": "podcast/artwork/episodes/2026-08-12-what-is-machine-unlearning-can-ai-forget-you.png",
+      "artworkSourcePath": "podcast/artwork/source/2026-08-12-what-is-machine-unlearning-can-ai-forget-you.svg",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-12-what-is-machine-unlearning-can-ai-forget-you.jpg",
+      "topicProfile": {
+        "id": "machine-unlearning",
+        "label": "Machine unlearning",
+        "accent": "#2563EB"
+      },
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-12-what-is-machine-unlearning-can-ai-forget-you",
+      "watchUrl": "https://satishkchoudhary.com/daily-brief-episodes/2026-08-12-what-is-machine-unlearning-can-ai-forget-you/",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W0TE-Ndwiuc/maxresdefault.jpg",
+      "media": {
+        "hasAudio": true,
+        "hasVideo": true,
+        "primary": "video"
+      }
+    },
     {
       "guid": "in-simple-terms-2026-08-11-are-you-ship-it-sam-or-verify-veera",
       "title": "AI Coding: Speed vs Proof — Ship-It Sam vs Verify Veera",
