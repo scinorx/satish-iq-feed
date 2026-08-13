@@ -22,7 +22,56 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Wed, 12 Aug 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>AI Slop and the Dead Internet Theory: Are We Still Talking to Humans?</title>
+      <description>You watch an extraordinary rescue video, read hundreds of enthusiastic comments, and then notice that almost nothing looks quite real. Was the video made by AI? Were the comments posted by bots? Was there ever a human story behind it?
+
+Follow one suspicious post through the machinery of generative AI, automated distribution and engagement-driven recommendation. Then discover why the Dead Internet Theory is not established fact—but why today’s flood of AI slop makes its central fear feel increasingly familiar.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.merriam-webster.com/wordplay/word-of-the-year
+- https://support.google.com/youtube/answer/1311392?hl=en-EN
+- https://about.fb.com/news/2025/04/cracking-down-spammy-content-facebook/
+- https://www.esafety.gov.au/sites/default/files/2026-05/Recommender-systems-position-paper-May2026.pdf
+- https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content
+- https://arxiv.org/abs/2604.26965
+
+Youtube - https://youtu.be/qp9zp7jlpg4</description>
+      <itunes:subtitle>Synthetic content and online trust in simple terms</itunes:subtitle>
+      <itunes:summary>You watch an extraordinary rescue video, read hundreds of enthusiastic comments, and then notice that almost nothing looks quite real. Was the video made by AI? Were the comments posted by bots? Was there ever a human story behind it?
+
+Follow one suspicious post through the machinery of generative AI, automated distribution and engagement-driven recommendation. Then discover why the Dead Internet Theory is not established fact—but why today’s flood of AI slop makes its central fear feel increasingly familiar.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.merriam-webster.com/wordplay/word-of-the-year
+- https://support.google.com/youtube/answer/1311392?hl=en-EN
+- https://about.fb.com/news/2025/04/cracking-down-spammy-content-facebook/
+- https://www.esafety.gov.au/sites/default/files/2026-05/Recommender-systems-position-paper-May2026.pdf
+- https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content
+- https://arxiv.org/abs/2604.26965
+
+Youtube - https://youtu.be/qp9zp7jlpg4</itunes:summary>
+      <itunes:duration>00:04:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>70</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-13-ai-slop-and-the-dead-internet-theory-are-we-still-talking-to-humans.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-13-ai-slop-and-the-dead-internet-theory-are-we-still-talking-to-humans.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-13-ai-slop-and-the-dead-internet-theory-are-we-still-talking-to-humans.mp3" length="4646078" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-08-13-ai-slop-and-the-dead-internet-theory-are-we-still-talking-to-humans</guid>
+      <pubDate>Thu, 13 Aug 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>What Is Machine Unlearning? Can AI Forget You?</title>

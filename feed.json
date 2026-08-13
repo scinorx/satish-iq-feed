@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12",
-  "title": "Today's object: AI forgetting in simple terms",
+  "generatedAt": "2026-08-13",
+  "title": "Today's object: Synthetic content and online trust in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-08-12",
+    "date": "2026-08-13",
     "status": "success",
-    "scheduledFor": "2026-08-12T05:30:00-04:00",
-    "startedAt": "2026-08-12T13:53:43.598Z",
-    "finishedAt": "2026-08-12T13:53:51.726Z",
+    "scheduledFor": "2026-08-13T05:30:00-04:00",
+    "startedAt": "2026-08-13T14:01:30.151Z",
+    "finishedAt": "2026-08-13T14:01:41.120Z",
     "currentStage": "completed",
     "topic": null,
-    "podcastTopic": "What Is Machine Unlearning? Can AI Forget You?",
+    "podcastTopic": "AI Slop and the Dead Internet Theory: Are We Still Talking to Humans?",
     "commit": null,
     "results": {
       "publicFeedPublish": "success",
@@ -25,17 +25,17 @@
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "What Is Machine Unlearning? Can AI Forget You?"
+      "latestPodcastEpisode": "AI Slop and the Dead Internet Theory: Are We Still Talking to Humans?"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "What Is Machine Unlearning? Can AI Forget You?",
-      "publishedAt": "2026-08-12T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-12-what-is-machine-unlearning-can-ai-forget-you.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-12-what-is-machine-unlearning-can-ai-forget-you.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-12-what-is-machine-unlearning-can-ai-forget-you"
+      "title": "AI Slop and the Dead Internet Theory: Are We Still Talking to Humans?",
+      "publishedAt": "2026-08-13T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-13-ai-slop-and-the-dead-internet-theory-are-we-still-talking-to-humans.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-13-ai-slop-and-the-dead-internet-theory-are-we-still-talking-to-humans.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-13-ai-slop-and-the-dead-internet-theory-are-we-still-talking-to-humans"
     }
   }
 }

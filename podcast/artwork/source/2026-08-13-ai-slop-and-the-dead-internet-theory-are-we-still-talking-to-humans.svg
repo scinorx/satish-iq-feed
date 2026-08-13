@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF4E8"/>
+      <stop offset="58%" stop-color="#FFB4C8"/>
+      <stop offset="100%" stop-color="#6B52C8"/>
+    </linearGradient>
+    <radialGradient id="topicGlow" cx="50%" cy="50%" r="62%">
+      <stop offset="0%" stop-color="#D83C82" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#211A3D" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#6D4E00" flood-opacity="0.15"/>
+    </filter>
+    <style>
+      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #211A3D; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 156px; font-weight: 900; letter-spacing: 2px; fill: #211A3D; }
+      .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #211A3D; }
+      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #211A3D; }
+    </style>
+  </defs>
+  <rect width="3000" height="3000" fill="url(#paper)"/>
+  <circle cx="2450" cy="560" r="530" fill="#B8FF62" opacity="0.22"/>
+  <circle cx="360" cy="2500" r="560" fill="#B8FF62" opacity="0.13"/>
+  <circle cx="2250" cy="1540" r="770" fill="url(#topicGlow)" opacity="0.9"/>
+  <g>
+  <rect x="1860" y="820" width="820" height="1180" rx="120" fill="none" stroke="#D83C82" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <rect x="1995" y="1010" width="550" height="300" rx="62" fill="#D83C82" opacity="0.1"/>
+  <circle cx="2110" cy="1135" r="58" fill="#D83C82" opacity="0.42"/>
+  <path d="M2225 1085 H2445 M2225 1185 H2375" fill="none" stroke="#211A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <path d="M1995 1460 H2545 M1995 1590 H2440 M1995 1720 H2505" fill="none" stroke="#211A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <circle cx="2035" cy="1460" r="34" fill="#B8FF62" opacity="0.72"/>
+  <circle cx="2035" cy="1590" r="34" fill="#B8FF62" opacity="0.72"/>
+  <circle cx="2035" cy="1720" r="34" fill="#B8FF62" opacity="0.72"/>
+  <path d="M1780 1050 C1600 1230 1600 1690 1780 1870 M2760 1870 C2940 1690 2940 1230 2760 1050" fill="none" stroke="#D83C82" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M1680 1050 L1780 1050 L1780 1150 M2860 1870 L2760 1870 L2760 1770" fill="none" stroke="#211A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <circle cx="2270" cy="2245" r="115" fill="none" stroke="#D83C82" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M2070 2470 C2135 2320 2405 2320 2470 2470" fill="none" stroke="#211A3D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <path d="M1880 2245 H2085 M2455 2245 H2700" fill="none" stroke="#D83C82" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+</g>
+  <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#211A3D" stroke-width="12" opacity="0.36"/>
+  <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
+  <g filter="url(#shadow)">
+    <text x="245" y="1154" class="title">AI SLOP + THE</text>
+    <text x="245" y="1335" class="title">DEAD INTERNET</text>
+    <text x="245" y="1516" class="title">THEORY</text>
+    <text x="245" y="1697" class="title">ARE WE STILL</text>
+    <text x="245" y="1878" class="title">TALKING TO HUMANS?</text>
+  </g>
+  <path d="M260 2135 H1080" stroke="#D83C82" stroke-width="24" stroke-linecap="round"/>
+  <text x="260" y="2270" class="date">2026-08-13</text>
+  <text x="260" y="2575" class="small">AI SLOP + DEAD INTERNET</text>
+</svg>

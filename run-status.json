@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "status": "success",
-  "scheduledFor": "2026-08-12T05:30:00-04:00",
-  "startedAt": "2026-08-12T13:53:43.598Z",
-  "finishedAt": "2026-08-12T13:53:51.726Z",
+  "scheduledFor": "2026-08-13T05:30:00-04:00",
+  "startedAt": "2026-08-13T14:01:30.151Z",
+  "finishedAt": "2026-08-13T14:01:41.120Z",
   "currentStage": "completed",
   "topic": null,
-  "podcastTopic": "What Is Machine Unlearning? Can AI Forget You?",
+  "podcastTopic": "AI Slop and the Dead Internet Theory: Are We Still Talking to Humans?",
   "commit": null,
   "results": {
     "publicFeedPublish": "success",
@@ -18,6 +18,6 @@
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "What Is Machine Unlearning? Can AI Forget You?"
+    "latestPodcastEpisode": "AI Slop and the Dead Internet Theory: Are We Still Talking to Humans?"
   }
 }
