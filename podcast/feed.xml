@@ -22,7 +22,56 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Thu, 13 Aug 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>What Is Inference Economics? The Hidden Cost of Adopting AI</title>
+      <description>A consulting company adopts AI to help its employees research clients and prepare proposals. The pilot saves hours, employees love it, and management quickly expands it—then an unexpected bill arrives.
+
+Follow the company as it opens the hidden receipt behind one AI-generated proposal and discovers why adopting AI requires more than choosing a model.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://cloud.google.com/discover/inference-optimization
+- https://cloud.google.com/blog/topics/developers-practitioners/five-techniques-to-reach-the-efficient-frontier-of-llm-inference
+- https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-ai-inference-rec/
+- https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/gencost01.html
+- https://www.gartner.com/en/newsroom/press-releases/2026-03-25-gartner-predicts-that-by-2030-performing-inference-on-an-llm-with-1-trillion-parameters-will-cost-genai-providers-over-90-percent-less-than-in-2025
+- https://openai.com/index/openai-broadcom-jalapeno-inference-chip/
+
+Youtube - https://youtu.be/EXITZaOGfmA</description>
+      <itunes:subtitle>AI operating cost in simple terms</itunes:subtitle>
+      <itunes:summary>A consulting company adopts AI to help its employees research clients and prepare proposals. The pilot saves hours, employees love it, and management quickly expands it—then an unexpected bill arrives.
+
+Follow the company as it opens the hidden receipt behind one AI-generated proposal and discovers why adopting AI requires more than choosing a model.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://cloud.google.com/discover/inference-optimization
+- https://cloud.google.com/blog/topics/developers-practitioners/five-techniques-to-reach-the-efficient-frontier-of-llm-inference
+- https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-ai-inference-rec/
+- https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/gencost01.html
+- https://www.gartner.com/en/newsroom/press-releases/2026-03-25-gartner-predicts-that-by-2030-performing-inference-on-an-llm-with-1-trillion-parameters-will-cost-genai-providers-over-90-percent-less-than-in-2025
+- https://openai.com/index/openai-broadcom-jalapeno-inference-chip/
+
+Youtube - https://youtu.be/EXITZaOGfmA</itunes:summary>
+      <itunes:duration>00:04:32</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>71</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai.mp3" length="4351835" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai</guid>
+      <pubDate>Fri, 14 Aug 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>AI Slop and the Dead Internet Theory: Are We Still Talking to Humans?</title>

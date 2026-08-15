@@ -1,0 +1,79 @@
+Hello, and welcome to In Simple Terms with Satish.
+
+Imagine a consulting company where preparing one client proposal takes almost an entire day.
+
+Employees search old projects, read industry reports, compare competitors, check facts and finally assemble a presentation.
+
+Then the company introduces an AI assistant.
+
+During the pilot, an employee types: “Research this client, identify three opportunities and prepare the first proposal draft.”
+
+Twenty minutes later, the draft appears.
+
+The room is impressed. A manager says, “This could save every consultant hours.”
+
+Within weeks, the AI assistant spreads across the company. Sales uses it for proposals. Marketing uses it for campaigns. Support uses it to summarize cases. Even HR begins using it to draft job descriptions.
+
+The adoption dashboard looks fantastic.
+
+Then the monthly review begins.
+
+The finance director places the AI bill on the screen and asks, “If this is saving us time, why is the cost rising this quickly?”
+
+The technology team investigates one proposal—the same task that appeared to take only twenty minutes.
+
+Behind that single button, the AI first planned the work. Then it searched for reports, read several documents, summarized each one, compared competitors, checked claims, retried a failed search and asked another model to review the final answer.
+
+One employee made one request. The company paid for eighteen model calls.
+
+That hidden chain is where inference economics begins.
+
+Training is what creates an AI model. Inference is what happens every time a company runs that model to produce an answer, summary, image or action.
+
+And when an AI agent performs a task, one visible request can quietly create many inferences behind the scenes.
+
+The technology lead circles the first problem.
+
+“Why are we using our most powerful model to extract dates and format a table?”
+
+Nobody has a good answer.
+
+The team sends routine steps to a smaller, less expensive model and reserves the strongest model for difficult analysis. That is model routing. In office terms, it is simply assigning the right resource to the right job.
+
+Then they notice that the assistant keeps reading the same company instructions and documents at every step.
+
+“We processed this already,” the lead says. “Why are we paying to process it again?”
+
+They reuse that repeated information through prefix caching.
+
+Next comes the strangest part. The AI checks a claim, doubts its own result, checks again and then asks another model to review the check.
+
+The finance director asks, “Does it know when to stop?”
+
+“Only if we define when to stop.”
+
+So each workflow receives a budget for model calls, retries and time. If the AI remains uncertain, it sends the question to an employee instead of continuing indefinitely.
+
+The team runs the proposal again.
+
+On the screen, the trace moves from one call to three, then five…and stops at six.
+
+The proposal is still useful. The employee still saves hours. But the company no longer pays for twelve unnecessary calls.
+
+Now management changes the adoption dashboard.
+
+It still measures how many employees use AI. But it also measures cost per completed proposal, time saved, answer quality and how often a human must correct the result.
+
+Because cheap AI is not automatically valuable AI. And expensive AI is not automatically wasteful.
+
+If an AI task costs ten dollars but saves an employee three hours, it may be an excellent investment. If it costs ten dollars to save two minutes—or produces work that must be completely rewritten—the economics look very different.
+
+That is the real meaning of inference economics for a company adopting AI: not simply, “How much does the model cost?” but, “What business outcome did we receive for that cost?”
+
+The company did not abandon AI. It learned how to operate AI.
+
+And that may be the difference between an impressive pilot and an AI program that creates lasting value.
+
+If your company adopted AI tomorrow, which result would matter most: lower cost, time saved or better work? Share your answer in the comments.
+
+If this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.

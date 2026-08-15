@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-13",
-  "title": "Today's object: Synthetic content and online trust in simple terms",
+  "generatedAt": "2026-08-14",
+  "title": "Today's object: AI operating cost in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-08-13",
+    "date": "2026-08-14",
     "status": "success",
-    "scheduledFor": "2026-08-13T05:30:00-04:00",
-    "startedAt": "2026-08-13T14:01:30.151Z",
-    "finishedAt": "2026-08-13T14:01:41.120Z",
+    "scheduledFor": "2026-08-14T05:30:00-04:00",
+    "startedAt": "2026-08-15T04:36:21.273Z",
+    "finishedAt": "2026-08-15T04:36:30.368Z",
     "currentStage": "completed",
     "topic": null,
-    "podcastTopic": "AI Slop and the Dead Internet Theory: Are We Still Talking to Humans?",
+    "podcastTopic": "What Is Inference Economics? The Hidden Cost of Adopting AI",
     "commit": null,
     "results": {
       "publicFeedPublish": "success",
@@ -25,17 +25,17 @@
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "AI Slop and the Dead Internet Theory: Are We Still Talking to Humans?"
+      "latestPodcastEpisode": "What Is Inference Economics? The Hidden Cost of Adopting AI"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "AI Slop and the Dead Internet Theory: Are We Still Talking to Humans?",
-      "publishedAt": "2026-08-13T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-13-ai-slop-and-the-dead-internet-theory-are-we-still-talking-to-humans.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-13-ai-slop-and-the-dead-internet-theory-are-we-still-talking-to-humans.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-13-ai-slop-and-the-dead-internet-theory-are-we-still-talking-to-humans"
+      "title": "What Is Inference Economics? The Hidden Cost of Adopting AI",
+      "publishedAt": "2026-08-14T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai"
     }
   }
 }

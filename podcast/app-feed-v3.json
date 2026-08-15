@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-13",
+  "generatedAt": "2026-08-14",
   "product": "daily-tech-brief",
   "compatibility": {
     "legacyFeedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/episodes.json",
@@ -8,6 +8,110 @@
   },
   "preferredArtwork": "thumbnailUrl",
   "episodes": [
+    {
+      "guid": "in-simple-terms-2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai",
+      "title": "What Is Inference Economics? The Hidden Cost of Adopting AI",
+      "subtitle": "AI operating cost in simple terms",
+      "description": "A consulting company adopts AI to help its employees research clients and prepare proposals. The pilot saves hours, employees love it, and management quickly expands it—then an unexpected bill arrives.\n\nFollow the company as it opens the hidden receipt behind one AI-generated proposal and discovers why adopting AI requires more than choosing a model.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://cloud.google.com/discover/inference-optimization\n- https://cloud.google.com/blog/topics/developers-practitioners/five-techniques-to-reach-the-efficient-frontier-of-llm-inference\n- https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-ai-inference-rec/\n- https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/gencost01.html\n- https://www.gartner.com/en/newsroom/press-releases/2026-03-25-gartner-predicts-that-by-2030-performing-inference-on-an-llm-with-1-trillion-parameters-will-cost-genai-providers-over-90-percent-less-than-in-2025\n- https://openai.com/index/openai-broadcom-jalapeno-inference-chip/\n\nYoutube - https://youtu.be/EXITZaOGfmA",
+      "publishedAt": "2026-08-14T09:30:00.000Z",
+      "sourceGeneratedAt": "2026-08-14",
+      "seasonNumber": 5,
+      "episodeNumber": 71,
+      "episodeType": "full",
+      "releaseTimeZone": "America/New_York",
+      "releaseLocalTime": "2026-08-14T05:30:00-04:00",
+      "durationSeconds": 272,
+      "audioPath": "podcast/audio/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai.mp3",
+      "youtubeId": "EXITZaOGfmA",
+      "youtubeUrl": "https://youtu.be/EXITZaOGfmA",
+      "lengthBytes": 4351835,
+      "type": "audio/mpeg",
+      "explicit": false,
+      "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+      "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine a consulting company where preparing one client proposal takes almost an entire day.\n\nEmployees search old projects, read industry reports, compare competitors, check facts and finally assemble a presentation.\n\nThen the company introduces an AI assistant.\n\nDuring the pilot, an employee types: “Research this client, identify three opportunities and prepare the first proposal draft.”\n\nTwenty minutes later, the draft appears.\n\nThe room is impressed. A manager says, “This could save every consultant hours.”\n\nWithin weeks, the AI assistant spreads across the company. Sales uses it for proposals. Marketing uses it for campaigns. Support uses it to summarize cases. Even HR begins using it to draft job descriptions.\n\nThe adoption dashboard looks fantastic.\n\nThen the monthly review begins.\n\nThe finance director places the AI bill on the screen and asks, “If this is saving us time, why is the cost rising this quickly?”\n\nThe technology team investigates one proposal—the same task that appeared to take only twenty minutes.\n\nBehind that single button, the AI first planned the work. Then it searched for reports, read several documents, summarized each one, compared competitors, checked claims, retried a failed search and asked another model to review the final answer.\n\nOne employee made one request. The company paid for eighteen model calls.\n\nThat hidden chain is where inference economics begins.\n\nTraining is what creates an AI model. Inference is what happens every time a company runs that model to produce an answer, summary, image or action.\n\nAnd when an AI agent performs a task, one visible request can quietly create many inferences behind the scenes.\n\nThe technology lead circles the first problem.\n\n“Why are we using our most powerful model to extract dates and format a table?”\n\nNobody has a good answer.\n\nThe team sends routine steps to a smaller, less expensive model and reserves the strongest model for difficult analysis. That is model routing. In office terms, it is simply assigning the right resource to the right job.\n\nThen they notice that the assistant keeps reading the same company instructions and documents at every step.\n\n“We processed this already,” the lead says. “Why are we paying to process it again?”\n\nThey reuse that repeated information through prefix caching.\n\nNext comes the strangest part. The AI checks a claim, doubts its own result, checks again and then asks another model to review the check.\n\nThe finance director asks, “Does it know when to stop?”\n\n“Only if we define when to stop.”\n\nSo each workflow receives a budget for model calls, retries and time. If the AI remains uncertain, it sends the question to an employee instead of continuing indefinitely.\n\nThe team runs the proposal again.\n\nOn the screen, the trace moves from one call to three, then five…and stops at six.\n\nThe proposal is still useful. The employee still saves hours. But the company no longer pays for twelve unnecessary calls.\n\nNow management changes the adoption dashboard.\n\nIt still measures how many employees use AI. But it also measures cost per completed proposal, time saved, answer quality and how often a human must correct the result.\n\nBecause cheap AI is not automatically valuable AI. And expensive AI is not automatically wasteful.\n\nIf an AI task costs ten dollars but saves an employee three hours, it may be an excellent investment. If it costs ten dollars to save two minutes—or produces work that must be completely rewritten—the economics look very different.\n\nThat is the real meaning of inference economics for a company adopting AI: not simply, “How much does the model cost?” but, “What business outcome did we receive for that cost?”\n\nThe company did not abandon AI. It learned how to operate AI.\n\nAnd that may be the difference between an impressive pilot and an AI program that creates lasting value.\n\nIf your company adopted AI tomorrow, which result would matter most: lower cost, time saved or better work? Share your answer in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+      "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine a consulting company where preparing one client proposal takes almost an entire day.\n\nEmployees search old projects, read industry reports, compare competitors, check facts and finally assemble a presentation.\n\nThen the company introduces an AI assistant.\n\nDuring the pilot, an employee types: “Research this client, identify three opportunities and prepare the first proposal draft.”\n\nTwenty minutes later, the draft appears.\n\nThe room is impressed. A manager says, “This could save every consultant hours.”\n\nWithin weeks, the AI assistant spreads across the company. Sales uses it for proposals. Marketing uses it for campaigns. Support uses it to summarize cases. Even HR begins using it to draft job descriptions.\n\nThe adoption dashboard looks fantastic.\n\nThen the monthly review begins.\n\nThe finance director places the AI bill on the screen and asks, “If this is saving us time, why is the cost rising this quickly?”\n\nThe technology team investigates one proposal—the same task that appeared to take only twenty minutes.\n\nBehind that single button, the AI first planned the work. Then it searched for reports, read several documents, summarized each one, compared competitors, checked claims, retried a failed search and asked another model to review the final answer.\n\nOne employee made one request. The company paid for eighteen model calls.\n\nThat hidden chain is where inference economics begins.\n\nTraining is what creates an AI model. Inference is what happens every time a company runs that model to produce an answer, summary, image or action.\n\nAnd when an AI agent performs a task, one visible request can quietly create many inferences behind the scenes.\n\nThe technology lead circles the first problem.\n\n“Why are we using our most powerful model to extract dates and format a table?”\n\nNobody has a good answer.\n\nThe team sends routine steps to a smaller, less expensive model and reserves the strongest model for difficult analysis. That is model routing. In office terms, it is simply assigning the right resource to the right job.\n\nThen they notice that the assistant keeps reading the same company instructions and documents at every step.\n\n“We processed this already,” the lead says. “Why are we paying to process it again?”\n\nThey reuse that repeated information through prefix caching.\n\nNext comes the strangest part. The AI checks a claim, doubts its own result, checks again and then asks another model to review the check.\n\nThe finance director asks, “Does it know when to stop?”\n\n“Only if we define when to stop.”\n\nSo each workflow receives a budget for model calls, retries and time. If the AI remains uncertain, it sends the question to an employee instead of continuing indefinitely.\n\nThe team runs the proposal again.\n\nOn the screen, the trace moves from one call to three, then five…and stops at six.\n\nThe proposal is still useful. The employee still saves hours. But the company no longer pays for twelve unnecessary calls.\n\nNow management changes the adoption dashboard.\n\nIt still measures how many employees use AI. But it also measures cost per completed proposal, time saved, answer quality and how often a human must correct the result.\n\nBecause cheap AI is not automatically valuable AI. And expensive AI is not automatically wasteful.\n\nIf an AI task costs ten dollars but saves an employee three hours, it may be an excellent investment. If it costs ten dollars to save two minutes—or produces work that must be completely rewritten—the economics look very different.\n\nThat is the real meaning of inference economics for a company adopting AI: not simply, “How much does the model cost?” but, “What business outcome did we receive for that cost?”\n\nThe company did not abandon AI. It learned how to operate AI.\n\nAnd that may be the difference between an impressive pilot and an AI program that creates lasting value.\n\nIf your company adopted AI tomorrow, which result would matter most: lower cost, time saved or better work? Share your answer in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+      "transcripts": [
+        {
+          "path": "podcast/transcripts/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai.txt",
+          "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai.txt",
+          "type": "text/plain",
+          "language": "en"
+        }
+      ],
+      "satishTake": "Inference economics matters because AI adoption cost is not only the price of one model call. A useful AI workflow may create many hidden calls, retries, searches, and reviews, so teams need to measure cost per successful business outcome, not just usage.",
+      "quickCheck": {
+        "questions": [
+          {
+            "prompt": "What is inference in AI?",
+            "options": [
+              "Running an already-trained model to produce an answer or action.",
+              "Training a model from scratch for the first time.",
+              "Deleting every stored prompt after a task finishes."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Inference is the operating phase where a trained model is executed for real requests."
+          },
+          {
+            "prompt": "Why can one AI request create a large bill?",
+            "options": [
+              "One visible task can trigger many model calls, searches, retries, and reviews.",
+              "Every AI answer always requires retraining the model.",
+              "Short prompts are charged as if they contain no tokens."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Agentic workflows can hide several inference steps behind a single user-facing request."
+          },
+          {
+            "prompt": "What is model routing?",
+            "options": [
+              "Sending simple and complex steps to appropriately sized models.",
+              "Using the largest model for every formatting task.",
+              "Replacing business goals with usage dashboards."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Routing controls cost and quality by matching the model to the work required."
+          },
+          {
+            "prompt": "Why does prefix caching help?",
+            "options": [
+              "It can reuse repeated context so the system does not process the same prefix again.",
+              "It makes every model output free.",
+              "It removes the need to check answer quality."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Repeated instructions or shared context can be reused when cache conditions are met."
+          },
+          {
+            "prompt": "What is the better business metric than raw AI usage?",
+            "options": [
+              "Cost per successful task with quality, latency, and correction rate.",
+              "Number of employees who clicked the AI button once.",
+              "Total tokens generated without checking the result."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Inference economics connects operating cost to completed work and business value."
+          }
+        ]
+      },
+      "artworkPath": "podcast/artwork/episodes/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai.jpg",
+      "artworkPngPath": "podcast/artwork/episodes/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai.png",
+      "artworkSourcePath": "podcast/artwork/source/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai.svg",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai.jpg",
+      "topicProfile": {
+        "id": "inference-economics",
+        "label": "Inference economics",
+        "accent": "#0F766E"
+      },
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai",
+      "watchUrl": "https://satishkchoudhary.com/daily-brief-episodes/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai/",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EXITZaOGfmA/maxresdefault.jpg",
+      "media": {
+        "hasAudio": true,
+        "hasVideo": true,
+        "primary": "video"
+      }
+    },
     {
       "guid": "in-simple-terms-2026-08-13-ai-slop-and-the-dead-internet-theory-are-we-still-talking-to-humans",
       "title": "AI Slop and the Dead Internet Theory: Are We Still Talking to Humans?",
