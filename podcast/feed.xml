@@ -22,7 +22,60 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Fri, 14 Aug 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>What Is Robotics-as-a-Service (RaaS)?</title>
+      <description>A small automated packaging company needs another robotic arm for its busiest season, but purchasing one would mean a large investment in equipment, integration and specialist support. Then a provider makes an unusual offer: do not buy the robot—subscribe to the work it performs.
+
+Discover how Robotics-as-a-Service combines physical machines, cloud software, fleet orchestration, monitoring and maintenance—and why companies are beginning to treat robots more like a managed service.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://ifr.org/news/service-robots-see-global-growth-boom/1st-quarterly-newsletter-2009
+- https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Service_Robots.pdf
+- https://ifr.org/img/worldrobotics/Sources___Methods_WR_2025_Service_Robots.pdf
+- https://ifr.org/wr-service-robots
+- https://locusrobotics.com/faqs/about-locus-robotics
+- https://locusrobotics.com/locusone
+- https://locusrobotics.com/blog/raas-warehousing-legal-considerations
+- https://formic.co/resources/customer-stories/mi-rancho-makes-production-leap-with-automated-stacking-of-70-million-pounds-of-t
+
+Youtube - https://youtu.be/huPHLTGZwlg</description>
+      <itunes:subtitle>Robots as managed services in simple terms</itunes:subtitle>
+      <itunes:summary>A small automated packaging company needs another robotic arm for its busiest season, but purchasing one would mean a large investment in equipment, integration and specialist support. Then a provider makes an unusual offer: do not buy the robot—subscribe to the work it performs.
+
+Discover how Robotics-as-a-Service combines physical machines, cloud software, fleet orchestration, monitoring and maintenance—and why companies are beginning to treat robots more like a managed service.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://ifr.org/news/service-robots-see-global-growth-boom/1st-quarterly-newsletter-2009
+- https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Service_Robots.pdf
+- https://ifr.org/img/worldrobotics/Sources___Methods_WR_2025_Service_Robots.pdf
+- https://ifr.org/wr-service-robots
+- https://locusrobotics.com/faqs/about-locus-robotics
+- https://locusrobotics.com/locusone
+- https://locusrobotics.com/blog/raas-warehousing-legal-considerations
+- https://formic.co/resources/customer-stories/mi-rancho-makes-production-leap-with-automated-stacking-of-70-million-pounds-of-t
+
+Youtube - https://youtu.be/huPHLTGZwlg</itunes:summary>
+      <itunes:duration>00:04:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>72</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-15-what-is-robotics-as-a-service-raas.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-15-what-is-robotics-as-a-service-raas.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-15-what-is-robotics-as-a-service-raas.mp3" length="4139511" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-08-15-what-is-robotics-as-a-service-raas</guid>
+      <pubDate>Sat, 15 Aug 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>What Is Inference Economics? The Hidden Cost of Adopting AI</title>

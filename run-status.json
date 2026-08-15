@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "date": "2026-08-14",
+  "date": "2026-08-15",
   "status": "success",
-  "scheduledFor": "2026-08-14T05:30:00-04:00",
-  "startedAt": "2026-08-15T04:36:21.273Z",
-  "finishedAt": "2026-08-15T04:36:30.368Z",
+  "scheduledFor": "2026-08-15T05:30:00-04:00",
+  "startedAt": "2026-08-15T12:42:17.971Z",
+  "finishedAt": "2026-08-15T12:42:27.150Z",
   "currentStage": "completed",
   "topic": null,
-  "podcastTopic": "What Is Inference Economics? The Hidden Cost of Adopting AI",
+  "podcastTopic": "What Is Robotics-as-a-Service (RaaS)?",
   "commit": null,
   "results": {
     "publicFeedPublish": "success",
@@ -18,6 +18,6 @@
   "outputs": {
     "snapshot": true,
     "audio": true,
-    "latestPodcastEpisode": "What Is Inference Economics? The Hidden Cost of Adopting AI"
+    "latestPodcastEpisode": "What Is Robotics-as-a-Service (RaaS)?"
   }
 }

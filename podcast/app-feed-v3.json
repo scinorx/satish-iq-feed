@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-14",
+  "generatedAt": "2026-08-15",
   "product": "daily-tech-brief",
   "compatibility": {
     "legacyFeedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/episodes.json",
@@ -8,6 +8,110 @@
   },
   "preferredArtwork": "thumbnailUrl",
   "episodes": [
+    {
+      "guid": "in-simple-terms-2026-08-15-what-is-robotics-as-a-service-raas",
+      "title": "What Is Robotics-as-a-Service (RaaS)?",
+      "subtitle": "Robots as managed services in simple terms",
+      "description": "A small automated packaging company needs another robotic arm for its busiest season, but purchasing one would mean a large investment in equipment, integration and specialist support. Then a provider makes an unusual offer: do not buy the robot—subscribe to the work it performs.\n\nDiscover how Robotics-as-a-Service combines physical machines, cloud software, fleet orchestration, monitoring and maintenance—and why companies are beginning to treat robots more like a managed service.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://ifr.org/news/service-robots-see-global-growth-boom/1st-quarterly-newsletter-2009\n- https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Service_Robots.pdf\n- https://ifr.org/img/worldrobotics/Sources___Methods_WR_2025_Service_Robots.pdf\n- https://ifr.org/wr-service-robots\n- https://locusrobotics.com/faqs/about-locus-robotics\n- https://locusrobotics.com/locusone\n- https://locusrobotics.com/blog/raas-warehousing-legal-considerations\n- https://formic.co/resources/customer-stories/mi-rancho-makes-production-leap-with-automated-stacking-of-70-million-pounds-of-t\n\nYoutube - https://youtu.be/huPHLTGZwlg",
+      "publishedAt": "2026-08-15T09:30:00.000Z",
+      "sourceGeneratedAt": "2026-08-15",
+      "seasonNumber": 5,
+      "episodeNumber": 72,
+      "episodeType": "full",
+      "releaseTimeZone": "America/New_York",
+      "releaseLocalTime": "2026-08-15T05:30:00-04:00",
+      "durationSeconds": 259,
+      "audioPath": "podcast/audio/2026-08-15-what-is-robotics-as-a-service-raas.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-15-what-is-robotics-as-a-service-raas.mp3",
+      "youtubeId": "huPHLTGZwlg",
+      "youtubeUrl": "https://youtu.be/huPHLTGZwlg",
+      "lengthBytes": 4139511,
+      "type": "audio/mpeg",
+      "explicit": false,
+      "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+      "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine it is eight on Monday morning. A small snack company receives its largest order of the year—twice the usual boxes, with the same delivery deadline.\n\nInside its automated packaging shop, packets move along a conveyor. A robotic arm places each one into a carton and sends it toward sealing.\n\nThe arm is already working at full speed.\n\nThe owner can buy another robotic packaging cell—but the machine, integration and specialist support require a major investment. After the rush, that extra capacity may sit unused.\n\nThen a robotics provider makes a different offer.\n\n“Do not buy another robot. Subscribe to the packaging work. We will install the system, monitor it and keep it running.”\n\nThat is the idea behind Robotics-as-a-Service, often shortened to RaaS.\n\nIt sounds like renting a machine. But the important part is everything surrounding that machine.\n\nWhen a packet reaches the packing station, a sensor detects it. The line controller tells the robot when to move. The robot uses its programmed motion and gripper to pick the packet safely. Software records whether the task succeeded, how long it took and whether the machine reported a problem.\n\nThose signals are telemetry—the robot telling the management platform what is happening in the physical world.\n\nThe provider may monitor that information remotely. It can deliver software updates, investigate faults, schedule maintenance and measure whether the service is meeting its promised performance.\n\nDepending on the contract, the shop might pay per robot, per month, per operating hour or through another agreed measure. Some providers allow seasonal scaling; others require a longer commitment. RaaS is a family of service models, not one standard subscription.\n\nSo RaaS is not simply robot plus monthly payment.\n\nIt combines the physical machine, control software, integration, monitoring, maintenance, support and service contract into one managed offering.\n\nFor three weeks, the new packaging cell performs exactly as expected. Cartons leave the line faster, and the owner begins wondering why the company ever considered buying the machine.\n\nThen, during the busiest afternoon of the season, the robot begins dropping packets.\n\nAn employee stops the cell. The owner sees orders accumulating beside the conveyor and thinks, “This is exactly what I was afraid of.”\n\nBut the provider has already received an alert. The telemetry showed the gripper’s performance declining before the cell stopped. A technician arrives with the correct replacement component, repairs the system and returns it to service under the support agreement.\n\nThat is the moment the owner understands what the company actually purchased.\n\nIt did not merely subscribe to a robot. It subscribed to the robot continuing to work.\n\nThis is why the engineering team defines more than a monthly price before signing.\n\nIt defines the job: correctly pack and move each carton. It maps the connections: which sensor starts the task, which controller stops the conveyor, and what continues working if the provider’s network connection disappears.\n\nIt marks the safety boundary: where people can enter, how anyone can stop the machine, and who investigates a dropped product or near miss.\n\nAnd it writes down the service promise: expected uptime, response time, replacement parts and what happens if the provider misses the target.\n\nBut RaaS does not make robotics effortless. The shop may still need process changes, employee training, network controls and integration with existing equipment. Long contracts can create vendor lock-in, and years of subscription payments may eventually cost more than ownership.\n\nBack at the packaging shop, the question is no longer, “Should we buy a robot or avoid automation?” It is, “Should we own this machine and its problems—or subscribe to an outcome with clearly defined responsibilities?”\n\nWith Software-as-a-Service, companies learned to subscribe to software. With Robotics-as-a-Service, they can subscribe to reliable physical work performed by machines.\n\nIf your company could subscribe to one robotic task, what would you automate first? Share your answer in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+      "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine it is eight on Monday morning. A small snack company receives its largest order of the year—twice the usual boxes, with the same delivery deadline.\n\nInside its automated packaging shop, packets move along a conveyor. A robotic arm places each one into a carton and sends it toward sealing.\n\nThe arm is already working at full speed.\n\nThe owner can buy another robotic packaging cell—but the machine, integration and specialist support require a major investment. After the rush, that extra capacity may sit unused.\n\nThen a robotics provider makes a different offer.\n\n“Do not buy another robot. Subscribe to the packaging work. We will install the system, monitor it and keep it running.”\n\nThat is the idea behind Robotics-as-a-Service, often shortened to RaaS.\n\nIt sounds like renting a machine. But the important part is everything surrounding that machine.\n\nWhen a packet reaches the packing station, a sensor detects it. The line controller tells the robot when to move. The robot uses its programmed motion and gripper to pick the packet safely. Software records whether the task succeeded, how long it took and whether the machine reported a problem.\n\nThose signals are telemetry—the robot telling the management platform what is happening in the physical world.\n\nThe provider may monitor that information remotely. It can deliver software updates, investigate faults, schedule maintenance and measure whether the service is meeting its promised performance.\n\nDepending on the contract, the shop might pay per robot, per month, per operating hour or through another agreed measure. Some providers allow seasonal scaling; others require a longer commitment. RaaS is a family of service models, not one standard subscription.\n\nSo RaaS is not simply robot plus monthly payment.\n\nIt combines the physical machine, control software, integration, monitoring, maintenance, support and service contract into one managed offering.\n\nFor three weeks, the new packaging cell performs exactly as expected. Cartons leave the line faster, and the owner begins wondering why the company ever considered buying the machine.\n\nThen, during the busiest afternoon of the season, the robot begins dropping packets.\n\nAn employee stops the cell. The owner sees orders accumulating beside the conveyor and thinks, “This is exactly what I was afraid of.”\n\nBut the provider has already received an alert. The telemetry showed the gripper’s performance declining before the cell stopped. A technician arrives with the correct replacement component, repairs the system and returns it to service under the support agreement.\n\nThat is the moment the owner understands what the company actually purchased.\n\nIt did not merely subscribe to a robot. It subscribed to the robot continuing to work.\n\nThis is why the engineering team defines more than a monthly price before signing.\n\nIt defines the job: correctly pack and move each carton. It maps the connections: which sensor starts the task, which controller stops the conveyor, and what continues working if the provider’s network connection disappears.\n\nIt marks the safety boundary: where people can enter, how anyone can stop the machine, and who investigates a dropped product or near miss.\n\nAnd it writes down the service promise: expected uptime, response time, replacement parts and what happens if the provider misses the target.\n\nBut RaaS does not make robotics effortless. The shop may still need process changes, employee training, network controls and integration with existing equipment. Long contracts can create vendor lock-in, and years of subscription payments may eventually cost more than ownership.\n\nBack at the packaging shop, the question is no longer, “Should we buy a robot or avoid automation?” It is, “Should we own this machine and its problems—or subscribe to an outcome with clearly defined responsibilities?”\n\nWith Software-as-a-Service, companies learned to subscribe to software. With Robotics-as-a-Service, they can subscribe to reliable physical work performed by machines.\n\nIf your company could subscribe to one robotic task, what would you automate first? Share your answer in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+      "transcripts": [
+        {
+          "path": "podcast/transcripts/2026-08-15-what-is-robotics-as-a-service-raas.txt",
+          "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-15-what-is-robotics-as-a-service-raas.txt",
+          "type": "text/plain",
+          "language": "en"
+        }
+      ],
+      "satishTake": "Robotics-as-a-Service matters because companies are not only renting a machine. They are buying a managed operational outcome: hardware, software, telemetry, support, maintenance, and service promises around physical work.",
+      "quickCheck": {
+        "questions": [
+          {
+            "prompt": "What does Robotics-as-a-Service usually combine?",
+            "options": [
+              "Robot hardware, software, monitoring, maintenance, support, and a service contract.",
+              "Only a robot arm with no software or support.",
+              "A one-time purchase of every machine part."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "RaaS wraps the physical robot with the surrounding software, monitoring, support, and commercial service model."
+          },
+          {
+            "prompt": "Why might a company choose RaaS?",
+            "options": [
+              "To add robotic capacity without buying and supporting the whole system outright.",
+              "To avoid all process changes and safety planning.",
+              "To guarantee every contract is cheaper than ownership."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "RaaS can reduce upfront ownership burden, but economics still depend on usage, term, support, and integration needs."
+          },
+          {
+            "prompt": "What is telemetry in this context?",
+            "options": [
+              "Signals from the robot about status, task results, timing, and faults.",
+              "A marketing name for the robot's paint color.",
+              "A rule that prevents any remote monitoring."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Telemetry lets operators and providers observe what is happening in the physical system."
+          },
+          {
+            "prompt": "What should the service promise define?",
+            "options": [
+              "Uptime, response time, maintenance coverage, parts, and failure responsibility.",
+              "Only the monthly price, with no operational details.",
+              "A guarantee that no employee training is needed."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "The contract needs clear operational responsibilities, not just payment terms."
+          },
+          {
+            "prompt": "What is a real risk of RaaS?",
+            "options": [
+              "Vendor lock-in or long-term subscription cost exceeding ownership.",
+              "Robots no longer needing safety boundaries.",
+              "Physical integration becoming unnecessary."
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "RaaS can simplify adoption, but companies still need to evaluate integration, safety, switching cost, and total cost over time."
+          }
+        ]
+      },
+      "artworkPath": "podcast/artwork/episodes/2026-08-15-what-is-robotics-as-a-service-raas.jpg",
+      "artworkPngPath": "podcast/artwork/episodes/2026-08-15-what-is-robotics-as-a-service-raas.png",
+      "artworkSourcePath": "podcast/artwork/source/2026-08-15-what-is-robotics-as-a-service-raas.svg",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-15-what-is-robotics-as-a-service-raas.jpg",
+      "topicProfile": {
+        "id": "robotics-as-a-service",
+        "label": "Robotics-as-a-Service",
+        "accent": "#0F766E"
+      },
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-15-what-is-robotics-as-a-service-raas",
+      "watchUrl": "https://satishkchoudhary.com/daily-brief-episodes/2026-08-15-what-is-robotics-as-a-service-raas/",
+      "thumbnailUrl": "https://i.ytimg.com/vi/huPHLTGZwlg/maxresdefault.jpg",
+      "media": {
+        "hasAudio": true,
+        "hasVideo": true,
+        "primary": "video"
+      }
+    },
     {
       "guid": "in-simple-terms-2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai",
       "title": "What Is Inference Economics? The Hidden Cost of Adopting AI",

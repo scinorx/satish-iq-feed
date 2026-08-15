@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-14",
-  "title": "Today's object: AI operating cost in simple terms",
+  "generatedAt": "2026-08-15",
+  "title": "Today's object: Robots as managed services in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-08-14",
+    "date": "2026-08-15",
     "status": "success",
-    "scheduledFor": "2026-08-14T05:30:00-04:00",
-    "startedAt": "2026-08-15T04:36:21.273Z",
-    "finishedAt": "2026-08-15T04:36:30.368Z",
+    "scheduledFor": "2026-08-15T05:30:00-04:00",
+    "startedAt": "2026-08-15T12:42:17.971Z",
+    "finishedAt": "2026-08-15T12:42:27.150Z",
     "currentStage": "completed",
     "topic": null,
-    "podcastTopic": "What Is Inference Economics? The Hidden Cost of Adopting AI",
+    "podcastTopic": "What Is Robotics-as-a-Service (RaaS)?",
     "commit": null,
     "results": {
       "publicFeedPublish": "success",
@@ -25,17 +25,17 @@
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "What Is Inference Economics? The Hidden Cost of Adopting AI"
+      "latestPodcastEpisode": "What Is Robotics-as-a-Service (RaaS)?"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "What Is Inference Economics? The Hidden Cost of Adopting AI",
-      "publishedAt": "2026-08-14T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-14-what-is-inference-economics-the-hidden-cost-of-adopting-ai"
+      "title": "What Is Robotics-as-a-Service (RaaS)?",
+      "publishedAt": "2026-08-15T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-15-what-is-robotics-as-a-service-raas.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-15-what-is-robotics-as-a-service-raas.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-15-what-is-robotics-as-a-service-raas"
     }
   }
 }
