@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E9FFF9"/>
+      <stop offset="58%" stop-color="#91EBD8"/>
+      <stop offset="100%" stop-color="#008B7A"/>
+    </linearGradient>
+    <radialGradient id="topicGlow" cx="50%" cy="50%" r="62%">
+      <stop offset="0%" stop-color="#008B7A" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#003F6B" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#6D4E00" flood-opacity="0.15"/>
+    </filter>
+    <style>
+      .brand { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 68px; font-weight: 900; letter-spacing: 7px; fill: #073F3A; }
+      .title { font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 266px; font-weight: 900; letter-spacing: 3px; fill: #073F3A; }
+      .date { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 58px; font-weight: 900; letter-spacing: 7px; fill: #073F3A; }
+      .small { font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif; font-size: 54px; font-weight: 900; letter-spacing: 3px; fill: #073F3A; }
+    </style>
+  </defs>
+  <rect width="3000" height="3000" fill="url(#paper)"/>
+  <circle cx="2450" cy="560" r="530" fill="#FFFFFF" opacity="0.22"/>
+  <circle cx="360" cy="2500" r="560" fill="#FFFFFF" opacity="0.13"/>
+  <circle cx="2250" cy="1540" r="770" fill="url(#topicGlow)" opacity="0.9"/>
+  <g>
+  <ellipse cx="2300" cy="980" rx="430" ry="150" fill="none" stroke="#008B7A" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M1870 980 V1670 C1870 1760 2065 1835 2300 1835 C2535 1835 2730 1760 2730 1670 V980" fill="none" stroke="#003F6B" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <path d="M1870 1210 C1870 1300 2065 1375 2300 1375 C2535 1375 2730 1300 2730 1210 M1870 1440 C1870 1530 2065 1605 2300 1605 C2535 1605 2730 1530 2730 1440" fill="none" stroke="#003F6B" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.14"/>
+  <circle cx="2625" cy="2080" r="120" fill="none" stroke="#008B7A" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <path d="M2710 2165 L2835 2290" fill="none" stroke="#008B7A" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+</g>
+  <rect x="135" y="135" width="2730" height="2730" rx="92" fill="none" stroke="#073F3A" stroke-width="12" opacity="0.36"/>
+  <text x="245" y="360" class="brand">IN SIMPLE TERMS WITH SATISH</text>
+  <g filter="url(#shadow)">
+    <text x="245" y="1262" class="title">WHAT IS THE</text>
+    <text x="245" y="1571" class="title">ZERO-CLICK</text>
+    <text x="245" y="1880" class="title">INTERNET?</text>
+  </g>
+  <path d="M260 2135 H1080" stroke="#008B7A" stroke-width="24" stroke-linecap="round"/>
+  <text x="260" y="2270" class="date">2026-08-18</text>
+  <text x="260" y="2575" class="small">RETRIEVAL AND DATA</text>
+</svg>

@@ -1,0 +1,111 @@
+Hello, and welcome to In Simple Terms with Satish.
+
+Ship-It Sam and Verify Veera are standing before two whiteboards.
+
+They must prepare one thousand products for an online launch.
+
+Sam has drawn one enormous box. Inside it, he has written: “AI agent.” Supplier documents enter the box. Prices, inventory settings, descriptions, and publication schedules come out.
+
+Veera studies the diagram.
+
+“Your AI is doing everything?”
+
+“That is the idea.”
+
+“Reading supplier documents?”
+
+“Yes.”
+
+“Creating descriptions, calculating prices, generating SKUs, and scheduling publication?”
+
+“Yes.”
+
+Veera pauses. “Is there anything it isn't doing?”
+
+Sam smiles. “Taking credit for my architecture.”
+
+Veera draws several smaller boxes.
+
+Sam looks concerned. “That appears to be considerably more work.”
+
+“Initially,” Veera says.
+
+Sam points to his design. “My agent receives one objective, understands the context, and coordinates the workflow. If something changes, I update the instructions. Why build five automations?”
+
+“That is a reasonable argument,” Veera replies. “I know AI can perform these steps. I am asking whether every step needs AI.”
+
+Before Sam can answer, a supplier message arrives. The approved spreadsheet is gone. In its place are two photographs and one sentence:
+
+“New bottle. Same as last year, but smaller and better for cold drinks.”
+
+Veera's structured import cannot read it. Sam gives it to his AI agent.
+
+The agent examines the photographs, finds last year's product, interprets the message, creates a structured record, and drafts a customer-friendly description.
+
+Sam turns to Veera. “Still think the large AI box is unnecessary?”
+
+“For this step, you were right. The information was unstructured, and the output required interpretation and creation.”
+
+Sam pretends to photograph the moment.
+
+Then the finance team sends another message. The margin for drinkware has changed from fifteen percent to twelve percent.
+
+Sam updates his agent: “Find every drinkware product and recalculate its price.” The AI can perform the task.
+
+Veera changes one value in her pricing rule. Her system identifies the affected products, recalculates their prices, and records the exact rule used.
+
+Veera looks at Sam. “Still want AI calculating every known formula?”
+
+Sam slowly lowers his imaginary camera. “For this step, you were right. The company has already decided the answer.”
+
+“Exactly. Capability is not the same as suitability.”
+
+Sam does not surrender. “Traditional automation also costs money. Someone must build the rules, maintain integrations, and update them when the process changes.”
+
+“Correct,” Veera says. “AI is not automatically expensive, and automation is not automatically cheap. We compare the complete systems.”
+
+She writes four questions:
+
+How quickly can we build it?
+
+How consistently does it operate?
+
+What does it cost at scale?
+
+How easily can we explain and change it?
+
+“My approach gives us speed and adaptability,” Sam says.
+
+“Especially while we are discovering the workflow,” Veera replies.
+
+“And yours gives us repeatability when the process becomes stable.”
+
+They return to the whiteboards.
+
+Sam makes his AI box smaller—but more important.
+
+AI reads inconsistent documents, interprets unclear information, and creates customer-friendly content.
+
+Automation validates required fields, generates SKUs, applies pricing formulas, manages inventory, and schedules publication.
+
+Before AI changes a price or publishes a product, deterministic validation checks its structured output.
+
+Sam studies the design. “So AI provides interpretation and creativity.”
+
+“And automation provides repeatability and control.”
+
+“Which one won?”
+
+Veera points to the connected boxes. “The system.”
+
+Their conversation gives us a practical method.
+
+Break a workflow into individual steps. If a rule and required output are already defined, begin with automation. If a step requires ambiguity, unstructured information, prediction, or generation, consider AI. Before a consequential action, add proportionate validation or human approval. Then measure quality, time, model calls, operating cost, and human intervention across the complete workflow.
+
+Successful AI adoption is not measured by how many steps contain AI. It is measured by whether AI makes the complete system better.
+
+Sam asked, “Can AI perform this task?” Veera asked, “Does this task need AI?” The strongest team asks both.
+
+Think of one workflow in your workplace. Which step belongs to AI, and which should remain ordinary automation? Share your example in the comments.
+
+If this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.

@@ -1,5 +1,292 @@
 [
   {
+    "guid": "in-simple-terms-2026-08-24-ai-vs-automation-should-you-use-ai-for-everything",
+    "title": "AI vs Automation: Should You Use AI for Everything?",
+    "subtitle": "Choosing AI or automation in simple terms",
+    "description": "Ship-It Sam draws one large AI box around an entire product-launch workflow. Verify Veera divides the same workflow into smaller decisions. Their conversation—and two unexpected changes—reveal the difference between asking whether AI can perform a task and asking whether the task actually needs AI.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://www.redhat.com/en/topics/automation/ai-vs-automation-whats-difference\n- https://zapier.com/ai/workflow-index/q2-2026-report\n- https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-cost-of-intelligence-how-cios-can-manage-ai-demand-at-scale\n- https://www.celigo.com/blog/ai-vs-automation/",
+    "publishedAt": "2026-08-24T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-08-24",
+    "seasonNumber": 5,
+    "episodeNumber": 75,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-08-24T05:30:00-04:00",
+    "durationSeconds": 286,
+    "audioPath": "podcast/audio/2026-08-24-ai-vs-automation-should-you-use-ai-for-everything.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-24-ai-vs-automation-should-you-use-ai-for-everything.mp3",
+    "lengthBytes": 4579622,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nShip-It Sam and Verify Veera are standing before two whiteboards.\n\nThey must prepare one thousand products for an online launch.\n\nSam has drawn one enormous box. Inside it, he has written: “AI agent.” Supplier documents enter the box. Prices, inventory settings, descriptions, and publication schedules come out.\n\nVeera studies the diagram.\n\n“Your AI is doing everything?”\n\n“That is the idea.”\n\n“Reading supplier documents?”\n\n“Yes.”\n\n“Creating descriptions, calculating prices, generating SKUs, and scheduling publication?”\n\n“Yes.”\n\nVeera pauses. “Is there anything it isn't doing?”\n\nSam smiles. “Taking credit for my architecture.”\n\nVeera draws several smaller boxes.\n\nSam looks concerned. “That appears to be considerably more work.”\n\n“Initially,” Veera says.\n\nSam points to his design. “My agent receives one objective, understands the context, and coordinates the workflow. If something changes, I update the instructions. Why build five automations?”\n\n“That is a reasonable argument,” Veera replies. “I know AI can perform these steps. I am asking whether every step needs AI.”\n\nBefore Sam can answer, a supplier message arrives. The approved spreadsheet is gone. In its place are two photographs and one sentence:\n\n“New bottle. Same as last year, but smaller and better for cold drinks.”\n\nVeera's structured import cannot read it. Sam gives it to his AI agent.\n\nThe agent examines the photographs, finds last year's product, interprets the message, creates a structured record, and drafts a customer-friendly description.\n\nSam turns to Veera. “Still think the large AI box is unnecessary?”\n\n“For this step, you were right. The information was unstructured, and the output required interpretation and creation.”\n\nSam pretends to photograph the moment.\n\nThen the finance team sends another message. The margin for drinkware has changed from fifteen percent to twelve percent.\n\nSam updates his agent: “Find every drinkware product and recalculate its price.” The AI can perform the task.\n\nVeera changes one value in her pricing rule. Her system identifies the affected products, recalculates their prices, and records the exact rule used.\n\nVeera looks at Sam. “Still want AI calculating every known formula?”\n\nSam slowly lowers his imaginary camera. “For this step, you were right. The company has already decided the answer.”\n\n“Exactly. Capability is not the same as suitability.”\n\nSam does not surrender. “Traditional automation also costs money. Someone must build the rules, maintain integrations, and update them when the process changes.”\n\n“Correct,” Veera says. “AI is not automatically expensive, and automation is not automatically cheap. We compare the complete systems.”\n\nShe writes four questions:\n\nHow quickly can we build it?\n\nHow consistently does it operate?\n\nWhat does it cost at scale?\n\nHow easily can we explain and change it?\n\n“My approach gives us speed and adaptability,” Sam says.\n\n“Especially while we are discovering the workflow,” Veera replies.\n\n“And yours gives us repeatability when the process becomes stable.”\n\nThey return to the whiteboards.\n\nSam makes his AI box smaller—but more important.\n\nAI reads inconsistent documents, interprets unclear information, and creates customer-friendly content.\n\nAutomation validates required fields, generates SKUs, applies pricing formulas, manages inventory, and schedules publication.\n\nBefore AI changes a price or publishes a product, deterministic validation checks its structured output.\n\nSam studies the design. “So AI provides interpretation and creativity.”\n\n“And automation provides repeatability and control.”\n\n“Which one won?”\n\nVeera points to the connected boxes. “The system.”\n\nTheir conversation gives us a practical method.\n\nBreak a workflow into individual steps. If a rule and required output are already defined, begin with automation. If a step requires ambiguity, unstructured information, prediction, or generation, consider AI. Before a consequential action, add proportionate validation or human approval. Then measure quality, time, model calls, operating cost, and human intervention across the complete workflow.\n\nSuccessful AI adoption is not measured by how many steps contain AI. It is measured by whether AI makes the complete system better.\n\nSam asked, “Can AI perform this task?” Veera asked, “Does this task need AI?” The strongest team asks both.\n\nThink of one workflow in your workplace. Which step belongs to AI, and which should remain ordinary automation? Share your example in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nShip-It Sam and Verify Veera are standing before two whiteboards.\n\nThey must prepare one thousand products for an online launch.\n\nSam has drawn one enormous box. Inside it, he has written: “AI agent.” Supplier documents enter the box. Prices, inventory settings, descriptions, and publication schedules come out.\n\nVeera studies the diagram.\n\n“Your AI is doing everything?”\n\n“That is the idea.”\n\n“Reading supplier documents?”\n\n“Yes.”\n\n“Creating descriptions, calculating prices, generating SKUs, and scheduling publication?”\n\n“Yes.”\n\nVeera pauses. “Is there anything it isn't doing?”\n\nSam smiles. “Taking credit for my architecture.”\n\nVeera draws several smaller boxes.\n\nSam looks concerned. “That appears to be considerably more work.”\n\n“Initially,” Veera says.\n\nSam points to his design. “My agent receives one objective, understands the context, and coordinates the workflow. If something changes, I update the instructions. Why build five automations?”\n\n“That is a reasonable argument,” Veera replies. “I know AI can perform these steps. I am asking whether every step needs AI.”\n\nBefore Sam can answer, a supplier message arrives. The approved spreadsheet is gone. In its place are two photographs and one sentence:\n\n“New bottle. Same as last year, but smaller and better for cold drinks.”\n\nVeera's structured import cannot read it. Sam gives it to his AI agent.\n\nThe agent examines the photographs, finds last year's product, interprets the message, creates a structured record, and drafts a customer-friendly description.\n\nSam turns to Veera. “Still think the large AI box is unnecessary?”\n\n“For this step, you were right. The information was unstructured, and the output required interpretation and creation.”\n\nSam pretends to photograph the moment.\n\nThen the finance team sends another message. The margin for drinkware has changed from fifteen percent to twelve percent.\n\nSam updates his agent: “Find every drinkware product and recalculate its price.” The AI can perform the task.\n\nVeera changes one value in her pricing rule. Her system identifies the affected products, recalculates their prices, and records the exact rule used.\n\nVeera looks at Sam. “Still want AI calculating every known formula?”\n\nSam slowly lowers his imaginary camera. “For this step, you were right. The company has already decided the answer.”\n\n“Exactly. Capability is not the same as suitability.”\n\nSam does not surrender. “Traditional automation also costs money. Someone must build the rules, maintain integrations, and update them when the process changes.”\n\n“Correct,” Veera says. “AI is not automatically expensive, and automation is not automatically cheap. We compare the complete systems.”\n\nShe writes four questions:\n\nHow quickly can we build it?\n\nHow consistently does it operate?\n\nWhat does it cost at scale?\n\nHow easily can we explain and change it?\n\n“My approach gives us speed and adaptability,” Sam says.\n\n“Especially while we are discovering the workflow,” Veera replies.\n\n“And yours gives us repeatability when the process becomes stable.”\n\nThey return to the whiteboards.\n\nSam makes his AI box smaller—but more important.\n\nAI reads inconsistent documents, interprets unclear information, and creates customer-friendly content.\n\nAutomation validates required fields, generates SKUs, applies pricing formulas, manages inventory, and schedules publication.\n\nBefore AI changes a price or publishes a product, deterministic validation checks its structured output.\n\nSam studies the design. “So AI provides interpretation and creativity.”\n\n“And automation provides repeatability and control.”\n\n“Which one won?”\n\nVeera points to the connected boxes. “The system.”\n\nTheir conversation gives us a practical method.\n\nBreak a workflow into individual steps. If a rule and required output are already defined, begin with automation. If a step requires ambiguity, unstructured information, prediction, or generation, consider AI. Before a consequential action, add proportionate validation or human approval. Then measure quality, time, model calls, operating cost, and human intervention across the complete workflow.\n\nSuccessful AI adoption is not measured by how many steps contain AI. It is measured by whether AI makes the complete system better.\n\nSam asked, “Can AI perform this task?” Veera asked, “Does this task need AI?” The strongest team asks both.\n\nThink of one workflow in your workplace. Which step belongs to AI, and which should remain ordinary automation? Share your example in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-08-24-ai-vs-automation-should-you-use-ai-for-everything.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-24-ai-vs-automation-should-you-use-ai-for-everything.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "The practical question is not whether AI can do a task. It is whether the task needs interpretation, prediction, or generation. Clear rules and defined outputs often belong in deterministic automation, with AI used where ambiguity creates value.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What question does Verify Veera ask before adding AI?",
+          "options": [
+            "Does this task need AI?",
+            "Can the UI be more colorful?",
+            "Can every workflow become a chatbot?"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "The episode contrasts capability with necessity: AI is useful when the step benefits from interpretation or generation."
+        },
+        {
+          "prompt": "Which task type is usually a good fit for deterministic automation?",
+          "options": [
+            "Known rules with defined outputs",
+            "Ambiguous supplier photos",
+            "Open-ended copy generation"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "When the rule and output are known, deterministic automation is easier to test, audit, and change."
+        },
+        {
+          "prompt": "Where can AI add value in a workflow?",
+          "options": [
+            "Ambiguity, unstructured input, prediction, or generation",
+            "Replacing every database constraint",
+            "Avoiding all validation"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "AI fits steps where fixed rules are insufficient and interpretation or generation is valuable."
+        },
+        {
+          "prompt": "What should happen before consequential automated actions?",
+          "options": [
+            "Deterministic validation or human approval",
+            "Silent execution without logs",
+            "Removing the audit trail"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "For consequential actions, AI output should be constrained by validation, review, policy, or deterministic checks."
+        },
+        {
+          "prompt": "What should teams measure in AI-assisted workflows?",
+          "options": [
+            "Time, quality, model calls, cost, and human intervention",
+            "Only whether the demo looks impressive",
+            "Only the number of buttons removed"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Good workflow architecture measures the actual outcome, cost, quality, and intervention rate."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-08-24-ai-vs-automation-should-you-use-ai-for-everything.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-08-24-ai-vs-automation-should-you-use-ai-for-everything.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-08-24-ai-vs-automation-should-you-use-ai-for-everything.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-24-ai-vs-automation-should-you-use-ai-for-everything.jpg",
+    "topicProfile": {
+      "id": "ai-workflow-architecture",
+      "label": "AI workflow architecture",
+      "accent": "#D97706"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-08-24-ai-vs-automation-should-you-use-ai-for-everything"
+  },
+  {
+    "guid": "in-simple-terms-2026-08-18-what-is-the-zero-click-internet",
+    "title": "What Is the Zero-Click Internet?",
+    "subtitle": "AI search answers in simple terms",
+    "description": "Maya spends weeks discovering why her money plant is dying. Months later, an AI search answer gives someone her exact solution—but that person never visits her website or learns that she exists.\n\nFollow one original observation through crawling, indexing, retrieval, ranking, AI generation, and attribution. Then discover why the Zero-Click Internet is not only a traffic problem, but an information-supply problem.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/\n- https://developers.google.com/search/docs/appearance/ai-features\n- https://developers.google.com/search/docs/crawling-indexing/overview\n- https://developers.google.com/search/docs/fundamentals/how-search-works\n\nYoutube - https://youtu.be/Z1QtIVn1rCQ",
+    "publishedAt": "2026-08-18T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-08-18",
+    "seasonNumber": 5,
+    "episodeNumber": 74,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-08-18T05:30:00-04:00",
+    "durationSeconds": 283,
+    "audioPath": "podcast/audio/2026-08-18-what-is-the-zero-click-internet.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-18-what-is-the-zero-click-internet.mp3",
+    "youtubeId": "Z1QtIVn1rCQ",
+    "youtubeUrl": "https://youtu.be/Z1QtIVn1rCQ",
+    "lengthBytes": 4528631,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine Maya runs a website about indoor plants.\n\nOne summer, her money plant's leaves begin turning yellow. Most websites say she is overwatering it. But after weeks of testing, Maya discovers something unusual.\n\nWater is collecting inside the decorative outer pot, even though the inner pot has drainage holes.\n\nShe documents the experiment and publishes an article.\n\nMonths later, Rahul faces the same problem. He searches, “Why are the leaves on my money plant turning yellow?”\n\nAn AI-generated answer appears: “Check whether water is collecting inside the decorative pot, even if the inner pot has drainage holes.”\n\nRahul follows the advice and saves his plant. But he never opens Maya's article.\n\nMaya created the knowledge. The platform delivered it. Rahul received the value. Maya received zero clicks.\n\nSo how did Maya's experiment become Rahul's answer?\n\nThe system behind that journey is creating what we call the Zero-Click Internet.\n\nIn simple terms, search engines and AI assistants answer questions directly, without requiring users to visit the original sources.\n\nLet us follow Maya's article through four technical stages.\n\nThe first is discovery.\n\nA software crawler reads Maya's page and adds it to a search index—a catalogue recording its subject and which questions it might answer.\n\nThe system may also convert passages into numerical representations called embeddings. Embeddings help it recognize meaning. Rahul can search for “yellow leaves” even if Maya wrote “leaf discoloration.”\n\nThe second stage is retrieval.\n\nThe system interprets Rahul's query as a plant symptom needing a cause and a solution. It retrieves relevant pages from its index. A ranking system scores them for relevance, freshness, and authority, then selects useful passages. Maya's observation may be one of them.\n\nThe third stage is generation.\n\nInstead of showing only a list of links, the platform sends the retrieved passages to a language model. This resembles Retrieval-Augmented Generation, or RAG.\n\nThe retrieval system supplies the evidence. The language model turns it into one convenient answer, perhaps combining Maya's observation with other guidance.\n\nThe fourth stage is attribution.\n\nThe platform may place a citation beside the answer. Technically, Maya has been credited. Behaviourally, she may remain invisible.\n\nRahul already has the solution. The summary has removed his reason to click.\n\nThat is how an ordinary search becomes a zero-click experience: discover the information, retrieve the evidence, generate the answer, and attribute the sources.\n\nThe complication is the feedback loop.\n\nWith traditional search, Rahul's click tells the system that Maya's page was useful. Maya also receives a visitor.\n\nWith a zero-click answer, Rahul may still be satisfied, but that satisfaction remains inside the platform. Maya sees no visit even though her experiment helped produce the answer.\n\nIf this continues, she may decide her next experiment is not worth publishing publicly.\n\nMultiply that decision across reviewers, researchers, journalists, and technical writers.\n\nAI can summarize their work, but someone still has to create the evidence—to test the laptop, investigate the story, examine the vulnerability, or discover why the plant is dying.\n\nIf fewer people publish that work, future AI systems may have plenty of words but less fresh knowledge.\n\nA healthier system needs more than decorative citations. It should connect claims to sources, recognize original reporting, link to supporting evidence, show disagreements, and measure whether trustworthy creators receive meaningful discovery.\n\nThose are engineering decisions involving retrieval, ranking, provenance, attribution, and feedback.\n\nNow here is the catch. Not every zero-click answer is harmful. We do not need an article every time we check the weather or convert a currency.\n\nThe concern begins when a convenient summary replaces original investigation while making the investigator almost invisible.\n\nBack in our story, Rahul's plant survives because Maya performed the experiment. But if Maya stops publishing, the next unusual problem may never enter the index.\n\nSo remember this simple mental model:\n\nTraditional search sends you to the answer. Zero-click search brings the answer to you.\n\nThat is faster and more convenient. But if we stop supporting the people who create original knowledge, tomorrow's AI may have fewer reliable answers to bring.\n\nWould you accept fewer independent websites in exchange for instant AI answers? Or should AI platforms return more traffic and value to their sources? Share your view in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine Maya runs a website about indoor plants.\n\nOne summer, her money plant's leaves begin turning yellow. Most websites say she is overwatering it. But after weeks of testing, Maya discovers something unusual.\n\nWater is collecting inside the decorative outer pot, even though the inner pot has drainage holes.\n\nShe documents the experiment and publishes an article.\n\nMonths later, Rahul faces the same problem. He searches, “Why are the leaves on my money plant turning yellow?”\n\nAn AI-generated answer appears: “Check whether water is collecting inside the decorative pot, even if the inner pot has drainage holes.”\n\nRahul follows the advice and saves his plant. But he never opens Maya's article.\n\nMaya created the knowledge. The platform delivered it. Rahul received the value. Maya received zero clicks.\n\nSo how did Maya's experiment become Rahul's answer?\n\nThe system behind that journey is creating what we call the Zero-Click Internet.\n\nIn simple terms, search engines and AI assistants answer questions directly, without requiring users to visit the original sources.\n\nLet us follow Maya's article through four technical stages.\n\nThe first is discovery.\n\nA software crawler reads Maya's page and adds it to a search index—a catalogue recording its subject and which questions it might answer.\n\nThe system may also convert passages into numerical representations called embeddings. Embeddings help it recognize meaning. Rahul can search for “yellow leaves” even if Maya wrote “leaf discoloration.”\n\nThe second stage is retrieval.\n\nThe system interprets Rahul's query as a plant symptom needing a cause and a solution. It retrieves relevant pages from its index. A ranking system scores them for relevance, freshness, and authority, then selects useful passages. Maya's observation may be one of them.\n\nThe third stage is generation.\n\nInstead of showing only a list of links, the platform sends the retrieved passages to a language model. This resembles Retrieval-Augmented Generation, or RAG.\n\nThe retrieval system supplies the evidence. The language model turns it into one convenient answer, perhaps combining Maya's observation with other guidance.\n\nThe fourth stage is attribution.\n\nThe platform may place a citation beside the answer. Technically, Maya has been credited. Behaviourally, she may remain invisible.\n\nRahul already has the solution. The summary has removed his reason to click.\n\nThat is how an ordinary search becomes a zero-click experience: discover the information, retrieve the evidence, generate the answer, and attribute the sources.\n\nThe complication is the feedback loop.\n\nWith traditional search, Rahul's click tells the system that Maya's page was useful. Maya also receives a visitor.\n\nWith a zero-click answer, Rahul may still be satisfied, but that satisfaction remains inside the platform. Maya sees no visit even though her experiment helped produce the answer.\n\nIf this continues, she may decide her next experiment is not worth publishing publicly.\n\nMultiply that decision across reviewers, researchers, journalists, and technical writers.\n\nAI can summarize their work, but someone still has to create the evidence—to test the laptop, investigate the story, examine the vulnerability, or discover why the plant is dying.\n\nIf fewer people publish that work, future AI systems may have plenty of words but less fresh knowledge.\n\nA healthier system needs more than decorative citations. It should connect claims to sources, recognize original reporting, link to supporting evidence, show disagreements, and measure whether trustworthy creators receive meaningful discovery.\n\nThose are engineering decisions involving retrieval, ranking, provenance, attribution, and feedback.\n\nNow here is the catch. Not every zero-click answer is harmful. We do not need an article every time we check the weather or convert a currency.\n\nThe concern begins when a convenient summary replaces original investigation while making the investigator almost invisible.\n\nBack in our story, Rahul's plant survives because Maya performed the experiment. But if Maya stops publishing, the next unusual problem may never enter the index.\n\nSo remember this simple mental model:\n\nTraditional search sends you to the answer. Zero-click search brings the answer to you.\n\nThat is faster and more convenient. But if we stop supporting the people who create original knowledge, tomorrow's AI may have fewer reliable answers to bring.\n\nWould you accept fewer independent websites in exchange for instant AI answers? Or should AI platforms return more traffic and value to their sources? Share your view in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-08-18-what-is-the-zero-click-internet.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-18-what-is-the-zero-click-internet.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "The zero-click internet matters because search and AI assistants can complete the user's task inside the platform. That improves speed for users, but it can reduce traffic, attribution, and incentives for the original sources that make answers possible.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What makes an experience zero-click?",
+          "options": [
+            "The user gets the answer without visiting the original source",
+            "The internet connection is disabled",
+            "The website has no buttons"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Zero-click describes user behavior: the task is completed on the platform before the user opens a source page."
+        },
+        {
+          "prompt": "Which pipeline stage helps a search system find candidate source material?",
+          "options": [
+            "Retrieval",
+            "Phone charging",
+            "Screen calibration"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Retrieval selects candidate documents or passages that may support the generated answer."
+        },
+        {
+          "prompt": "Why is attribution alone not always enough for publishers?",
+          "options": [
+            "A cited source may still receive no visit or relationship with the reader",
+            "Attribution deletes the source document",
+            "Citations prevent users from reading"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "A source can be cited while the user remains satisfied inside the answer interface and never visits the publisher."
+        },
+        {
+          "prompt": "What is the larger ecosystem risk in the zero-click internet?",
+          "options": [
+            "Fewer incentives to create original information",
+            "Too many websites loading faster",
+            "Every answer becoming a calculator"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "If original publishers lose traffic and revenue, the upstream information supply can weaken over time."
+        },
+        {
+          "prompt": "What does semantic similarity fail to prove by itself?",
+          "options": [
+            "Truth, authority, originality, or freshness",
+            "That words can be represented numerically",
+            "That search can compare related phrases"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Embeddings can help match related meaning, but similarity is not the same as verified accuracy or authority."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-08-18-what-is-the-zero-click-internet.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-08-18-what-is-the-zero-click-internet.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-08-18-what-is-the-zero-click-internet.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-18-what-is-the-zero-click-internet.jpg",
+    "topicProfile": {
+      "id": "zero-click-internet",
+      "label": "Search and AI",
+      "accent": "#7C3AED"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-08-18-what-is-the-zero-click-internet"
+  },
+  {
+    "guid": "in-simple-terms-2026-08-16-what-is-wi-fi-8",
+    "title": "What Is Wi-Fi 8?",
+    "subtitle": "Reliable Wi-Fi in simple terms",
+    "description": "Your phone says someone is at the front door. You tap the alert, but the live video keeps loading—and by the time it appears, the delivery driver has gone. How can that happen when your speed test says the Wi-Fi is extremely fast?\n\nWi-Fi 8 is being developed around Ultra High Reliability. Discover why the next generation of Wi-Fi is focusing on consistent performance, lower tail latency, fewer lost packets and smoother movement between access points—not simply another larger speed number.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://grouper.ieee.org/groups/802/11/index.shtml\n- https://standards.ieee.org/ieee/802.11bn/11393/\n- https://grouper.ieee.org/groups/802/11/PARs/P802.11bn_PAR.pdf\n- https://grouper.ieee.org/groups/802/11/PARs/\n- https://www.qualcomm.com/news/onq/2025/07/wi-fi-8-advancing-wireless-through-ultra-high-reliability\n- https://www.mediatek.com/tek-talk-blogs/wi-fi-8-pioneering-the-future-of-connectivity\n- https://www.mediatek.com/hubfs/MediaTek%20Assets/Pdfs/White_Papers/Pioneering%20the%20Future%20with%20Wi-Fi%208_%20Part%203.pdf",
+    "publishedAt": "2026-08-16T09:30:00.000Z",
+    "sourceGeneratedAt": "2026-08-16",
+    "seasonNumber": 5,
+    "episodeNumber": 73,
+    "episodeType": "full",
+    "releaseTimeZone": "America/New_York",
+    "releaseLocalTime": "2026-08-16T05:30:00-04:00",
+    "durationSeconds": 271,
+    "audioPath": "podcast/audio/2026-08-16-what-is-wi-fi-8.mp3",
+    "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-16-what-is-wi-fi-8.mp3",
+    "lengthBytes": 4336370,
+    "type": "audio/mpeg",
+    "explicit": false,
+    "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+    "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine your phone buzzes with a notification: “Someone is at your front door.”\n\nYou tap the alert, but the live video keeps loading. A few seconds later, the picture finally appears—and the delivery driver is already walking away.\n\nYou check your home internet. The speed test shows hundreds of megabits per second.\n\nSo why could one small doorbell video not arrive on time?\n\nThat question explains the thinking behind Wi-Fi 8.\n\nWi-Fi 8 is the name commonly associated with the IEEE 802.11bn project, called Ultra High Reliability. Instead of concentrating only on a larger peak-speed number, the project is focusing on consistent performance in difficult real-world conditions.\n\nNow look at where you performed the speed test: perhaps on a phone, a few metres from the router.\n\nThe doorbell lives in a much harder location. It sits outside the house, beyond a wall or metal door. It may use a small antenna and limited power. It also shares wireless space with your devices and your neighbours’ networks.\n\nThe test measured the wrong device, in the wrong location, at a different moment. And while the headline number often emphasizes download speed, the doorbell needs to upload live video from outside your house.\n\nYour speed test measured how quickly one capable device could move data during a short test. The doorbell needed something different: an important stream of packets delivered at the correct moment from the edge of the network.\n\nSuppose an engineer opens the network trace.\n\nAverage throughput looks healthy. But at the exact moment you tapped the notification, the doorbell’s signal weakened and several packets were lost.\n\nThe device sent them again. That is retransmission.\n\nMost packets still arrived quickly, but a few took ten times longer than normal. The average hid those slow outliers. That is tail latency—the delay at the uncomfortable end of the distribution.\n\nFor a file download, that brief disruption might be invisible. For a live doorbell, it is the difference between seeing the visitor and seeing an empty doorstep.\n\nWi-Fi 8 is being developed around problems like these: performance near the edge of coverage, interference from overlapping networks, movement between access points and unpredictable delays when many devices compete for the same air.\n\nEngineers are exploring ways for multiple access points to coordinate more intelligently instead of behaving like people speaking over one another.\n\nThey are also working on smoother transitions between access points and more efficient use of a wireless channel when one portion is busy.\n\nThese mechanisms are still part of a developing standard. The final requirements and the features included in future products can change.\n\nBut the direction is important. The IEEE project does not measure only maximum throughput. Its formal scope also sets objectives around high-percentile latency and packet loss in defined comparison scenarios.\n\nIn simple terms, the engineers are asking: “What happened to the unlucky packets?”\n\nThat gives builders a practical troubleshooting pattern.\n\nTest the connection where the device actually lives—not only beside the router. Measure signal quality, interference, retries and packet loss. Look at slow percentiles instead of only averages. Then check the complete path: the doorbell, access point, mesh backhaul, internet connection and remote video service.\n\nA speed test in the living room cannot tell you which of those layers failed at the front door.\n\nThere is also an important catch.\n\nWi-Fi 8 cannot repair poor router placement, a slow internet provider, an overloaded doorbell service or an old device that does not support the new standard. Walls and neighbouring networks will still exist.\n\nBack at the front door, your Wi-Fi was fast where you tested it. The doorbell needed it to be dependable where conditions were hardest.\n\nWi-Fi 7 pushed peak wireless performance further. Wi-Fi 8 shifts more attention toward keeping that performance useful when the real world becomes messy.\n\nFast Wi-Fi is a number. Reliable Wi-Fi is an experience that holds across devices, locations and difficult moments.\n\nWhich would you value more: a higher speed-test number or a doorbell that opens immediately every time? Share your answer in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine your phone buzzes with a notification: “Someone is at your front door.”\n\nYou tap the alert, but the live video keeps loading. A few seconds later, the picture finally appears—and the delivery driver is already walking away.\n\nYou check your home internet. The speed test shows hundreds of megabits per second.\n\nSo why could one small doorbell video not arrive on time?\n\nThat question explains the thinking behind Wi-Fi 8.\n\nWi-Fi 8 is the name commonly associated with the IEEE 802.11bn project, called Ultra High Reliability. Instead of concentrating only on a larger peak-speed number, the project is focusing on consistent performance in difficult real-world conditions.\n\nNow look at where you performed the speed test: perhaps on a phone, a few metres from the router.\n\nThe doorbell lives in a much harder location. It sits outside the house, beyond a wall or metal door. It may use a small antenna and limited power. It also shares wireless space with your devices and your neighbours’ networks.\n\nThe test measured the wrong device, in the wrong location, at a different moment. And while the headline number often emphasizes download speed, the doorbell needs to upload live video from outside your house.\n\nYour speed test measured how quickly one capable device could move data during a short test. The doorbell needed something different: an important stream of packets delivered at the correct moment from the edge of the network.\n\nSuppose an engineer opens the network trace.\n\nAverage throughput looks healthy. But at the exact moment you tapped the notification, the doorbell’s signal weakened and several packets were lost.\n\nThe device sent them again. That is retransmission.\n\nMost packets still arrived quickly, but a few took ten times longer than normal. The average hid those slow outliers. That is tail latency—the delay at the uncomfortable end of the distribution.\n\nFor a file download, that brief disruption might be invisible. For a live doorbell, it is the difference between seeing the visitor and seeing an empty doorstep.\n\nWi-Fi 8 is being developed around problems like these: performance near the edge of coverage, interference from overlapping networks, movement between access points and unpredictable delays when many devices compete for the same air.\n\nEngineers are exploring ways for multiple access points to coordinate more intelligently instead of behaving like people speaking over one another.\n\nThey are also working on smoother transitions between access points and more efficient use of a wireless channel when one portion is busy.\n\nThese mechanisms are still part of a developing standard. The final requirements and the features included in future products can change.\n\nBut the direction is important. The IEEE project does not measure only maximum throughput. Its formal scope also sets objectives around high-percentile latency and packet loss in defined comparison scenarios.\n\nIn simple terms, the engineers are asking: “What happened to the unlucky packets?”\n\nThat gives builders a practical troubleshooting pattern.\n\nTest the connection where the device actually lives—not only beside the router. Measure signal quality, interference, retries and packet loss. Look at slow percentiles instead of only averages. Then check the complete path: the doorbell, access point, mesh backhaul, internet connection and remote video service.\n\nA speed test in the living room cannot tell you which of those layers failed at the front door.\n\nThere is also an important catch.\n\nWi-Fi 8 cannot repair poor router placement, a slow internet provider, an overloaded doorbell service or an old device that does not support the new standard. Walls and neighbouring networks will still exist.\n\nBack at the front door, your Wi-Fi was fast where you tested it. The doorbell needed it to be dependable where conditions were hardest.\n\nWi-Fi 7 pushed peak wireless performance further. Wi-Fi 8 shifts more attention toward keeping that performance useful when the real world becomes messy.\n\nFast Wi-Fi is a number. Reliable Wi-Fi is an experience that holds across devices, locations and difficult moments.\n\nWhich would you value more: a higher speed-test number or a doorbell that opens immediately every time? Share your answer in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+    "transcripts": [
+      {
+        "path": "podcast/transcripts/2026-08-16-what-is-wi-fi-8.txt",
+        "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-16-what-is-wi-fi-8.txt",
+        "type": "text/plain",
+        "language": "en"
+      }
+    ],
+    "satishTake": "Wi-Fi 8 is not mainly about another peak-speed headline. Its engineering focus is reliability: useful throughput, lower tail latency, fewer lost packets, and smoother behavior when real homes, offices, and devices make wireless messy.",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "What is the main shift Wi-Fi 8 is designed to emphasize?",
+          "options": [
+            "Only a higher peak speed number",
+            "More reliable performance in messy conditions",
+            "Replacing internet service providers"
+          ],
+          "correctOptionIndex": 1,
+          "explanation": "The episode frames Wi-Fi 8 around reliability, latency, packet loss, and real-world consistency."
+        },
+        {
+          "prompt": "Why can a speed test look good while a doorbell video still loads slowly?",
+          "options": [
+            "Speed tests measure every possible failure layer",
+            "Useful performance also depends on latency, loss, roaming, backhaul, and services",
+            "Video apps do not use networks"
+          ],
+          "correctOptionIndex": 1,
+          "explanation": "A single throughput number does not isolate wireless contention, packet loss, mesh backhaul, internet path, or remote service behavior."
+        },
+        {
+          "prompt": "Which metric helps describe the slowest user-visible moments, not only the average?",
+          "options": [
+            "Tail latency",
+            "Screen brightness",
+            "Battery cycle count"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Tail latency focuses on high-percentile slow events that can make an otherwise fast system feel unreliable."
+        },
+        {
+          "prompt": "What does packet loss often force a wireless system to do?",
+          "options": [
+            "Retransmit or recover missing data",
+            "Increase the phone screen size",
+            "Change the podcast title"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Lost frames or packets may require retransmission or application-level recovery, which affects responsiveness."
+        },
+        {
+          "prompt": "What should engineers avoid promising from Wi-Fi 8 draft objectives?",
+          "options": [
+            "Guaranteed improvement in every deployment",
+            "Better measurement of reliability goals",
+            "More attention to real-world wireless behavior"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Draft objectives are scoped comparisons, not a guarantee that every device, room, app, or network improves by the same amount."
+        }
+      ]
+    },
+    "artworkPath": "podcast/artwork/episodes/2026-08-16-what-is-wi-fi-8.jpg",
+    "artworkPngPath": "podcast/artwork/episodes/2026-08-16-what-is-wi-fi-8.png",
+    "artworkSourcePath": "podcast/artwork/source/2026-08-16-what-is-wi-fi-8.svg",
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-16-what-is-wi-fi-8.jpg",
+    "topicProfile": {
+      "id": "wireless-networking",
+      "label": "Wireless networking",
+      "accent": "#2563EB"
+    },
+    "spotifyUploadPackage": "podcast/spotify-upload/2026-08-16-what-is-wi-fi-8"
+  },
+  {
     "guid": "in-simple-terms-2026-08-15-what-is-robotics-as-a-service-raas",
     "title": "What Is Robotics-as-a-Service (RaaS)?",
     "subtitle": "Robots as managed services in simple terms",

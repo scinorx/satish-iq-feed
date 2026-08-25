@@ -1,0 +1,83 @@
+Hello, and welcome to In Simple Terms with Satish.
+
+Imagine Maya runs a website about indoor plants.
+
+One summer, her money plant's leaves begin turning yellow. Most websites say she is overwatering it. But after weeks of testing, Maya discovers something unusual.
+
+Water is collecting inside the decorative outer pot, even though the inner pot has drainage holes.
+
+She documents the experiment and publishes an article.
+
+Months later, Rahul faces the same problem. He searches, “Why are the leaves on my money plant turning yellow?”
+
+An AI-generated answer appears: “Check whether water is collecting inside the decorative pot, even if the inner pot has drainage holes.”
+
+Rahul follows the advice and saves his plant. But he never opens Maya's article.
+
+Maya created the knowledge. The platform delivered it. Rahul received the value. Maya received zero clicks.
+
+So how did Maya's experiment become Rahul's answer?
+
+The system behind that journey is creating what we call the Zero-Click Internet.
+
+In simple terms, search engines and AI assistants answer questions directly, without requiring users to visit the original sources.
+
+Let us follow Maya's article through four technical stages.
+
+The first is discovery.
+
+A software crawler reads Maya's page and adds it to a search index—a catalogue recording its subject and which questions it might answer.
+
+The system may also convert passages into numerical representations called embeddings. Embeddings help it recognize meaning. Rahul can search for “yellow leaves” even if Maya wrote “leaf discoloration.”
+
+The second stage is retrieval.
+
+The system interprets Rahul's query as a plant symptom needing a cause and a solution. It retrieves relevant pages from its index. A ranking system scores them for relevance, freshness, and authority, then selects useful passages. Maya's observation may be one of them.
+
+The third stage is generation.
+
+Instead of showing only a list of links, the platform sends the retrieved passages to a language model. This resembles Retrieval-Augmented Generation, or RAG.
+
+The retrieval system supplies the evidence. The language model turns it into one convenient answer, perhaps combining Maya's observation with other guidance.
+
+The fourth stage is attribution.
+
+The platform may place a citation beside the answer. Technically, Maya has been credited. Behaviourally, she may remain invisible.
+
+Rahul already has the solution. The summary has removed his reason to click.
+
+That is how an ordinary search becomes a zero-click experience: discover the information, retrieve the evidence, generate the answer, and attribute the sources.
+
+The complication is the feedback loop.
+
+With traditional search, Rahul's click tells the system that Maya's page was useful. Maya also receives a visitor.
+
+With a zero-click answer, Rahul may still be satisfied, but that satisfaction remains inside the platform. Maya sees no visit even though her experiment helped produce the answer.
+
+If this continues, she may decide her next experiment is not worth publishing publicly.
+
+Multiply that decision across reviewers, researchers, journalists, and technical writers.
+
+AI can summarize their work, but someone still has to create the evidence—to test the laptop, investigate the story, examine the vulnerability, or discover why the plant is dying.
+
+If fewer people publish that work, future AI systems may have plenty of words but less fresh knowledge.
+
+A healthier system needs more than decorative citations. It should connect claims to sources, recognize original reporting, link to supporting evidence, show disagreements, and measure whether trustworthy creators receive meaningful discovery.
+
+Those are engineering decisions involving retrieval, ranking, provenance, attribution, and feedback.
+
+Now here is the catch. Not every zero-click answer is harmful. We do not need an article every time we check the weather or convert a currency.
+
+The concern begins when a convenient summary replaces original investigation while making the investigator almost invisible.
+
+Back in our story, Rahul's plant survives because Maya performed the experiment. But if Maya stops publishing, the next unusual problem may never enter the index.
+
+So remember this simple mental model:
+
+Traditional search sends you to the answer. Zero-click search brings the answer to you.
+
+That is faster and more convenient. But if we stop supporting the people who create original knowledge, tomorrow's AI may have fewer reliable answers to bring.
+
+Would you accept fewer independent websites in exchange for instant AI answers? Or should AI platforms return more traffic and value to their sources? Share your view in the comments.
+
+If this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.

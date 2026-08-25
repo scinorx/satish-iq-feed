@@ -22,7 +22,136 @@
       <title>In Simple Terms with Satish</title>
       <link>https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast</link>
     </image>
-    <lastBuildDate>Sat, 15 Aug 2026 09:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 09:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>AI vs Automation: Should You Use AI for Everything?</title>
+      <description>Ship-It Sam draws one large AI box around an entire product-launch workflow. Verify Veera divides the same workflow into smaller decisions. Their conversation—and two unexpected changes—reveal the difference between asking whether AI can perform a task and asking whether the task actually needs AI.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.redhat.com/en/topics/automation/ai-vs-automation-whats-difference
+- https://zapier.com/ai/workflow-index/q2-2026-report
+- https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-cost-of-intelligence-how-cios-can-manage-ai-demand-at-scale
+- https://www.celigo.com/blog/ai-vs-automation/</description>
+      <itunes:subtitle>Choosing AI or automation in simple terms</itunes:subtitle>
+      <itunes:summary>Ship-It Sam draws one large AI box around an entire product-launch workflow. Verify Veera divides the same workflow into smaller decisions. Their conversation—and two unexpected changes—reveal the difference between asking whether AI can perform a task and asking whether the task actually needs AI.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.redhat.com/en/topics/automation/ai-vs-automation-whats-difference
+- https://zapier.com/ai/workflow-index/q2-2026-report
+- https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-cost-of-intelligence-how-cios-can-manage-ai-demand-at-scale
+- https://www.celigo.com/blog/ai-vs-automation/</itunes:summary>
+      <itunes:duration>00:04:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>75</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-24-ai-vs-automation-should-you-use-ai-for-everything.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-24-ai-vs-automation-should-you-use-ai-for-everything.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-24-ai-vs-automation-should-you-use-ai-for-everything.mp3" length="4579622" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-08-24-ai-vs-automation-should-you-use-ai-for-everything</guid>
+      <pubDate>Mon, 24 Aug 2026 09:30:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>What Is the Zero-Click Internet?</title>
+      <description>Maya spends weeks discovering why her money plant is dying. Months later, an AI search answer gives someone her exact solution—but that person never visits her website or learns that she exists.
+
+Follow one original observation through crawling, indexing, retrieval, ranking, AI generation, and attribution. Then discover why the Zero-Click Internet is not only a traffic problem, but an information-supply problem.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/
+- https://developers.google.com/search/docs/appearance/ai-features
+- https://developers.google.com/search/docs/crawling-indexing/overview
+- https://developers.google.com/search/docs/fundamentals/how-search-works
+
+Youtube - https://youtu.be/Z1QtIVn1rCQ</description>
+      <itunes:subtitle>AI search answers in simple terms</itunes:subtitle>
+      <itunes:summary>Maya spends weeks discovering why her money plant is dying. Months later, an AI search answer gives someone her exact solution—but that person never visits her website or learns that she exists.
+
+Follow one original observation through crawling, indexing, retrieval, ranking, AI generation, and attribution. Then discover why the Zero-Click Internet is not only a traffic problem, but an information-supply problem.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/
+- https://developers.google.com/search/docs/appearance/ai-features
+- https://developers.google.com/search/docs/crawling-indexing/overview
+- https://developers.google.com/search/docs/fundamentals/how-search-works
+
+Youtube - https://youtu.be/Z1QtIVn1rCQ</itunes:summary>
+      <itunes:duration>00:04:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>74</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-18-what-is-the-zero-click-internet.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-18-what-is-the-zero-click-internet.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-18-what-is-the-zero-click-internet.mp3" length="4528631" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-08-18-what-is-the-zero-click-internet</guid>
+      <pubDate>Tue, 18 Aug 2026 09:30:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>What Is Wi-Fi 8?</title>
+      <description>Your phone says someone is at the front door. You tap the alert, but the live video keeps loading—and by the time it appears, the delivery driver has gone. How can that happen when your speed test says the Wi-Fi is extremely fast?
+
+Wi-Fi 8 is being developed around Ultra High Reliability. Discover why the next generation of Wi-Fi is focusing on consistent performance, lower tail latency, fewer lost packets and smoother movement between access points—not simply another larger speed number.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://grouper.ieee.org/groups/802/11/index.shtml
+- https://standards.ieee.org/ieee/802.11bn/11393/
+- https://grouper.ieee.org/groups/802/11/PARs/P802.11bn_PAR.pdf
+- https://grouper.ieee.org/groups/802/11/PARs/
+- https://www.qualcomm.com/news/onq/2025/07/wi-fi-8-advancing-wireless-through-ultra-high-reliability
+- https://www.mediatek.com/tek-talk-blogs/wi-fi-8-pioneering-the-future-of-connectivity
+- https://www.mediatek.com/hubfs/MediaTek%20Assets/Pdfs/White_Papers/Pioneering%20the%20Future%20with%20Wi-Fi%208_%20Part%203.pdf</description>
+      <itunes:subtitle>Reliable Wi-Fi in simple terms</itunes:subtitle>
+      <itunes:summary>Your phone says someone is at the front door. You tap the alert, but the live video keeps loading—and by the time it appears, the delivery driver has gone. How can that happen when your speed test says the Wi-Fi is extremely fast?
+
+Wi-Fi 8 is being developed around Ultra High Reliability. Discover why the next generation of Wi-Fi is focusing on consistent performance, lower tail latency, fewer lost packets and smoother movement between access points—not simply another larger speed number.
+
+Follow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.
+
+Disclosure: This episode uses authorized synthetic narration based on Satish&apos;s own voice. The topic, script, and final editorial approval are by Satish.
+
+Sources:
+- https://grouper.ieee.org/groups/802/11/index.shtml
+- https://standards.ieee.org/ieee/802.11bn/11393/
+- https://grouper.ieee.org/groups/802/11/PARs/P802.11bn_PAR.pdf
+- https://grouper.ieee.org/groups/802/11/PARs/
+- https://www.qualcomm.com/news/onq/2025/07/wi-fi-8-advancing-wireless-through-ultra-high-reliability
+- https://www.mediatek.com/tek-talk-blogs/wi-fi-8-pioneering-the-future-of-connectivity
+- https://www.mediatek.com/hubfs/MediaTek%20Assets/Pdfs/White_Papers/Pioneering%20the%20Future%20with%20Wi-Fi%208_%20Part%203.pdf</itunes:summary>
+      <itunes:duration>00:04:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>5</itunes:season>
+      <itunes:episode>73</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <podcast:transcript url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-16-what-is-wi-fi-8.txt" type="text/plain" language="en" />
+      <itunes:image href="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-16-what-is-wi-fi-8.jpg" />
+      <enclosure url="https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-16-what-is-wi-fi-8.mp3" length="4336370" type="audio/mpeg" />
+      <guid isPermaLink="false">in-simple-terms-2026-08-16-what-is-wi-fi-8</guid>
+      <pubDate>Sun, 16 Aug 2026 09:30:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>What Is Robotics-as-a-Service (RaaS)?</title>
