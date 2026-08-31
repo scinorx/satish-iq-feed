@@ -1,0 +1,41 @@
+Hello, and welcome to In Simple Terms with Satish.
+
+Have you ever opened an AI model card and noticed two sizes: total parameters and active parameters per token? You download one model and receive one answer. So why does it need two parameter counts?
+
+That puzzle leads to an architecture called Mixture of Experts, or MoE.
+
+Picture a busy food court. In one setup, every order goes through one large kitchen. That resembles a dense Transformer: inside each block, every token—“compiler,” “coffee,” or a comma—passes through the same feed-forward network.
+
+Now imagine eight cooking stations and a digital dispatcher. An order ticket contains enough detail for the dispatcher to score every station, choose the top two and blend their contributions into the final tray.
+
+In the model, the ticket is the token's hidden vector, shaped by its context. The dispatcher is a learned router. The stations are expert feed-forward subnetworks. The final tray is the routing-weighted combination of their outputs. The other six stations do no feed-forward calculation for that token.
+
+The analogy has a boundary. Food stations may carry fixed labels such as “grill” or “dessert.” Neural experts are not assigned human-readable jobs. During training they learn overlapping roles, and the same written word can reach a different pair when its context changes. The food court helps us picture selective routing; it does not tell us what an expert “knows.”
+
+That selective routing is sparse activation.
+
+The model still owns the weights for all eight experts, so they contribute to its total parameter count and must be stored somewhere. But only the selected two contribute to that token's expert calculation. Add the always-used attention layers, embeddings, and other shared components, and you get the model's active parameters per token.
+
+To see this in a current model, Hugging Face's 2026 guide gives gpt-oss-20b as an example: about 21 billion total parameters, four of 32 experts selected, and about 3.6 billion active parameters per token after shared components are included. That figure does not predict exact speed, but it makes the distinction visible.
+
+This distinction matters. Total parameters describe the model's overall capacity and storage footprint. Active parameters are closer to the amount of arithmetic performed for one token. MoE aims to expand the first without increasing the second at the same rate.
+
+But the router creates a new engineering problem. What if it keeps choosing the same two experts?
+
+Those experts become crowded while others receive too little training. During serving, popular experts can also create queues. MoE systems therefore use techniques such as balancing losses, routing constraints, or capacity limits to spread work more effectively. The exact approach varies, and perfect balance can conflict with routing each token where the model prefers.
+
+There is another cost hiding between the experts.
+
+Large models often place different experts on different accelerators. This is expert parallelism. After routing, token representations must travel to the devices holding the chosen experts. Their results must then return to the correct positions in the sequence. That exchange can involve expensive all-to-all communication.
+
+So fewer active weights do not automatically produce a faster response. If batches are small, routes are uneven, kernels are inefficient, or the network between accelerators is slow, communication and memory movement can erase part of the computational advantage. The full expert weights may also require substantial accelerator memory even though each token uses only a subset.
+
+MoE is therefore not several complete models debating an answer. It is conditional computation inside one trained model: a router chooses which learned feed-forward paths process each token.
+
+When you see an MoE model advertised, ask four questions. How many parameters exist in total? How many are active per token? How many experts does the router select? And what hardware and serving system are required to run it efficiently?
+
+Those answers reveal far more than the largest number in the model name.
+
+Which AI term should we unpack next: routing, active parameters, or expert parallelism? Tell me in the comments.
+
+If this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.

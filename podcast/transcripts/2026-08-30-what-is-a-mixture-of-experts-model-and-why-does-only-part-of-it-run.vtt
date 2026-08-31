@@ -1,0 +1,247 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.157
+Hello, and welcome to In Simple Terms with Satish.
+
+00:00:03.157 --> 00:00:07.092
+Have you ever opened an AI model card and noticed two sizes:
+
+00:00:07.092 --> 00:00:10.509
+total parameters and active parameters per token?
+
+00:00:10.509 --> 00:00:12.976
+You download one model and receive one answer.
+
+00:00:12.976 --> 00:00:15.419
+So why does it need two parameter counts?
+
+00:00:15.419 --> 00:00:20.932
+That puzzle leads to an architecture called Mixture of Experts, or MoE.
+
+00:00:20.932 --> 00:00:22.453
+Picture a busy food court.
+
+00:00:22.453 --> 00:00:25.847
+In one setup, every order goes through one large kitchen.
+
+00:00:25.847 --> 00:00:31.637
+That resembles a dense Transformer: inside each block, every token—“compiler,” “coffee,” or
+
+00:00:31.637 --> 00:00:34.510
+a comma—passes through the same feed-forward network.
+
+00:00:34.510 --> 00:00:38.064
+Now imagine eight cooking stations and a digital dispatcher.
+
+00:00:38.064 --> 00:00:42.470
+An order ticket contains enough detail for the dispatcher to score every
+
+00:00:42.470 --> 00:00:45.000
+station, choose the top two and blend
+
+00:00:45.000 --> 00:00:46.799
+their contributions into the final tray.
+
+00:00:46.799 --> 00:00:49.096
+In the model, the ticket is the
+
+00:00:49.096 --> 00:00:51.731
+token's hidden vector, shaped by its context.
+
+00:00:51.731 --> 00:00:54.052
+The dispatcher is a learned router.
+
+00:00:54.052 --> 00:00:56.934
+The stations are expert feed-forward subnetworks.
+
+00:00:56.934 --> 00:01:00.504
+The final tray is the routing-weighted combination of their outputs.
+
+00:01:00.504 --> 00:01:04.373
+The other six stations do no feed-forward calculation for that token.
+
+00:01:04.373 --> 00:01:05.812
+The analogy has a boundary.
+
+00:01:05.812 --> 00:01:09.960
+Food stations may carry fixed labels such as “grill” or “dessert.” Neural
+
+00:01:09.960 --> 00:01:12.557
+experts are not assigned human-readable jobs.
+
+00:01:12.557 --> 00:01:17.514
+During training they learn overlapping roles, and the same written word can
+
+00:01:17.514 --> 00:01:20.111
+reach a different pair when its context changes.
+
+00:01:20.111 --> 00:01:24.209
+The food court helps us picture selective routing; it does not tell
+
+00:01:24.209 --> 00:01:28.203
+us what an expert “knows.” That selective routing is sparse activation.
+
+00:01:28.203 --> 00:01:32.511
+The model still owns the weights for all eight experts, so they
+
+00:01:32.511 --> 00:01:36.086
+contribute to its total parameter count and must be stored somewhere.
+
+00:01:36.086 --> 00:01:40.514
+But only the selected two contribute to that token's expert calculation.
+
+00:01:40.514 --> 00:01:45.703
+Add the always-used attention layers, embeddings, and other shared components, and you
+
+00:01:45.703 --> 00:01:48.056
+get the model's active parameters per token.
+
+00:01:48.056 --> 00:01:51.594
+To see this in a current model, Hugging Face's 2026 guide gives
+
+00:01:51.594 --> 00:01:57.317
+gpt-oss-20b as an example: about 21 billion total parameters, four of 32
+
+00:01:57.317 --> 00:02:01.170
+experts selected, and about 3.6 billion active parameters
+
+00:02:01.170 --> 00:02:03.960
+per token after shared components are included.
+
+00:02:03.960 --> 00:02:06.679
+That figure does not predict exact speed,
+
+00:02:06.679 --> 00:02:08.869
+but it makes the distinction visible.
+
+00:02:08.869 --> 00:02:09.862
+This distinction matters.
+
+00:02:09.862 --> 00:02:14.409
+Total parameters describe the model's overall capacity and storage footprint.
+
+00:02:14.409 --> 00:02:16.994
+Active parameters are closer to the amount
+
+00:02:16.994 --> 00:02:19.103
+of arithmetic performed for one token.
+
+00:02:19.103 --> 00:02:21.834
+MoE aims to expand the first without
+
+00:02:21.834 --> 00:02:24.432
+increasing the second at the same rate.
+
+00:02:24.432 --> 00:02:27.102
+But the router creates a new engineering problem.
+
+00:02:27.102 --> 00:02:29.894
+What if it keeps choosing the same two experts?
+
+00:02:29.894 --> 00:02:33.790
+Those experts become crowded while others receive too little training.
+
+00:02:33.790 --> 00:02:37.192
+During serving, popular experts can also create queues.
+
+00:02:37.192 --> 00:02:42.804
+MoE systems therefore use techniques such as balancing losses, routing constraints, or
+
+00:02:42.804 --> 00:02:45.784
+capacity limits to spread work more effectively.
+
+00:02:45.784 --> 00:02:49.512
+The exact approach varies, and perfect balance can conflict
+
+00:02:49.512 --> 00:02:52.531
+with routing each token where the model prefers.
+
+00:02:52.531 --> 00:02:55.340
+There is another cost hiding between the experts.
+
+00:02:55.340 --> 00:02:59.403
+Large models often place different experts on different accelerators.
+
+00:02:59.403 --> 00:03:01.725
+This is expert parallelism.
+
+00:03:01.725 --> 00:03:05.374
+After routing, token representations must travel to
+
+00:03:05.374 --> 00:03:07.628
+the devices holding the chosen experts.
+
+00:03:07.628 --> 00:03:11.684
+Their results must then return to the correct positions in the sequence.
+
+00:03:11.684 --> 00:03:15.092
+That exchange can involve expensive all-to-all communication.
+
+00:03:15.092 --> 00:03:19.889
+So fewer active weights do not automatically produce a faster response.
+
+00:03:19.889 --> 00:03:24.567
+If batches are small, routes are uneven, kernels are inefficient, or the
+
+00:03:24.567 --> 00:03:27.736
+network between accelerators is slow, communication and memory
+
+00:03:27.736 --> 00:03:31.172
+movement can erase part of the computational advantage.
+
+00:03:31.172 --> 00:03:36.632
+The full expert weights may also require substantial accelerator memory even though
+
+00:03:36.632 --> 00:03:38.667
+each token uses only a subset.
+
+00:03:38.667 --> 00:03:42.775
+MoE is therefore not several complete models debating an answer.
+
+00:03:42.775 --> 00:03:47.753
+It is conditional computation inside one trained model: a router chooses which
+
+00:03:47.753 --> 00:03:50.226
+learned feed-forward paths process each token.
+
+00:03:50.226 --> 00:03:54.054
+When you see an MoE model advertised, ask four questions.
+
+00:03:54.054 --> 00:03:56.348
+How many parameters exist in total?
+
+00:03:56.348 --> 00:03:58.396
+How many are active per token?
+
+00:03:58.396 --> 00:04:00.877
+How many experts does the router select?
+
+00:04:00.877 --> 00:04:05.087
+And what hardware and serving system are required to run it efficiently?
+
+00:04:05.087 --> 00:04:07.969
+Those answers reveal far more than the
+
+00:04:07.969 --> 00:04:09.610
+largest number in the model name.
+
+00:04:09.610 --> 00:04:11.843
+Which AI term should we unpack next:
+
+00:04:11.843 --> 00:04:15.135
+routing, active parameters, or expert parallelism?
+
+00:04:15.135 --> 00:04:16.490
+Tell me in the comments.
+
+00:04:16.490 --> 00:04:19.805
+If this helped you understand the topic in simple terms, follow or
+
+00:04:19.805 --> 00:04:22.516
+subscribe to In Simple Terms with Satish, and share
+
+00:04:22.516 --> 00:04:25.206
+this episode with one friend who likes technology.
+
+00:04:25.206 --> 00:04:27.080
+I will see you in the next episode.

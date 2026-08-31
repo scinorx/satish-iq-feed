@@ -1,0 +1,85 @@
+Hello, and welcome to In Simple Terms with Satish.
+
+Imagine a company introduces an AI assistant for its customer-support team.
+
+After thirty days, the technology dashboard is completely green.
+
+Ten thousand AI-generated responses. Eighty-two percent employee adoption. Average response time reduced from eight minutes to two.
+
+Everyone calls the project successful.
+
+Then the customer-support manager opens a different dashboard.
+
+Repeat customer contacts have increased. Employees are correcting many responses. Customers are receiving faster answers—but some answers are not resolving their problems.
+
+So, is the AI succeeding or failing?
+
+KPI stands for Key Performance Indicator: a measurement showing whether something important is improving.
+
+To understand it, let us follow one fictional support request.
+
+A customer writes, “My headphones stopped charging after five weeks. Can I return them?”
+
+The AI responds in two seconds. It finds the standard policy stating that returns are allowed within thirty days, and rejects the request.
+
+But the company has a separate defective-product policy allowing replacements after thirty days.
+
+The customer contacts support again. An employee reviews the conversation, corrects the answer and creates the replacement.
+
+The AI produced an answer. It did not produce a successful outcome.
+
+That gives us the first rule of measuring AI:
+
+AI activity measures what the system produced. AI success measures what the system accomplished.
+
+The team now examines one hundred AI-assisted cases.
+
+The AI answered all one hundred. Each response cost about twenty cents, making the visible AI cost twenty dollars.
+
+That sounds excellent.
+
+But only sixty customers had their problem resolved correctly during the first conversation. Twenty-five answers required employee correction, and fifteen customers had to contact the company again.
+
+Now the team has its first meaningful outcome KPI: correct first-contact resolution.
+
+Before AI, employees resolved seventy-five out of every hundred comparable cases correctly the first time. The AI reduced response time, but the primary outcome fell from seventy-five percent to sixty percent.
+
+Without that baseline, the company would have celebrated a decline.
+
+Next, the team investigates quality. Were the answers grounded in the correct policies, and what percentage passed human review?
+
+The headphone response failed because the AI retrieved the general return policy but missed the defective-product exception. The answer sounded confident and clear. Its grounding was incomplete.
+
+Then the team measures the human effort hidden behind the responses. Reviewing and correcting the one hundred cases cost another forty dollars.
+
+The dashboard originally showed twenty cents per AI response.
+
+But the company spent sixty dollars in AI and review costs, and received sixty successful first-contact resolutions.
+
+The more useful measurement is therefore not twenty cents per response. It is one dollar per successful outcome.
+
+This does not mean the AI is too expensive. The company can finally compare its cost with the value created.
+
+The team also adds risk and reliability guardrails. Did the AI expose private information, violate policy or fail under increased workload? Serious failures should not disappear inside an average score.
+
+Now the engineers improve the system. They add the defective-product policy to retrieval, test the AI against known exception cases and route uncertain answers to an employee before they reach the customer.
+
+The following month, the AI is slightly slower. But more customers receive the correct answer, employees perform fewer corrections, and cost per successful resolution falls.
+
+The dashboard is no longer measuring AI because AI is interesting. It is measuring whether the work improved.
+
+So, how should a company measure AI success?
+
+Start with an outcome the company already cares about. Record the baseline. Measure the quality of the AI's work, the human effort that remains and the total cost per successful outcome. Add reliability and risk as guardrails. Then keep monitoring, because data, models and user behavior can change.
+
+Usage, prompts and tokens still matter. They help engineers operate the system. But they are supporting signals—not the final result.
+
+A metric tells you what changed. A fair comparison helps tell you whether AI caused it.
+
+The question is not, “How much AI did we use?”
+
+It is, “Did AI make the work measurably better?”
+
+If your company uses AI today, what does it measure: usage, time saved, quality or an actual business outcome? Share your answer in the comments.
+
+If this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.

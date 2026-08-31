@@ -1,0 +1,129 @@
+Hello, and welcome to In Simple Terms with Satish.
+
+Here, we make technology easier to understand.
+
+Imagine you are driving through your neighborhood.
+
+The road is quiet, and everything appears normal.
+
+Suddenly, a football rolls onto the road from between two parked cars.
+
+Your car's camera detects it.
+
+Computer vision can examine its shape, size and movement and conclude:
+
+"That is a ball."
+
+But let us pause here.
+
+Is recognizing the ball enough?
+
+You might wonder:
+
+"If a ball has rolled onto the road, could a child be running behind it?"
+
+Notice what just happened.
+
+You did not see a child. You observed what is happening now—and imagined what might happen next.
+
+That is the basic idea behind a world model.
+
+In simple terms, a world model helps an AI create an internal representation of a situation and predict how that situation could change.
+
+The football is still moving.
+
+The system needs to estimate its direction, speed and where it might stop. It also considers the parked cars, the road and the speed of your vehicle.
+
+Together, these details represent the current state of the world.
+
+Now the system asks:
+
+"What could happen next?"
+
+Perhaps the ball simply crosses the road.
+
+Perhaps it stops in front of the car.
+
+Or perhaps someone appears from behind one of those parked vehicles.
+
+It is not predicting one guaranteed future. It is modelling several possible futures.
+
+Computer vision helps the car recognize what is present.
+
+A world model helps it estimate what could happen next.
+
+But we are still missing one important piece.
+
+The car must act. It could continue, slow down or brake.
+
+Each action produces a different possible outcome.
+
+Continuing may be safe, but it leaves less time to stop if a child appears. Slowing down creates more reaction time. Braking suddenly may reduce one danger while creating another for the vehicle behind it.
+
+The system is not only modelling the outside world. It is estimating how its own actions could affect what happens next.
+
+Engineers often describe this relationship using three simple ideas:
+
+Current state. Action. Next state.
+
+Where are we now?
+
+What action can we take?
+
+What is likely to happen after that action?
+
+That relationship is at the heart of a world model.
+
+But isn't this what a language model already does?
+
+Not exactly.
+
+If you describe this situation to a language model, it may explain that a child could follow the ball because it has learned that pattern from training data.
+
+But a system operating in the physical world faces a changing situation. The ball is moving. The car is moving. The distance between them is shrinking.
+
+It may need to act before danger becomes visible. Its prediction must remain connected to the environment in front of it.
+
+That is why world models matter for robotics, autonomous vehicles, games and physical AI. A household robot, for example, must not only recognize a glass. It must estimate what happens if it tilts or drops it.
+
+But here is the catch.
+
+A world model does not know the future.
+
+The football may belong to a child, may have escaped from a garden, or may have moved with the wind.
+
+The system can be wrong. And the further it predicts, the more small errors can grow.
+
+Physics may be modelled incorrectly, an object may behave inconsistently, or the system may encounter an unfamiliar situation.
+
+So world models do not eliminate uncertainty. They help AI systems evaluate possible outcomes within that uncertainty.
+
+The important moment was not when the car recognized the football. It was when the system connected it to a possible future—and considered an action before that future arrived.
+
+So, what is a world model?
+
+In simple terms:
+
+A world model is an AI's internal representation of how an environment may change and what could happen when an action is taken.
+
+Computer vision says:
+
+"There is a football."
+
+A world model asks:
+
+"What could happen next—and what should I do about it?"
+
+That is the shift: from recognizing what is present toward modelling how a situation may unfold.
+
+But let me leave you with a question.
+
+If your car sees only a football—but predicts that a child might follow—should it brake immediately?
+
+How confident should an AI be before it acts?
+
+Share your thoughts in the comments.
+
+And if this episode helped you understand world models in simple terms, please like, share and subscribe to In Simple Terms with Satish.
+
+I'll see you in the next episode.

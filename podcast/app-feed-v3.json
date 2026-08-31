@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-24",
+  "generatedAt": "2026-08-31",
   "product": "daily-tech-brief",
   "compatibility": {
     "legacyFeedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/episodes.json",
@@ -8,6 +8,544 @@
   },
   "preferredArtwork": "thumbnailUrl",
   "episodes": [
+    {
+      "guid": "in-simple-terms-2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory",
+      "title": "What Is Multi-head Latent Attention—and How Does It Shrink AI's Memory?",
+      "subtitle": "What Is Multi-head Latent Attention—and How Does It Shrink AI's Memory in simple terms",
+      "description": "Why does a long AI conversation consume more accelerator memory with every token? Follow the growth of the key-value cache, then see how Multi-head Latent Attention stores a compact latent representation, preserves position through decoupled RoPE, and trades a larger cache for additional projection work and specialized kernels.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://arxiv.org/abs/2405.04434\n- https://arxiv.org/abs/2412.19437\n- https://github.com/deepseek-ai/FlashMLA\n- https://github.com/deepseek-ai/FlashMLA/blob/main/docs/20250422-new-kernel-deep-dive.md\n- https://arxiv.org/abs/2305.13245\n- https://arxiv.org/abs/1706.03762",
+      "publishedAt": "2026-08-31T09:30:00.000Z",
+      "sourceGeneratedAt": "2026-08-31",
+      "seasonNumber": 5,
+      "episodeNumber": 80,
+      "episodeType": "full",
+      "releaseTimeZone": "America/New_York",
+      "releaseLocalTime": "2026-08-31T05:30:00-04:00",
+      "durationSeconds": 287,
+      "audioPath": "podcast/audio/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory.mp3",
+      "lengthBytes": 4596341,
+      "type": "audio/mpeg",
+      "explicit": false,
+      "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+      "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nHave you ever monitored a local chatbot's GPU-memory meter while a conversation grows? Start with a short prompt, then paste a long report and continue chatting. The meter can climb even though the model's weights have not changed.\n\nSo what exactly is accumulating?\n\nThe answer begins with a key-value cache, or KV cache. It saves the model from recalculating the full history after every generated word, but the cache itself grows with that history.\n\nDuring attention, the newest token produces a query: roughly, what information am I looking for? Earlier tokens have keys that help determine where to look and values containing information that can be retrieved. Once a past token's keys and values have been calculated, the system stores them. When the next token is generated, it reuses those stored representations.\n\nPut numbers on that growth with an illustrative configuration—not a claim about every model. Take 32 layers, eight KV heads, a head dimension of 128, separate keys and values, and two bytes per value. Multiply 32 by 8 by 128 by 2 by 2: that is 131,072 bytes, or 128 kibibytes, for each cached token. At 16,000 tokens, one sequence needs about 1.95 gibibytes—roughly two gibibytes—before model weights, activations, temporary buffers, or other users.\n\nImagine a meeting where every participant keeps a full copy of the notes. That resembles standard Multi-Head Attention, or MHA: each attention head stores its own key and value for every token. Grouped-Query Attention, or GQA, lets groups of heads share fewer key-value sets.\n\nMLA changes the record itself. Picture one compact notebook entry per statement, shared across participants, plus a timestamp. The entry maps to a learned low-rank key-value latent; the timestamp maps to the separate positional component; the participants map to attention heads.\n\nWhen a head needs history, learned projections interpret the shared latent. Rather than keeping every expanded per-head key and value, the system caches the compact latent and positional part.\n\nHere is the boundary: the latent is learned numerical state, not a readable summary, and every prior token still has an entry. MLA changes representation; it does not choose important words or guarantee correct reasoning.\n\nThere is one complication: word order.\n\nTransformers often use Rotary Position Embedding, or RoPE, to encode where a token appears. Its rotation depends on position. If that position-dependent operation is mixed directly into the compressed content path, it interferes with absorbing fixed projection weights efficiently.\n\nMLA addresses this with decoupled RoPE. It keeps a small positional key component separate from the compressed content latent. Attention can then combine content similarity with positional information while caching the compact latent plus the smaller positional component.\n\nWhy does this matter in production?\n\nFor one short prompt, cache memory may not dominate. Across long contexts or many concurrent users, reducing the bytes stored per token can leave room for more requests, larger batches, or longer sequences. It may also reduce memory traffic during decoding, where moving cached data can be a bottleneck.\n\nBut MLA is not free compression.\n\nThe model must be designed and trained for this representation, or carefully converted and adapted. If the latent bottleneck is too narrow, useful information may be lost. Projection work still happens, optimized kernels matter, and the best latency result depends on the hardware and workload. The cache becomes smaller; it does not disappear.\n\nMLA also does not give a model perfect memory. It preserves numerical attention state more compactly. Whether the model notices an important fact from fifty pages earlier remains a question of training, attention behavior, and evaluation—not cache capacity alone.\n\nThe essential contrast is this: MHA stores separate keys and values for many heads; GQA shares them across groups; MLA stores a compressed latent content representation and a small positional component.\n\nSo when a model supports a very long context, ask not only how many tokens fit. Ask how much memory each cached token requires, what attention architecture is used, and whether real retrieval quality survives at that length.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+      "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nHave you ever monitored a local chatbot's GPU-memory meter while a conversation grows? Start with a short prompt, then paste a long report and continue chatting. The meter can climb even though the model's weights have not changed.\n\nSo what exactly is accumulating?\n\nThe answer begins with a key-value cache, or KV cache. It saves the model from recalculating the full history after every generated word, but the cache itself grows with that history.\n\nDuring attention, the newest token produces a query: roughly, what information am I looking for? Earlier tokens have keys that help determine where to look and values containing information that can be retrieved. Once a past token's keys and values have been calculated, the system stores them. When the next token is generated, it reuses those stored representations.\n\nPut numbers on that growth with an illustrative configuration—not a claim about every model. Take 32 layers, eight KV heads, a head dimension of 128, separate keys and values, and two bytes per value. Multiply 32 by 8 by 128 by 2 by 2: that is 131,072 bytes, or 128 kibibytes, for each cached token. At 16,000 tokens, one sequence needs about 1.95 gibibytes—roughly two gibibytes—before model weights, activations, temporary buffers, or other users.\n\nImagine a meeting where every participant keeps a full copy of the notes. That resembles standard Multi-Head Attention, or MHA: each attention head stores its own key and value for every token. Grouped-Query Attention, or GQA, lets groups of heads share fewer key-value sets.\n\nMLA changes the record itself. Picture one compact notebook entry per statement, shared across participants, plus a timestamp. The entry maps to a learned low-rank key-value latent; the timestamp maps to the separate positional component; the participants map to attention heads.\n\nWhen a head needs history, learned projections interpret the shared latent. Rather than keeping every expanded per-head key and value, the system caches the compact latent and positional part.\n\nHere is the boundary: the latent is learned numerical state, not a readable summary, and every prior token still has an entry. MLA changes representation; it does not choose important words or guarantee correct reasoning.\n\nThere is one complication: word order.\n\nTransformers often use Rotary Position Embedding, or RoPE, to encode where a token appears. Its rotation depends on position. If that position-dependent operation is mixed directly into the compressed content path, it interferes with absorbing fixed projection weights efficiently.\n\nMLA addresses this with decoupled RoPE. It keeps a small positional key component separate from the compressed content latent. Attention can then combine content similarity with positional information while caching the compact latent plus the smaller positional component.\n\nWhy does this matter in production?\n\nFor one short prompt, cache memory may not dominate. Across long contexts or many concurrent users, reducing the bytes stored per token can leave room for more requests, larger batches, or longer sequences. It may also reduce memory traffic during decoding, where moving cached data can be a bottleneck.\n\nBut MLA is not free compression.\n\nThe model must be designed and trained for this representation, or carefully converted and adapted. If the latent bottleneck is too narrow, useful information may be lost. Projection work still happens, optimized kernels matter, and the best latency result depends on the hardware and workload. The cache becomes smaller; it does not disappear.\n\nMLA also does not give a model perfect memory. It preserves numerical attention state more compactly. Whether the model notices an important fact from fifty pages earlier remains a question of training, attention behavior, and evaluation—not cache capacity alone.\n\nThe essential contrast is this: MHA stores separate keys and values for many heads; GQA shares them across groups; MLA stores a compressed latent content representation and a small positional component.\n\nSo when a model supports a very long context, ask not only how many tokens fit. Ask how much memory each cached token requires, what attention architecture is used, and whether real retrieval quality survives at that length.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+      "transcripts": [
+        {
+          "path": "podcast/transcripts/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory.txt",
+          "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory.txt",
+          "type": "text/plain",
+          "language": "en"
+        },
+        {
+          "path": "podcast/transcripts/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory.srt",
+          "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory.srt",
+          "type": "application/x-subrip",
+          "language": "en",
+          "rel": "captions"
+        },
+        {
+          "path": "podcast/transcripts/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory.vtt",
+          "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory.vtt",
+          "type": "text/vtt",
+          "language": "en",
+          "rel": "captions"
+        }
+      ],
+      "satishTake": "Multi-head Latent Attention reduces the memory pressure of long generation by caching a compact latent representation instead of full expanded keys and values. It saves cache space, but still depends on kernels, projections, and workload shape.",
+      "quickCheck": {
+        "questions": [
+          {
+            "prompt": "Why does a long AI conversation use more accelerator memory?",
+            "options": [
+              "The key-value cache grows with previous tokens",
+              "The screen stores every word as an image",
+              "The model forgets the prompt after each token"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Autoregressive generation keeps keys and values from earlier tokens so later tokens can attend to them."
+          },
+          {
+            "prompt": "What does Multi-head Latent Attention cache?",
+            "options": [
+              "A compact latent representation plus positional information",
+              "A full copy of every training document",
+              "Only the final answer text"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "MLA reduces persistent cache size by storing compressed key-value information with a separate positional component."
+          },
+          {
+            "prompt": "Why does decoupled RoPE matter in MLA?",
+            "options": [
+              "It separates position handling from content compression",
+              "It removes all attention heads",
+              "It guarantees perfect long-context reasoning"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Separating the positional path helps keep the compressed content path usable for efficient projection handling."
+          },
+          {
+            "prompt": "What tradeoff can MLA introduce?",
+            "options": [
+              "Less cache memory but more projection and kernel work",
+              "No need for hardware memory",
+              "Instant answers with no computation"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "The episode notes that memory savings still have to be balanced against implementation and compute costs."
+          },
+          {
+            "prompt": "What should you remember about advertised context windows?",
+            "options": [
+              "Accepted length does not guarantee useful reasoning everywhere",
+              "Long context means the model is always correct",
+              "A bigger number removes retrieval problems"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "A system may accept many tokens, but quality, attention behavior, retrieval, and instructions still need validation."
+          }
+        ]
+      },
+      "artworkPath": "podcast/artwork/episodes/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory.jpg",
+      "artworkPngPath": "podcast/artwork/episodes/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory.png",
+      "artworkSourcePath": "podcast/artwork/source/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory.svg",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory.jpg",
+      "topicProfile": {
+        "id": "ai-architecture",
+        "label": "AI architecture",
+        "accent": "#7C3AED"
+      },
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory",
+      "watchUrl": "https://satishkchoudhary.com/daily-brief-episodes/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory/",
+      "thumbnailUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory.jpg",
+      "media": {
+        "hasAudio": true,
+        "hasVideo": false,
+        "primary": "audio"
+      }
+    },
+    {
+      "guid": "in-simple-terms-2026-08-30-what-is-a-mixture-of-experts-model-and-why-does-only-part-of-it-run",
+      "title": "What Is a Mixture of Experts Model—and Why Does Only Part of It Run?",
+      "subtitle": "What Is a Mixture of Experts Model—and Why Does Only Part of It Run in simple terms",
+      "description": "How can an AI model contain many parameters without using all of them for every token? Walk through a dense layer and a sparse Mixture of Experts layer, then examine the router, top-k selection, active parameters, load balancing, and the infrastructure cost hidden behind sparse computation.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://huggingface.co/blog/moe-transformers\n- https://huggingface.co/docs/transformers/main/experts_interface\n- https://jmlr.org/papers/v23/21-0998.html\n- https://arxiv.org/abs/2202.09368\n- https://arxiv.org/abs/2401.04088\n- https://arxiv.org/abs/2405.04434",
+      "publishedAt": "2026-08-30T09:30:00.000Z",
+      "sourceGeneratedAt": "2026-08-30",
+      "seasonNumber": 5,
+      "episodeNumber": 79,
+      "episodeType": "full",
+      "releaseTimeZone": "America/New_York",
+      "releaseLocalTime": "2026-08-30T05:30:00-04:00",
+      "durationSeconds": 267,
+      "audioPath": "podcast/audio/2026-08-30-what-is-a-mixture-of-experts-model-and-why-does-only-part-of-it-run.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-30-what-is-a-mixture-of-experts-model-and-why-does-only-part-of-it-run.mp3",
+      "lengthBytes": 4274930,
+      "type": "audio/mpeg",
+      "explicit": false,
+      "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+      "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nHave you ever opened an AI model card and noticed two sizes: total parameters and active parameters per token? You download one model and receive one answer. So why does it need two parameter counts?\n\nThat puzzle leads to an architecture called Mixture of Experts, or MoE.\n\nPicture a busy food court. In one setup, every order goes through one large kitchen. That resembles a dense Transformer: inside each block, every token—“compiler,” “coffee,” or a comma—passes through the same feed-forward network.\n\nNow imagine eight cooking stations and a digital dispatcher. An order ticket contains enough detail for the dispatcher to score every station, choose the top two and blend their contributions into the final tray.\n\nIn the model, the ticket is the token's hidden vector, shaped by its context. The dispatcher is a learned router. The stations are expert feed-forward subnetworks. The final tray is the routing-weighted combination of their outputs. The other six stations do no feed-forward calculation for that token.\n\nThe analogy has a boundary. Food stations may carry fixed labels such as “grill” or “dessert.” Neural experts are not assigned human-readable jobs. During training they learn overlapping roles, and the same written word can reach a different pair when its context changes. The food court helps us picture selective routing; it does not tell us what an expert “knows.”\n\nThat selective routing is sparse activation.\n\nThe model still owns the weights for all eight experts, so they contribute to its total parameter count and must be stored somewhere. But only the selected two contribute to that token's expert calculation. Add the always-used attention layers, embeddings, and other shared components, and you get the model's active parameters per token.\n\nTo see this in a current model, Hugging Face's 2026 guide gives gpt-oss-20b as an example: about 21 billion total parameters, four of 32 experts selected, and about 3.6 billion active parameters per token after shared components are included. That figure does not predict exact speed, but it makes the distinction visible.\n\nThis distinction matters. Total parameters describe the model's overall capacity and storage footprint. Active parameters are closer to the amount of arithmetic performed for one token. MoE aims to expand the first without increasing the second at the same rate.\n\nBut the router creates a new engineering problem. What if it keeps choosing the same two experts?\n\nThose experts become crowded while others receive too little training. During serving, popular experts can also create queues. MoE systems therefore use techniques such as balancing losses, routing constraints, or capacity limits to spread work more effectively. The exact approach varies, and perfect balance can conflict with routing each token where the model prefers.\n\nThere is another cost hiding between the experts.\n\nLarge models often place different experts on different accelerators. This is expert parallelism. After routing, token representations must travel to the devices holding the chosen experts. Their results must then return to the correct positions in the sequence. That exchange can involve expensive all-to-all communication.\n\nSo fewer active weights do not automatically produce a faster response. If batches are small, routes are uneven, kernels are inefficient, or the network between accelerators is slow, communication and memory movement can erase part of the computational advantage. The full expert weights may also require substantial accelerator memory even though each token uses only a subset.\n\nMoE is therefore not several complete models debating an answer. It is conditional computation inside one trained model: a router chooses which learned feed-forward paths process each token.\n\nWhen you see an MoE model advertised, ask four questions. How many parameters exist in total? How many are active per token? How many experts does the router select? And what hardware and serving system are required to run it efficiently?\n\nThose answers reveal far more than the largest number in the model name.\n\nWhich AI term should we unpack next: routing, active parameters, or expert parallelism? Tell me in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+      "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nHave you ever opened an AI model card and noticed two sizes: total parameters and active parameters per token? You download one model and receive one answer. So why does it need two parameter counts?\n\nThat puzzle leads to an architecture called Mixture of Experts, or MoE.\n\nPicture a busy food court. In one setup, every order goes through one large kitchen. That resembles a dense Transformer: inside each block, every token—“compiler,” “coffee,” or a comma—passes through the same feed-forward network.\n\nNow imagine eight cooking stations and a digital dispatcher. An order ticket contains enough detail for the dispatcher to score every station, choose the top two and blend their contributions into the final tray.\n\nIn the model, the ticket is the token's hidden vector, shaped by its context. The dispatcher is a learned router. The stations are expert feed-forward subnetworks. The final tray is the routing-weighted combination of their outputs. The other six stations do no feed-forward calculation for that token.\n\nThe analogy has a boundary. Food stations may carry fixed labels such as “grill” or “dessert.” Neural experts are not assigned human-readable jobs. During training they learn overlapping roles, and the same written word can reach a different pair when its context changes. The food court helps us picture selective routing; it does not tell us what an expert “knows.”\n\nThat selective routing is sparse activation.\n\nThe model still owns the weights for all eight experts, so they contribute to its total parameter count and must be stored somewhere. But only the selected two contribute to that token's expert calculation. Add the always-used attention layers, embeddings, and other shared components, and you get the model's active parameters per token.\n\nTo see this in a current model, Hugging Face's 2026 guide gives gpt-oss-20b as an example: about 21 billion total parameters, four of 32 experts selected, and about 3.6 billion active parameters per token after shared components are included. That figure does not predict exact speed, but it makes the distinction visible.\n\nThis distinction matters. Total parameters describe the model's overall capacity and storage footprint. Active parameters are closer to the amount of arithmetic performed for one token. MoE aims to expand the first without increasing the second at the same rate.\n\nBut the router creates a new engineering problem. What if it keeps choosing the same two experts?\n\nThose experts become crowded while others receive too little training. During serving, popular experts can also create queues. MoE systems therefore use techniques such as balancing losses, routing constraints, or capacity limits to spread work more effectively. The exact approach varies, and perfect balance can conflict with routing each token where the model prefers.\n\nThere is another cost hiding between the experts.\n\nLarge models often place different experts on different accelerators. This is expert parallelism. After routing, token representations must travel to the devices holding the chosen experts. Their results must then return to the correct positions in the sequence. That exchange can involve expensive all-to-all communication.\n\nSo fewer active weights do not automatically produce a faster response. If batches are small, routes are uneven, kernels are inefficient, or the network between accelerators is slow, communication and memory movement can erase part of the computational advantage. The full expert weights may also require substantial accelerator memory even though each token uses only a subset.\n\nMoE is therefore not several complete models debating an answer. It is conditional computation inside one trained model: a router chooses which learned feed-forward paths process each token.\n\nWhen you see an MoE model advertised, ask four questions. How many parameters exist in total? How many are active per token? How many experts does the router select? And what hardware and serving system are required to run it efficiently?\n\nThose answers reveal far more than the largest number in the model name.\n\nWhich AI term should we unpack next: routing, active parameters, or expert parallelism? Tell me in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+      "transcripts": [
+        {
+          "path": "podcast/transcripts/2026-08-30-what-is-a-mixture-of-experts-model-and-why-does-only-part-of-it-run.txt",
+          "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-30-what-is-a-mixture-of-experts-model-and-why-does-only-part-of-it-run.txt",
+          "type": "text/plain",
+          "language": "en"
+        },
+        {
+          "path": "podcast/transcripts/2026-08-30-what-is-a-mixture-of-experts-model-and-why-does-only-part-of-it-run.srt",
+          "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-30-what-is-a-mixture-of-experts-model-and-why-does-only-part-of-it-run.srt",
+          "type": "application/x-subrip",
+          "language": "en",
+          "rel": "captions"
+        },
+        {
+          "path": "podcast/transcripts/2026-08-30-what-is-a-mixture-of-experts-model-and-why-does-only-part-of-it-run.vtt",
+          "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-30-what-is-a-mixture-of-experts-model-and-why-does-only-part-of-it-run.vtt",
+          "type": "text/vtt",
+          "language": "en",
+          "rel": "captions"
+        }
+      ],
+      "satishTake": "A Mixture of Experts model can be huge without using every expert for every token. The trick is learned routing, but the savings come with capacity, placement, load balancing, and serving complexity.",
+      "quickCheck": {
+        "questions": [
+          {
+            "prompt": "What makes a sparse Mixture of Experts model different?",
+            "options": [
+              "Only selected experts process each token",
+              "Every expert processes every token",
+              "It has no routing step"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Sparse MoE activates a subset of expert networks for a token instead of running all experts every time."
+          },
+          {
+            "prompt": "What does the router do in an MoE layer?",
+            "options": [
+              "Scores a token and chooses experts",
+              "Downloads training data",
+              "Writes the final podcast script"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "The router decides which expert paths should handle each token."
+          },
+          {
+            "prompt": "What are active parameters?",
+            "options": [
+              "The parameters used for one token's computation",
+              "All parameters stored on disk",
+              "Only the user-visible settings"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "MoE models may store many total parameters while activating only a smaller set for a given token."
+          },
+          {
+            "prompt": "Why is MoE not automatically cheap to serve?",
+            "options": [
+              "Routing, load balancing, and expert placement add complexity",
+              "It removes memory and networking limits",
+              "It runs without accelerators"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Sparse compute can save work, but production systems still manage capacity, communication, and uneven expert demand."
+          },
+          {
+            "prompt": "How does a dense model usually differ from sparse MoE?",
+            "options": [
+              "A dense model runs the same main weights for most tokens",
+              "A dense model has no neural network layers",
+              "A dense model only works offline"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Dense transformers generally send tokens through the same shared layers, while sparse MoE routes tokens to selected experts."
+          }
+        ]
+      },
+      "artworkPath": "podcast/artwork/episodes/2026-08-30-what-is-a-mixture-of-experts-model-and-why-does-only-part-of-it-run.jpg",
+      "artworkPngPath": "podcast/artwork/episodes/2026-08-30-what-is-a-mixture-of-experts-model-and-why-does-only-part-of-it-run.png",
+      "artworkSourcePath": "podcast/artwork/source/2026-08-30-what-is-a-mixture-of-experts-model-and-why-does-only-part-of-it-run.svg",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-30-what-is-a-mixture-of-experts-model-and-why-does-only-part-of-it-run.jpg",
+      "topicProfile": {
+        "id": "ai-architecture",
+        "label": "AI architecture",
+        "accent": "#7C3AED"
+      },
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-30-what-is-a-mixture-of-experts-model-and-why-does-only-part-of-it-run",
+      "watchUrl": "https://satishkchoudhary.com/daily-brief-episodes/2026-08-30-what-is-a-mixture-of-experts-model-and-why-does-only-part-of-it-run/",
+      "thumbnailUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-30-what-is-a-mixture-of-experts-model-and-why-does-only-part-of-it-run.jpg",
+      "media": {
+        "hasAudio": true,
+        "hasVideo": false,
+        "primary": "audio"
+      }
+    },
+    {
+      "guid": "in-simple-terms-2026-08-29-what-is-an-npu-and-do-you-really-need-an-ai-pc",
+      "title": "What Is an NPU—and Do You Really Need an AI PC?",
+      "subtitle": "What Is an NPU—and Do You Really Need an AI PC in simple terms",
+      "description": "We keep hearing the term “AI PC,” but how is it different from a regular computer? Compare the processors, workloads and software behind both categories—and learn when an NPU provides a real benefit, when cloud AI works just as well, and what to check before paying more.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://learn.microsoft.com/en-us/windows/ai/npu-devices/\n- https://www.amd.com/en/products/processors/ai-pcs-powered-by-ryzen-ai.html\n- https://ryzenai.docs.amd.com/\n- https://news.microsoft.com/wp-content/uploads/prod/sites/691/2024/05/Introducing-Copilot-PC-experiences-on-Windows-11.pdf",
+      "publishedAt": "2026-08-29T09:30:00.000Z",
+      "sourceGeneratedAt": "2026-08-29",
+      "seasonNumber": 5,
+      "episodeNumber": 78,
+      "episodeType": "full",
+      "releaseTimeZone": "America/New_York",
+      "releaseLocalTime": "2026-08-29T05:30:00-04:00",
+      "durationSeconds": 258,
+      "audioPath": "podcast/audio/2026-08-29-what-is-an-npu-and-do-you-really-need-an-ai-pc.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-29-what-is-an-npu-and-do-you-really-need-an-ai-pc.mp3",
+      "lengthBytes": 4121539,
+      "type": "audio/mpeg",
+      "explicit": false,
+      "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+      "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nWe keep hearing the term “AI PC.” But what exactly is it? Does it mean the computer you already own cannot use AI?\n\nActually, your existing computer may already use AI every day.\n\nSuppose you open an AI assistant in your browser and ask it to summarize a document. In many cases, the demanding computation happens on servers in the cloud. Your computer sends the request and receives the answer. A regular PC and an AI PC can both do that.\n\nSo, if both can access AI, what makes an AI PC different?\n\nThe difference is mainly where certain AI workloads can run. An AI PC includes a Neural Processing Unit, or NPU, designed to run compatible neural-network operations efficiently on the device.\n\nYour computer already has a CPU, the flexible processor that runs the operating system and general applications. It may also have a GPU, which handles graphics and large amounts of parallel computation. The NPU joins them as a specialist for sustained AI calculations.\n\nWhy add another processor?\n\nImagine using live captions during a meeting while software removes background noise. Those features repeatedly run trained AI models. Producing results from an already-trained model is called inference.\n\nOn a regular PC, that inference might use the CPU, the GPU or a cloud service. On an AI PC, supported software can send suitable parts to the NPU. Because the NPU is designed for this work, it may perform it with less power while keeping the audio on the device.\n\nNow the difference becomes practical: quicker local responses, less dependence on the internet, better battery efficiency and fewer reasons to upload sensitive inputs.\n\nBut this is also where the marketing can become confusing. Simply owning an NPU does not make every AI application faster.\n\nThe application must know how to use it. Developers prepare and often compress the model so it can run efficiently. A software runtime then decides which operations the NPU supports. Anything unsupported may move back to the CPU or GPU.\n\nThat cooperation is called heterogeneous computing—different processors handling the parts they are best suited for.\n\nThis also explains why an AI PC may not change your experience with a browser-based chatbot. If the model still runs in the cloud, the NPU inside your laptop may have very little involvement.\n\nBut if you frequently use supported captions, translation, noise removal, photo search, video effects or a local assistant, the NPU can become useful. These are repeated inference workloads that can benefit from staying close to your data.\n\nWhat if you want to train a massive AI model? That is a different workload. A laptop NPU is not a replacement for a powerful GPU or cloud infrastructure. Its strength is efficient local inference, not every form of AI computation.\n\nYou may also see AI PCs advertised with forty or fifty TOPS. TOPS means trillions of operations per second, but it is not an intelligence score. A larger number does not guarantee a more accurate model or a better application. Memory, drivers, model design and software support all affect the result.\n\nSo, should you buy an AI PC?\n\nIf you are replacing your laptop anyway, begin with the software you use. Does it support the NPU? Which features genuinely run locally? Will that give you something measurable—longer battery life, faster responses, offline access or better privacy?\n\nIf the answer is yes, an AI PC can be a meaningful upgrade.\n\nIf most of your AI use remains in the cloud, your applications cannot use the NPU, or you are paying a large premium for the label, your current computer may serve you perfectly well.\n\nIn simple terms, both computers can use AI. An AI PC adds a specialist that can run supported AI inference locally and efficiently.\n\nDo not buy the words “AI PC.” Buy the local capability only when it solves a problem you actually have.\n\nIf you bought an AI PC, which task would you most want to run locally: transcription, photo editing, translation or a private assistant? Share your answer in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+      "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nWe keep hearing the term “AI PC.” But what exactly is it? Does it mean the computer you already own cannot use AI?\n\nActually, your existing computer may already use AI every day.\n\nSuppose you open an AI assistant in your browser and ask it to summarize a document. In many cases, the demanding computation happens on servers in the cloud. Your computer sends the request and receives the answer. A regular PC and an AI PC can both do that.\n\nSo, if both can access AI, what makes an AI PC different?\n\nThe difference is mainly where certain AI workloads can run. An AI PC includes a Neural Processing Unit, or NPU, designed to run compatible neural-network operations efficiently on the device.\n\nYour computer already has a CPU, the flexible processor that runs the operating system and general applications. It may also have a GPU, which handles graphics and large amounts of parallel computation. The NPU joins them as a specialist for sustained AI calculations.\n\nWhy add another processor?\n\nImagine using live captions during a meeting while software removes background noise. Those features repeatedly run trained AI models. Producing results from an already-trained model is called inference.\n\nOn a regular PC, that inference might use the CPU, the GPU or a cloud service. On an AI PC, supported software can send suitable parts to the NPU. Because the NPU is designed for this work, it may perform it with less power while keeping the audio on the device.\n\nNow the difference becomes practical: quicker local responses, less dependence on the internet, better battery efficiency and fewer reasons to upload sensitive inputs.\n\nBut this is also where the marketing can become confusing. Simply owning an NPU does not make every AI application faster.\n\nThe application must know how to use it. Developers prepare and often compress the model so it can run efficiently. A software runtime then decides which operations the NPU supports. Anything unsupported may move back to the CPU or GPU.\n\nThat cooperation is called heterogeneous computing—different processors handling the parts they are best suited for.\n\nThis also explains why an AI PC may not change your experience with a browser-based chatbot. If the model still runs in the cloud, the NPU inside your laptop may have very little involvement.\n\nBut if you frequently use supported captions, translation, noise removal, photo search, video effects or a local assistant, the NPU can become useful. These are repeated inference workloads that can benefit from staying close to your data.\n\nWhat if you want to train a massive AI model? That is a different workload. A laptop NPU is not a replacement for a powerful GPU or cloud infrastructure. Its strength is efficient local inference, not every form of AI computation.\n\nYou may also see AI PCs advertised with forty or fifty TOPS. TOPS means trillions of operations per second, but it is not an intelligence score. A larger number does not guarantee a more accurate model or a better application. Memory, drivers, model design and software support all affect the result.\n\nSo, should you buy an AI PC?\n\nIf you are replacing your laptop anyway, begin with the software you use. Does it support the NPU? Which features genuinely run locally? Will that give you something measurable—longer battery life, faster responses, offline access or better privacy?\n\nIf the answer is yes, an AI PC can be a meaningful upgrade.\n\nIf most of your AI use remains in the cloud, your applications cannot use the NPU, or you are paying a large premium for the label, your current computer may serve you perfectly well.\n\nIn simple terms, both computers can use AI. An AI PC adds a specialist that can run supported AI inference locally and efficiently.\n\nDo not buy the words “AI PC.” Buy the local capability only when it solves a problem you actually have.\n\nIf you bought an AI PC, which task would you most want to run locally: transcription, photo editing, translation or a private assistant? Share your answer in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+      "transcripts": [
+        {
+          "path": "podcast/transcripts/2026-08-29-what-is-an-npu-and-do-you-really-need-an-ai-pc.txt",
+          "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-29-what-is-an-npu-and-do-you-really-need-an-ai-pc.txt",
+          "type": "text/plain",
+          "language": "en"
+        }
+      ],
+      "satishTake": "An NPU matters when AI work needs efficient local inference, low power, privacy, or offline behavior. But an AI PC is only valuable when the software and real workloads actually use that hardware.",
+      "quickCheck": {
+        "questions": [
+          {
+            "prompt": "What is an NPU mainly designed to do?",
+            "options": [
+              "Run AI inference efficiently on the device",
+              "Replace every CPU core",
+              "Increase screen brightness"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "An NPU is specialized hardware for neural network workloads, especially when power efficiency matters."
+          },
+          {
+            "prompt": "Why is a TOPS number not enough by itself?",
+            "options": [
+              "Software support and real workloads matter",
+              "It measures the laptop color",
+              "It guarantees every cloud model runs locally"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Peak capability only helps if the operating system, apps, drivers, and model formats can use it."
+          },
+          {
+            "prompt": "When can local AI be better than cloud AI?",
+            "options": [
+              "When privacy, latency, power, or offline use matters",
+              "When the task needs unlimited remote GPUs",
+              "When the app has no supported model"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "On-device inference can avoid a network round trip and keep some data local, but it has model and hardware limits."
+          },
+          {
+            "prompt": "What does quantization help with?",
+            "options": [
+              "Using smaller numeric representations for models",
+              "Making Wi-Fi signals stronger",
+              "Turning a laptop into a server rack"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Quantization can shrink model memory and compute needs so more inference can fit on local hardware."
+          },
+          {
+            "prompt": "What should you check before paying more for an AI PC?",
+            "options": [
+              "Whether your apps actually use the NPU",
+              "Whether the label says AI in large type",
+              "Whether every task moves off the cloud"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "The episode's practical buying advice is to connect the hardware claim to software support and real use cases."
+          }
+        ]
+      },
+      "artworkPath": "podcast/artwork/episodes/2026-08-29-what-is-an-npu-and-do-you-really-need-an-ai-pc.jpg",
+      "artworkPngPath": "podcast/artwork/episodes/2026-08-29-what-is-an-npu-and-do-you-really-need-an-ai-pc.png",
+      "artworkSourcePath": "podcast/artwork/source/2026-08-29-what-is-an-npu-and-do-you-really-need-an-ai-pc.svg",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-29-what-is-an-npu-and-do-you-really-need-an-ai-pc.jpg",
+      "topicProfile": {
+        "id": "ai-pc",
+        "label": "AI PCs",
+        "accent": "#0074D9"
+      },
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-29-what-is-an-npu-and-do-you-really-need-an-ai-pc",
+      "watchUrl": "https://satishkchoudhary.com/daily-brief-episodes/2026-08-29-what-is-an-npu-and-do-you-really-need-an-ai-pc/",
+      "thumbnailUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-29-what-is-an-npu-and-do-you-really-need-an-ai-pc.jpg",
+      "media": {
+        "hasAudio": true,
+        "hasVideo": false,
+        "primary": "audio"
+      }
+    },
+    {
+      "guid": "in-simple-terms-2026-08-28-what-is-a-world-model",
+      "title": "What Is a World Model?",
+      "subtitle": "What Is a World Model in simple terms",
+      "description": "A football rolls into the road, but recognizing it is only the beginning. Follow one changing situation to understand how a world model represents the current state, predicts possible next states, evaluates actions, and works with uncertainty—and why a believable prediction is never the same as certainty.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://deepmind.google/models/genie/\n- https://docs.nvidia.com/cosmos/latest/introduction.html\n- https://www.nvidia.com/en-us/ai/cosmos/\n- https://deepmind.google/research/alphazero-and-muzero/\n- https://worldmodels.github.io/",
+      "publishedAt": "2026-08-28T09:30:00.000Z",
+      "sourceGeneratedAt": "2026-08-28",
+      "seasonNumber": 5,
+      "episodeNumber": 77,
+      "episodeType": "full",
+      "releaseTimeZone": "America/New_York",
+      "releaseLocalTime": "2026-08-28T05:30:00-04:00",
+      "durationSeconds": 248,
+      "audioPath": "podcast/audio/2026-08-28-what-is-a-world-model.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-28-what-is-a-world-model.mp3",
+      "lengthBytes": 3975671,
+      "type": "audio/mpeg",
+      "explicit": false,
+      "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+      "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nHere, we make technology easier to understand.\n\nImagine you are driving through your neighborhood.\n\nThe road is quiet, and everything appears normal.\n\nSuddenly, a football rolls onto the road from between two parked cars.\n\nYour car's camera detects it.\n\nComputer vision can examine its shape, size and movement and conclude:\n\n\"That is a ball.\"\n\nBut let us pause here.\n\nIs recognizing the ball enough?\n\nYou might wonder:\n\n\"If a ball has rolled onto the road, could a child be running behind it?\"\n\nNotice what just happened.\n\nYou did not see a child. You observed what is happening now—and imagined what might happen next.\n\nThat is the basic idea behind a world model.\n\nIn simple terms, a world model helps an AI create an internal representation of a situation and predict how that situation could change.\n\nThe football is still moving.\n\nThe system needs to estimate its direction, speed and where it might stop. It also considers the parked cars, the road and the speed of your vehicle.\n\nTogether, these details represent the current state of the world.\n\nNow the system asks:\n\n\"What could happen next?\"\n\nPerhaps the ball simply crosses the road.\n\nPerhaps it stops in front of the car.\n\nOr perhaps someone appears from behind one of those parked vehicles.\n\nIt is not predicting one guaranteed future. It is modelling several possible futures.\n\nComputer vision helps the car recognize what is present.\n\nA world model helps it estimate what could happen next.\n\nBut we are still missing one important piece.\n\nThe car must act. It could continue, slow down or brake.\n\nEach action produces a different possible outcome.\n\nContinuing may be safe, but it leaves less time to stop if a child appears. Slowing down creates more reaction time. Braking suddenly may reduce one danger while creating another for the vehicle behind it.\n\nThe system is not only modelling the outside world. It is estimating how its own actions could affect what happens next.\n\nEngineers often describe this relationship using three simple ideas:\n\nCurrent state. Action. Next state.\n\nWhere are we now?\n\nWhat action can we take?\n\nWhat is likely to happen after that action?\n\nThat relationship is at the heart of a world model.\n\nBut isn't this what a language model already does?\n\nNot exactly.\n\nIf you describe this situation to a language model, it may explain that a child could follow the ball because it has learned that pattern from training data.\n\nBut a system operating in the physical world faces a changing situation. The ball is moving. The car is moving. The distance between them is shrinking.\n\nIt may need to act before danger becomes visible. Its prediction must remain connected to the environment in front of it.\n\nThat is why world models matter for robotics, autonomous vehicles, games and physical AI. A household robot, for example, must not only recognize a glass. It must estimate what happens if it tilts or drops it.\n\nBut here is the catch.\n\nA world model does not know the future.\n\nThe football may belong to a child, may have escaped from a garden, or may have moved with the wind.\n\nThe system can be wrong. And the further it predicts, the more small errors can grow.\n\nPhysics may be modelled incorrectly, an object may behave inconsistently, or the system may encounter an unfamiliar situation.\n\nSo world models do not eliminate uncertainty. They help AI systems evaluate possible outcomes within that uncertainty.\n\nThe important moment was not when the car recognized the football. It was when the system connected it to a possible future—and considered an action before that future arrived.\n\nSo, what is a world model?\n\nIn simple terms:\n\nA world model is an AI's internal representation of how an environment may change and what could happen when an action is taken.\n\nComputer vision says:\n\n\"There is a football.\"\n\nA world model asks:\n\n\"What could happen next—and what should I do about it?\"\n\nThat is the shift: from recognizing what is present toward modelling how a situation may unfold.\n\nBut let me leave you with a question.\n\nIf your car sees only a football—but predicts that a child might follow—should it brake immediately?\n\nHow confident should an AI be before it acts?\n\nShare your thoughts in the comments.\n\nAnd if this episode helped you understand world models in simple terms, please like, share and subscribe to In Simple Terms with Satish.\n\nI'll see you in the next episode.",
+      "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nHere, we make technology easier to understand.\n\nImagine you are driving through your neighborhood.\n\nThe road is quiet, and everything appears normal.\n\nSuddenly, a football rolls onto the road from between two parked cars.\n\nYour car's camera detects it.\n\nComputer vision can examine its shape, size and movement and conclude:\n\n\"That is a ball.\"\n\nBut let us pause here.\n\nIs recognizing the ball enough?\n\nYou might wonder:\n\n\"If a ball has rolled onto the road, could a child be running behind it?\"\n\nNotice what just happened.\n\nYou did not see a child. You observed what is happening now—and imagined what might happen next.\n\nThat is the basic idea behind a world model.\n\nIn simple terms, a world model helps an AI create an internal representation of a situation and predict how that situation could change.\n\nThe football is still moving.\n\nThe system needs to estimate its direction, speed and where it might stop. It also considers the parked cars, the road and the speed of your vehicle.\n\nTogether, these details represent the current state of the world.\n\nNow the system asks:\n\n\"What could happen next?\"\n\nPerhaps the ball simply crosses the road.\n\nPerhaps it stops in front of the car.\n\nOr perhaps someone appears from behind one of those parked vehicles.\n\nIt is not predicting one guaranteed future. It is modelling several possible futures.\n\nComputer vision helps the car recognize what is present.\n\nA world model helps it estimate what could happen next.\n\nBut we are still missing one important piece.\n\nThe car must act. It could continue, slow down or brake.\n\nEach action produces a different possible outcome.\n\nContinuing may be safe, but it leaves less time to stop if a child appears. Slowing down creates more reaction time. Braking suddenly may reduce one danger while creating another for the vehicle behind it.\n\nThe system is not only modelling the outside world. It is estimating how its own actions could affect what happens next.\n\nEngineers often describe this relationship using three simple ideas:\n\nCurrent state. Action. Next state.\n\nWhere are we now?\n\nWhat action can we take?\n\nWhat is likely to happen after that action?\n\nThat relationship is at the heart of a world model.\n\nBut isn't this what a language model already does?\n\nNot exactly.\n\nIf you describe this situation to a language model, it may explain that a child could follow the ball because it has learned that pattern from training data.\n\nBut a system operating in the physical world faces a changing situation. The ball is moving. The car is moving. The distance between them is shrinking.\n\nIt may need to act before danger becomes visible. Its prediction must remain connected to the environment in front of it.\n\nThat is why world models matter for robotics, autonomous vehicles, games and physical AI. A household robot, for example, must not only recognize a glass. It must estimate what happens if it tilts or drops it.\n\nBut here is the catch.\n\nA world model does not know the future.\n\nThe football may belong to a child, may have escaped from a garden, or may have moved with the wind.\n\nThe system can be wrong. And the further it predicts, the more small errors can grow.\n\nPhysics may be modelled incorrectly, an object may behave inconsistently, or the system may encounter an unfamiliar situation.\n\nSo world models do not eliminate uncertainty. They help AI systems evaluate possible outcomes within that uncertainty.\n\nThe important moment was not when the car recognized the football. It was when the system connected it to a possible future—and considered an action before that future arrived.\n\nSo, what is a world model?\n\nIn simple terms:\n\nA world model is an AI's internal representation of how an environment may change and what could happen when an action is taken.\n\nComputer vision says:\n\n\"There is a football.\"\n\nA world model asks:\n\n\"What could happen next—and what should I do about it?\"\n\nThat is the shift: from recognizing what is present toward modelling how a situation may unfold.\n\nBut let me leave you with a question.\n\nIf your car sees only a football—but predicts that a child might follow—should it brake immediately?\n\nHow confident should an AI be before it acts?\n\nShare your thoughts in the comments.\n\nAnd if this episode helped you understand world models in simple terms, please like, share and subscribe to In Simple Terms with Satish.\n\nI'll see you in the next episode.",
+      "transcripts": [
+        {
+          "path": "podcast/transcripts/2026-08-28-what-is-a-world-model.txt",
+          "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-28-what-is-a-world-model.txt",
+          "type": "text/plain",
+          "language": "en"
+        }
+      ],
+      "satishTake": "A world model is useful because it connects current state, possible action, and possible next state. It helps a system plan, but its prediction is still uncertain and must be checked against reality.",
+      "quickCheck": {
+        "questions": [
+          {
+            "prompt": "What does a world model try to represent?",
+            "options": [
+              "Current state and possible next states",
+              "Only a list of words",
+              "Only a finished user interface"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "The episode frames a world model as a way to reason about state, action, prediction, and uncertainty."
+          },
+          {
+            "prompt": "What does action-conditioned prediction mean?",
+            "options": [
+              "Predicting what may happen after a possible action",
+              "Renaming objects in a scene",
+              "Compressing a video file"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "The model evaluates futures that depend on what the system might do next."
+          },
+          {
+            "prompt": "Why must a world model handle uncertainty?",
+            "options": [
+              "A prediction is not the same as certainty",
+              "All future events are already known",
+              "Sensors never make mistakes"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "World models can estimate likely futures, but the physical world can still surprise them."
+          },
+          {
+            "prompt": "How is this different from only recognizing an object?",
+            "options": [
+              "It reasons about how the situation may change",
+              "It stores a bigger image thumbnail",
+              "It removes the need for sensors"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Recognizing a ball is not enough; planning requires reasoning about what could happen next."
+          },
+          {
+            "prompt": "Why are world models useful for planning?",
+            "options": [
+              "They let systems compare possible actions before acting",
+              "They guarantee the future perfectly",
+              "They replace all feedback loops"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "A planner can use predicted futures to choose an action, then update when reality changes."
+          }
+        ]
+      },
+      "artworkPath": "podcast/artwork/episodes/2026-08-28-what-is-a-world-model.jpg",
+      "artworkPngPath": "podcast/artwork/episodes/2026-08-28-what-is-a-world-model.png",
+      "artworkSourcePath": "podcast/artwork/source/2026-08-28-what-is-a-world-model.svg",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-28-what-is-a-world-model.jpg",
+      "topicProfile": {
+        "id": "world-models",
+        "label": "AI world models",
+        "accent": "#4F46E5"
+      },
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-28-what-is-a-world-model",
+      "watchUrl": "https://satishkchoudhary.com/daily-brief-episodes/2026-08-28-what-is-a-world-model/",
+      "thumbnailUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-28-what-is-a-world-model.jpg",
+      "media": {
+        "hasAudio": true,
+        "hasVideo": false,
+        "primary": "audio"
+      }
+    },
+    {
+      "guid": "in-simple-terms-2026-08-27-how-do-you-measure-ai-success-ai-kpis-explained",
+      "title": "How Do You Measure AI Success? AI KPIs Explained",
+      "subtitle": "Measure AI outcomes, quality, human effort, cost, reliability, and risk",
+      "description": "A company celebrates ten thousand AI-generated customer-support responses—until a second dashboard reveals that more customers are returning for help. Follow one headphone-return case to learn why usage and response counts do not prove AI value, and how outcomes, quality, human effort, cost, reliability, risk, and a baseline combine into a practical AI KPI scorecard.\n\nFollow In Simple Terms with Satish for one clear technology explanation every day. Open once a day. Learn one concept. Leave smarter.\n\nDisclosure: This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.\n\nSources:\n- https://airc.nist.gov/airmf-resources/airmf/5-sec-core/\n- https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-lifecycle-operational-excellence/prod-value.html\n- https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-lifecycle-operational-excellence/prod-monitoring-performance.html\n- https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/agent-business-value-metrics-reference",
+      "publishedAt": "2026-08-27T09:30:00.000Z",
+      "sourceGeneratedAt": "2026-08-27",
+      "seasonNumber": 5,
+      "episodeNumber": 76,
+      "episodeType": "full",
+      "releaseTimeZone": "America/New_York",
+      "releaseLocalTime": "2026-08-27T05:30:00-04:00",
+      "durationSeconds": 294,
+      "audioPath": "podcast/audio/2026-08-27-how-do-you-measure-ai-success-ai-kpis-explained.mp3",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-27-how-do-you-measure-ai-success-ai-kpis-explained.mp3",
+      "lengthBytes": 4697487,
+      "type": "audio/mpeg",
+      "explicit": false,
+      "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice. The topic, script, and final editorial approval are by Satish.",
+      "fullScript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine a company introduces an AI assistant for its customer-support team.\n\nAfter thirty days, the technology dashboard is completely green.\n\nTen thousand AI-generated responses. Eighty-two percent employee adoption. Average response time reduced from eight minutes to two.\n\nEveryone calls the project successful.\n\nThen the customer-support manager opens a different dashboard.\n\nRepeat customer contacts have increased. Employees are correcting many responses. Customers are receiving faster answers—but some answers are not resolving their problems.\n\nSo, is the AI succeeding or failing?\n\nKPI stands for Key Performance Indicator: a measurement showing whether something important is improving.\n\nTo understand it, let us follow one fictional support request.\n\nA customer writes, “My headphones stopped charging after five weeks. Can I return them?”\n\nThe AI responds in two seconds. It finds the standard policy stating that returns are allowed within thirty days, and rejects the request.\n\nBut the company has a separate defective-product policy allowing replacements after thirty days.\n\nThe customer contacts support again. An employee reviews the conversation, corrects the answer and creates the replacement.\n\nThe AI produced an answer. It did not produce a successful outcome.\n\nThat gives us the first rule of measuring AI:\n\nAI activity measures what the system produced. AI success measures what the system accomplished.\n\nThe team now examines one hundred AI-assisted cases.\n\nThe AI answered all one hundred. Each response cost about twenty cents, making the visible AI cost twenty dollars.\n\nThat sounds excellent.\n\nBut only sixty customers had their problem resolved correctly during the first conversation. Twenty-five answers required employee correction, and fifteen customers had to contact the company again.\n\nNow the team has its first meaningful outcome KPI: correct first-contact resolution.\n\nBefore AI, employees resolved seventy-five out of every hundred comparable cases correctly the first time. The AI reduced response time, but the primary outcome fell from seventy-five percent to sixty percent.\n\nWithout that baseline, the company would have celebrated a decline.\n\nNext, the team investigates quality. Were the answers grounded in the correct policies, and what percentage passed human review?\n\nThe headphone response failed because the AI retrieved the general return policy but missed the defective-product exception. The answer sounded confident and clear. Its grounding was incomplete.\n\nThen the team measures the human effort hidden behind the responses. Reviewing and correcting the one hundred cases cost another forty dollars.\n\nThe dashboard originally showed twenty cents per AI response.\n\nBut the company spent sixty dollars in AI and review costs, and received sixty successful first-contact resolutions.\n\nThe more useful measurement is therefore not twenty cents per response. It is one dollar per successful outcome.\n\nThis does not mean the AI is too expensive. The company can finally compare its cost with the value created.\n\nThe team also adds risk and reliability guardrails. Did the AI expose private information, violate policy or fail under increased workload? Serious failures should not disappear inside an average score.\n\nNow the engineers improve the system. They add the defective-product policy to retrieval, test the AI against known exception cases and route uncertain answers to an employee before they reach the customer.\n\nThe following month, the AI is slightly slower. But more customers receive the correct answer, employees perform fewer corrections, and cost per successful resolution falls.\n\nThe dashboard is no longer measuring AI because AI is interesting. It is measuring whether the work improved.\n\nSo, how should a company measure AI success?\n\nStart with an outcome the company already cares about. Record the baseline. Measure the quality of the AI's work, the human effort that remains and the total cost per successful outcome. Add reliability and risk as guardrails. Then keep monitoring, because data, models and user behavior can change.\n\nUsage, prompts and tokens still matter. They help engineers operate the system. But they are supporting signals—not the final result.\n\nA metric tells you what changed. A fair comparison helps tell you whether AI caused it.\n\nThe question is not, “How much AI did we use?”\n\nIt is, “Did AI make the work measurably better?”\n\nIf your company uses AI today, what does it measure: usage, time saved, quality or an actual business outcome? Share your answer in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+      "transcript": "Hello, and welcome to In Simple Terms with Satish.\n\nImagine a company introduces an AI assistant for its customer-support team.\n\nAfter thirty days, the technology dashboard is completely green.\n\nTen thousand AI-generated responses. Eighty-two percent employee adoption. Average response time reduced from eight minutes to two.\n\nEveryone calls the project successful.\n\nThen the customer-support manager opens a different dashboard.\n\nRepeat customer contacts have increased. Employees are correcting many responses. Customers are receiving faster answers—but some answers are not resolving their problems.\n\nSo, is the AI succeeding or failing?\n\nKPI stands for Key Performance Indicator: a measurement showing whether something important is improving.\n\nTo understand it, let us follow one fictional support request.\n\nA customer writes, “My headphones stopped charging after five weeks. Can I return them?”\n\nThe AI responds in two seconds. It finds the standard policy stating that returns are allowed within thirty days, and rejects the request.\n\nBut the company has a separate defective-product policy allowing replacements after thirty days.\n\nThe customer contacts support again. An employee reviews the conversation, corrects the answer and creates the replacement.\n\nThe AI produced an answer. It did not produce a successful outcome.\n\nThat gives us the first rule of measuring AI:\n\nAI activity measures what the system produced. AI success measures what the system accomplished.\n\nThe team now examines one hundred AI-assisted cases.\n\nThe AI answered all one hundred. Each response cost about twenty cents, making the visible AI cost twenty dollars.\n\nThat sounds excellent.\n\nBut only sixty customers had their problem resolved correctly during the first conversation. Twenty-five answers required employee correction, and fifteen customers had to contact the company again.\n\nNow the team has its first meaningful outcome KPI: correct first-contact resolution.\n\nBefore AI, employees resolved seventy-five out of every hundred comparable cases correctly the first time. The AI reduced response time, but the primary outcome fell from seventy-five percent to sixty percent.\n\nWithout that baseline, the company would have celebrated a decline.\n\nNext, the team investigates quality. Were the answers grounded in the correct policies, and what percentage passed human review?\n\nThe headphone response failed because the AI retrieved the general return policy but missed the defective-product exception. The answer sounded confident and clear. Its grounding was incomplete.\n\nThen the team measures the human effort hidden behind the responses. Reviewing and correcting the one hundred cases cost another forty dollars.\n\nThe dashboard originally showed twenty cents per AI response.\n\nBut the company spent sixty dollars in AI and review costs, and received sixty successful first-contact resolutions.\n\nThe more useful measurement is therefore not twenty cents per response. It is one dollar per successful outcome.\n\nThis does not mean the AI is too expensive. The company can finally compare its cost with the value created.\n\nThe team also adds risk and reliability guardrails. Did the AI expose private information, violate policy or fail under increased workload? Serious failures should not disappear inside an average score.\n\nNow the engineers improve the system. They add the defective-product policy to retrieval, test the AI against known exception cases and route uncertain answers to an employee before they reach the customer.\n\nThe following month, the AI is slightly slower. But more customers receive the correct answer, employees perform fewer corrections, and cost per successful resolution falls.\n\nThe dashboard is no longer measuring AI because AI is interesting. It is measuring whether the work improved.\n\nSo, how should a company measure AI success?\n\nStart with an outcome the company already cares about. Record the baseline. Measure the quality of the AI's work, the human effort that remains and the total cost per successful outcome. Add reliability and risk as guardrails. Then keep monitoring, because data, models and user behavior can change.\n\nUsage, prompts and tokens still matter. They help engineers operate the system. But they are supporting signals—not the final result.\n\nA metric tells you what changed. A fair comparison helps tell you whether AI caused it.\n\nThe question is not, “How much AI did we use?”\n\nIt is, “Did AI make the work measurably better?”\n\nIf your company uses AI today, what does it measure: usage, time saved, quality or an actual business outcome? Share your answer in the comments.\n\nIf this helped you understand the topic in simple terms, follow or subscribe to In Simple Terms with Satish, and share this episode with one friend who likes technology. I will see you in the next episode.",
+      "transcripts": [
+        {
+          "path": "podcast/transcripts/2026-08-27-how-do-you-measure-ai-success-ai-kpis-explained.txt",
+          "url": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/transcripts/2026-08-27-how-do-you-measure-ai-success-ai-kpis-explained.txt",
+          "type": "text/plain",
+          "language": "en"
+        }
+      ],
+      "satishTake": "AI success is not proved by usage alone. The practical measure is whether the system improves the real outcome against a baseline, with quality, human effort, cost, reliability, and risk counted honestly.",
+      "quickCheck": {
+        "questions": [
+          {
+            "prompt": "What is the strongest first measure of AI success?",
+            "options": [
+              "Business outcome",
+              "Number of prompts sent",
+              "Length of the model response"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "The episode argues that the real question is whether AI improved the intended outcome, not just whether people used it."
+          },
+          {
+            "prompt": "Why does an AI KPI need a baseline?",
+            "options": [
+              "It shows what changed after AI was introduced",
+              "It makes the dashboard look more technical",
+              "It removes the need to inspect quality"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Without a baseline, usage and trend numbers cannot show whether AI actually made the workflow better."
+          },
+          {
+            "prompt": "What belongs in cost per successful outcome?",
+            "options": [
+              "Model cost plus review, correction, and failure costs",
+              "Only the cheapest token price",
+              "Only the subscription fee"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "The useful cost boundary includes the model call and the human or operational work needed to make the answer successful."
+          },
+          {
+            "prompt": "How should teams choose quality metrics for AI?",
+            "options": [
+              "Match them to the use case and risk",
+              "Use the same score for every product",
+              "Measure only response speed"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "Quality checks must fit the workflow, such as groundedness, policy compliance, task completion, or human review rate."
+          },
+          {
+            "prompt": "What should production AI monitoring combine?",
+            "options": [
+              "Outcome, quality, cost, reliability, and risk",
+              "Only daily active users",
+              "Only model benchmark scores"
+            ],
+            "correctOptionIndex": 0,
+            "explanation": "A useful scorecard watches business value and operating health together instead of celebrating one isolated metric."
+          }
+        ]
+      },
+      "artworkPath": "podcast/artwork/episodes/2026-08-27-how-do-you-measure-ai-success-ai-kpis-explained.jpg",
+      "artworkPngPath": "podcast/artwork/episodes/2026-08-27-how-do-you-measure-ai-success-ai-kpis-explained.png",
+      "artworkSourcePath": "podcast/artwork/source/2026-08-27-how-do-you-measure-ai-success-ai-kpis-explained.svg",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-27-how-do-you-measure-ai-success-ai-kpis-explained.jpg",
+      "topicProfile": {
+        "id": "ai-measurement",
+        "label": "AI measurement",
+        "accent": "#0F766E"
+      },
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-27-how-do-you-measure-ai-success-ai-kpis-explained",
+      "watchUrl": "https://satishkchoudhary.com/daily-brief-episodes/2026-08-27-how-do-you-measure-ai-success-ai-kpis-explained/",
+      "thumbnailUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-27-how-do-you-measure-ai-success-ai-kpis-explained.jpg",
+      "media": {
+        "hasAudio": true,
+        "hasVideo": false,
+        "primary": "audio"
+      }
+    },
     {
       "guid": "in-simple-terms-2026-08-24-ai-vs-automation-should-you-use-ai-for-everything",
       "title": "AI vs Automation: Should You Use AI for Everything?",

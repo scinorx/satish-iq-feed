@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24",
-  "title": "Today's object: Choosing AI or automation in simple terms",
+  "generatedAt": "2026-08-31",
+  "title": "Today's object: What Is Multi-head Latent Attention—and How Does It Shrink AI's Memory in simple terms",
   "snapshotUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/satishos-current.json",
   "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/daily-briefing.mp3",
   "runStatusUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/run-status.json",
   "runStatus": {
     "version": 1,
-    "date": "2026-08-24",
+    "date": "2026-08-31",
     "status": "success",
-    "scheduledFor": "2026-08-24T05:30:00-04:00",
-    "startedAt": "2026-08-25T18:01:52.630Z",
-    "finishedAt": "2026-08-25T18:02:42.497Z",
+    "scheduledFor": "2026-08-31T05:30:00-04:00",
+    "startedAt": "2026-08-31T15:11:21.639Z",
+    "finishedAt": "2026-08-31T15:12:12.634Z",
     "currentStage": "completed",
-    "topic": null,
-    "podcastTopic": "AI vs Automation: Should You Use AI for Everything?",
+    "topic": "What Is Multi-head Latent Attention—and How Does It Shrink AI's Memory?",
+    "podcastTopic": "What Is Multi-head Latent Attention—and How Does It Shrink AI's Memory?",
     "commit": null,
     "results": {
       "publicFeedPublish": "success",
@@ -25,17 +25,17 @@
     "outputs": {
       "snapshot": true,
       "audio": true,
-      "latestPodcastEpisode": "AI vs Automation: Should You Use AI for Everything?"
+      "latestPodcastEpisode": "What Is Multi-head Latent Attention—and How Does It Shrink AI's Memory?"
     }
   },
   "podcast": {
     "feedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/feed.xml",
     "latestEpisode": {
-      "title": "AI vs Automation: Should You Use AI for Everything?",
-      "publishedAt": "2026-08-24T09:30:00.000Z",
-      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-24-ai-vs-automation-should-you-use-ai-for-everything.mp3",
-      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-24-ai-vs-automation-should-you-use-ai-for-everything.jpg",
-      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-24-ai-vs-automation-should-you-use-ai-for-everything"
+      "title": "What Is Multi-head Latent Attention—and How Does It Shrink AI's Memory?",
+      "publishedAt": "2026-08-31T09:30:00.000Z",
+      "audioUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/audio/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory.mp3",
+      "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/artwork/episodes/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory.jpg",
+      "spotifyUploadPackage": "podcast/spotify-upload/2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory"
     }
   }
 }
