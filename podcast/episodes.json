@@ -71,11 +71,14 @@
     },
     "media": {
       "hasAudio": true,
-      "hasVideo": false,
-      "primary": "audio"
+      "hasVideo": true,
+      "primary": "video"
     },
     "source": "spotify-public-rss",
-    "sourceGuid": "c4dd6298-2cac-41af-bd1f-c4f3452ad06f"
+    "sourceGuid": "c4dd6298-2cac-41af-bd1f-c4f3452ad06f",
+    "youtubeId": "h3HDAWvPuk8",
+    "youtubeUrl": "https://www.youtube.com/watch?v=h3HDAWvPuk8",
+    "thumbnailUrl": "https://i.ytimg.com/vi/h3HDAWvPuk8/hqdefault.jpg"
   },
   {
     "guid": "spotify-70972b15-2c80-41c7-b401-a654dc570cb7",
