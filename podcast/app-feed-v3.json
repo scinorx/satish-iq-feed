@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-31",
+  "generatedAt": "2026-10-26T02:06:47.458451+00:00",
   "product": "daily-tech-brief",
   "compatibility": {
     "legacyFeedUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/episodes.json",
@@ -8,6 +8,111 @@
   },
   "preferredArtwork": "thumbnailUrl",
   "episodes": [
+    {
+      "guid": "spotify-6eed81df-16c3-43d6-a29f-bab6a8c356c3",
+      "title": "How Ad Tech Works: Tracking, Attribution & ROAS Explained for Marketers",
+      "subtitle": "In Simple Terms with Satish",
+      "description": "How does ad tech turn an advertising budget into sales—and why do tracking reports disagree? Follow IST Shoes, a fictional shoe brand, through campaign objectives, search and social advertising, programmatic buying, auctions, performance metrics, pixels, attribution and server-side measurement. A practical explanation for digital marketers, in simple terms with Satish. CHAPTERS 00:00 From advertising budget to business results 00:53 Choose the outcome before choosing the campaign 02:24 Understand how you are reaching the customer 03:51 How advertising space is bought 05:09 How the auction selects an advertisement 06:34 Read the metrics in the right order 08:34 How tracking produces those numbers 09:57 Why platforms can claim the same sale 11:34 Why tracking is getting harder 12:43 What measurement options should marketers choose? 15:59 Test whether advertising creates additional business 17:14 Turn the reports into decisions IST Shoes, campaign figures and interface examples are illustrative. Includes stock footage, AI-generated product imagery and AI-assisted narration using Satish’s voice. #AdTech #DigitalMarketing #MarketingAnalytics",
+      "publishedAt": "2026-10-23T03:27:08Z",
+      "durationSeconds": 1121,
+      "artworkUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/44420684/44420684-1759871946254-915f8b35eaebb.jpg",
+      "audioUrl": "https://anchor.fm/s/1095d2c30/podcast/play/127890472/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-23%2F434788531-44100-2-4aa75785d409e.mp3",
+      "watchUrl": "https://podcasters.spotify.com/pod/show/satishkchoudhary/episodes/How-Ad-Tech-Works-Tracking--Attribution--ROAS-Explained-for-Marketers-e3qtdj8",
+      "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice.",
+      "topicProfile": {
+        "id": "general",
+        "label": "Technology",
+        "accent": "#1D4ED8"
+      },
+      "media": {
+        "hasAudio": true,
+        "hasVideo": true,
+        "primary": "video"
+      },
+      "source": "spotify-public-rss",
+      "sourceGuid": "6eed81df-16c3-43d6-a29f-bab6a8c356c3",
+      "youtubeId": "H9iV540PweI",
+      "youtubeUrl": "https://www.youtube.com/watch?v=H9iV540PweI",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H9iV540PweI/hqdefault.jpg"
+    },
+    {
+      "guid": "spotify-8fe2b01d-a76c-4500-8d65-963668c0cc5f",
+      "title": "Tesla Roadster: How It Lifts Off | In Simple Terms with Satish",
+      "subtitle": "In Simple Terms with Satish",
+      "description": "Tesla demonstrated its new Roadster leaving the ground. What makes that possible? Follow the forces: tire grip, lower pressure beneath the car, cold-gas thrust, and the feedback needed to control motion. We also separate a demonstration from everyday road use. 00:00 Tesla’s demonstration 00:28 Grip 01:04 Pressure and suction 01:45 Cold-gas thrust 02:20 Keeping control 03:17 Demonstration versus everyday driving 03:51 Follow the forces 04:10 In Simple Terms with Satish Source demonstration: Tesla, Roadster Event https://www.youtube.com/watch?v=qt5p-_tE8d0 Product claims: https://www.tesla.com/roadster Physics: https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/newtons-third-law-action-reaction/ https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/thrust/ Production note: This episode uses authorized synthetic narration based on Satish’s own voice. #TeslaRoadster #Tesla #InSimpleTerms",
+      "publishedAt": "2026-10-17T00:00:01Z",
+      "durationSeconds": 261,
+      "artworkUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/44420684/44420684-1759871946254-915f8b35eaebb.jpg",
+      "audioUrl": "https://anchor.fm/s/1095d2c30/podcast/play/127587418/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-16%2F58bd8b95-95aa-fa5d-6555-5118e7d0e59b.mp3",
+      "watchUrl": "https://podcasters.spotify.com/pod/show/satishkchoudhary/episodes/Tesla-Roadster-How-It-Lifts-Off--In-Simple-Terms-with-Satish-e3qk5kq",
+      "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice.",
+      "topicProfile": {
+        "id": "general",
+        "label": "Technology",
+        "accent": "#1D4ED8"
+      },
+      "media": {
+        "hasAudio": true,
+        "hasVideo": true,
+        "primary": "video"
+      },
+      "source": "spotify-public-rss",
+      "sourceGuid": "8fe2b01d-a76c-4500-8d65-963668c0cc5f",
+      "youtubeId": "duOdH1-736U",
+      "youtubeUrl": "https://www.youtube.com/watch?v=duOdH1-736U",
+      "thumbnailUrl": "https://i.ytimg.com/vi/duOdH1-736U/hqdefault.jpg"
+    },
+    {
+      "guid": "spotify-c4dd6298-2cac-41af-bd1f-c4f3452ad06f",
+      "title": "Can AI Build AI?",
+      "subtitle": "In Simple Terms with Satish",
+      "description": "Can AI help build the next generation of AI—and where would the improvement come from? In Simple Terms with Satish explains how AI-generated ideas become useful through experiments, measurements, and feedback. We explore Google DeepMind’s AlphaEvolve, Microsoft’s phi-1, and what evidence a repeating AI development loop would require. A faster training routine is not automatically a smarter model. DeepMind reported an average 23% speedup for the optimized routines and a corresponding 1% reduction in overall Gemini training time. The future A → B → C sequence is an illustration, not an established result. Sources: https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/ https://arxiv.org/abs/2506.13131 https://www.microsoft.com/en-us/research/publication/textbooks-are-all-you-need/ Visuals include AI-generated illustrations and licensed stock footage. Narration uses Satish’s approved ElevenLabs voice. #ArtificialIntelligence #AlphaEvolve #InSimpleTerms",
+      "publishedAt": "2026-09-17T16:03:29Z",
+      "durationSeconds": 391,
+      "artworkUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/44420684/44420684-1759871946254-915f8b35eaebb.jpg",
+      "audioUrl": "https://anchor.fm/s/1095d2c30/podcast/play/125882926/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-17%2F432097361-44100-2-acf7ecf8bdf38.mp3",
+      "watchUrl": "https://podcasters.spotify.com/pod/show/satishkchoudhary/episodes/Can-AI-Build-AI-e3p053e",
+      "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice.",
+      "topicProfile": {
+        "id": "general",
+        "label": "Technology",
+        "accent": "#1D4ED8"
+      },
+      "media": {
+        "hasAudio": true,
+        "hasVideo": false,
+        "primary": "audio"
+      },
+      "source": "spotify-public-rss",
+      "sourceGuid": "c4dd6298-2cac-41af-bd1f-c4f3452ad06f"
+    },
+    {
+      "guid": "spotify-70972b15-2c80-41c7-b401-a654dc570cb7",
+      "title": "Personal AI vs. Corporate AI: Why the Rules Are Different",
+      "subtitle": "In Simple Terms with Satish",
+      "description": "Why does AI feel easy for personal use, yet face so much scrutiny at work? Follow one new employee’s meeting summary as a missing condition becomes a commitment, an old remark becomes a task assignment, and an assistant gains the power to act. A practical explainer for new developers and people entering corporate work: information boundaries, organizational context, dependable results, and scrutiny that matches the actual risk. Chapters 00:00 Why the same AI feels different 01:12 The missing Friday condition 02:14 Permission to read vs permission to share 03:29 The context a new hire cannot know 04:48 One demo vs the recurring task 05:39 When a draft becomes an action 06:48 When corporate restrictions go too far 07:37 A practical way to move forward 08:21 The lesson Keep learning—one simple tech idea every day. Get the Daily Tech Brief app: https://satishkchoudhary.com/daily-brief Sources NIST Generative AI Profile: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf NCSC secure AI development guidance: https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development The meeting and company are illustrative scenarios. Narration uses an authorized AI-generated version of Satish’s own voice. #ArtificialIntelligence #AIAtWork #DailyTechBrief",
+      "publishedAt": "2026-09-14T21:41:10Z",
+      "durationSeconds": 549,
+      "artworkUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/44420684/44420684-1759871946254-915f8b35eaebb.jpg",
+      "audioUrl": "https://anchor.fm/s/1095d2c30/podcast/play/125739519/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-14%2F431895922-44100-2-d65c18a7f7e58.mp3",
+      "watchUrl": "https://podcasters.spotify.com/pod/show/satishkchoudhary/episodes/Personal-AI-vs--Corporate-AI-Why-the-Rules-Are-Different-e3orp1v",
+      "disclosure": "This episode uses authorized synthetic narration based on Satish's own voice.",
+      "topicProfile": {
+        "id": "general",
+        "label": "Technology",
+        "accent": "#1D4ED8"
+      },
+      "media": {
+        "hasAudio": true,
+        "hasVideo": true,
+        "primary": "video"
+      },
+      "source": "spotify-public-rss",
+      "sourceGuid": "70972b15-2c80-41c7-b401-a654dc570cb7",
+      "youtubeId": "QkqOksGUyuc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QkqOksGUyuc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QkqOksGUyuc/hqdefault.jpg"
+    },
     {
       "guid": "in-simple-terms-2026-08-31-what-is-multi-head-latent-attention-and-how-does-it-shrink-ai-s-memory",
       "title": "What Is Multi-head Latent Attention—and How Does It Shrink AI's Memory?",
