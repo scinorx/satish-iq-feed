@@ -1,5 +1,43 @@
 [
   {
+    "guid": "youtube-CHLL-CLGnS0",
+    "title": "How eSIM Works — Explained in Simple Terms",
+    "subtitle": "Everyday Tech in Simple Terms",
+    "description": "No SIM card in the tray—yet your phone connects. See what is built into the phone, what gets downloaded, and how the network checks your SIM.\n\nWith an eSIM, you can set up a mobile connection without inserting a removable SIM card. The SIM hardware is already built into a supported phone.\n\nYour mobile operator sends a download called a profile. It contains the connection details and security information your SIM needs. A setup QR code can help your phone find and download this profile; the QR code is not the whole SIM.\n\nHow does the network check the SIM? Think of it as sending a fresh question. The SIM uses a secret key to work out an answer. The network checks that answer, while the key itself is not sent over the air. Knowing your phone number is not enough to produce the right answer.\n\nYou still need mobile coverage to use the cellular network. Setting up the profile needs an internet connection, such as Wi-Fi. When you change phones, follow your operator’s supported transfer process.\n\nKey takeaways\nThe SIM hardware is inside; your operator’s connection details are downloaded.\nThe SIM answers a fresh question using a secret key, without sending the key.\nAn eSIM still needs mobile coverage. Check your operator’s process when changing phones.",
+    "publishedAt": "2026-11-16T20:35:04.259022+00:00",
+    "durationSeconds": 197.5,
+    "artworkUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/thumbnails/everyday-tech-esim-2026-11-16.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/scinorx/satish-iq-feed/main/podcast/thumbnails/everyday-tech-esim-2026-11-16.jpg",
+    "watchUrl": "https://www.youtube.com/watch?v=CHLL-CLGnS0",
+    "youtubeId": "CHLL-CLGnS0",
+    "youtubeUrl": "https://www.youtube.com/watch?v=CHLL-CLGnS0",
+    "disclosure": "Conceptual AI illustrations and stock footage; explanation, not a live activation tutorial.",
+    "topicProfile": {
+      "id": "everyday-tech",
+      "label": "Everyday Tech",
+      "accent": "#1D4ED8"
+    },
+    "media": {
+      "hasAudio": false,
+      "hasVideo": true,
+      "primary": "video"
+    },
+    "source": "everyday-tech-youtube",
+    "quickCheck": {
+      "questions": [
+        {
+          "prompt": "A friend knows your phone number. Is that enough to pass the network’s SIM check?",
+          "options": [
+            "Yes, the number is enough.",
+            "No, the SIM needs its secret key."
+          ],
+          "correctOptionIndex": 1,
+          "explanation": "No. The SIM needs its secret key to work out the right answer."
+        }
+      ]
+    }
+  },
+  {
     "guid": "spotify-754cc427-02b2-46ef-aec4-ad91e3eb60dc",
     "title": "How to Make Your Brand Visible in AI Search",
     "subtitle": "In Simple Terms with Satish",
